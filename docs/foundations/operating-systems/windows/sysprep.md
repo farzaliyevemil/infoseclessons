@@ -1,3 +1,10 @@
+---
+id: sysprep
+title: Sysprep – Windows System Preparation Tool
+description: Learn what Sysprep is, why it's used for imaging and deployment, and how to generalize Windows installations.
+---
+
+
 # 🧰 Sysprep nədir?
 
 **Sysprep (System Preparation Tool)** — Windows əməliyyat sisteminin əvvəlcədən qurulmuş versiyasını fərqli cihazlara yaymaq (deploy) üçün istifadə olunan Microsoft alətidir.

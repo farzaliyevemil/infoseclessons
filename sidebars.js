@@ -36,6 +36,7 @@ const sidebars = {
               label: 'Windows',
               items: [
                 'foundations/operating-systems/windows/wsl',
+                'foundations/operating-systems/windows/sysprep',
               ],
             },
             {
