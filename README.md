@@ -1,2 +1,0 @@
-# infoseclessons
-Information Security Lessons
