@@ -13,7 +13,7 @@ export default function Home() {
           <h1 className="hero__title">Welcome to InfoSec Lessons 👨‍💻</h1>
           <p className="hero__subtitle">Your practical guide to mastering cybersecurity – from fundamentals to real-world tactics.</p>
           <div>
-            <Link className="button button--secondary button--lg" to="/">
+            <Link className="button button--secondary button--lg" to="/intro">
               Start Learning →
             </Link>
           </div>
