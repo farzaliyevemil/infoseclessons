@@ -1,41 +1,81 @@
-# Website
+# 🌐 InfoSec Lessons
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+This website is built using **[Docusaurus](https://docusaurus.io/)** and serves as a platform for cybersecurity tutorials, articles, and learning resources. The content covers areas such as **Blue Teaming**, **Red Teaming**, **GRC**, and foundational IT knowledge.
 
-### Installation
+---
 
-```
-$ yarn
-```
+## 📦 Installation
 
-### Local Development
+First, make sure you have **Node.js v18 or above** and **npm** installed.
 
-```
-$ yarn start
+```bash
+npm install
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+---
 
-### Build
+## 🚀 Local Development
 
-```
-$ yarn build
-```
+Start the development server:
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
+```bash
+npm run start
 ```
 
-Not using SSH:
+This will launch the site at [http://localhost:3000](http://localhost:3000). Most changes will hot-reload instantly in the browser.
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
+---
+
+## 🏗️ Build Static Site
+
+To generate the static files for production:
+
+```bash
+npm run build
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+The static site will be created in the `build/` directory and can be hosted anywhere.
+
+---
+
+## 🚀 Manual Deployment to GitHub Pages
+
+### Using SSH:
+
+```bash
+USE_SSH=true GIT_USER="your username" npm run deploy
+```
+
+### Using HTTPS:
+
+```bash
+GIT_USER="your username" npm run deploy
+```
+
+This will push the latest `build/` folder to the `gh-pages` branch for GitHub Pages hosting.
+
+---
+
+## ⚙️ Auto-Deploy (CI/CD)
+
+Auto-deploy is enabled via **GitHub Actions**. When you push changes to the `main` branch, the site is automatically built and deployed to:
+
+🔗 [https://farzaliyevemil.github.io/infoseclessons](https://farzaliyevemil.github.io/infoseclessons)
+
+---
+
+## 🧠 Categories
+
+The site covers the following categories:
+
+- 🔴 **Red Teaming**
+- 🔵 **Blue Teaming**
+- 🛡️ **GRC (Governance, Risk, Compliance)**
+- 🌐 **General Security**
+- 🧰 **Foundations**: Networking, OS, Virtualization, Helpdesk
+
+---
+
+## 📚 Contribute
+
+Feel free to contribute or use this as a base for your own InfoSec documentation site. Contributions are welcome!
