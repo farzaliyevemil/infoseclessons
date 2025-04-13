@@ -1,47 +1,42 @@
+# 👋 Welcome to InfoSec Lessons
+
+Your **practical guide to cybersecurity** – everything from foundations to advanced concepts, all in one place.
+
 ---
-sidebar_position: 1
+
+## 🚀 What You'll Learn
+
+Whether you're new to InfoSec or brushing up on advanced topics, you'll find structured lessons and articles on:
+
+- 🔴 **Red Teaming**: Pentesting, privilege escalation, and offensive techniques  
+- 🔵 **Blue Teaming**: SIEM, log analysis, and detection mechanisms  
+- 🛡️ **GRC**: Risk management, policies, and compliance  
+- 🌐 **General Security**: Best practices, tools, and real-world scenarios  
+- 🧱 **Foundations**: Networking, virtualization, operating systems, and helpdesk knowledge
+
 ---
 
-# Tutorial Intro
+## 🛠️ How This Site Works
 
-Let's discover **Docusaurus in less than 5 minutes**.
+- 📚 Navigate lessons from the sidebar
+- 📝 Browse real-world **articles** and **writeups** under the Blog
+- 💬 Stay up to date or contribute via [GitHub](https://github.com/farzaliyevemil/infoseclessons)
 
-## Getting Started
+---
 
-Get started by **creating a new site**.
+## 💡 For Contributors
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
+To build this site locally:
 
 ```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
+git clone https://github.com/farzaliyevemil/infoseclessons.git
+cd infoseclessons
+npm install
 npm run start
 ```
+Then go to http://localhost:3000 and start editing!
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+📌 This project is built with Docusaurus and maintained by @farzaliyevemil.
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+Happy Hacking! 🔐
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
