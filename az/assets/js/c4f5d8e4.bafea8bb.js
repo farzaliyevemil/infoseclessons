@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkinfoseclessons=self.webpackChunkinfoseclessons||[]).push([[634],{9179:(s,e,n)=>{n.r(e),n.d(e,{default:()=>t});n(6540);var c=n(6347),o=n(797),r=n(4848);function t(){const{i18n:s}=(0,o.A)(),e=s.currentLocale;return(0,r.jsx)(c.rd,{to:("en"===e?"":"/"+e)+"/intro"})}}}]);
