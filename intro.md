@@ -1,3 +1,11 @@
+---
+id: intro
+title: Welcome
+description: Getting Started with InfoSec Lessons
+sidebar_position: 0
+---
+
+
 # 👋 Welcome to InfoSec Lessons
 
 This site contains carefully structured cybersecurity knowledge across different domains:

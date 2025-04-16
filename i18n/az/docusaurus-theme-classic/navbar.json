@@ -1,0 +1,18 @@
+{
+  "title": {
+    "message": "InfoSec Lessons",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "EF Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Lessons": {
+    "message": "Lessons",
+    "description": "Navbar item with label Lessons"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}

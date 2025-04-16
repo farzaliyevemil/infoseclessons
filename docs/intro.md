@@ -19,7 +19,6 @@ Whether you're new to InfoSec or brushing up on advanced topics, you'll find str
 ## 🛠️ How This Site Works
 
 - 📚 Navigate lessons from the sidebar
-- 📝 Browse real-world **articles** and **writeups** under the Blog
 - 💬 Stay up to date or contribute via [GitHub](https://github.com/farzaliyevemil/infoseclessons)
 
 ---
@@ -36,7 +35,7 @@ npm run start
 ```
 Then go to http://localhost:3000 and start editing!
 
-📌 This project is built with Docusaurus and maintained by @farzaliyevemil.
+📌 This project is built by @farzaliyevemil.
 
 Happy Hacking! 🔐
 

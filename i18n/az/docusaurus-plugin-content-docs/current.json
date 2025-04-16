@@ -1,0 +1,50 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.🔴 Red Teaming": {
+    "message": "🔴 Red Teaming",
+    "description": "The label for category 🔴 Red Teaming in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.🔵 Blue Teaming": {
+    "message": "🔵 Blue Teaming",
+    "description": "The label for category 🔵 Blue Teaming in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.🛡️ GRC": {
+    "message": "🛡️ GRC",
+    "description": "The label for category 🛡️ GRC in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.🌐 General Security": {
+    "message": "🌐 General Security",
+    "description": "The label for category 🌐 General Security in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.🖥️ Operating Systems": {
+    "message": "🖥️ Operating Systems",
+    "description": "The label for category 🖥️ Operating Systems in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Windows": {
+    "message": "Windows",
+    "description": "The label for category Windows in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Linux": {
+    "message": "Linux",
+    "description": "The label for category Linux in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.🧰 Servers": {
+    "message": "🧰 Servers",
+    "description": "The label for category 🧰 Servers in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.📡 Networking": {
+    "message": "📡 Networking",
+    "description": "The label for category 📡 Networking in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.🆘 Helpdesk Basics": {
+    "message": "🆘 Helpdesk Basics",
+    "description": "The label for category 🆘 Helpdesk Basics in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.🧱 Virtualization": {
+    "message": "🧱 Virtualization",
+    "description": "The label for category 🧱 Virtualization in sidebar tutorialSidebar"
+  }
+}

@@ -18,8 +18,17 @@ const config = {
 
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'az'],
+    localeConfigs: {
+      en: {
+        label: 'English',
+      },
+      az: {
+        label: 'Azərbaycan dili',
+      },
+    },
   },
+  
 
   presets: [
     [
@@ -27,12 +36,18 @@ const config = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          routeBasePath: '/', // ✅ root-da açılacaq
+          routeBasePath: '/',
           editUrl: 'https://github.com/farzaliyevemil/infoseclessons/edit/main/',
         },
-        blog: false, // ❌ blog istəmirsənsə tamamilə deaktiv
+        blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
+        },
+        sitemap: {
+          changefreq: 'weekly',
+          priority: 0.5,
+          ignorePatterns: ['/tags/**'],
+          filename: 'sitemap.xml',
         },
       },
     ],
@@ -47,12 +62,16 @@ const config = {
         src: 'img/shield.png',
       },
       items: [
-        { to: '/intro', label: 'Lessons', position: 'left' },
+        { to: '/', label: 'Lessons', position: 'left' },
         {
           href: 'https://github.com/farzaliyevemil/infoseclessons',
           label: 'GitHub',
           position: 'right',
         },
+        {
+          type: 'localeDropdown',
+          position: 'right',
+        }
       ],
     },
     footer: {
