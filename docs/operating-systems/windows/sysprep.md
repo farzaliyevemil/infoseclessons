@@ -4,56 +4,55 @@ title: Sysprep – Windows System Preparation Tool
 description: Learn what Sysprep is, why it's used for imaging and deployment, and how to generalize Windows installations.
 ---
 
+# 🧰 What is Sysprep?
 
-# 🧰 Sysprep nədir?
-
-**Sysprep (System Preparation Tool)** — Windows əməliyyat sisteminin əvvəlcədən qurulmuş versiyasını fərqli cihazlara yaymaq (deploy) üçün istifadə olunan Microsoft alətidir.
-
----
-
-## 🎯 Nə üçün istifadə olunur?
-
-- 💻 **Yeni kompüterlərə eyni imiclə OS yazmaq**: Eyni konfiqurasiya ilə çoxlu kompüter qurmaq istədikdə.
-- 🧹 **SID (Security Identifier) təmizləməsi**: Hər bir Windows cihazının unikal SID-si olur. Sysprep bu SID-ni sıfırlayaraq yeni sistemlərdə konfliktlərin qarşısını alır.
-- 🧰 **Audit və ya Out-of-Box Experience (OOBE)** rejimlərində sistem hazırlamaq.
-- 📦 **Imaging (imic almaq)** məqsədilə hazırlanmış sistemləri klonlamaq üçün.
+**Sysprep (System Preparation Tool)** is a Microsoft tool used to deploy pre-configured versions of the Windows operating system to different devices.
 
 ---
 
-## 🔧 Əsas əmrlər və funksiyalar
+## 🎯 Why is it used?
 
-Sysprep GUI ilə və ya komanda sətri ilə istifadə oluna bilər:
+- 💻 **Deploying the same OS image to new computers**: Useful when setting up multiple computers with the same configuration.
+- 🧹 **SID (Security Identifier) cleanup**: Each Windows device has a unique SID. Sysprep resets this SID to avoid conflicts on new systems.
+- 🧰 **Preparing systems in Audit or Out-of-Box Experience (OOBE) modes**.
+- 📦 **Imaging**: Preparing systems for cloning purposes.
+
+---
+
+## 🔧 Key Commands and Functions
+
+Sysprep can be used via GUI or command line:
 
 ### Sysprep GUI:
 ```bash
 C:\Windows\System32\Sysprep\Sysprep.exe
 ```
 
-### Sysprep Komanda Sətri:
+### Sysprep Command Line:
 ```bash
 sysprep /oobe /generalize /shutdown
 ```
 
-### Əmrlərin izahı:
-- `/oobe` – İstifadəçiyə ilk giriş ekranını göstərmək üçün istifadə olunur.
-- `/generalize` – Sistemi hardware-dən və unikal identifikatorlardan ayırır (SID-ləri sıfırlayır).
-- `/shutdown` – Proses bitdikdən sonra sistemi söndürür.
+### Command Descriptions:
+- `/oobe` – Displays the initial setup screen to the user.
+- `/generalize` – Removes hardware-specific information and unique identifiers (resets SIDs).
+- `/shutdown` – Shuts down the system after the process is complete.
 
 ---
 
-## 📝 Əlavə Nümunə: Imaging üçün hazırlıq
+## 📝 Example: Preparing for Imaging
 
-1. Lazım olan proqramlar və konfiqurasiyalar quraşdırılır.
-2. Aşağıdakı əmri icra edin:
+1. Install the necessary software and configurations.
+2. Run the following command:
    ```bash
    sysprep /generalize /oobe /shutdown
    ```
-3. Kompüter imic almağa hazır vəziyyətə gəlir (məsələn, Clonezilla, MDT və ya WDS ilə).
+3. The computer is now ready for imaging (e.g., using Clonezilla, MDT, or WDS).
 
 ---
 
-## ⚠️ Qeydlər
+## ⚠️ Notes
 
-- Sysprep yalnız Windows-un müəyyən versiyalarında mövcuddur.
-- Sysprep bir sistemdə bir neçə dəfə istifadə olunarsa problem yarana bilər.
-- Microsoft bəzi proqramların və tətbiqlərin Sysprep ilə uyğun olmaya biləcəyini bildirir.
+- Sysprep is only available in certain versions of Windows.
+- Using Sysprep multiple times on the same system may cause issues.
+- Microsoft warns that some programs and applications may not be compatible with Sysprep.

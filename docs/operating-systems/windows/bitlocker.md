@@ -1,71 +1,71 @@
 ---
 id: bitlocker
-title: BitLocker Nədir?
-description: Windows sistemlərində disk şifrələməsi üçün istifadə edilən BitLocker texnologiyasına giriş.
+title: What is BitLocker?
+description: An introduction to BitLocker technology for disk encryption in Windows systems.
 ---
 
-# 🔐 BitLocker Nədir?
+# 🔐 What is BitLocker?
 
-**BitLocker** — Windows tərəfindən təqdim edilən disk şifrələmə texnologiyasıdır. Məqsədi məlumatların qorunmasını təmin etməkdir. Hətta sistem açılmamış olsa belə, məlumatlar qorunur.
-
----
-
-## 🎯 Əsas Məqsədi
-
-- Fiziki oğurluq və ya cihaz itkisi zamanı diskin oxunmasının qarşısını almaq.
-- Offline hücumlara qarşı qoruma.
+**BitLocker** is a disk encryption technology provided by Windows. Its purpose is to ensure the protection of data. Even if the system is not booted, the data remains secure.
 
 ---
 
-## ⚙️ İş Prinsipi
+## 🎯 Main Purpose
 
-- **Tam Disk Şifrələməsi (Full Disk Encryption)**: Diskdəki bütün məlumatları şifrələyir.
-- **TPM (Trusted Platform Module) ilə İnteqrasiya**: Şifrələmə açarlarını təhlükəsiz saxlamaq üçün TPM istifadə olunur.
-- **Recovery Key ilə Bərpa**: Şifrələnmiş diskləri bərpa etmək üçün Recovery Key istifadə olunur.
-
----
-
-## ✅ Üstünlükləri
-
-- Sadə idarəetmə (GUI və PowerShell ilə).
-- Tam disk şifrələməsi.
-- **BitLocker To Go**: USB cihazlar üçün şifrələmə dəstəyi.
-- TPM dəstəyi ilə daha yüksək təhlükəsizlik.
+- Prevent unauthorized access to the disk in case of physical theft or device loss.
+- Protect against offline attacks.
 
 ---
 
-## ⚠️ Məhdudiyyətlər
+## ⚙️ How It Works
 
-- **Home Edition** versiyasında mövcud deyil.
-- TPM olmayan sistemlərdə konfiqurasiya çətin ola bilər.
-- Az da olsa performans itkisi müşahidə edilə bilər.
+- **Full Disk Encryption**: Encrypts all data on the disk.
+- **Integration with TPM (Trusted Platform Module)**: Uses TPM to securely store encryption keys.
+- **Recovery Key for Restoration**: Allows recovery of encrypted disks using a Recovery Key.
 
 ---
 
-## 🛠️ Aktivləşdirmə
+## ✅ Advantages
 
-### GUI ilə:
-1. **"Manage BitLocker"** axtarın.
-2. İstədiyiniz diski seçin və aktiv edin.
-3. **Recovery Key** saxlamaq üsulunu seçin (Microsoft hesabı, USB və ya çap).
-4. Şifrələmə tipini seçin və prosesi başladın.
+- Simple management (via GUI and PowerShell).
+- Full disk encryption.
+- **BitLocker To Go**: Encryption support for USB devices.
+- Enhanced security with TPM support.
 
-### PowerShell ilə:
+---
+
+## ⚠️ Limitations
+
+- Not available in the **Home Edition** version.
+- Configuration can be challenging on systems without TPM.
+- Slight performance impact may be observed.
+
+---
+
+## 🛠️ Activation
+
+### Using GUI:
+1. Search for **"Manage BitLocker"**.
+2. Select the desired disk and activate it.
+3. Choose a method to save the **Recovery Key** (Microsoft account, USB, or print).
+4. Select the encryption type and start the process.
+
+### Using PowerShell:
 ```powershell
 Enable-BitLocker -MountPoint "C:" -EncryptionMethod XtsAes256 -UsedSpaceOnly -TpmProtector
 ```
 
 ---
 
-## 🧾 Recovery Key Harada Saxlanır?
+## 🧾 Where is the Recovery Key Stored?
 
-- **Microsoft Hesabı**: Recovery Key avtomatik olaraq hesabınıza yüklənir.
-- **Active Directory**: Şəbəkə mühitlərində saxlanıla bilər.
-- **Azure AD**: Bulud əsaslı idarəetmə üçün.
-- **USB və ya Çap**: Fiziki olaraq saxlamaq üçün.
+- **Microsoft Account**: The Recovery Key is automatically uploaded to your account.
+- **Active Directory**: Can be stored in network environments.
+- **Azure AD**: For cloud-based management.
+- **USB or Print**: For physical storage.
 
 ---
 
-## 🧠 Qısa Nəticə
+## 🧠 Summary
 
-**BitLocker**, şəxsi və korporativ istifadəçilər üçün effektiv təhlükəsizlik vasitəsidir. Diskin offline şifrələnməsi hücumlara qarşı ilkin qoruma səviyyəsini təmin edir. Doğru qurulduqda, məlumatların təhlükəsizliyini artırmaq üçün əvəzolunmaz bir vasitədir.
+**BitLocker** is an effective security tool for both personal and corporate users. Offline disk encryption provides a primary level of protection against attacks. When configured correctly, it is an indispensable tool for enhancing data security.

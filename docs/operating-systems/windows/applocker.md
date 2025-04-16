@@ -1,69 +1,69 @@
 ---
 id: applocker
-title: AppLocker Nədir?
-description: Windows AppLocker ilə tətbiqlərin işləməsinə nəzarət etmə qaydası.
+title: What is AppLocker?
+description: How to control application execution using Windows AppLocker.
 ---
 
-# 🧱 AppLocker Nədir?
+# 🧱 What is AppLocker?
 
-**AppLocker** — Windows sistemində administratorlara istifadəçilərin hansı tətbiqləri işə sala biləcəyini müəyyən etməyə imkan verən bir **application whitelisting** (tətbiq ağ siyahı) sistemidir.
-
----
-
-## 🎯 Məqsədi
-
-- Malware və naməlum proqramların qarşısını almaq.
-- İstifadəçilərin yalnız icazə verilmiş proqramlardan istifadə etməsini təmin etmək.
-- Endpoint təhlükəsizliyini artırmaq.
+**AppLocker** is an **application whitelisting** system in Windows that allows administrators to control which applications users are allowed to run.
 
 ---
 
-## 🔑 Necə işləyir?
+## 🎯 Purpose
 
-AppLocker aşağıdakı əsas qruplara uyğun qaydalar yaradır:
+- Prevent the execution of malware and unauthorized programs.
+- Ensure users only run approved software.
+- Enhance endpoint security.
 
-- **EXE və DLL** faylları.
-- **MSI və MSP** (install packages).
+---
+
+## 🔑 How It Works
+
+AppLocker creates rules for the following application types:
+
+- **EXE and DLL** files.
+- **MSI and MSP** (installation packages).
 - **Scripts** (.ps1, .bat, .cmd, .vbs, .js).
-- **AppX** (Windows Store tətbiqləri).
+- **AppX** (Windows Store apps).
 
 ---
 
-## 🛠️ AppLocker Konfiqurasiyası
+## 🛠️ Configuring AppLocker
 
-### GUI ilə:
-1. `gpedit.msc` → *Computer Configuration* → *Windows Settings* → *Security Settings* → *Application Control Policies* → *AppLocker*.
-2. Hər bir növ üçün qaydalar yarada və ya redaktə edə bilərsiniz (EXE, script və s.).
-3. Qaydanı "Publisher", "Path" və ya "File Hash" əsaslı yarada bilərsiniz.
+### Using GUI:
+1. Open `gpedit.msc` → *Computer Configuration* → *Windows Settings* → *Security Settings* → *Application Control Policies* → *AppLocker*.
+2. Create or edit rules for each type (EXE, scripts, etc.).
+3. Rules can be based on "Publisher", "Path", or "File Hash".
 
-### PowerShell ilə:
+### Using PowerShell:
 ```powershell
-# Mövcud qaydaları əldə etmək
+# Retrieve existing rules
 Get-AppLockerPolicy -Effective | ConvertFrom-XML
 
-# Yeni qayda yaratmaq
+# Create a new path-based rule
 New-AppLockerPolicy -Path "C:\example" -RuleType Path -User Everyone -RuleName "ExampleRule"
 ```
 
 ---
 
-## ✅ Üstünlükləri
+## ✅ Advantages
 
-- Sürətli və lokal whitelist sistemi.
-- Group Policy ilə mərkəzi idarəetmə.
-- Endpoint təhlükəsizliyinin artırılması.
-- PowerShell skriptlərin bloklanması.
-
----
-
-## ⚠️ Məhdudiyyətlər
-
-- Yalnız **Enterprise** və **Education** versiyalarında mövcuddur.
-- Bəzi proqramlar hash və ya path dəyişdikdə qaydaları poza bilər.
-- Geniş və kompleks mühitlərdə qaydaların idarəsi çətinləşə bilər.
+1. Fast and local whitelisting system.
+2. Central management via Group Policy.
+3. Improved endpoint protection.
+4. Blocks unauthorized PowerShell scripts.
 
 ---
 
-## 📌 Nəticə
+## ⚠️ Limitations
 
-**AppLocker**, sistemdəki təhlükəsizlik səviyyəsini artırmaq və endpoint nəzarətini təmin etmək üçün əla bir vasitədir. GRC (Governance, Risk, Compliance) və Blue Team proseslərində vacib rol oynayır.
+- Only available in **Enterprise** and **Education** editions.
+- Rules may break if file hashes or paths change.
+- Complex environments may require advanced rule management.
+
+---
+
+## 📌 Conclusion
+
+AppLocker is a powerful tool to strengthen security and enforce endpoint control. It plays an important role in GRC (Governance, Risk, Compliance) and Blue Team operations.

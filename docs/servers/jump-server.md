@@ -1,51 +1,51 @@
 ---
 id: jump-server
-title: Jump Server Nədir?
-description: Jump Server (Bastion Host) nədir, harada istifadə olunur və üstünlükləri nələrdir?
+title: What is a Jump Server?
+description: What is a Jump Server (Bastion Host), where is it used, and what are its advantages?
 sidebar_position: 1
 ---
 
-## 🔐 Jump Server (və ya Bastion Host) Nədir?
+## 🔐 What is a Jump Server (or Bastion Host)?
 
-**Jump Server** — daxili şəbəkədə yerləşən sistemlərə girişi **mərkəzləşdirilmiş və təhlükəsiz** şəkildə təmin edən xüsusi bir serverdir.  
-İstifadəçilər və ya administratorlar əvvəlcə bu serverə daxil olurlar, daha sonra buradan digər daxili serverlərə keçid edirlər.
-
----
-
-## 🧭 Harada İstifadə Olunur?
-
-- Bank və maliyyə qurumları
-- Böyük korporativ şəbəkələr
-- Cloud provider-lərdə (AWS, Azure, GCP)
-- Təhlükəsiz DevOps mühitlərində (CI/CD arxitekturası ilə)
+A **Jump Server** is a specialized server that provides **centralized and secure** access to systems located within an internal network.  
+Users or administrators first connect to this server and then access other internal servers from there.
 
 ---
 
-## 🛡️ Əsas Üstünlüklər
+## 🧭 Where is it Used?
 
-| **Üstünlük**         | **İzah**                                                                                     |
-|-----------------------|---------------------------------------------------------------------------------------------|
-| 🔒 **Təhlükəsizlik**  | Əsas giriş nöqtəsi tək bir serverə yönəldilir. Bu da daxili sistemlərin birbaşa exposed olmamasını təmin edir. |
-| 🧾 **Auditing & Monitoring** | Jump Server-lər üzərindən keçən bütün bağlantılar loq fayllarda qeyd olunur və izlənə bilir. |
-| 🧍 **Identity Control**      | Kim hansı sistemə daxil olub? Hansı əmrləri icra edib? – bütün bu sualların cavabı izlənilə bilər. |
-| 🔁 **Multi-hop SSH**         | Yalnız birbaşa şəbəkəyə çıxışı olmayan serverlərə tək hopla deyil, jump host vasitəsilə giriş imkanı verir. |
+- Banks and financial institutions  
+- Large corporate networks  
+- Cloud providers (AWS, Azure, GCP)  
+- Secure DevOps environments (with CI/CD architecture)  
 
 ---
 
-## 🧰 Texniki Misal
+## 🛡️ Key Advantages
 
-Bir şirkətdə yalnız `10.0.0.0/8` daxili şəbəkəsində olan sistemlərə SSH ilə daxil olmaq icazəlidir. Amma bu sistemlər **internetə açıq deyil**. O halda:
+| **Advantage**         | **Description**                                                                                     |
+|-----------------------|-----------------------------------------------------------------------------------------------------|
+| 🔒 **Security**        | The main entry point is directed to a single server, ensuring that internal systems are not directly exposed. |
+| 🧾 **Auditing & Monitoring** | All connections passing through Jump Servers are logged and can be monitored.                              |
+| 🧍 **Identity Control**      | Who accessed which system? What commands were executed? – All these questions can be tracked.             |
+| 🔁 **Multi-hop SSH**         | Provides access to servers without direct network access via a single hop through the Jump Host.          |
+
+---
+
+## 🧰 Technical Example
+
+In a company, only systems within the `10.0.0.0/8` internal network can be accessed via SSH. However, these systems are **not exposed to the internet**. In this case:
 
 ```plaintext
-Client (İnternet) → Jump Server (DMZ-də yerləşir) → Daxili Serverlər (SSH)
+Client (Internet) → Jump Server (Located in DMZ) → Internal Servers (SSH)
 ```
 
-### 🧱 Real Misal – SSH ilə istifadə:
+### 🧱 Real Example – Using SSH:
 ```bash
 ssh -J user@jump-host user@internal-server
 ```
 
-### OpenSSH konfiqurasiyasında:
+### In OpenSSH Configuration:
 ```plaintext
 Host internal
   HostName 10.0.0.5
@@ -55,18 +55,18 @@ Host internal
 
 ---
 
-## ❗ Risklər və Tövsiyələr
+## ❗ Risks and Recommendations
 
-- **Risklər**:  
-  Jump Server-lər mərkəzi nöqtə olduğu üçün kompromis olarsa, bütün daxili sistemlər riskə girə bilər.
+- **Risks**:  
+  Since Jump Servers are a central point, if compromised, all internal systems may be at risk.
 
-- **Tövsiyələr**:  
-  - MFA (Multi-Factor Authentication) və şifrə əvəzinə SSH key istifadəsi şərtdir.  
-  - VPN ilə birləşərək istifadə tövsiyə olunur.
+- **Recommendations**:  
+  - Use MFA (Multi-Factor Authentication) and SSH keys instead of passwords.  
+  - Combine with VPN for enhanced security.
 
 ---
 
-## 📌 Nəticə
+## 📌 Conclusion
 
-Jump Server sadəcə bir "keçid nöqtəsi" deyil – tətbiq olunan təhlükəsizlik siyasətlərinin mərkəzidir.  
-Doğru qurulmuş Jump Server, şəbəkə hücumlarının qarşısını almaqda böyük rol oynayır.
+A Jump Server is not just a "gateway" – it is the core of implemented security policies.  
+A properly configured Jump Server plays a significant role in preventing network attacks.
