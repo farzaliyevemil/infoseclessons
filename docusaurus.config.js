@@ -22,13 +22,44 @@ const config = {
     localeConfigs: {
       en: {
         label: 'English',
+        direction: 'ltr',
+        navbar: {
+          items: [
+            { to: '/intro', label: 'Start', position: 'left' },
+            { to: '/about', label: 'About', position: 'left' },
+            {
+              type: 'localeDropdown',
+              position: 'right',
+            },
+            {
+              href: 'https://github.com/farzaliyevemil/infoseclessons',
+              label: 'GitHub',
+              position: 'right',
+            },
+          ],
+        },
       },
       az: {
         label: 'Azərbaycan dili',
+        direction: 'ltr',
+        navbar: {
+          items: [
+            { to: '/az/intro', label: 'Başla', position: 'left' },
+            { to: '/az/about', label: 'Haqqında', position: 'left' },
+            {
+              type: 'localeDropdown',
+              position: 'right',
+            },
+            {
+              href: 'https://github.com/farzaliyevemil/infoseclessons',
+              label: 'GitHub',
+              position: 'right',
+            },
+          ],
+        },
       },
     },
   },
-  
 
   presets: [
     [
@@ -55,28 +86,6 @@ const config = {
 
   themeConfig: {
     image: 'img/docusaurus-social-card.jpg',
-    navbar: {
-      title: 'InfoSec Lessons',
-      logo: {
-        alt: 'EF Logo',
-        src: 'img/shield.png',
-      },
-      items: [
-        { to: '/intro', label: 'Start', position: 'left', locale: 'en' },
-        { to: '/about', label: 'About', position: 'left', locale: 'en' },
-        { to: '/az/intro', label: 'Başla', position: 'left', locale: 'az' },
-        { to: '/az/about', label: 'Haqqında', position: 'left', locale: 'az' },
-        {
-          href: 'https://github.com/farzaliyevemil/infoseclessons',
-          label: 'GitHub',
-          position: 'right',
-        },
-        {
-          type: 'localeDropdown',
-          position: 'right',
-        }
-      ],
-    },
     footer: {
       style: 'dark',
       links: [],
