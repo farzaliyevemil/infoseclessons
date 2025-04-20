@@ -1,29 +1,9 @@
-import React, { useEffect } from 'react';
-import { useHistory } from '@docusaurus/router';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import React from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import styles from './index.module.css';
 
-export default function RedirectToIntro() {
-  const history = useHistory();
-  const { i18n } = useDocusaurusContext();
-
-  useEffect(() => {
-    if (i18n.currentLocale === 'az') {
-      history.replace('/az/intro');
-    } else {
-      history.replace('/intro');
-    }
-  }, [i18n.currentLocale]);
-
-  return null;
-}
-
-export function Home() {
-  const { i18n } = useDocusaurusContext();
-  const locale = i18n.currentLocale;
-
+export default function Home() {
   return (
     <Layout
       title="InfoSec Lessons – Learn Cybersecurity"
@@ -56,7 +36,6 @@ export function Home() {
   <li>🌐 <strong>General Security</strong> – Best practices, frameworks, insightful articles and essential concepts</li>
   <li>📚 <strong>IT Foundations</strong> – Networking, operating systems, virtualization, and helpdesk knowledge</li>
 </ul>
-
         </section>
       </main>
     </Layout>
