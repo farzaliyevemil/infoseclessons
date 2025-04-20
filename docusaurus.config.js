@@ -62,9 +62,10 @@ const config = {
         src: 'img/shield.png',
       },
       items: [
-        { to: '/intro', label: 'Start', position: 'left' },
-        { to: '/about', label: 'About', position: 'left' },
-
+        { to: '/intro', label: 'Start', position: 'left', locale: 'en' },
+        { to: '/about', label: 'About', position: 'left', locale: 'en' },
+        { to: '/az/intro', label: 'Başla', position: 'left', locale: 'az' },
+        { to: '/az/about', label: 'Haqqında', position: 'left', locale: 'az' },
         {
           href: 'https://github.com/farzaliyevemil/infoseclessons',
           label: 'GitHub',
