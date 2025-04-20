@@ -4,7 +4,7 @@ title: Disabling Unnecessary Windows Services
 description: >-
   Learn how to improve performance and security by disabling unused Windows
   services.
-slug: /az/services
+slug: /services
 ---
 
 

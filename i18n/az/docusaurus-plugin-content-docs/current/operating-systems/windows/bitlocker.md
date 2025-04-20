@@ -4,7 +4,7 @@ title: BitLocker Nədir?
 description: >-
   Windows sistemlərində disk şifrələməsi üçün istifadə edilən BitLocker
   texnologiyasına giriş.
-slug: /az/bitlocker
+slug: /bitlocker
 ---
 
 # 🔐 BitLocker Nədir?

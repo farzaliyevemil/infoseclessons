@@ -5,7 +5,7 @@ description: >-
   Microsoft LAPS – Local Administrator şifrələrinin mərkəzləşmiş və avtomatik
   idarəsi
 sidebar_position: 2
-slug: /az/laps
+slug: /laps
 ---
 
 ## 🔐 LAPS (Local Administrator Password Solution) nədir?
