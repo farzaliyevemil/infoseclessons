@@ -1,9 +1,24 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useHistory, useBaseUrlUtils } from '@docusaurus/router';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import styles from './index.module.css';
 
-export default function Home() {
+export default function RedirectToIntro() {
+  const history = useHistory();
+  const { withBaseUrl } = useBaseUrlUtils();
+  const { i18n } = useDocusaurusContext();
+
+  useEffect(() => {
+    const target = i18n.currentLocale === 'az' ? withBaseUrl('/az/intro') : withBaseUrl('/intro');
+    history.replace(target);
+  }, [i18n.currentLocale]);
+
+  return null;
+}
+
+export function Home() {
   return (
     <Layout
       title="InfoSec Lessons – Learn Cybersecurity"
