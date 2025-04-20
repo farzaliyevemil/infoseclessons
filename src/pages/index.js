@@ -38,7 +38,7 @@ export default function Home() {
   <li>🔴 <strong>Red Teaming</strong> – Identifying and testing security weaknesses</li>
   <li>🔵 <strong>Blue Teaming</strong> – Monitoring, threat detection, and incident response</li>
   <li>🛡️ <strong>GRC</strong> – Risk management, policy development, and compliance</li>
-  <li>🌐 <strong>General Security</strong> – Password hygiene, malware defense, and essential concepts</li>
+  <li>🌐 <strong>General Security</strong> – Best practices, frameworks, insightful articles and essential concepts</li>
   <li>📚 <strong>IT Foundations</strong> – Networking, operating systems, virtualization, and helpdesk knowledge</li>
 </ul>
 
