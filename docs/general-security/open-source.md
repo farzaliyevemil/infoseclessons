@@ -2,7 +2,7 @@
 id: open-source
 title: Open-Source Security Solutions (Overview)
 description: Collapsible list of essential open-source tools categorized by solution type.
-slug: open-source
+slug: /open-source
 ---
 
 
