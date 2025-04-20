@@ -62,7 +62,7 @@ const config = {
         src: 'img/shield.png',
       },
       items: [
-        { to: '/', label: 'Lessons', position: 'left' },
+        { to: '/about.md', label: 'About', position: 'left' },
         {
           href: 'https://github.com/farzaliyevemil/infoseclessons',
           label: 'GitHub',
