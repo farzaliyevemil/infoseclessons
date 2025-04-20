@@ -2,6 +2,7 @@
 id: intro
 title: Giriş
 description: InfoSec dərslərinə xoş gəlmisiniz!
+slug: /az/intro
 ---
 
 # 👋 InfoSec Dərslərinə Xoş Gəlmisiniz

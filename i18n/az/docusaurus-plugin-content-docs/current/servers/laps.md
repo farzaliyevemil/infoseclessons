@@ -1,8 +1,11 @@
 ---
 id: laps
 title: LAPS (Local Administrator Password Solution) Nədir?
-description: Microsoft LAPS – Local Administrator şifrələrinin mərkəzləşmiş və avtomatik idarəsi
+description: >-
+  Microsoft LAPS – Local Administrator şifrələrinin mərkəzləşmiş və avtomatik
+  idarəsi
 sidebar_position: 2
+slug: /az/laps
 ---
 
 ## 🔐 LAPS (Local Administrator Password Solution) nədir?

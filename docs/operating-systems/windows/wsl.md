@@ -1,7 +1,10 @@
 ---
 id: wsl
 title: What is WSL? (Windows Subsystem for Linux)
-description: Learn how WSL enables you to run Linux on Windows and why it's a powerful tool for cybersecurity and development.
+description: >-
+  Learn how WSL enables you to run Linux on Windows and why it's a powerful tool
+  for cybersecurity and development.
+slug: /wsl
 ---
 
 # 🧩 What is WSL?

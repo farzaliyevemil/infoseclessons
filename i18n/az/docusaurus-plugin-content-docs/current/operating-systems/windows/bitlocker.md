@@ -1,7 +1,10 @@
 ---
 id: bitlocker
 title: BitLocker Nədir?
-description: Windows sistemlərində disk şifrələməsi üçün istifadə edilən BitLocker texnologiyasına giriş.
+description: >-
+  Windows sistemlərində disk şifrələməsi üçün istifadə edilən BitLocker
+  texnologiyasına giriş.
+slug: /az/bitlocker
 ---
 
 # 🔐 BitLocker Nədir?

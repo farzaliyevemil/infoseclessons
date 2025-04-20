@@ -2,6 +2,7 @@
 id: applocker
 title: What is AppLocker?
 description: How to control application execution using Windows AppLocker.
+slug: /applocker
 ---
 
 # 🧱 What is AppLocker?

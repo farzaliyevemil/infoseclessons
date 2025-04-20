@@ -1,7 +1,10 @@
 ---
 id: disable-windows-services
 title: Disabling Unnecessary Windows Services
-description: Learn how to improve performance and security by disabling unused Windows services.
+description: >-
+  Learn how to improve performance and security by disabling unused Windows
+  services.
+slug: /services
 ---
 
 # 🔒 Disable Unnecessary Windows Services (Security & Performance)

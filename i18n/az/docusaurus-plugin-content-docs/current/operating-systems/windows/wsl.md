@@ -1,7 +1,10 @@
 ---
 id: wsl
 title: WSL Nədir? (Windows Subsystem for Linux)
-description: WSL-in Linux-u Windows-da necə işə salmağa imkan verdiyini və niyə kiber təhlükəsizlik və inkişaf üçün güclü bir alət olduğunu öyrənin.
+description: >-
+  WSL-in Linux-u Windows-da necə işə salmağa imkan verdiyini və niyə kiber
+  təhlükəsizlik və inkişaf üçün güclü bir alət olduğunu öyrənin.
+slug: /az/wsl
 ---
 
 # 🧩 WSL Nədir?

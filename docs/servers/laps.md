@@ -1,8 +1,11 @@
 ---
 id: laps
 title: What is LAPS (Local Administrator Password Solution)?
-description: Microsoft LAPS – Centralized and automated management of Local Administrator passwords.
+description: >-
+  Microsoft LAPS – Centralized and automated management of Local Administrator
+  passwords.
 sidebar_position: 2
+slug: /laps
 ---
 
 ## 🔐 What is LAPS (Local Administrator Password Solution)?

@@ -1,8 +1,11 @@
 ---
 id: jump-server
 title: Jump Server Nədir?
-description: Jump Server (Bastion Host) nədir, harada istifadə olunur və üstünlükləri nələrdir?
+description: >-
+  Jump Server (Bastion Host) nədir, harada istifadə olunur və üstünlükləri
+  nələrdir?
 sidebar_position: 1
+slug: /az/jump-server
 ---
 
 ## 🔐 Jump Server (və ya Bastion Host) Nədir?

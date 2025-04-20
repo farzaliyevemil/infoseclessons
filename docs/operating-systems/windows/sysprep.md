@@ -1,7 +1,10 @@
 ---
 id: sysprep
 title: Sysprep – Windows System Preparation Tool
-description: Learn what Sysprep is, why it's used for imaging and deployment, and how to generalize Windows installations.
+description: >-
+  Learn what Sysprep is, why it's used for imaging and deployment, and how to
+  generalize Windows installations.
+slug: /sysprep
 ---
 
 # 🧰 What is Sysprep?

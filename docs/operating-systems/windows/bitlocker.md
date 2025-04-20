@@ -1,7 +1,10 @@
 ---
 id: bitlocker
 title: What is BitLocker?
-description: An introduction to BitLocker technology for disk encryption in Windows systems.
+description: >-
+  An introduction to BitLocker technology for disk encryption in Windows
+  systems.
+slug: /bitlocker
 ---
 
 # 🔐 What is BitLocker?

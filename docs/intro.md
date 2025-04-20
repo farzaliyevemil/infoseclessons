@@ -1,8 +1,11 @@
 ---
 id: intro
 title: Welcome to InfoSec Lessons
-description: A practical guide to cybersecurity, covering everything from foundations to advanced concepts.
+description: >-
+  A practical guide to cybersecurity, covering everything from foundations to
+  advanced concepts.
 sidebar_position: 1
+slug: /intro
 ---
 
 # 👋 Welcome to InfoSec Lessons
