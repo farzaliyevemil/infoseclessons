@@ -1,0 +1,1470 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-general-security/open-source" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.7.0">
+<title data-rh="true">Open-Source Security Solutions (Overview) | Welcome to Information Security World</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://farzaliyevemil.github.io/infoseclessons/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://farzaliyevemil.github.io/infoseclessons/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://farzaliyevemil.github.io/infoseclessons/general-security/open-source"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" property="og:locale:alternate" content="az"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Open-Source Security Solutions (Overview) | Welcome to Information Security World"><meta data-rh="true" name="description" content="Collapsible list of essential open-source tools categorized by solution type."><meta data-rh="true" property="og:description" content="Collapsible list of essential open-source tools categorized by solution type."><link data-rh="true" rel="icon" href="/infoseclessons/img/shield.png"><link data-rh="true" rel="canonical" href="https://farzaliyevemil.github.io/infoseclessons/general-security/open-source"><link data-rh="true" rel="alternate" href="https://farzaliyevemil.github.io/infoseclessons/general-security/open-source" hreflang="en"><link data-rh="true" rel="alternate" href="https://farzaliyevemil.github.io/infoseclessons/az/general-security/open-source" hreflang="az"><link data-rh="true" rel="alternate" href="https://farzaliyevemil.github.io/infoseclessons/general-security/open-source" hreflang="x-default"><link rel="stylesheet" href="/infoseclessons/assets/css/styles.a12e8608.css">
+<script src="/infoseclessons/assets/js/runtime~main.4e190939.js" defer="defer"></script>
+<script src="/infoseclessons/assets/js/main.ea180bda.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"light")}(),function(){try{const n=new URLSearchParams(window.location.search).entries();for(var[t,e]of n)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/infoseclessons/"><div class="navbar__logo"><img src="/infoseclessons/img/shield.png" alt="EF Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/infoseclessons/img/shield.png" alt="EF Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">InfoSec Lessons</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/infoseclessons/">Lessons</a></div><div class="navbar__items navbar__items--right"><a href="https://github.com/farzaliyevemil/infoseclessons" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a><div class="navbar__item dropdown dropdown--hoverable dropdown--right"><a href="#" aria-haspopup="true" aria-expanded="false" role="button" class="navbar__link"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" class="iconLanguage_nlXk"><path fill="currentColor" d="M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z"></path></svg>English</a><ul class="dropdown__menu"><li><a href="/infoseclessons/general-security/open-source" target="_self" rel="noopener noreferrer" class="dropdown__link dropdown__link--active" lang="en">English</a></li><li><a href="/infoseclessons/az/general-security/open-source" target="_self" rel="noopener noreferrer" class="dropdown__link" lang="az">Azərbaycan dili</a></li></ul></div><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="Switch between dark and light mode (currently light mode)" aria-label="Switch between dark and light mode (currently light mode)" aria-live="polite" aria-pressed="false"><svg viewBox="0 0 24 24" width="24" height="24" class="lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" class="darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/infoseclessons/intro">Welcome to InfoSec Lessons</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/infoseclessons/red-teaming/placeholder-server">🔴 Red Teaming</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/infoseclessons/log-analysis">🔵 Blue Teaming</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/infoseclessons/grc/placeholder-server">🛡️ GRC</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" href="/infoseclessons/general-security/open-source">🌐 General Security</a></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/infoseclessons/general-security/open-source">Open-Source Security Solutions (Overview)</a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/infoseclessons/applocker">🖥️ Operating Systems</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/infoseclessons/jump-server">🧰 Servers</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/infoseclessons/network-types">📡 Networking</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/infoseclessons/placeholder">🆘 Helpdesk Basics</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/infoseclessons/placeholder">🧱 Virtualization</a></div></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/infoseclessons/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">🌐 General Security</span><meta itemprop="position" content="1"></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link" itemprop="name">Open-Source Security Solutions (Overview)</span><meta itemprop="position" content="2"></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>🧩 Open-Source Security Solutions</h1></header>
+<p>This document highlights practical and tested open-source tools for building a secure IT infrastructure with minimal budget.<br>
+<!-- -->Each solution category contains a ranked list of tools with pros, cons, and official links.</p>
+<hr>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>📦 IT Asset Management</summary><div><div class="collapsibleContent_i85q"><p>Tools for tracking hardware, software, licenses, and infrastructure assets.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-1-glpi">🥇 1. <strong>GLPI</strong><a href="#-1-glpi" class="hash-link" aria-label="Direct link to -1-glpi" title="Direct link to -1-glpi">​</a></h3><blockquote>
+<p>A comprehensive IT asset and service management platform.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Full ITIL support (Incident, Change, Problem management)</li>
+<li>Extendable with plugins (LDAP, monitoring, inventory agents)</li>
+<li>Built-in ticketing and CMDB</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>UI feels dated</li>
+<li>Initial setup can be complex</li>
+</ul>
+</li>
+<li>🔗 <a href="https://glpi-project.org" target="_blank" rel="noopener noreferrer">https://glpi-project.org</a></li>
+</ul><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-2-snipe-it">🥈 2. <strong>Snipe-IT</strong><a href="#-2-snipe-it" class="hash-link" aria-label="Direct link to -2-snipe-it" title="Direct link to -2-snipe-it">​</a></h3><blockquote>
+<p>A lightweight, user-friendly inventory management tool.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Modern and intuitive interface</li>
+<li>Tracks assets, licenses, check-ins/checkouts</li>
+<li>Easy for small IT teams to adopt</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>No built-in CMDB</li>
+<li>Limited integrations compared to GLPI</li>
+</ul>
+</li>
+<li>🔗 <a href="https://snipeitapp.com" target="_blank" rel="noopener noreferrer">https://snipeitapp.com</a><br>
+<a href="https://github.com/snipe/snipe-it" target="_blank" rel="noopener noreferrer">GitHub Repo</a></li>
+</ul><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-3-netbox">🥉 3. <strong>NetBox</strong><a href="#-3-netbox" class="hash-link" aria-label="Direct link to -3-netbox" title="Direct link to -3-netbox">​</a></h3><blockquote>
+<p>A DCIM tool for managing networks, racks, and IP space.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Perfect for data center and network infrastructure mapping</li>
+<li>Powerful REST API for automation</li>
+<li>Tracks IPs, VLANs, racks, and cables</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Not intended for tracking user devices like laptops</li>
+<li>More DevOps/NOC-oriented than traditional IT</li>
+</ul>
+</li>
+<li>🔗 <a href="https://netbox.dev" target="_blank" rel="noopener noreferrer">https://netbox.dev</a><br>
+<a href="https://github.com/netbox-community/netbox" target="_blank" rel="noopener noreferrer">GitHub Repo</a></li>
+</ul></div></div></details>
+<hr>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>📡 Network Security</summary><div><div class="collapsibleContent_i85q"><p>Tools to monitor, filter, and protect your network infrastructure.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-1-opnsense--pfsense">🥇 1. <strong>OPNsense / pfSense</strong><a href="#-1-opnsense--pfsense" class="hash-link" aria-label="Direct link to -1-opnsense--pfsense" title="Direct link to -1-opnsense--pfsense">​</a></h3><blockquote>
+<p>Open-source firewall and routing platforms with enterprise-grade features.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Full-featured firewall, IDS/IPS (Suricata), VPN, DHCP, DNS</li>
+<li>Web-based GUI, easy to configure</li>
+<li>Plugin ecosystem (e.g., ntopng, HAProxy, Sensei)</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Requires dedicated hardware or VM</li>
+<li>Can be overkill for very small environments</li>
+</ul>
+</li>
+<li>🔗 <a href="https://opnsense.org" target="_blank" rel="noopener noreferrer">https://opnsense.org</a><br>
+<a href="https://www.pfsense.org" target="_blank" rel="noopener noreferrer">https://www.pfsense.org</a></li>
+</ul><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-2-suricata">🥈 2. <strong>Suricata</strong><a href="#-2-suricata" class="hash-link" aria-label="Direct link to -2-suricata" title="Direct link to -2-suricata">​</a></h3><blockquote>
+<p>Powerful and fast IDS/IPS engine with deep packet inspection.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Real-time intrusion detection and prevention</li>
+<li>Supports signature and anomaly-based detection</li>
+<li>Works standalone or integrated into other tools (like OPNsense)</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>CLI-driven, requires config tuning</li>
+<li>Generates a lot of logs; needs log management</li>
+</ul>
+</li>
+<li>🔗 <a href="https://suricata.io" target="_blank" rel="noopener noreferrer">https://suricata.io</a></li>
+</ul><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-3-zeek-formerly-bro">🥉 3. <strong>Zeek (formerly Bro)</strong><a href="#-3-zeek-formerly-bro" class="hash-link" aria-label="Direct link to -3-zeek-formerly-bro" title="Direct link to -3-zeek-formerly-bro">​</a></h3><blockquote>
+<p>Advanced network traffic analysis framework.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Excellent for protocol-level logging and forensic analysis</li>
+<li>Strong in academic, research, and SOC environments</li>
+<li>Highly extensible via scripting</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Steep learning curve</li>
+<li>Not a full-fledged firewall or IPS</li>
+</ul>
+</li>
+<li>🔗 <a href="https://zeek.org" target="_blank" rel="noopener noreferrer">https://zeek.org</a></li>
+</ul><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-4-snort">🏅 4. <strong>Snort</strong><a href="#-4-snort" class="hash-link" aria-label="Direct link to -4-snort" title="Direct link to -4-snort">​</a></h3><blockquote>
+<p>One of the oldest and most popular network IDS/IPS systems.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Proven stability and large rule set (from Cisco Talos)</li>
+<li>Can run in IDS or inline IPS mode</li>
+<li>Broad community support and integration options</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Less modern than Suricata in multithreading</li>
+<li>More effort required for config management</li>
+</ul>
+</li>
+<li>🔗 <a href="https://www.snort.org" target="_blank" rel="noopener noreferrer">https://www.snort.org</a></li>
+</ul></div></div></details>
+<hr>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🔐 Endpoint Security (EDR / Antivirus)</summary><div><div class="collapsibleContent_i85q"><p>Tools to monitor, detect, and respond to endpoint threats on Windows and Linux systems.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-1-wazuh">🥇 1. <strong>Wazuh</strong><a href="#-1-wazuh" class="hash-link" aria-label="Direct link to -1-wazuh" title="Direct link to -1-wazuh">​</a></h3><blockquote>
+<p>Open-source XDR and SIEM agent for endpoint security and compliance.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Real-time log collection and anomaly detection</li>
+<li>File integrity monitoring (FIM), rootkit detection, and vulnerability detection</li>
+<li>Works across Windows, Linux, and macOS</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Complex to deploy as full stack (uses ELK backend)</li>
+<li>Needs fine-tuning for noise reduction</li>
+</ul>
+</li>
+<li>🔗 <a href="https://wazuh.com" target="_blank" rel="noopener noreferrer">https://wazuh.com</a></li>
+</ul><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-2-ossec">🥈 2. <strong>OSSEC+</strong><a href="#-2-ossec" class="hash-link" aria-label="Direct link to -2-ossec" title="Direct link to -2-ossec">​</a></h3><blockquote>
+<p>Enhanced version of OSSEC with machine learning and threat intelligence, still free.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Includes ML engine, PKI encryption, ELK integration</li>
+<li>Real-time community threat sharing</li>
+<li>Features: FIM, malware detection, active response, compliance auditing</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Requires free registration to access OSSEC+ features</li>
+<li>Slightly less community support than Wazuh</li>
+</ul>
+</li>
+<li>🔗 <a href="https://www.atomicorp.com/products/ossec/" target="_blank" rel="noopener noreferrer">https://www.atomicorp.com/products/ossec/</a></li>
+</ul><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-3-ossec">🥉 3. <strong>OSSEC</strong><a href="#-3-ossec" class="hash-link" aria-label="Direct link to -3-ossec" title="Direct link to -3-ossec">​</a></h3><blockquote>
+<p>Lightweight host-based intrusion detection system (HIDS).</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>File integrity monitoring, log analysis, rootkit detection</li>
+<li>Works on Linux, Windows, BSD</li>
+<li>Extremely lightweight and stable</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>No built-in GUI</li>
+<li>Lacks advanced threat sharing or ML features</li>
+</ul>
+</li>
+<li>🔗 <a href="https://www.ossec.net" target="_blank" rel="noopener noreferrer">https://www.ossec.net</a></li>
+</ul></div></div></details>
+<hr>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>📊 SIEM &amp; Log Management</summary><div><div class="collapsibleContent_i85q"><p>Solutions for collecting, analyzing, and responding to logs for security and compliance.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-1-elk-stack-elasticsearch-logstash-kibana">🥇 1. <strong>ELK Stack (Elasticsearch, Logstash, Kibana)</strong><a href="#-1-elk-stack-elasticsearch-logstash-kibana" class="hash-link" aria-label="Direct link to -1-elk-stack-elasticsearch-logstash-kibana" title="Direct link to -1-elk-stack-elasticsearch-logstash-kibana">​</a></h3><blockquote>
+<p>Industry-standard open-source stack for centralized log management and SIEM.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Powerful search, filtering, and visualization (Kibana)</li>
+<li>Flexible ingestion pipeline with Logstash and Beats</li>
+<li>Widely adopted in security operations centers (SOCs)</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Resource-intensive (requires 8GB+ RAM for smooth use)</li>
+<li>Requires tuning and scaling for large log volumes</li>
+</ul>
+</li>
+<li>🔗 <a href="https://www.elastic.co/what-is/elk-stack" target="_blank" rel="noopener noreferrer">https://www.elastic.co/what-is/elk-stack</a></li>
+</ul><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-2-wazuh">🥈 2. <strong>Wazuh</strong><a href="#-2-wazuh" class="hash-link" aria-label="Direct link to -2-wazuh" title="Direct link to -2-wazuh">​</a></h3><blockquote>
+<p>An open-source XDR and SIEM platform based on the ELK stack.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Centralized log collection, analysis, and alerting</li>
+<li>Comes with prebuilt dashboards, rules, and threat detection</li>
+<li>Combines endpoint monitoring with SIEM functionality</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Requires Elasticsearch backend (resource heavy)</li>
+<li>Rule tuning and false-positive handling required</li>
+</ul>
+</li>
+<li>🔗 <a href="https://wazuh.com" target="_blank" rel="noopener noreferrer">https://wazuh.com</a></li>
+</ul><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-3-ossec-1">🥉 3. <strong>OSSEC+</strong><a href="#-3-ossec-1" class="hash-link" aria-label="Direct link to -3-ossec-1" title="Direct link to -3-ossec-1">​</a></h3><blockquote>
+<p>Enhanced version of OSSEC with integrated ELK, machine learning, and threat sharing.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Machine learning for anomaly detection</li>
+<li>Real-time community threat sharing</li>
+<li>Includes ELK stack, PKI encryption, and FIM</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Requires free registration for OSSEC+ features</li>
+<li>Slightly smaller community than Wazuh or ELK</li>
+</ul>
+</li>
+<li>🔗 <a href="https://www.atomicorp.com/products/ossec/" target="_blank" rel="noopener noreferrer">https://www.atomicorp.com/products/ossec/</a></li>
+</ul></div></div></details>
+<hr>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>📩 Email Security Gateway</summary><div><div class="collapsibleContent_i85q"><p>Solutions to protect inbound/outbound email traffic from spam, phishing, and malware.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-1-rspamd">🥇 1. <strong>Rspamd</strong><a href="#-1-rspamd" class="hash-link" aria-label="Direct link to -1-rspamd" title="Direct link to -1-rspamd">​</a></h3><blockquote>
+<p>High-performance spam filtering system that can be used as a mail gateway.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Fast and lightweight (C-written, asynchronous)</li>
+<li>DNSBL, SPF, DKIM, DMARC, fuzzy matching</li>
+<li>Web UI and Redis support</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Requires external MTA integration (e.g., Postfix)</li>
+<li>Advanced config can be complex</li>
+</ul>
+</li>
+<li>🔗 <a href="https://rspamd.com" target="_blank" rel="noopener noreferrer">https://rspamd.com</a></li>
+</ul><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-2-mailcow">🥈 2. <strong>Mailcow</strong><a href="#-2-mailcow" class="hash-link" aria-label="Direct link to -2-mailcow" title="Direct link to -2-mailcow">​</a></h3><blockquote>
+<p>Mail server suite with anti-spam/anti-virus, supports Postfix, Dovecot, Rspamd, and ClamAV.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>All-in-one mail server + security stack</li>
+<li>Docker-based, easy deployment</li>
+<li>Web UI, Let&#x27;s Encrypt, 2FA support</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>More like a full mail server than just a gateway</li>
+<li>Heavier than standalone tools</li>
+</ul>
+</li>
+<li>🔗 <a href="https://mailcow.email" target="_blank" rel="noopener noreferrer">https://mailcow.email</a></li>
+</ul><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-3-proxmox-mail-gateway">🥉 3. <strong>Proxmox Mail Gateway</strong><a href="#-3-proxmox-mail-gateway" class="hash-link" aria-label="Direct link to -3-proxmox-mail-gateway" title="Direct link to -3-proxmox-mail-gateway">​</a></h3><blockquote>
+<p>Enterprise-class email security appliance (open-source edition available).</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Powerful web GUI</li>
+<li>SpamAssassin + ClamAV integration</li>
+<li>Rule-based filtering and quarantine</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Open-source version lacks some commercial features</li>
+<li>Needs separate SMTP infrastructure</li>
+</ul>
+</li>
+<li>🔗 <a href="https://www.proxmox.com/en/proxmox-mail-gateway" target="_blank" rel="noopener noreferrer">https://www.proxmox.com/en/proxmox-mail-gateway</a></li>
+</ul></div></div></details>
+<hr>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>📈 Monitoring &amp; Alerting</summary><div><div class="collapsibleContent_i85q"><p>Best open-source tools to monitor infrastructure, analyze system health, and receive real-time alerts.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-1-zabbix">🥇 1. <strong>Zabbix</strong><a href="#-1-zabbix" class="hash-link" aria-label="Direct link to -1-zabbix" title="Direct link to -1-zabbix">​</a></h3><blockquote>
+<p>Enterprise-grade full-stack monitoring platform.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Monitor servers, network devices, VMs, services</li>
+<li>Supports SNMP, traps, agent/agentless monitoring</li>
+<li>Complex alerting logic and escalation rules</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Initial setup and configuration are complex</li>
+<li>UI could feel outdated compared to modern tools</li>
+</ul>
+</li>
+<li>🔗 <a href="https://www.zabbix.com" target="_blank" rel="noopener noreferrer">https://www.zabbix.com</a></li>
+</ul><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-2-prometheus--grafana">🥈 2. <strong>Prometheus + Grafana</strong><a href="#-2-prometheus--grafana" class="hash-link" aria-label="Direct link to -2-prometheus--grafana" title="Direct link to -2-prometheus--grafana">​</a></h3><blockquote>
+<p>Cloud-native metrics-based monitoring with rich dashboards and alerts.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Powerful PromQL-based querying</li>
+<li>Grafana integration for custom dashboards</li>
+<li>Alertmanager for flexible notifications</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Focused on time-series metrics only (no logs)</li>
+<li>Requires understanding of Prometheus architecture</li>
+</ul>
+</li>
+<li>🔗 <a href="https://prometheus.io" target="_blank" rel="noopener noreferrer">https://prometheus.io</a><br>
+<a href="https://grafana.com" target="_blank" rel="noopener noreferrer">https://grafana.com</a></li>
+</ul><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-3-uptime-kuma">🥉 3. <strong>Uptime Kuma</strong><a href="#-3-uptime-kuma" class="hash-link" aria-label="Direct link to -3-uptime-kuma" title="Direct link to -3-uptime-kuma">​</a></h3><blockquote>
+<p>Simple self-hosted uptime monitoring tool with alerting.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Easy to set up (Docker-based or standalone)</li>
+<li>Telegram, Slack, Discord, Email, etc. notifications</li>
+<li>Supports HTTP(s), TCP, DNS, Ping (ICMP)</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Only checks availability, no system metrics</li>
+<li>Limited integrations compared to Zabbix/Prometheus</li>
+</ul>
+</li>
+<li>  🔗 <a href="https://github.com/louislam/uptime-kuma" target="_blank" rel="noopener noreferrer">https://github.com/louislam/uptime-kuma</a></li>
+</ul></div></div></details>
+<hr>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🔐 Password Management</summary><div><div class="collapsibleContent_i85q"><p>Open-source tools to securely store and manage passwords, API keys, and secrets — suitable for self-hosted personal and organizational use.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-1-vaultwarden-bitwarden-compatible">🥇 1. <strong>Vaultwarden</strong> (Bitwarden-compatible)<a href="#-1-vaultwarden-bitwarden-compatible" class="hash-link" aria-label="Direct link to -1-vaultwarden-bitwarden-compatible" title="Direct link to -1-vaultwarden-bitwarden-compatible">​</a></h3><blockquote>
+<p>Lightweight self-hosted password server compatible with official Bitwarden clients.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Supports browser/mobile apps, organizations, vaults</li>
+<li>Minimal resource usage, Docker deployment</li>
+<li>2FA, TOTP, admin panel, user/group support</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Community-driven fork, no official support</li>
+<li>Lacks some advanced Bitwarden premium features</li>
+</ul>
+</li>
+<li>🔗 <a href="https://github.com/dani-garcia/vaultwarden" target="_blank" rel="noopener noreferrer">https://github.com/dani-garcia/vaultwarden</a></li>
+</ul><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-2-passbolt">🥈 2. <strong>Passbolt</strong><a href="#-2-passbolt" class="hash-link" aria-label="Direct link to -2-passbolt" title="Direct link to -2-passbolt">​</a></h3><blockquote>
+<p>GPG-based team password manager built for collaboration and sharing.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Designed for team-based usage</li>
+<li>Secure GPG encryption</li>
+<li>Browser extension, user/group roles, audit logs</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Setup is complex (PHP + GPG + MySQL)</li>
+<li>Mobile and offline access still limited</li>
+</ul>
+</li>
+<li>🔗 <a href="https://www.passbolt.com" target="_blank" rel="noopener noreferrer">https://www.passbolt.com</a></li>
+</ul><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-3-psono">🥉 3. <strong>Psono</strong><a href="#-3-psono" class="hash-link" aria-label="Direct link to -3-psono" title="Direct link to -3-psono">​</a></h3><blockquote>
+<p>Enterprise-ready password manager with strong API support and encryption.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Multi-user, multi-tenant, encrypted sharing</li>
+<li>LDAP, REST API, Docker-based deployment</li>
+<li>Supports file secrets and access control</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>UI is less intuitive than others</li>
+<li>Enterprise features may require a license</li>
+</ul>
+</li>
+<li>🔗 <a href="https://psono.com" target="_blank" rel="noopener noreferrer">https://psono.com</a></li>
+</ul></div></div></details>
+<hr>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🛡️ Vulnerability Management &amp; Scanning</summary><div><div class="collapsibleContent_i85q"><p>Tools that help detect, evaluate, and manage security vulnerabilities across infrastructure, endpoints, and web applications.</p><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-1-openvas--greenbone-community-edition">🥇 1. <strong>OpenVAS / Greenbone Community Edition</strong><a href="#-1-openvas--greenbone-community-edition" class="hash-link" aria-label="Direct link to -1-openvas--greenbone-community-edition" title="Direct link to -1-openvas--greenbone-community-edition">​</a></h3><blockquote>
+<p>One of the most complete open-source vulnerability scanners maintained by Greenbone.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Large vulnerability test feed (100K+ tests)</li>
+<li>Full infrastructure scanning (servers, routers, network devices)</li>
+<li>Web-based dashboard (GVM), role-based access</li>
+<li>Regular updates and scan policy customization</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Complex installation, especially on non-Debian systems</li>
+<li>Requires decent hardware resources</li>
+<li>Web app testing is limited</li>
+</ul>
+</li>
+<li>🔗 <a href="https://www.greenbone.net/en/community-edition" target="_blank" rel="noopener noreferrer">https://www.greenbone.net/en/community-edition</a></li>
+</ul><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-2-nessus-essentials">🥈 2. <strong>Nessus Essentials</strong><a href="#-2-nessus-essentials" class="hash-link" aria-label="Direct link to -2-nessus-essentials" title="Direct link to -2-nessus-essentials">​</a></h3><blockquote>
+<p>A popular vulnerability scanner developed by Tenable — free for up to 16 IPs.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Intuitive GUI and easy to use</li>
+<li>Regular plugin feed updates (CVEs, CVSS, risk rating)</li>
+<li>Multiple scan templates (external, web, compliance, etc.)</li>
+<li>Ideal for small environments or training labs</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Not fully open-source (closed-source with free tier)</li>
+<li>Registration required to use Essentials edition</li>
+</ul>
+</li>
+<li>🔗 <a href="https://www.tenable.com/products/nessus/nessus-essentials" target="_blank" rel="noopener noreferrer">https://www.tenable.com/products/nessus/nessus-essentials</a></li>
+</ul><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-3-faraday-community-edition">🥉 3. <strong>Faraday Community Edition</strong><a href="#-3-faraday-community-edition" class="hash-link" aria-label="Direct link to -3-faraday-community-edition" title="Direct link to -3-faraday-community-edition">​</a></h3><blockquote>
+<p>A vulnerability management platform that aggregates findings from multiple scanners.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Centralizes results from OpenVAS, Nmap, Burp, Nikto, etc.</li>
+<li>Risk-based dashboards and tagging</li>
+<li>Great for teams to track findings and assign remediation</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Community edition lacks reporting and automation</li>
+<li>Setup is heavier compared to standalone scanners</li>
+</ul>
+</li>
+<li>🔗 <a href="https://github.com/infobyte/faraday" target="_blank" rel="noopener noreferrer">https://github.com/infobyte/faraday</a></li>
+</ul><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-4-owasp-zap-zed-attack-proxy">🌐 4. <strong>OWASP ZAP (Zed Attack Proxy)</strong><a href="#-4-owasp-zap-zed-attack-proxy" class="hash-link" aria-label="Direct link to -4-owasp-zap-zed-attack-proxy" title="Direct link to -4-owasp-zap-zed-attack-proxy">​</a></h3><blockquote>
+<p>A full-featured DAST (Dynamic Application Security Testing) tool for web apps.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Proxy-based web app scanning</li>
+<li>Finds common vulns: XSS, SQLi, CSRF, insecure headers</li>
+<li>Active/passive scan modes, fuzzing, spidering</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Only useful for web targets (not infra)</li>
+<li>May require manual configuration for best results</li>
+</ul>
+</li>
+<li>🔗 <a href="https://www.zaproxy.org" target="_blank" rel="noopener noreferrer">https://www.zaproxy.org</a></li>
+</ul><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-5-nuclei">⚡ 5. <strong>Nuclei</strong><a href="#-5-nuclei" class="hash-link" aria-label="Direct link to -5-nuclei" title="Direct link to -5-nuclei">​</a></h3><blockquote>
+<p>Lightning-fast web scanning framework using YAML templates.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Ideal for bug bounty and automation (CI/CD pipelines)</li>
+<li>Large library of community templates (CVE, misconfig, takeover, etc.)</li>
+<li>Easily customizable, scriptable with CLI</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>No GUI</li>
+<li>Doesn’t scan infrastructure or OS vulnerabilities</li>
+</ul>
+</li>
+<li>🔗 <a href="https://github.com/projectdiscovery/nuclei" target="_blank" rel="noopener noreferrer">https://github.com/projectdiscovery/nuclei</a></li>
+</ul><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-6-nikto">🧪 6. <strong>Nikto</strong><a href="#-6-nikto" class="hash-link" aria-label="Direct link to -6-nikto" title="Direct link to -6-nikto">​</a></h3><blockquote>
+<p>Lightweight web server scanner focused on known issues and misconfigurations.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Easy to run on any Linux machine</li>
+<li>Detects outdated server software, insecure headers, dangerous files</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Outdated interface, no dashboard</li>
+<li>Higher false-positive rate than modern tools</li>
+</ul>
+</li>
+<li>🔗 <a href="https://github.com/sullo/nikto" target="_blank" rel="noopener noreferrer">https://github.com/sullo/nikto</a></li>
+</ul><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-7-owasp-amass">🧠 7. <strong>OWASP Amass</strong><a href="#-7-owasp-amass" class="hash-link" aria-label="Direct link to -7-owasp-amass" title="Direct link to -7-owasp-amass">​</a></h3><blockquote>
+<p>Asset discovery and external attack surface mapping tool.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Performs subdomain enumeration, DNS bruteforce, passive recon</li>
+<li>Supports graph export and external integrations</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Doesn’t scan for vulnerabilities itself — just discovers assets</li>
+<li>CLI-only</li>
+</ul>
+</li>
+<li>🔗 <a href="https://owasp.org/www-project-amass" target="_blank" rel="noopener noreferrer">https://owasp.org/www-project-amass</a></li>
+</ul></div></div></details>
+<hr>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🔐 Identity &amp; Access Management (IAM)</summary><div><div class="collapsibleContent_i85q"><p>Open-source identity providers and access management tools used for authentication, SSO, and secure identity workflows.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-1-keycloak">🥇 1. <strong>Keycloak</strong><a href="#-1-keycloak" class="hash-link" aria-label="Direct link to -1-keycloak" title="Direct link to -1-keycloak">​</a></h3><blockquote>
+<p>Enterprise-grade IAM platform by Red Hat.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Full support for SSO, OAuth2, OpenID Connect, LDAP, SCIM, MFA</li>
+<li>RBAC, client app management, identity brokering</li>
+<li>Admin UI and CLI tools</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Heavy (Java-based), complex setup</li>
+<li>May be overkill for small-scale use</li>
+</ul>
+</li>
+<li>🔗 <a href="https://www.keycloak.org" target="_blank" rel="noopener noreferrer">https://www.keycloak.org</a></li>
+</ul><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-2-authentik">🥈 2. <strong>Authentik</strong><a href="#-2-authentik" class="hash-link" aria-label="Direct link to -2-authentik" title="Direct link to -2-authentik">​</a></h3><blockquote>
+<p>Lightweight, modern IAM platform written in Python.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>OAuth2, SAML, LDAP, SCIM, WebAuthn</li>
+<li>Clean admin UI, Docker-based easy setup</li>
+<li>Great for self-hosted environments and teams</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Smaller ecosystem compared to Keycloak</li>
+<li>Less fine-grained control in advanced use cases</li>
+</ul>
+</li>
+<li>🔗 <a href="https://goauthentik.io" target="_blank" rel="noopener noreferrer">https://goauthentik.io</a></li>
+</ul><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-3-ory-stack-kratos-hydra-keto">🥉 3. <strong>Ory Stack</strong> (Kratos, Hydra, Keto)<a href="#-3-ory-stack-kratos-hydra-keto" class="hash-link" aria-label="Direct link to -3-ory-stack-kratos-hydra-keto" title="Direct link to -3-ory-stack-kratos-hydra-keto">​</a></h3><blockquote>
+<p>API-first modular IAM framework.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Split architecture: Identity (Kratos), OAuth2 (Hydra), RBAC (Keto)</li>
+<li>Scalable, ideal for microservices &amp; headless setups</li>
+<li>Written in Go with modern REST APIs</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Steeper learning curve</li>
+<li>No built-in UI (headless only)</li>
+</ul>
+</li>
+<li>🔗 <a href="https://www.ory.sh" target="_blank" rel="noopener noreferrer">https://www.ory.sh</a></li>
+</ul></div></div></details>
+<hr>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🧭 GRC &amp; Policy Management</summary><div><div class="collapsibleContent_i85q"><p>Open-source tools that help organizations manage governance, risk assessments, compliance requirements, and security policies.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-1-ciso-assistant-community-edition">🥇 1. <strong>CISO Assistant (Community Edition)</strong><a href="#-1-ciso-assistant-community-edition" class="hash-link" aria-label="Direct link to -1-ciso-assistant-community-edition" title="Direct link to -1-ciso-assistant-community-edition">​</a></h3><blockquote>
+<p>Comprehensive GRC platform supporting over 80 frameworks.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Covers Risk, AppSec, Compliance/Audit Management, and Privacy.</li>
+<li>Supports frameworks like NIST CSF, ISO 27001, SOC2, CIS, PCI DSS, GDPR, HIPAA, and more.</li>
+<li>Features include auto-mapping, multilingual support, and a modern UI.</li>
+<li>Built with Django and SvelteKit; offers Docker deployment.</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Some advanced features are part of the commercial editions.</li>
+<li>May have a steeper learning curve for beginners.</li>
+</ul>
+</li>
+<li>🔗 <a href="https://github.com/intuitem/ciso-assistant-community" target="_blank" rel="noopener noreferrer">https://github.com/intuitem/ciso-assistant-community</a></li>
+</ul><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-2-eramba-community-edition">🥈 2. <strong>Eramba (Community Edition)</strong><a href="#-2-eramba-community-edition" class="hash-link" aria-label="Direct link to -2-eramba-community-edition" title="Direct link to -2-eramba-community-edition">​</a></h3><blockquote>
+<p>Enterprise-grade GRC platform with a free community version.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Risk assessment, policy review, compliance mapping.</li>
+<li>Audit workflows, awareness programs.</li>
+<li>Custom controls and reporting.</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Community edition lacks some automation features.</li>
+<li>UI is a bit dated.</li>
+</ul>
+</li>
+<li>🔗 <a href="https://www.eramba.org" target="_blank" rel="noopener noreferrer">https://www.eramba.org</a></li>
+</ul><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-3-opengrc--opencontrol">🥉 3. <strong>OpenGRC / OpenControl</strong><a href="#-3-opengrc--opencontrol" class="hash-link" aria-label="Direct link to -3-opengrc--opencontrol" title="Direct link to -3-opengrc--opencontrol">​</a></h3><blockquote>
+<p>Lightweight framework to document controls and compliance.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Markdown/YAML-based documentation for security controls.</li>
+<li>Integrates well with version control (Git).</li>
+<li>Used in modern DevSecOps workflows.</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Not a full dashboard/platform.</li>
+<li>No UI – mainly for engineers and compliance teams.</li>
+</ul>
+</li>
+<li>🔗 <a href="https://open-control.org" target="_blank" rel="noopener noreferrer">https://open-control.org</a></li>
+</ul><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-4-gapps">🏅 4. <strong>Gapps</strong><a href="#-4-gapps" class="hash-link" aria-label="Direct link to -4-gapps" title="Direct link to -4-gapps">​</a></h3><blockquote>
+<p>Security compliance platform focusing on tracking progress against various frameworks.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Supports frameworks like SOC2, NIST CSF, ISO27001, HIPAA, and more.</li>
+<li>Features include control tracking, policy management, and vendor questionnaires.</li>
+<li>Docker-based deployment with a user-friendly interface.</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Currently in Alpha mode; not recommended for production use.</li>
+<li>Limited community support compared to other tools.</li>
+</ul>
+</li>
+<li>🔗 <a href="https://github.com/bmarsh9/gapps" target="_blank" rel="noopener noreferrer">https://github.com/bmarsh9/gapps</a></li>
+</ul></div></div></details>
+<hr>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🔐 Secrets Management</summary><div><div class="collapsibleContent_i85q"><p>Tools that help securely store, manage, and access secrets like passwords, API keys, and certificates in infrastructure, DevOps, and production environments.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-1-hashicorp-vault">🥇 1. <strong>HashiCorp Vault</strong><a href="#-1-hashicorp-vault" class="hash-link" aria-label="Direct link to -1-hashicorp-vault" title="Direct link to -1-hashicorp-vault">​</a></h3><blockquote>
+<p>Industry-standard tool for storing and accessing secrets with fine-grained access control.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Dynamic secrets, leases, revocation</li>
+<li>Identity-based access, audit logs</li>
+<li>Supports K/V, AWS, databases, SSH secrets</li>
+<li>CLI, API, and UI available</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Complex initial setup</li>
+<li>Requires good infrastructure planning</li>
+</ul>
+</li>
+<li>🔗 <a href="https://www.vaultproject.io" target="_blank" rel="noopener noreferrer">https://www.vaultproject.io</a></li>
+</ul><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-2-infisical">🥈 2. <strong>Infisical</strong><a href="#-2-infisical" class="hash-link" aria-label="Direct link to -2-infisical" title="Direct link to -2-infisical">​</a></h3><blockquote>
+<p>Open-source secrets management platform with a modern UI and developer-friendly features.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Secrets versioning, rotation, and point-in-time recovery</li>
+<li>Integrations with GitHub, Vercel, AWS, Terraform, Ansible</li>
+<li>Kubernetes operator and CLI support</li>
+<li>Internal PKI and SSH certificate management</li>
+<li>Self-hostable with MIT license</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Some enterprise features require a paid license</li>
+</ul>
+</li>
+<li>🔗 <a href="https://infisical.com" target="_blank" rel="noopener noreferrer">https://infisical.com</a></li>
+</ul><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-3-cyberark-conjur-open-source">🥉 3. <strong>CyberArk Conjur (Open Source)</strong><a href="#-3-cyberark-conjur-open-source" class="hash-link" aria-label="Direct link to -3-cyberark-conjur-open-source" title="Direct link to -3-cyberark-conjur-open-source">​</a></h3><blockquote>
+<p>Enterprise-grade secrets manager focused on DevOps and containerized environments.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Fine-grained RBAC and policy control</li>
+<li>Strong Kubernetes &amp; CI/CD integration</li>
+<li>REST APIs and secure auditing</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Documentation can be overwhelming</li>
+<li>Active community, but less than Vault</li>
+</ul>
+</li>
+<li>🔗 <a href="https://www.conjur.org" target="_blank" rel="noopener noreferrer">https://www.conjur.org</a></li>
+</ul></div></div></details>
+<hr>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🛡️ Privileged Access Management (PAM)</summary><div><div class="collapsibleContent_i85q"><p>Privileged Access Management (PAM) tools are designed to control, monitor, and audit the access of users with elevated (admin/root) privileges. These tools help reduce attack surface, enforce access control, and meet compliance requirements.</p><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-1-teleport">🥇 1. <strong>Teleport</strong><a href="#-1-teleport" class="hash-link" aria-label="Direct link to -1-teleport" title="Direct link to -1-teleport">​</a></h3><blockquote>
+<p>Modern, open-source Zero Trust PAM for SSH, Kubernetes, RDP, and databases.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Role-based access (RBAC), session recording, audit logs</li>
+<li>Supports certificate-based short-lived access tokens</li>
+<li>Works with Kubernetes, DBs, apps, SSH/RDP</li>
+<li>SSO integration (OIDC, SAML, GitHub, Okta, etc.)</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Some enterprise features are paid</li>
+<li>Requires infrastructure planning</li>
+</ul>
+</li>
+<li>🔗 <a href="https://goteleport.com" target="_blank" rel="noopener noreferrer">https://goteleport.com</a></li>
+</ul><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-2-jumpserver">🥈 2. <strong>JumpServer</strong><a href="#-2-jumpserver" class="hash-link" aria-label="Direct link to -2-jumpserver" title="Direct link to -2-jumpserver">​</a></h3><blockquote>
+<p>Fully open-source PAM platform built for enterprise environments.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Supports SSH, RDP, K8s, DB, WebApps</li>
+<li>Web UI for access requests, session recording, and auditing</li>
+<li>LDAP/AD integration, RBAC, MFA, and asset management</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>UI is mostly in Chinese by default (can be translated)</li>
+<li>Heavier setup compared to lightweight solutions</li>
+</ul>
+</li>
+<li>🔗 <a href="https://www.jumpserver.org" target="_blank" rel="noopener noreferrer">https://www.jumpserver.org</a></li>
+</ul><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-3-pritunl-zero">🥉 3. <strong>Pritunl Zero</strong><a href="#-3-pritunl-zero" class="hash-link" aria-label="Direct link to -3-pritunl-zero" title="Direct link to -3-pritunl-zero">​</a></h3><blockquote>
+<p>Zero Trust Access Gateway with focus on SSH and web apps.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Simple reverse proxy model with strong authentication</li>
+<li>Certificate-based SSH access with web login approval</li>
+<li>LDAP and SSO integration support</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Less feature-rich compared to full PAM platforms</li>
+<li>Mainly focused on HTTP and SSH, lacks full vault or session granularity</li>
+</ul>
+</li>
+<li>🔗 <a href="https://pritunl.com/zero" target="_blank" rel="noopener noreferrer">https://pritunl.com/zero</a></li>
+</ul></div></div></details>
+<hr>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>💾 Backup &amp; Disaster Recovery</summary><div><div class="collapsibleContent_i85q"><p>Open-source tools to back up data, systems, and virtual environments securely with options for incremental backups, deduplication, and remote/offsite recovery.</p><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-1-urbackup">🥇 1. <strong>UrBackup</strong><a href="#-1-urbackup" class="hash-link" aria-label="Direct link to -1-urbackup" title="Direct link to -1-urbackup">​</a></h3><blockquote>
+<p>Client/Server-based easy-to-use backup system for images and files.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Supports both <strong>image-level</strong> and <strong>file-level</strong> backups</li>
+<li>Web interface for managing clients and scheduling</li>
+<li>Works on Windows, Linux, macOS</li>
+<li>Incremental backups, deduplication, compression</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Not designed for enterprise multi-tenant environments</li>
+</ul>
+</li>
+<li>🔗 <a href="https://www.urbackup.org" target="_blank" rel="noopener noreferrer">https://www.urbackup.org</a></li>
+</ul><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-2-borgbackup-borg">🥈 2. <strong>BorgBackup (Borg)</strong><a href="#-2-borgbackup-borg" class="hash-link" aria-label="Direct link to -2-borgbackup-borg" title="Direct link to -2-borgbackup-borg">​</a></h3><blockquote>
+<p>Deduplicating, encrypted backup program for Linux/Unix systems.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Secure backups with built-in encryption</li>
+<li>Excellent deduplication and compression</li>
+<li>CLI-driven, great for scripting and automation</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>No native web UI (community-built frontends available)</li>
+<li>Focused mainly on advanced users (DevOps, sysadmins)</li>
+</ul>
+</li>
+<li>🔗 <a href="https://www.borgbackup.org" target="_blank" rel="noopener noreferrer">https://www.borgbackup.org</a></li>
+</ul><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-3-restic">🥉 3. <strong>Restic</strong><a href="#-3-restic" class="hash-link" aria-label="Direct link to -3-restic" title="Direct link to -3-restic">​</a></h3><blockquote>
+<p>Fast, secure, and efficient backup tool written in Go.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Cross-platform support (Linux, macOS, Windows)</li>
+<li>Snapshot-based, versioned backups</li>
+<li>Encrypted, deduplicated, simple CLI</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Does not support image/system-level backups (file-level only)</li>
+</ul>
+</li>
+<li>🔗 <a href="https://restic.net" target="_blank" rel="noopener noreferrer">https://restic.net</a></li>
+</ul></div></div></details>
+<hr>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🧠 Threat Intelligence</summary><div><div class="collapsibleContent_i85q"><p>Open-source threat intelligence platforms help collect, analyze, and share indicators of compromise (IOCs), threat actor data, and TTPs (Tactics, Techniques, and Procedures). These tools improve situational awareness and enable proactive defense.</p><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-1-opencti">🥇 1. <strong>OpenCTI</strong><a href="#-1-opencti" class="hash-link" aria-label="Direct link to -1-opencti" title="Direct link to -1-opencti">​</a></h3><blockquote>
+<p>Cyber threat intelligence platform with structured data, ATT&amp;CK support, and API-driven automation.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Full support for <strong>MITRE ATT&amp;CK</strong> framework</li>
+<li>Advanced data modeling and relationship mapping</li>
+<li>REST API and connector-based architecture for automation</li>
+<li>Supports STIX 2.1 and TAXII protocols</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Complex deployment (requires Elasticsearch, Redis, RabbitMQ)</li>
+<li>Can be resource-intensive</li>
+</ul>
+</li>
+<li>🔗 <a href="https://www.opencti.io" target="_blank" rel="noopener noreferrer">https://www.opencti.io</a></li>
+</ul><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-2-misp-malware-information-sharing-platform">🥈 2. <strong>MISP (Malware Information Sharing Platform)</strong><a href="#-2-misp-malware-information-sharing-platform" class="hash-link" aria-label="Direct link to -2-misp-malware-information-sharing-platform" title="Direct link to -2-misp-malware-information-sharing-platform">​</a></h3><blockquote>
+<p>Open-source platform to share, store, and correlate IOCs and threat information.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Built-in support for <strong>IOC correlation and enrichment</strong></li>
+<li>Extensive sharing capabilities (MISP-to-MISP sync)</li>
+<li>Community-driven with many integrations (OSINT feeds, etc.)</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>UI is less modern compared to newer platforms</li>
+<li>Configuration may be time-consuming for advanced use cases</li>
+</ul>
+</li>
+<li>🔗 <a href="https://www.misp-project.org" target="_blank" rel="noopener noreferrer">https://www.misp-project.org</a></li>
+</ul><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-3-yeti-your-everyday-threat-intelligence">🥉 3. <strong>YETI (Your Everyday Threat Intelligence)</strong><a href="#-3-yeti-your-everyday-threat-intelligence" class="hash-link" aria-label="Direct link to -3-yeti-your-everyday-threat-intelligence" title="Direct link to -3-yeti-your-everyday-threat-intelligence">​</a></h3><blockquote>
+<p>Lightweight threat intelligence platform to track indicators, actors, and malware.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Easy to deploy and manage</li>
+<li>Includes integrations for enrichment (e.g., VirusTotal, MISP)</li>
+<li>Visualizes relationships between observables and threats</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Smaller community and slower development</li>
+<li>Fewer enterprise features compared to OpenCTI or MISP</li>
+</ul>
+</li>
+<li>🔗 <a href="https://github.com/yeti-platform/yeti" target="_blank" rel="noopener noreferrer">https://github.com/yeti-platform/yeti</a></li>
+</ul></div></div></details>
+<hr>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🔐 2FA / MFA / OTP Solutions</summary><div><div class="collapsibleContent_i85q"><p>Multi-Factor Authentication (MFA) tools enhance login security by requiring additional verification steps (such as time-based OTPs, push notifications, or biometric checks). These open-source solutions provide secure 2FA/MFA capabilities for your applications and infrastructure.</p><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-1-authelia">🥇 1. <strong>Authelia</strong><a href="#-1-authelia" class="hash-link" aria-label="Direct link to -1-authelia" title="Direct link to -1-authelia">​</a></h3><blockquote>
+<p>An open-source authentication and authorization server providing 2FA, SSO, and secure access control.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Full-featured MFA support (TOTP, Duo, WebAuthn)</li>
+<li>Reverse-proxy compatible (NGINX, Traefik)</li>
+<li>LDAP, SAML, and OpenID Connect (OIDC) integrations</li>
+<li>User portal with 2FA enrollment and recovery options</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Requires reverse proxy setup and initial YAML configuration</li>
+<li>Better suited for DevOps/admin users</li>
+</ul>
+</li>
+<li>🔗 <a href="https://www.authelia.com" target="_blank" rel="noopener noreferrer">https://www.authelia.com</a></li>
+</ul><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-2-privacyidea">🥈 2. <strong>PrivacyIDEA</strong><a href="#-2-privacyidea" class="hash-link" aria-label="Direct link to -2-privacyidea" title="Direct link to -2-privacyidea">​</a></h3><blockquote>
+<p>A flexible authentication system supporting OTP tokens, push-based MFA, and various integrations.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Supports wide range of token types (TOTP, HOTP, U2F, Push)</li>
+<li>Integrates with FreeRADIUS, SAML, LDAP, and more</li>
+<li>Web-based admin and user interfaces</li>
+<li>Suitable for enterprise environments</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Requires Python environment and separate components (e.g., RADIUS server) for full setup</li>
+</ul>
+</li>
+<li>🔗 <a href="https://www.privacyidea.org" target="_blank" rel="noopener noreferrer">https://www.privacyidea.org</a></li>
+</ul><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-3-keycloak">🥉 3. <strong>Keycloak</strong><a href="#-3-keycloak" class="hash-link" aria-label="Direct link to -3-keycloak" title="Direct link to -3-keycloak">​</a></h3><blockquote>
+<p>Identity and access management solution with built-in MFA support.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Native support for TOTP-based 2FA</li>
+<li>SSO, Identity Brokering, and Role-Based Access Control</li>
+<li>Extensible with custom authentication flows</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Heavyweight: requires Java environment and more resources</li>
+<li>Complex UI and initial learning curve</li>
+</ul>
+</li>
+<li>🔗 <a href="https://www.keycloak.org" target="_blank" rel="noopener noreferrer">https://www.keycloak.org</a></li>
+</ul></div></div></details>
+<hr>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>☁️ Secure File Sharing &amp; Cloud</summary><div><div class="collapsibleContent_i85q"><p>Open-source file sharing and self-hosted cloud storage tools that prioritize privacy, encryption, and secure collaboration. Ideal for teams, enterprises, or individuals looking to retain full control over their data.</p><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-1-nextcloud">🥇 1. <strong>Nextcloud</strong><a href="#-1-nextcloud" class="hash-link" aria-label="Direct link to -1-nextcloud" title="Direct link to -1-nextcloud">​</a></h3><blockquote>
+<p>A self-hosted collaboration and file sharing platform with end-to-end encryption.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Secure file sync and share with <strong>E2EE</strong> (End-to-End Encryption)</li>
+<li>Built-in apps for calendar, contacts, chat, video calls, and document editing</li>
+<li>LDAP/SSO integration, MFA support</li>
+<li>Strong community and plugin ecosystem</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Requires careful tuning for performance at scale</li>
+<li>Can be resource-intensive on large deployments</li>
+</ul>
+</li>
+<li>🔗 <a href="https://nextcloud.com" target="_blank" rel="noopener noreferrer">https://nextcloud.com</a></li>
+</ul><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-2-seafile">🥈 2. <strong>Seafile</strong><a href="#-2-seafile" class="hash-link" aria-label="Direct link to -2-seafile" title="Direct link to -2-seafile">​</a></h3><blockquote>
+<p>High-performance file hosting platform focused on reliability and speed.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Fast syncing even for large files and repos</li>
+<li>Optional end-to-end encryption per library</li>
+<li>Desktop, mobile, and web clients available</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Fewer built-in collaboration tools compared to Nextcloud</li>
+<li>Some advanced features require the Pro edition</li>
+</ul>
+</li>
+<li>🔗 <a href="https://www.seafile.com" target="_blank" rel="noopener noreferrer">https://www.seafile.com</a></li>
+</ul><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-3-onionshare">🥉 3. <strong>OnionShare</strong><a href="#-3-onionshare" class="hash-link" aria-label="Direct link to -3-onionshare" title="Direct link to -3-onionshare">​</a></h3><blockquote>
+<p>Anonymous and secure file sharing over the Tor network.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Peer-to-peer file sharing without any server</li>
+<li>Uses Tor hidden services for anonymity</li>
+<li>Simple GUI and CLI tools available</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Depends on both sender and receiver running OnionShare or accessing via Tor Browser</li>
+<li>Not designed for large-scale or long-term storage</li>
+</ul>
+</li>
+<li>🔗 <a href="https://onionshare.org" target="_blank" rel="noopener noreferrer">https://onionshare.org</a></li>
+</ul></div></div></details>
+<hr>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🎯 Phishing Simulation</summary><div><div class="collapsibleContent_i85q"><p>Security awareness and phishing simulation tools help educate users and test their response to real-world phishing attacks. These open-source platforms are ideal for building a security culture through training, simulated phishing emails, and reporting.</p><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-1-gophish">🥇 1. <strong>GoPhish</strong><a href="#-1-gophish" class="hash-link" aria-label="Direct link to -1-gophish" title="Direct link to -1-gophish">​</a></h3><blockquote>
+<p>Powerful open-source phishing simulation framework with tracking and reporting.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Create and send realistic phishing campaigns</li>
+<li>Tracks email opens, clicks, and credentials entered</li>
+<li>Web UI for campaign management</li>
+<li>REST API for automation</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>No built-in awareness training modules</li>
+<li>Requires email server setup and domain configuration</li>
+</ul>
+</li>
+<li>🔗 <a href="https://getgophish.com" target="_blank" rel="noopener noreferrer">https://getgophish.com</a></li>
+</ul><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-2-king-phisher">🥈 2. <strong>King Phisher</strong><a href="#-2-king-phisher" class="hash-link" aria-label="Direct link to -2-king-phisher" title="Direct link to -2-king-phisher">​</a></h3><blockquote>
+<p>Phishing campaign toolkit with support for social engineering testing and metrics collection.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Supports templated email and web landing pages</li>
+<li>Tracks credentials, location, browser info</li>
+<li>Integrates with SPF/DKIM/DMARC configs</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Requires client + server setup (Python-based)</li>
+<li>Setup slightly more complex than GoPhish</li>
+</ul>
+</li>
+<li>🔗 <a href="https://github.com/securestate/king-phisher" target="_blank" rel="noopener noreferrer">https://github.com/securestate/king-phisher</a></li>
+</ul><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-3-lucy-community-edition">🥉 3. <strong>Lucy Community Edition</strong><a href="#-3-lucy-community-edition" class="hash-link" aria-label="Direct link to -3-lucy-community-edition" title="Direct link to -3-lucy-community-edition">​</a></h3><blockquote>
+<p>Awareness training and phishing simulation suite with LMS-like features (limited in free version).</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Combines phishing tests with user training modules</li>
+<li>Templates, videos, quizzes, and reports</li>
+<li>Includes learning management system (LMS)</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Free version has limited features (no full automation)</li>
+<li>UI is a bit outdated</li>
+</ul>
+</li>
+<li>🔗 <a href="https://lucysecurity.com" target="_blank" rel="noopener noreferrer">https://lucysecurity.com</a></li>
+</ul></div></div></details>
+<hr>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🎮 Attack Simulation &amp; Adversary Emulation</summary><div><div class="collapsibleContent_i85q"><p>These platforms simulate real-world attack behaviors to test detection, response, and resilience. They are ideal for adversary emulation, purple teaming, and validating defensive controls such as EDRs and SIEMs.</p><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-1-atomic-red-team">🥇 1. <strong>Atomic Red Team</strong><a href="#-1-atomic-red-team" class="hash-link" aria-label="Direct link to -1-atomic-red-team" title="Direct link to -1-atomic-red-team">​</a></h3><blockquote>
+<p>A collection of simple, open-source tests mapped to MITRE ATT&amp;CK techniques.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Based on MITRE ATT&amp;CK techniques</li>
+<li>No agent required – runs via PowerShell, Bash, etc.</li>
+<li>YAML-based for easy customization and automation</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>No built-in visual interface (CLI or third-party integration needed)</li>
+<li>Requires external logging/SIEM to correlate test results</li>
+</ul>
+</li>
+<li>🔗 <a href="https://github.com/redcanaryco/atomic-red-team" target="_blank" rel="noopener noreferrer">https://github.com/redcanaryco/atomic-red-team</a></li>
+</ul><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-2-caldera-by-mitre">🥈 2. <strong>Caldera (by MITRE)</strong><a href="#-2-caldera-by-mitre" class="hash-link" aria-label="Direct link to -2-caldera-by-mitre" title="Direct link to -2-caldera-by-mitre">​</a></h3><blockquote>
+<p>Automated adversary emulation system supporting custom plugins and operations.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Agent-based simulation for Windows, Linux, and macOS</li>
+<li>Built-in adversary profiles for realistic attack chains</li>
+<li>Intuitive web UI and REST API</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Requires operational setup and basic red team knowledge</li>
+<li>Agents may be flagged by AV/EDR solutions</li>
+</ul>
+</li>
+<li>🔗 <a href="https://github.com/mitre/caldera" target="_blank" rel="noopener noreferrer">https://github.com/mitre/caldera</a></li>
+</ul><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-3-sliver-c2-framework">🥉 3. <strong>Sliver (C2 Framework)</strong><a href="#-3-sliver-c2-framework" class="hash-link" aria-label="Direct link to -3-sliver-c2-framework" title="Direct link to -3-sliver-c2-framework">​</a></h3><blockquote>
+<p>Cross-platform, modern Command &amp; Control framework built for adversary simulation.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Supports HTTP/S, DNS, and mTLS communication</li>
+<li>Includes operator-friendly shell, staging, and payload customization</li>
+<li>Collaboration-ready for red team operations</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Needs advanced OpSec practices for safe testing</li>
+<li>Detection by modern EDRs is common without proper evasion</li>
+</ul>
+</li>
+<li>🔗 <a href="https://github.com/BishopFox/sliver" target="_blank" rel="noopener noreferrer">https://github.com/BishopFox/sliver</a></li>
+</ul><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-4-aptsimulator">🔢 4. <strong>APTSimulator</strong><a href="#-4-aptsimulator" class="hash-link" aria-label="Direct link to -4-aptsimulator" title="Direct link to -4-aptsimulator">​</a></h3><blockquote>
+<p>Windows batch script to simulate APT-style attack behaviors for detection testing.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Easy to execute, lightweight, and no compilation required</li>
+<li>Simulates known APT actions and artifacts (e.g., registry, services)</li>
+<li>Good for AV/EDR and correlation rule validation</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Windows-only</li>
+<li>Does not execute real exploits — mainly artifact simulation</li>
+</ul>
+</li>
+<li>🔗 <a href="https://github.com/NextronSystems/APTSimulator" target="_blank" rel="noopener noreferrer">https://github.com/NextronSystems/APTSimulator</a></li>
+</ul><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-5-red-team-automation-rta">🔢 5. <strong>Red Team Automation (RTA)</strong><a href="#-5-red-team-automation-rta" class="hash-link" aria-label="Direct link to -5-red-team-automation-rta" title="Direct link to -5-red-team-automation-rta">​</a></h3><blockquote>
+<p>A framework for testing security analytics and detection content using Windows attack emulation.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Simulates real-world attack techniques via prebuilt scripts</li>
+<li>Includes scenarios for process injection, LOLBins, persistence, etc.</li>
+<li>Very useful for testing SIEM rules (Elastic, Splunk, etc.)</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Not a full-fledged C2 — purely simulation-focused</li>
+<li>Limited in scope to detection use-cases</li>
+</ul>
+</li>
+<li>🔗 <a href="https://github.com/endgameinc/RTA" target="_blank" rel="noopener noreferrer">https://github.com/endgameinc/RTA</a></li>
+</ul><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="️-bonus-other-notables">⚔️ Bonus: <strong>Other Notables</strong><a href="#️-bonus-other-notables" class="hash-link" aria-label="Direct link to ️-bonus-other-notables" title="Direct link to ️-bonus-other-notables">​</a></h3><ul>
+<li>
+<p>🐒 <strong>Infection Monkey</strong> — Internal lateral movement and network resilience testing<br>
+<!-- -->🔗 <a href="https://github.com/guardicore/monkey" target="_blank" rel="noopener noreferrer">https://github.com/guardicore/monkey</a></p>
+</li>
+<li>
+<p>🧪 <strong>Prelude Operator</strong> — Lightweight adversary emulation with custom chains<br>
+<!-- -->🔗 <a href="https://www.prelude.org" target="_blank" rel="noopener noreferrer">https://www.prelude.org</a></p>
+</li>
+</ul></div></div></details>
+<hr>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>📦 Container, Image &amp; Kubernetes Security</summary><div><div class="collapsibleContent_i85q"><p>Secure containerized workloads through every phase: from image build to runtime protection and compliance auditing.</p><hr><h4 class="anchor anchorWithStickyNavbar_LWe7" id="-pre-deployment">🔧 Pre-Deployment<a href="#-pre-deployment" class="hash-link" aria-label="Direct link to 🔧 Pre-Deployment" title="Direct link to 🔧 Pre-Deployment">​</a></h4><blockquote>
+<p>Scan and harden container images <strong>before deployment</strong>.</p>
+</blockquote><ul>
+<li><strong>🔍 Trivy</strong> — Scan container images, OS packages, IaC, and source code for vulnerabilities.</li>
+<li><strong>🛡️ Kyverno</strong> — Enforce policies for container security (e.g., block privileged containers, require labels, etc.).</li>
+</ul><hr><h4 class="anchor anchorWithStickyNavbar_LWe7" id="-runtime-protection">🧠 Runtime Protection<a href="#-runtime-protection" class="hash-link" aria-label="Direct link to 🧠 Runtime Protection" title="Direct link to 🧠 Runtime Protection">​</a></h4><blockquote>
+<p>Detect and respond to threats <strong>while containers are running</strong>.</p>
+</blockquote><ul>
+<li><strong>📉 Falco</strong> — Monitor Kubernetes and container behavior in real-time, generate alerts based on suspicious syscalls and activity.</li>
+<li><strong>🛑 KubeArmor</strong> — Apply runtime security policies to <strong>block unauthorized behavior</strong> (e.g., file access, network connections).</li>
+</ul><hr><h4 class="anchor anchorWithStickyNavbar_LWe7" id="-compliance--posture">📋 Compliance &amp; Posture<a href="#-compliance--posture" class="hash-link" aria-label="Direct link to 📋 Compliance &amp; Posture" title="Direct link to 📋 Compliance &amp; Posture">​</a></h4><blockquote>
+<p>Audit Kubernetes environments for security <strong>best practices and benchmarks</strong>.</p>
+</blockquote><ul>
+<li><strong>✅ kube-bench</strong> — Check compliance with the CIS Kubernetes benchmark.</li>
+<li><strong>🚀 Starboard</strong> — Integrates scanners like Trivy and kube-bench into Kubernetes CRDs for continuous posture visibility.</li>
+</ul></div></div></details>
+<hr>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🧪 SAST, DAST, IAST &amp; SBOM (AppSec Testing)</summary><div><div class="collapsibleContent_i85q"><p>Open-source tools for testing application security throughout the development lifecycle — from static code analysis to dynamic scanning and software composition visibility.</p><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-static-application-security-testing-sast">🔐 Static Application Security Testing (SAST)<a href="#-static-application-security-testing-sast" class="hash-link" aria-label="Direct link to 🔐 Static Application Security Testing (SAST)" title="Direct link to 🔐 Static Application Security Testing (SAST)">​</a></h3><h4 class="anchor anchorWithStickyNavbar_LWe7" id="-1-semgrep">🥇 1. <strong>Semgrep</strong><a href="#-1-semgrep" class="hash-link" aria-label="Direct link to -1-semgrep" title="Direct link to -1-semgrep">​</a></h4><blockquote>
+<p>Lightweight, fast, and developer-friendly static code analyzer.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Language-aware rules written in YAML</li>
+<li>Fast scans and easy CI/CD integration</li>
+<li>Extensive community ruleset and custom rule support</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Requires custom rules for deep, app-specific logic</li>
+<li>Lacks deep taint analysis like commercial tools</li>
+</ul>
+</li>
+<li>🔗 <a href="https://semgrep.dev" target="_blank" rel="noopener noreferrer">https://semgrep.dev</a></li>
+</ul><h4 class="anchor anchorWithStickyNavbar_LWe7" id="-2-sonarqube-community-edition">🥈 2. <strong>SonarQube Community Edition</strong><a href="#-2-sonarqube-community-edition" class="hash-link" aria-label="Direct link to -2-sonarqube-community-edition" title="Direct link to -2-sonarqube-community-edition">​</a></h4><blockquote>
+<p>Code quality and vulnerability detection across multiple languages.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Supports Java, Python, JavaScript, C#, and more</li>
+<li>Detects code smells, bugs, and basic security issues</li>
+<li>Has a rich web-based dashboard for browsing findings</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Advanced security rules require commercial edition</li>
+<li>Setup can be resource-intensive for large projects</li>
+</ul>
+</li>
+<li>🔗 <a href="https://www.sonarqube.org" target="_blank" rel="noopener noreferrer">https://www.sonarqube.org</a></li>
+</ul><h4 class="anchor anchorWithStickyNavbar_LWe7" id="-3-codeql">🥉 3. <strong>CodeQL</strong><a href="#-3-codeql" class="hash-link" aria-label="Direct link to -3-codeql" title="Direct link to -3-codeql">​</a></h4><blockquote>
+<p>Query-based semantic code analysis by GitHub Security Lab.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Enables writing custom queries in QL language</li>
+<li>Integrates with GitHub Actions for automation</li>
+<li>Powerful for finding complex logic vulnerabilities</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Learning curve for QL language and query writing</li>
+<li>Resource-intensive analysis for large codebases</li>
+</ul>
+</li>
+<li>🔗 <a href="https://codeql.github.com" target="_blank" rel="noopener noreferrer">https://codeql.github.com</a></li>
+</ul><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-dynamic-application-security-testing-dast">🌐 Dynamic Application Security Testing (DAST)<a href="#-dynamic-application-security-testing-dast" class="hash-link" aria-label="Direct link to 🌐 Dynamic Application Security Testing (DAST)" title="Direct link to 🌐 Dynamic Application Security Testing (DAST)">​</a></h3><h4 class="anchor anchorWithStickyNavbar_LWe7" id="-1-owasp-zap-zed-attack-proxy">🥇 1. <strong>OWASP ZAP (Zed Attack Proxy)</strong><a href="#-1-owasp-zap-zed-attack-proxy" class="hash-link" aria-label="Direct link to -1-owasp-zap-zed-attack-proxy" title="Direct link to -1-owasp-zap-zed-attack-proxy">​</a></h4><blockquote>
+<p>Full-featured web application scanner with active and passive modes.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Spidering, fuzzing, authentication, and session support</li>
+<li>CLI and GUI modes suitable for automation or manual testing</li>
+<li>Large plugin ecosystem and active community</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Can produce false positives if misconfigured</li>
+<li>Requires manual tuning for complex apps</li>
+</ul>
+</li>
+<li>🔗 <a href="https://www.zaproxy.org" target="_blank" rel="noopener noreferrer">https://www.zaproxy.org</a></li>
+</ul><h4 class="anchor anchorWithStickyNavbar_LWe7" id="-2-nikto">🥈 2. <strong>Nikto</strong><a href="#-2-nikto" class="hash-link" aria-label="Direct link to -2-nikto" title="Direct link to -2-nikto">​</a></h4><blockquote>
+<p>Lightweight command-line web server scanner.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Scans for outdated server software and misconfigs</li>
+<li>Simple CLI usage and fast execution</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Not comprehensive for app-layer vulnerabilities</li>
+<li>Output may require manual parsing</li>
+</ul>
+</li>
+<li>🔗 <a href="https://github.com/sullo/nikto" target="_blank" rel="noopener noreferrer">https://github.com/sullo/nikto</a></li>
+</ul><h4 class="anchor anchorWithStickyNavbar_LWe7" id="-3-arachni-archived">🥉 3. <strong>Arachni</strong> (archived)<a href="#-3-arachni-archived" class="hash-link" aria-label="Direct link to -3-arachni-archived" title="Direct link to -3-arachni-archived">​</a></h4><blockquote>
+<p>Modular and high-performance web app scanner.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Includes browser simulation, session handling, and plugin architecture</li>
+<li>Supports JavaScript-heavy web apps</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>No longer actively maintained</li>
+<li>May have compatibility issues with newer systems</li>
+</ul>
+</li>
+<li>🔗 <a href="https://github.com/Arachni/arachni" target="_blank" rel="noopener noreferrer">https://github.com/Arachni/arachni</a></li>
+</ul><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="️-interactive-application-security-testing-iast">⚙️ Interactive Application Security Testing (IAST)<a href="#️-interactive-application-security-testing-iast" class="hash-link" aria-label="Direct link to ⚙️ Interactive Application Security Testing (IAST)" title="Direct link to ⚙️ Interactive Application Security Testing (IAST)">​</a></h3><h4 class="anchor anchorWithStickyNavbar_LWe7" id="-1-appsensor-owasp">🥇 1. <strong>AppSensor (OWASP)</strong><a href="#-1-appsensor-owasp" class="hash-link" aria-label="Direct link to -1-appsensor-owasp" title="Direct link to -1-appsensor-owasp">​</a></h4><blockquote>
+<p>In-app attack detection and real-time response system.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Detects attacks such as XSS, SQLi, brute-force from inside the app</li>
+<li>Language-agnostic via API integration</li>
+<li>Real-time rule engine and configurable detection points</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Requires code-level instrumentation</li>
+<li>Integration effort depends on app complexity</li>
+</ul>
+</li>
+<li>🔗 <a href="https://owasp.org/www-project-appsensor" target="_blank" rel="noopener noreferrer">https://owasp.org/www-project-appsensor</a></li>
+</ul><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-software-bill-of-materials-sbom">🧾 Software Bill of Materials (SBOM)<a href="#-software-bill-of-materials-sbom" class="hash-link" aria-label="Direct link to 🧾 Software Bill of Materials (SBOM)" title="Direct link to 🧾 Software Bill of Materials (SBOM)">​</a></h3><h4 class="anchor anchorWithStickyNavbar_LWe7" id="-1-syft-by-anchore">🥇 1. <strong>Syft (by Anchore)</strong><a href="#-1-syft-by-anchore" class="hash-link" aria-label="Direct link to -1-syft-by-anchore" title="Direct link to -1-syft-by-anchore">​</a></h4><blockquote>
+<p>Generates detailed SBOMs from containers and filesystems.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Supports SPDX, CycloneDX, JSON formats</li>
+<li>Works with OCI images, Dockerfiles, directories</li>
+<li>Easily pairs with Grype for vulnerability scanning</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Purely metadata-focused, no scanning on its own</li>
+</ul>
+</li>
+<li>🔗 <a href="https://github.com/anchore/syft" target="_blank" rel="noopener noreferrer">https://github.com/anchore/syft</a></li>
+</ul><h4 class="anchor anchorWithStickyNavbar_LWe7" id="-2-cyclonedx-cli">🥈 2. <strong>CycloneDX CLI</strong><a href="#-2-cyclonedx-cli" class="hash-link" aria-label="Direct link to -2-cyclonedx-cli" title="Direct link to -2-cyclonedx-cli">​</a></h4><blockquote>
+<p>CLI tool to create and validate CycloneDX SBOMs.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Standards-compliant SBOM generation and merging</li>
+<li>Validates integrity of SBOM files</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Needs to be combined with scanners for full coverage</li>
+</ul>
+</li>
+<li>🔗 <a href="https://github.com/CycloneDX/cyclonedx-cli" target="_blank" rel="noopener noreferrer">https://github.com/CycloneDX/cyclonedx-cli</a></li>
+</ul><h4 class="anchor anchorWithStickyNavbar_LWe7" id="-3-tern">🥉 3. <strong>Tern</strong><a href="#-3-tern" class="hash-link" aria-label="Direct link to -3-tern" title="Direct link to -3-tern">​</a></h4><blockquote>
+<p>Inspects container images to produce SBOMs.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Tailored for Docker and OCI image layers</li>
+<li>Outputs SPDX and JSON formats</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Primarily focused on package metadata extraction</li>
+</ul>
+</li>
+<li>🔗 <a href="https://github.com/tern-tools/tern" target="_blank" rel="noopener noreferrer">https://github.com/tern-tools/tern</a></li>
+</ul></div></div></details>
+<hr>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🧪 Malware Analysis &amp; Sandboxing</summary><div><div class="collapsibleContent_i85q"><p>Open-source malware analysis and sandboxing solutions allow you to safely execute, monitor, and analyze suspicious files or binaries in isolated environments. These tools are essential for reverse engineering, threat research, and detecting evasive malware behaviors.</p><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-1-cuckoo-sandbox">🥇 1. <strong>Cuckoo Sandbox</strong><a href="#-1-cuckoo-sandbox" class="hash-link" aria-label="Direct link to -1-cuckoo-sandbox" title="Direct link to -1-cuckoo-sandbox">​</a></h3><blockquote>
+<p>One of the most popular open-source automated malware analysis systems.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Analyzes PE files, Office docs, PDFs, emails, and URLs</li>
+<li>Produces detailed reports (API calls, dropped files, network activity)</li>
+<li>Supports Windows, Linux, Android VM guests</li>
+<li>Extensible via plugins (e.g., YARA, Suricata)</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Setup is complex (especially with networking and virtualization)</li>
+<li>Project is no longer actively maintained (but widely used)</li>
+</ul>
+</li>
+<li>🔗 <a href="https://github.com/cuckoosandbox/cuckoo" target="_blank" rel="noopener noreferrer">https://github.com/cuckoosandbox/cuckoo</a></li>
+</ul><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-2-capev2-cuckoo-fork">🥈 2. <strong>CAPEv2 (Cuckoo fork)</strong><a href="#-2-capev2-cuckoo-fork" class="hash-link" aria-label="Direct link to -2-capev2-cuckoo-fork" title="Direct link to -2-capev2-cuckoo-fork">​</a></h3><blockquote>
+<p>A modern fork of Cuckoo with active development and advanced capabilities.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Supports shellcode, scripts, and process injection analysis</li>
+<li>Improved behavioral analysis, YARA rule scanning</li>
+<li>Community-driven and maintained</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Same setup complexity as Cuckoo (network, VMs, agents)</li>
+<li>Requires hardware or nested virtualization</li>
+</ul>
+</li>
+<li>🔗 <a href="https://github.com/kevoreilly/CAPEv2" target="_blank" rel="noopener noreferrer">https://github.com/kevoreilly/CAPEv2</a></li>
+</ul><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-3-intelowl">🥉 3. <strong>IntelOwl</strong><a href="#-3-intelowl" class="hash-link" aria-label="Direct link to -3-intelowl" title="Direct link to -3-intelowl">​</a></h3><blockquote>
+<p>A modular threat intelligence and malware analysis orchestrator.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Aggregates results from many tools (YARA, strings, VT, whois, etc.)</li>
+<li>Ideal for enrichment and IOC triage</li>
+<li>REST API for integration with SIEM/SOAR</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Not a sandbox — more for passive and static analysis</li>
+<li>Setup requires multiple containers and APIs</li>
+</ul>
+</li>
+<li>🔗 <a href="https://github.com/intelowlproject/IntelOwl" target="_blank" rel="noopener noreferrer">https://github.com/intelowlproject/IntelOwl</a></li>
+</ul><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-4-maltrail">🔢 4. <strong>Maltrail</strong><a href="#-4-maltrail" class="hash-link" aria-label="Direct link to -4-maltrail" title="Direct link to -4-maltrail">​</a></h3><blockquote>
+<p>Network-based detection system for malicious traffic and suspicious domain usage.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Detects botnets, C2 traffic, DNS anomalies</li>
+<li>Lightweight and runs passively on mirrored interfaces</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Not a full sandbox — focuses on network-level behavior</li>
+</ul>
+</li>
+<li>🔗 <a href="https://github.com/stamparm/maltrail" target="_blank" rel="noopener noreferrer">https://github.com/stamparm/maltrail</a></li>
+</ul><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-5-threatpinch-lookup-browser-extension">🔢 5. <strong>ThreatPinch Lookup (Browser Extension)</strong><a href="#-5-threatpinch-lookup-browser-extension" class="hash-link" aria-label="Direct link to -5-threatpinch-lookup-browser-extension" title="Direct link to -5-threatpinch-lookup-browser-extension">​</a></h3><blockquote>
+<p>Lightweight threat intel lookup tool for analysts.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Allows analysts to right-click on hashes, domains, IPs in browser and auto-search</li>
+<li>Integrates with VirusTotal, AbuseIPDB, etc.</li>
+</ul>
+</li>
+<li>❌ <strong>Cons</strong>:<!-- -->
+<ul>
+<li>Not a sandbox or analysis engine — just enrichment aid</li>
+</ul>
+</li>
+<li>🔗 <a href="https://github.com/cloudtracer/ThreatPinchLookup" target="_blank" rel="noopener noreferrer">https://github.com/cloudtracer/ThreatPinchLookup</a></li>
+</ul></div></div></details>
+<hr>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>📂 Other IT Solutions (Self-Hosted &amp; Open-Source)</summary><div><div class="collapsibleContent_i85q"><p>A curated list of open-source, self-hosted IT solutions for general-purpose use across organizations. These tools cover secure internal communication, document handling, CRM, note-taking, remote control, and low-code data systems.</p><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-self-hosted-communication-platforms">📢 Self-Hosted Communication Platforms<a href="#-self-hosted-communication-platforms" class="hash-link" aria-label="Direct link to 📢 Self-Hosted Communication Platforms" title="Direct link to 📢 Self-Hosted Communication Platforms">​</a></h3><h4 class="anchor anchorWithStickyNavbar_LWe7" id="-1-mattermost">🥇 1. <strong>Mattermost</strong><a href="#-1-mattermost" class="hash-link" aria-label="Direct link to -1-mattermost" title="Direct link to -1-mattermost">​</a></h4><blockquote>
+<p>Open-source Slack alternative for team messaging and collaboration.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Channels, threads, integrations, mobile apps</li>
+<li>Secure and enterprise-friendly</li>
+<li>Can be deployed on-prem or in private cloud</li>
+</ul>
+</li>
+<li>🔗 <a href="https://mattermost.com" target="_blank" rel="noopener noreferrer">https://mattermost.com</a></li>
+</ul><h4 class="anchor anchorWithStickyNavbar_LWe7" id="-2-rocketchat">🥈 2. <strong>Rocket.Chat</strong><a href="#-2-rocketchat" class="hash-link" aria-label="Direct link to -2-rocketchat" title="Direct link to -2-rocketchat">​</a></h4><blockquote>
+<p>Customizable team chat platform with federation support.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Voice/video calls, guest access, bots</li>
+<li>Federation and bridging (Matrix, Slack, etc.)</li>
+<li>Advanced role and permission management</li>
+</ul>
+</li>
+<li>🔗 <a href="https://rocket.chat" target="_blank" rel="noopener noreferrer">https://rocket.chat</a></li>
+</ul><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-self-hosted-documentpdf-management">📄 Self-Hosted Document/PDF Management<a href="#-self-hosted-documentpdf-management" class="hash-link" aria-label="Direct link to 📄 Self-Hosted Document/PDF Management" title="Direct link to 📄 Self-Hosted Document/PDF Management">​</a></h3><h4 class="anchor anchorWithStickyNavbar_LWe7" id="-3-stirling-pdf">🥇 3. <strong>Stirling PDF</strong><a href="#-3-stirling-pdf" class="hash-link" aria-label="Direct link to -3-stirling-pdf" title="Direct link to -3-stirling-pdf">​</a></h4><blockquote>
+<p>Powerful web-based PDF toolkit with modern UI.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Merge, split, compress, rotate, convert PDFs</li>
+<li>All operations run locally for privacy</li>
+</ul>
+</li>
+<li>🔗 <a href="https://github.com/Stirling-Tools/Stirling-PDF" target="_blank" rel="noopener noreferrer">https://github.com/Stirling-Tools/Stirling-PDF</a></li>
+</ul><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-self-hosted-crm--business-tools">📆 Self-Hosted CRM &amp; Business Tools<a href="#-self-hosted-crm--business-tools" class="hash-link" aria-label="Direct link to 📆 Self-Hosted CRM &amp; Business Tools" title="Direct link to 📆 Self-Hosted CRM &amp; Business Tools">​</a></h3><h4 class="anchor anchorWithStickyNavbar_LWe7" id="-4-twentycrm-by-twentyhq">🥇 4. <strong>TwentyCRM (by TwentyHQ)</strong><a href="#-4-twentycrm-by-twentyhq" class="hash-link" aria-label="Direct link to -4-twentycrm-by-twentyhq" title="Direct link to -4-twentycrm-by-twentyhq">​</a></h4><blockquote>
+<p>Modern, open-source CRM system.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Deal tracking, contacts, workflows, email integration</li>
+<li>Sleek React frontend + Elixir backend</li>
+</ul>
+</li>
+<li>🔗 <a href="https://github.com/twentyhq/twenty" target="_blank" rel="noopener noreferrer">https://github.com/twentyhq/twenty</a></li>
+</ul><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-knowledge--collaboration-platforms">📋 Knowledge &amp; Collaboration Platforms<a href="#-knowledge--collaboration-platforms" class="hash-link" aria-label="Direct link to 📋 Knowledge &amp; Collaboration Platforms" title="Direct link to 📋 Knowledge &amp; Collaboration Platforms">​</a></h3><h4 class="anchor anchorWithStickyNavbar_LWe7" id="-5-affine">🥇 5. <strong>AFFiNE</strong><a href="#-5-affine" class="hash-link" aria-label="Direct link to -5-affine" title="Direct link to -5-affine">​</a></h4><blockquote>
+<p>Open-source Notion/Obsidian alternative for docs, tasks, and whiteboarding.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Markdown editor, kanban boards, whiteboard canvas</li>
+<li>Local-first, collaborative, offline support</li>
+</ul>
+</li>
+<li>🔗 <a href="https://github.com/toeverything/AFFiNE" target="_blank" rel="noopener noreferrer">https://github.com/toeverything/AFFiNE</a></li>
+</ul><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-remote-access--screen-control">🚀 Remote Access &amp; Screen Control<a href="#-remote-access--screen-control" class="hash-link" aria-label="Direct link to 🚀 Remote Access &amp; Screen Control" title="Direct link to 🚀 Remote Access &amp; Screen Control">​</a></h3><h4 class="anchor anchorWithStickyNavbar_LWe7" id="-6-rustdesk">🥇 6. <strong>RustDesk</strong><a href="#-6-rustdesk" class="hash-link" aria-label="Direct link to -6-rustdesk" title="Direct link to -6-rustdesk">​</a></h4><blockquote>
+<p>Self-hosted TeamViewer/AnyDesk alternative for remote desktop control.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>End-to-end encryption</li>
+<li>Supports NAT traversal and relay server setup</li>
+<li>Cross-platform desktop and mobile support</li>
+</ul>
+</li>
+<li>🔗 <a href="https://rustdesk.com" target="_blank" rel="noopener noreferrer">https://rustdesk.com</a></li>
+</ul><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="-internal-app-building--data-platforms">📊 Internal App Building &amp; Data Platforms<a href="#-internal-app-building--data-platforms" class="hash-link" aria-label="Direct link to 📊 Internal App Building &amp; Data Platforms" title="Direct link to 📊 Internal App Building &amp; Data Platforms">​</a></h3><h4 class="anchor anchorWithStickyNavbar_LWe7" id="-7-nocobase">🥇 7. <strong>NocoBase</strong><a href="#-7-nocobase" class="hash-link" aria-label="Direct link to -7-nocobase" title="Direct link to -7-nocobase">​</a></h4><blockquote>
+<p>Open-source low-code platform to build internal tools and workflows.</p>
+</blockquote><ul>
+<li>✅ <strong>Pros</strong>:<!-- -->
+<ul>
+<li>Visual database designer, access control, API builder</li>
+<li>Suitable for CRM, CMS, and dashboards</li>
+<li>Plugin-based and extensible</li>
+</ul>
+</li>
+<li>🔗 <a href="https://github.com/nocobase/nocobase" target="_blank" rel="noopener noreferrer">https://github.com/nocobase/nocobase</a></li>
+</ul></div></div></details>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-conclusion">🔚 Conclusion<a href="#-conclusion" class="hash-link" aria-label="Direct link to 🔚 Conclusion" title="Direct link to 🔚 Conclusion">​</a></h2>
+<p>Open-source is not a shortcut — it’s a mindset. With the right planning, even a 0-budget startup can build a solid defense system.</p></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col"><a href="https://github.com/farzaliyevemil/infoseclessons/edit/main/docs/general-security/open-source.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/infoseclessons/risk-management"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">risk-management</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/infoseclessons/applocker"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">What is AppLocker?</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#-1-glpi" class="table-of-contents__link toc-highlight">🥇 1. <strong>GLPI</strong></a></li><li><a href="#-2-snipe-it" class="table-of-contents__link toc-highlight">🥈 2. <strong>Snipe-IT</strong></a></li><li><a href="#-3-netbox" class="table-of-contents__link toc-highlight">🥉 3. <strong>NetBox</strong></a></li><li><a href="#-1-opnsense--pfsense" class="table-of-contents__link toc-highlight">🥇 1. <strong>OPNsense / pfSense</strong></a></li><li><a href="#-2-suricata" class="table-of-contents__link toc-highlight">🥈 2. <strong>Suricata</strong></a></li><li><a href="#-3-zeek-formerly-bro" class="table-of-contents__link toc-highlight">🥉 3. <strong>Zeek (formerly Bro)</strong></a></li><li><a href="#-4-snort" class="table-of-contents__link toc-highlight">🏅 4. <strong>Snort</strong></a></li><li><a href="#-1-wazuh" class="table-of-contents__link toc-highlight">🥇 1. <strong>Wazuh</strong></a></li><li><a href="#-2-ossec" class="table-of-contents__link toc-highlight">🥈 2. <strong>OSSEC+</strong></a></li><li><a href="#-3-ossec" class="table-of-contents__link toc-highlight">🥉 3. <strong>OSSEC</strong></a></li><li><a href="#-1-elk-stack-elasticsearch-logstash-kibana" class="table-of-contents__link toc-highlight">🥇 1. <strong>ELK Stack (Elasticsearch, Logstash, Kibana)</strong></a></li><li><a href="#-2-wazuh" class="table-of-contents__link toc-highlight">🥈 2. <strong>Wazuh</strong></a></li><li><a href="#-3-ossec-1" class="table-of-contents__link toc-highlight">🥉 3. <strong>OSSEC+</strong></a></li><li><a href="#-1-rspamd" class="table-of-contents__link toc-highlight">🥇 1. <strong>Rspamd</strong></a></li><li><a href="#-2-mailcow" class="table-of-contents__link toc-highlight">🥈 2. <strong>Mailcow</strong></a></li><li><a href="#-3-proxmox-mail-gateway" class="table-of-contents__link toc-highlight">🥉 3. <strong>Proxmox Mail Gateway</strong></a></li><li><a href="#-1-zabbix" class="table-of-contents__link toc-highlight">🥇 1. <strong>Zabbix</strong></a></li><li><a href="#-2-prometheus--grafana" class="table-of-contents__link toc-highlight">🥈 2. <strong>Prometheus + Grafana</strong></a></li><li><a href="#-3-uptime-kuma" class="table-of-contents__link toc-highlight">🥉 3. <strong>Uptime Kuma</strong></a></li><li><a href="#-1-vaultwarden-bitwarden-compatible" class="table-of-contents__link toc-highlight">🥇 1. <strong>Vaultwarden</strong> (Bitwarden-compatible)</a></li><li><a href="#-2-passbolt" class="table-of-contents__link toc-highlight">🥈 2. <strong>Passbolt</strong></a></li><li><a href="#-3-psono" class="table-of-contents__link toc-highlight">🥉 3. <strong>Psono</strong></a></li><li><a href="#-1-openvas--greenbone-community-edition" class="table-of-contents__link toc-highlight">🥇 1. <strong>OpenVAS / Greenbone Community Edition</strong></a></li><li><a href="#-2-nessus-essentials" class="table-of-contents__link toc-highlight">🥈 2. <strong>Nessus Essentials</strong></a></li><li><a href="#-3-faraday-community-edition" class="table-of-contents__link toc-highlight">🥉 3. <strong>Faraday Community Edition</strong></a></li><li><a href="#-4-owasp-zap-zed-attack-proxy" class="table-of-contents__link toc-highlight">🌐 4. <strong>OWASP ZAP (Zed Attack Proxy)</strong></a></li><li><a href="#-5-nuclei" class="table-of-contents__link toc-highlight">⚡ 5. <strong>Nuclei</strong></a></li><li><a href="#-6-nikto" class="table-of-contents__link toc-highlight">🧪 6. <strong>Nikto</strong></a></li><li><a href="#-7-owasp-amass" class="table-of-contents__link toc-highlight">🧠 7. <strong>OWASP Amass</strong></a></li><li><a href="#-1-keycloak" class="table-of-contents__link toc-highlight">🥇 1. <strong>Keycloak</strong></a></li><li><a href="#-2-authentik" class="table-of-contents__link toc-highlight">🥈 2. <strong>Authentik</strong></a></li><li><a href="#-3-ory-stack-kratos-hydra-keto" class="table-of-contents__link toc-highlight">🥉 3. <strong>Ory Stack</strong> (Kratos, Hydra, Keto)</a></li><li><a href="#-1-ciso-assistant-community-edition" class="table-of-contents__link toc-highlight">🥇 1. <strong>CISO Assistant (Community Edition)</strong></a></li><li><a href="#-2-eramba-community-edition" class="table-of-contents__link toc-highlight">🥈 2. <strong>Eramba (Community Edition)</strong></a></li><li><a href="#-3-opengrc--opencontrol" class="table-of-contents__link toc-highlight">🥉 3. <strong>OpenGRC / OpenControl</strong></a></li><li><a href="#-4-gapps" class="table-of-contents__link toc-highlight">🏅 4. <strong>Gapps</strong></a></li><li><a href="#-1-hashicorp-vault" class="table-of-contents__link toc-highlight">🥇 1. <strong>HashiCorp Vault</strong></a></li><li><a href="#-2-infisical" class="table-of-contents__link toc-highlight">🥈 2. <strong>Infisical</strong></a></li><li><a href="#-3-cyberark-conjur-open-source" class="table-of-contents__link toc-highlight">🥉 3. <strong>CyberArk Conjur (Open Source)</strong></a></li><li><a href="#-1-teleport" class="table-of-contents__link toc-highlight">🥇 1. <strong>Teleport</strong></a></li><li><a href="#-2-jumpserver" class="table-of-contents__link toc-highlight">🥈 2. <strong>JumpServer</strong></a></li><li><a href="#-3-pritunl-zero" class="table-of-contents__link toc-highlight">🥉 3. <strong>Pritunl Zero</strong></a></li><li><a href="#-1-urbackup" class="table-of-contents__link toc-highlight">🥇 1. <strong>UrBackup</strong></a></li><li><a href="#-2-borgbackup-borg" class="table-of-contents__link toc-highlight">🥈 2. <strong>BorgBackup (Borg)</strong></a></li><li><a href="#-3-restic" class="table-of-contents__link toc-highlight">🥉 3. <strong>Restic</strong></a></li><li><a href="#-1-opencti" class="table-of-contents__link toc-highlight">🥇 1. <strong>OpenCTI</strong></a></li><li><a href="#-2-misp-malware-information-sharing-platform" class="table-of-contents__link toc-highlight">🥈 2. <strong>MISP (Malware Information Sharing Platform)</strong></a></li><li><a href="#-3-yeti-your-everyday-threat-intelligence" class="table-of-contents__link toc-highlight">🥉 3. <strong>YETI (Your Everyday Threat Intelligence)</strong></a></li><li><a href="#-1-authelia" class="table-of-contents__link toc-highlight">🥇 1. <strong>Authelia</strong></a></li><li><a href="#-2-privacyidea" class="table-of-contents__link toc-highlight">🥈 2. <strong>PrivacyIDEA</strong></a></li><li><a href="#-3-keycloak" class="table-of-contents__link toc-highlight">🥉 3. <strong>Keycloak</strong></a></li><li><a href="#-1-nextcloud" class="table-of-contents__link toc-highlight">🥇 1. <strong>Nextcloud</strong></a></li><li><a href="#-2-seafile" class="table-of-contents__link toc-highlight">🥈 2. <strong>Seafile</strong></a></li><li><a href="#-3-onionshare" class="table-of-contents__link toc-highlight">🥉 3. <strong>OnionShare</strong></a></li><li><a href="#-1-gophish" class="table-of-contents__link toc-highlight">🥇 1. <strong>GoPhish</strong></a></li><li><a href="#-2-king-phisher" class="table-of-contents__link toc-highlight">🥈 2. <strong>King Phisher</strong></a></li><li><a href="#-3-lucy-community-edition" class="table-of-contents__link toc-highlight">🥉 3. <strong>Lucy Community Edition</strong></a></li><li><a href="#-1-atomic-red-team" class="table-of-contents__link toc-highlight">🥇 1. <strong>Atomic Red Team</strong></a></li><li><a href="#-2-caldera-by-mitre" class="table-of-contents__link toc-highlight">🥈 2. <strong>Caldera (by MITRE)</strong></a></li><li><a href="#-3-sliver-c2-framework" class="table-of-contents__link toc-highlight">🥉 3. <strong>Sliver (C2 Framework)</strong></a></li><li><a href="#-4-aptsimulator" class="table-of-contents__link toc-highlight">🔢 4. <strong>APTSimulator</strong></a></li><li><a href="#-5-red-team-automation-rta" class="table-of-contents__link toc-highlight">🔢 5. <strong>Red Team Automation (RTA)</strong></a></li><li><a href="#️-bonus-other-notables" class="table-of-contents__link toc-highlight">⚔️ Bonus: <strong>Other Notables</strong></a></li><li><a href="#-static-application-security-testing-sast" class="table-of-contents__link toc-highlight">🔐 Static Application Security Testing (SAST)</a></li><li><a href="#-dynamic-application-security-testing-dast" class="table-of-contents__link toc-highlight">🌐 Dynamic Application Security Testing (DAST)</a></li><li><a href="#️-interactive-application-security-testing-iast" class="table-of-contents__link toc-highlight">⚙️ Interactive Application Security Testing (IAST)</a></li><li><a href="#-software-bill-of-materials-sbom" class="table-of-contents__link toc-highlight">🧾 Software Bill of Materials (SBOM)</a></li><li><a href="#-1-cuckoo-sandbox" class="table-of-contents__link toc-highlight">🥇 1. <strong>Cuckoo Sandbox</strong></a></li><li><a href="#-2-capev2-cuckoo-fork" class="table-of-contents__link toc-highlight">🥈 2. <strong>CAPEv2 (Cuckoo fork)</strong></a></li><li><a href="#-3-intelowl" class="table-of-contents__link toc-highlight">🥉 3. <strong>IntelOwl</strong></a></li><li><a href="#-4-maltrail" class="table-of-contents__link toc-highlight">🔢 4. <strong>Maltrail</strong></a></li><li><a href="#-5-threatpinch-lookup-browser-extension" class="table-of-contents__link toc-highlight">🔢 5. <strong>ThreatPinch Lookup (Browser Extension)</strong></a></li><li><a href="#-self-hosted-communication-platforms" class="table-of-contents__link toc-highlight">📢 Self-Hosted Communication Platforms</a></li><li><a href="#-self-hosted-documentpdf-management" class="table-of-contents__link toc-highlight">📄 Self-Hosted Document/PDF Management</a></li><li><a href="#-self-hosted-crm--business-tools" class="table-of-contents__link toc-highlight">📆 Self-Hosted CRM &amp; Business Tools</a></li><li><a href="#-knowledge--collaboration-platforms" class="table-of-contents__link toc-highlight">📋 Knowledge &amp; Collaboration Platforms</a></li><li><a href="#-remote-access--screen-control" class="table-of-contents__link toc-highlight">🚀 Remote Access &amp; Screen Control</a></li><li><a href="#-internal-app-building--data-platforms" class="table-of-contents__link toc-highlight">📊 Internal App Building &amp; Data Platforms</a></li><li><a href="#-conclusion" class="table-of-contents__link toc-highlight">🔚 Conclusion</a></li></ul></div></div></div></div></main></div></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2025 Emil Farzaliyev.</div></div></div></footer></div>
+</body>
+</html>
