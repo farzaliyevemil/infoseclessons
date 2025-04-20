@@ -1,4 +1,0 @@
----
-slug: /risk-management
----
-
