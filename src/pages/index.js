@@ -5,19 +5,6 @@ import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import styles from './index.module.css';
 
-export default function RedirectToIntro() {
-  const history = useHistory();
-  const { withBaseUrl } = useBaseUrlUtils();
-  const { i18n } = useDocusaurusContext();
-
-  useEffect(() => {
-    const target = i18n.currentLocale === 'az' ? withBaseUrl('/az/intro') : withBaseUrl('/intro');
-    history.replace(target);
-  }, [i18n.currentLocale]);
-
-  return null;
-}
-
 export function Home() {
   return (
     <Layout
