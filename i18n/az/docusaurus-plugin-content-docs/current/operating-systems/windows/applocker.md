@@ -2,7 +2,7 @@
 id: applocker
 title: AppLocker Nədir?
 description: Windows AppLocker ilə tətbiqlərin işləməsinə nəzarət etmə qaydası.
-slug: applocker
+slug: /applocker
 ---
 
 # 🧱 AppLocker Nədir?

@@ -7,7 +7,7 @@ export default function About() {
       <main className="container margin-vert--lg">
         <h1>About InfoSec Lessons</h1>
         <p>
-          <strong>InfoSec Lessons</strong> is a self-hosted educational platform created by <strong>Emil Farzaliyev</strong>, an Information Security Engineer and instructor.
+          <strong>InfoSec Lessons</strong> is an online and offline self-hosted educational platform created by <strong>Emil Farzaliyev</strong>, an Information Security Engineer and instructor.
         </p>
         <p>
           I actively work in the cybersecurity field, with hands-on experience in governance, red/blue teaming, and teaching students through workshops and university-level courses.
