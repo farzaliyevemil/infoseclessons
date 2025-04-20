@@ -63,8 +63,8 @@ const config = {
         src: 'img/shield.png',
       },
       items: [
-        { to: '/intro', label: 'Start / Başla', position: 'left' },
-        { to: '/about', label: 'About / Haqqında', position: 'left' },
+        { to: '/intro', label: 'Start', position: 'left' },
+        { to: '/about', label: 'About', position: 'left' },
         {
           type: 'localeDropdown',
           position: 'right',

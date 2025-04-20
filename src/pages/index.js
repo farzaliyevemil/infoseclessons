@@ -1,11 +1,26 @@
-
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useHistory } from '@docusaurus/router';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import styles from './index.module.css';
 
-export default function Home() {
+export default function RedirectToIntro() {
+  const history = useHistory();
+  const { i18n } = useDocusaurusContext();
+
+  useEffect(() => {
+    if (i18n.currentLocale === 'az') {
+      history.replace('/az/intro');
+    } else {
+      history.replace('/intro');
+    }
+  }, [i18n.currentLocale]);
+
+  return null;
+}
+
+export function Home() {
   const { i18n } = useDocusaurusContext();
   const locale = i18n.currentLocale;
 
