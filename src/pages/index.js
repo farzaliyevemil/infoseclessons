@@ -1,11 +1,9 @@
-import React, { useEffect } from 'react';
-import { useHistory, useBaseUrlUtils } from '@docusaurus/router';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import React from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import styles from './index.module.css';
 
-export function Home() {
+export default function Home() {
   return (
     <Layout
       title="InfoSec Lessons – Learn Cybersecurity"
