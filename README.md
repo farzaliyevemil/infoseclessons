@@ -1,6 +1,6 @@
 # 🌐 InfoSec Lessons
 
-This website is built using **[Docusaurus](https://docusaurus.io/)** and serves as a platform for cybersecurity tutorials, articles, and learning resources. The content covers areas such as **Blue Teaming**, **Red Teaming**, **GRC**, and foundational IT knowledge.
+This platform for cybersecurity tutorials, articles, and learning resources. The content covers areas such as **Blue Teaming**, **Red Teaming**, **GRC**, and foundational IT knowledge.
 
 ---
 
