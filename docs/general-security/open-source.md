@@ -1338,6 +1338,130 @@ Open-source malware analysis and sandboxing solutions allow you to safely execut
 
 
 <details>
+<summary>🛡️ Network Access Control (NAC)</summary>
+
+Solutions that help enforce security policies by controlling device access to network resources based on identity, compliance, and posture.
+
+### 🥇 1. **PacketFence**
+> A feature-rich open-source NAC system for BYOD, guest management, and endpoint control.
+
+- ✅ **Pros**:
+  - Supports 802.1X, inline enforcement, and VLAN isolation
+  - Captive portal for guest access
+  - Integration with RADIUS, LDAP, Active Directory
+  - Asset and compliance enforcement
+- ❌ **Cons**:
+  - Complex to deploy and manage
+  - Requires understanding of network infrastructure (switches, VLANs, etc.)
+- 🔗 [https://packetfence.org](https://packetfence.org)
+
+---
+
+### 🥈 2. **OpenNAC**
+> Modular network access control framework.
+
+- ✅ **Pros**:
+  - Designed for extensibility and modularity
+  - Works with various authentication backends
+  - Web-based dashboard
+- ❌ **Cons**:
+  - Less mature community and documentation
+  - Fewer built-in integrations
+- 🔗 [https://opennac.org](https://opennac.org)
+
+---
+
+### 🥉 3. **FreeRADIUS + Custom Scripts**
+> Lightweight and flexible DIY NAC approach.
+
+- ✅ **Pros**:
+  - Full control over logic and policy enforcement
+  - Extremely lightweight
+  - Integrates with LDAP/AD, MySQL, and scripting
+- ❌ **Cons**:
+  - Requires custom development and network expertise
+  - No central management UI by default
+- 🔗 [https://freeradius.org](https://freeradius.org)
+
+</details>
+
+
+
+---
+
+
+<details>
+<summary>🛡️ Web Application Firewalls (WAF)</summary>
+
+Top open-source Web Application Firewall (WAF) solutions used to protect web applications against various attacks.
+
+### 🥇 1. **SafeLine**
+> An open-source WAF that operates as a reverse proxy and uses intelligent semantic analysis algorithms.
+
+- ✅ **Pros**:
+  - Functions as a reverse proxy
+  - Detects attacks using semantic analysis
+  - Actively used and supported by the community
+- ❌ **Cons**:
+  - Advanced configuration might be difficult for some users
+- 🔗 [https://github.com/chaitin/safeline](https://github.com/chaitin/safeline)
+
+---
+
+### 🥈 2. **ModSecurity**
+> One of the most well-known open-source WAFs. Comes with a powerful ruleset but requires configuration for full use.
+
+- ✅ **Pros**:
+  - Extendable with OWASP rulesets
+  - Compatible with Apache, NGINX, and IIS
+- ❌ **Cons**:
+  - Installation and rule configuration require technical knowledge
+- 🔗 [https://github.com/SpiderLabs/ModSecurity](https://github.com/SpiderLabs/ModSecurity)
+
+---
+
+### 🥉 3. **Awesome-WAF**
+> A curated list of open-source and commercial WAFs, as well as related tools and resources.
+
+- ✅ **Pros**:
+  - Extensive resource list for WAF solutions
+  - Great reference for various scenarios
+- ❌ **Cons**:
+  - Not a WAF tool itself, rather a research/resource list
+- 🔗 [https://github.com/0xInfection/Awesome-WAF](https://github.com/0xInfection/Awesome-WAF)
+
+---
+
+### 🏅 4. **BunkerWeb**
+> A modern WAF designed to secure web services by default.
+
+- ✅ **Pros**:
+  - Compatible with Docker, Linux, and Kubernetes
+  - Provides strong default security out of the box
+- ❌ **Cons**:
+  - Less widely adopted, limited documentation
+- 🔗 [https://github.com/bunkerity/bunkerweb](https://github.com/bunkerity/bunkerweb)
+
+---
+
+### 🔍 5. **wafw00f**
+> A tool for detecting and fingerprinting WAFs — mostly used for pentesting and assessment.
+
+- ✅ **Pros**:
+  - Capable of identifying various WAF technologies
+  - Popular among penetration testers
+- ❌ **Cons**:
+  - Not designed for protection; analysis only
+- 🔗 [https://github.com/EnableSecurity/wafw00f](https://github.com/EnableSecurity/wafw00f)
+
+</details>
+
+
+
+---
+
+
+<details>
 <summary>📂 Other IT Solutions (Self-Hosted & Open-Source)</summary>
 
 A curated list of open-source, self-hosted IT solutions for general-purpose use across organizations. These tools cover secure internal communication, document handling, CRM, note-taking, remote control, and low-code data systems.
@@ -1428,7 +1552,7 @@ A curated list of open-source, self-hosted IT solutions for general-purpose use 
 
 </details>
 
-
+---
 
 
 ## 🔚 Conclusion

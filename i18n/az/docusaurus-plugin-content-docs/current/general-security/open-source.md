@@ -1316,6 +1316,126 @@ Zərərli proqramları təhlükəsiz şəkildə işə salmaq, izləmək və təh
 
 
 <details>
+<summary>🔒 Şəbəkə Girişinin Nəzarəti (NAC)</summary>
+
+Şəbəkəyə qoşulan cihazları yoxlayan, autentifikasiyanı təmin edən və şəbəkə təhlukəsizliyini artıran açıq mənbəli NAC həlləri. 
+Bu alətlər cihazların siyahıya alınması, qaydalara uygunluğun yoxlanması və girişin idarə olunması kimi imkanlar təklif edir.
+
+---
+
+### 🥇 1. **PacketFence**
+> Geniş imkanlara malik açıq mənbə NAC platforması.
+
+- ✅ **Üstünlüklər**:
+  - VLAN idarəetmə, izolasiya, avtomatik karantina rejimi
+  - 802.1X, SNMP, DHCP, ARP protokolları ilə inteqrasiya
+  - İstifadəçi və cihaz autentifikasiyası, portal login dəstəyi
+- ❌ **Çatışmazlıqlar**:
+  - Əsas quraşdırma mürəkkəbdir
+  - Çox komponentli memarlıq idarəetməni çətindirləşdirə bilir
+- 🔗 [https://packetfence.org](https://packetfence.org)
+
+---
+
+### 🥈 2. **Freshradius**
+> RADIUS server inteqrasiyası olan sadə NAC komponenti.
+
+- ✅ **Üstünlüklər**:
+  - RADIUS protokol dəstəyi, İstifadəçi idarəetməsi
+  - Kiçik şəbəkələr üçün uyğundur
+- ❌ **Çatışmazlıqlar**:
+  - Tam funksional NAC sistemi deyil, sadələşdirilmiş həlldir
+  - Paketfence kimi gülən qaydalarla inteqrasiya edilmir
+- 🔗 [https://github.com/wichert/freshradius](https://github.com/wichert/freshradius)
+
+---
+
+### 🥉 3. **OpenNAC (arxivlənib)**
+> Apache lisenziyası ilə buraxılmış idi, lakin artıq aktiv dəyil.
+
+- ✅ **Üstünlüklər**:
+  - Aktiv idarəetmə konsolu, host analiz sistemi
+  - Cihaz identifikasiyası və qayda tətbiqi
+- ❌ **Çatışmazlıqlar**:
+  - Dəstək dayandırılıb, əsas əlavələr köhnəlib
+- 🔗 [https://sourceforge.net/projects/opennac](https://sourceforge.net/projects/opennac)
+
+</details>
+
+---
+
+<details>
+<summary>🛡️ Veb Tətbiq Qoruma Sistemləri (WAF)</summary>
+
+Veb tətbiqlərini müxtəlif hücumlardan qorumaq üçün istifadə edilən ən yaxşı açıq mənbə WAF (Web Application Firewall) həlləri.
+
+### 🥇 1. **SafeLine**
+> Zəkalı semantik analiz alqoritmləri ilə çalışan və tərs proksi (reverse proxy) kimi fəaliyyət göstərən açıq mənbə WAF.
+
+- ✅ **Üstünlüklər**:
+  - Reverse proxy olaraq işləyir
+  - Zəkalı analizlə hücumları aşkarlayır
+  - İstifadəsi sadədir və icma tərəfindən aktiv şəkildə istifadə olunur
+- ❌ **Çatışmazlıqlar**:
+  - Qabaqcıl konfiqurasiya bəzi istifadəçilər üçün çətin ola bilər
+- 🔗 [https://github.com/chaitin/safeline](https://github.com/chaitin/safeline)
+
+---
+
+### 🥈 2. **ModSecurity**
+> Ən məşhur açıq mənbə WAF-lardan biri. Tətbiq qoruma qaydaları (ruleset) ilə gəlir, lakin tam istifadə üçün konfiqurasiya tələb edir.
+
+- ✅ **Üstünlüklər**:
+  - OWASP qaydaları ilə genişləndirilə bilər
+  - Apache, NGINX və IIS ilə uyğun gəlir
+- ❌ **Çatışmazlıqlar**:
+  - Quraşdırma və qayda tənzimləmələri texniki bilik tələb edir
+- 🔗 [https://github.com/SpiderLabs/ModSecurity](https://github.com/SpiderLabs/ModSecurity)
+
+---
+
+### 🥉 3. **Awesome-WAF**
+> Açıq və kommersiya məqsədli WAF-ların, həmçinin əlaqəli alətlərin toplandığı resurs siyahısı.
+
+- ✅ **Üstünlüklər**:
+  - WAF alətləri üçün geniş məlumat bazası
+  - Müxtəlif senarilərdə istifadə üçün seçim imkanı
+- ❌ **Çatışmazlıqlar**:
+  - Əslində bir alət deyil, daha çox siyahı/araşdırma resursudur
+- 🔗 [https://github.com/0xInfection/Awesome-WAF](https://github.com/0xInfection/Awesome-WAF)
+
+---
+
+### 🏅 4. **BunkerWeb**
+> Web xidmətlərini təhlükəsiz hala gətirmək üçün hazırlanmış müasir WAF.
+
+- ✅ **Üstünlüklər**:
+  - Docker, Linux və Kubernetes mühitləri ilə uyğun
+  - Default olaraq yüksək təhlükəsizlik təklif edir
+- ❌ **Çatışmazlıqlar**:
+  - Daha az tanınır və sənədləşmə kifayət qədər deyil
+- 🔗 [https://github.com/bunkerity/bunkerweb](https://github.com/bunkerity/bunkerweb)
+
+---
+
+### 🔍 5. **wafw00f**
+> Mövcud WAF-ları təyin və təhlil etmək üçün istifadə edilən alət — əsasən pentesting və qiymətləndirmə üçün.
+
+- ✅ **Üstünlüklər**:
+  - Müxtəlif WAF-ları aşkarlaya bilir
+  - Penetrasiya testlərində geniş istifadə olunur
+- ❌ **Çatışmazlıqlar**:
+  - Hücumdan qorumaq üçün nəzərdə tutulmayıb, sadəcə təhlil məqsədi daşıyır
+- 🔗 [https://github.com/EnableSecurity/wafw00f](https://github.com/EnableSecurity/wafw00f)
+
+</details>
+
+
+
+---
+
+
+<details>
 <summary>📂 Digər İT Həlləri (Self-Hosted & Açıq Mənbə)</summary>
 
 Təşkilatlar üçün ümumi məqsədli istifadə edilə bilən açıq mənbəli, self-hosted İT həllərinin seçilmiş siyahısı. Bu alətlər daxili təhlükəsiz ünsiyyət, sənəd idarəetməsi, CRM, qeydlərin aparılması, uzaqdan idarəetmə və low-code əsaslı sistemlərə aiddir.
@@ -1405,6 +1525,9 @@ Təşkilatlar üçün ümumi məqsədli istifadə edilə bilən açıq mənbəli
 - 🔗 [https://github.com/nocobase/nocobase](https://github.com/nocobase/nocobase)
 
 </details>
+
+---
+
 
 
 ## 🔚 Nəticə
