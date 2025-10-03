@@ -35,6 +35,8 @@ Traditionally, organizations used the same local admin password across all compu
 3. The password is stored as an attribute in **Active Directory (AD)**.
 4. Only specific users or groups can view the password.
 
+![LAPS Flow](/img/servers/laps-flow.svg)
+
 ---
 
 ## 🗂️ Data Stored in AD

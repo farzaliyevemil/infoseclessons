@@ -2,6 +2,8 @@
 
 Flexible Single Master Operations (FSMO) are specialized domain controller tasks in an Active Directory (AD) environment. While AD is a multi-master system (meaning any domain controller can make changes), certain operations must be handled by a single domain controller to avoid conflicts — these roles are known as FSMO roles.
 
+![FSMO Overview](/img/servers/fsmo-overview.svg)
+
 ---
 
 ## 🔹 Types of FSMO Roles

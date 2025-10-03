@@ -53,6 +53,16 @@ A structured, practical primer on core networking topics. Each section now inclu
 
 ![Switch vs Router](/img/networking/computer-networking/image4.png)
 
+Gateway redundancy (HSRP):
+
+```shell
+interface Vlan10
+ ip address 192.168.10.2 255.255.255.0
+ standby 10 ip 192.168.10.1
+ standby 10 priority 110
+ standby 10 preempt
+```
+
 ---
 
 ## 📡 Types of Communication
@@ -74,6 +84,39 @@ A structured, practical primer on core networking topics. Each section now inclu
 - Extra: prune unused VLANs from trunks; avoid VLAN 1 for management.
 
 ![VLANs](/img/networking/computer-networking/image6.png)
+
+Quick configs (Cisco IOS):
+
+```shell
+! Access port in VLAN 10
+interface GigabitEthernet0/1
+ switchport mode access
+ switchport access vlan 10
+
+! 802.1Q trunk allowing VLANs 10,20
+interface GigabitEthernet0/48
+ switchport trunk encapsulation dot1q
+ switchport mode trunk
+ switchport trunk allowed vlan 10,20
+ switchport trunk native vlan 999
+ spanning-tree portfast trunk
+```
+
+Inter‑VLAN routing on L3 switch (SVIs):
+
+```shell
+! Create L3 interfaces for VLANs
+vlan 10
+ name USERS
+vlan 20
+ name SERVERS
+
+interface Vlan10
+ ip address 192.168.10.1 255.255.255.0
+interface Vlan20
+ ip address 192.168.20.1 255.255.255.0
+ip routing
+```
 
 ---
 
@@ -122,6 +165,26 @@ Advanced notes:
 
 ![NAT](/img/networking/computer-networking/image9.png)
 
+Examples:
+
+```shell
+! Cisco IOS PAT (many-to-one)
+interface GigabitEthernet0/0
+ ip address 203.0.113.10 255.255.255.248
+ ip nat outside
+interface GigabitEthernet0/1
+ ip address 192.168.10.1 255.255.255.0
+ ip nat inside
+access-list 10 permit 192.168.10.0 0.0.0.255
+ip nat inside source list 10 interface GigabitEthernet0/0 overload
+```
+
+```bash
+# Linux (iptables) SNAT/MASQUERADE
+sysctl -w net.ipv4.ip_forward=1
+iptables -t nat -A POSTROUTING -s 192.168.10.0/24 -o eth0 -j MASQUERADE
+```
+
 ---
 
 ## 🆔 MAC & ARP
@@ -154,6 +217,23 @@ Helpful options: `3` Default Gateway, `6` DNS Servers, `15` Domain Name, `42` NT
 Reverse DNS: PTR records map IP→name. For mail servers, align PTR, SPF (TXT), DKIM, DMARC for deliverability.
 
 ![DNS](/img/networking/computer-networking/image12.png)
+
+Sample zone (BIND):
+
+```dns
+$TTL 3600
+@   IN SOA ns1.example.com. hostmaster.example.com. (
+        2025010101 ; serial
+        3600       ; refresh
+        900        ; retry
+        1209600    ; expire
+        300 )      ; minimum
+    IN NS  ns1.example.com.
+ns1 IN A   192.0.2.53
+www IN A   198.51.100.42
+mail IN A  203.0.113.25
+@   IN MX  10 mail.example.com.
+```
 
 ---
 

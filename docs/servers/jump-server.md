@@ -13,6 +13,8 @@ slug: /jump-server
 A **Jump Server** is a specialized server that provides **centralized and secure** access to systems located within an internal network.  
 Users or administrators first connect to this server and then access other internal servers from there.
 
+![Jump Server Diagram](/img/servers/jump-server.svg)
+
 ---
 
 ## 🧭 Where is it Used?
