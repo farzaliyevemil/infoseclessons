@@ -5,7 +5,7 @@ description: >-
   A practical guide to cybersecurity, covering everything from foundations to
   advanced concepts.
 sidebar_position: 1
-slug: /intro
+slug: /
 ---
 
 # 👋 Welcome to InfoSec Lessons
@@ -48,4 +48,3 @@ Then go to http://localhost:3000 and start editing!
 📌 This project is built by @farzaliyevemil.
 
 Happy Hacking! 🔐
-

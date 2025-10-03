@@ -2,7 +2,7 @@
 id: intro
 title: Giriş
 description: InfoSec dərslərinə xoş gəlmisiniz!
-slug: /intro
+slug: /
 ---
 
 # 👋 InfoSec Dərslərinə Xoş Gəlmisiniz
@@ -45,4 +45,3 @@ Sonra http://localhost:3000 ünvanına daxil olun və redaktəyə başlayın!
 📌 Bu layihə @farzaliyevemil tərəfindən hazırlanıb.
 
 Uğurlar! 🔐
-

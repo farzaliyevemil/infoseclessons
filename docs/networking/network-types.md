@@ -1,3 +1,4 @@
+---
 id: network-basics
 title: Networking Basics
 description: Thorough networking guide — types, topologies, switching vs routing, VLANs, IP/IPv6, subnetting, NAT, DHCP/DNS, ports, OSI/TCP-IP, Wi‑Fi, and troubleshooting.

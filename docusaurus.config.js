@@ -64,7 +64,7 @@ const config = {
         src: 'img/shield.png',
       },
       items: [
-        { to: '/intro', label: translate({id: 'navbar.start', message: 'Start'}), position: 'left' },
+        { to: '/', label: translate({id: 'navbar.start', message: 'Start'}), position: 'left' },
         { to: '/about', label: translate({id: 'navbar.about', message: 'About'}), position: 'left' },
         {
           type: 'localeDropdown',
