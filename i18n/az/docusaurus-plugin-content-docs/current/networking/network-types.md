@@ -1,13 +1,12 @@
----
 id: network-basics
 title: Şəbəkə Əsasları
-description: Şəbəkəyə praktiki giriş — növlər, topologiyalar, ünvanlama, NAT, DNS, portlar və OSI/TCP‑IP modelləri.
+description: Geniş şəbəkə bələdçisi — növlər, topologiyalar, switch vs router, VLAN, IP/IPv6, subnetləşdirmə, NAT, DHCP/DNS, portlar, OSI/TCP‑IP, Wi‑Fi və diaqnostika.
 slug: /network-types
 ---
 
 # 🧠 Şəbəkə Əsasları
 
-Məzmun “Computer networking.pptx” təqdimatından konsolidasiya edilib və qısa izahlarla genişləndirilib.
+Hər bölmə üçün şəkil və daha dəqiq izahlarla praktik bələdçi.
 
 ---
 
@@ -17,6 +16,8 @@ Məzmun “Computer networking.pptx” təqdimatından konsolidasiya edilib və 
 - Baza elementləri: ötürmə mühiti (mis/şüşə/simsiz), ünvanlar (MAC/IP), yönləndirmə (switch/router) və protokollar (TCP/IP, DNS, DHCP).
 - Qeyd: kiçik şəbəkələr sadədir; miqyas artdıqca seqmentləşdirmə, NAT və marşrut qaydaları tələb olunur.
 
+![Ümumi baxış](/img/networking/computer-networking/image1.png)
+
 ---
 
 ## 🗺️ Sahə Şəbəkələrinin Növləri
@@ -25,6 +26,8 @@ Məzmun “Computer networking.pptx” təqdimatından konsolidasiya edilib və 
 - MAN: şəhər səviyyəsində. Çox vaxt fiber halqalar; İSP və ya böyük təşkilat idarə edir.
 - WAN: uzaq ofislərin birləşdirilməsi; MPLS/VPN/İnternetdən istifadə.
 - Qeyd: Buluda çıxış (Direct Connect/ExpressRoute) WAN‑ın uzantısı kimi baxıla bilər.
+
+![LAN/MAN/WAN](/img/networking/computer-networking/image2.png)
 
 ---
 
@@ -36,12 +39,19 @@ Məzmun “Computer networking.pptx” təqdimatından konsolidasiya edilib və 
 - Mesh: qurğular arasında çoxsaylı yol; yüksək dayanıqlılıq, daha baha; bel/skelet şəbəkələrdə.
 - Qeyd: müasir LAN fiziki ulduz, lakin ehtiyat linklərlə məntiqi mesh qura bilər (LACP, STP).
 
-Şəkillər (slaydlardan):
+![Topologiyalar](/img/networking/computer-networking/image3.png)
 
-![Şəkil](/img/networking/computer-networking/image1.png)
-![Şəkil](/img/networking/computer-networking/image2.png)
-![Şəkil](/img/networking/computer-networking/image3.png)
-![Şəkil](/img/networking/computer-networking/image4.png)
+---
+
+## 🔀 Switch və Router Fərqi
+
+- Switching (2‑ci qat): çərçivələri MAC cədvəlinə əsasən ötürür; eyni yayım sahəsində (VLAN) işləyir.
+- Routing (3‑cü qat): paketləri IP marşrutlarına əsasən ötürür; fərqli şəbəkələri birləşdirir.
+- Inter‑VLAN yönləndirmə: L3 switch (SVI) və ya router‑on‑a‑stick (802.1Q trunk) ilə.
+- Dayanıqlılıq: L2‑də STP/RSTP, L3 qapıda HSRP/VRRP/GLBP.
+- Qeyd: böyük L2 sahələrindən qaçmaq üçün paylama/əsas qatlar arasında L3 linklərdən istifadə edin.
+
+![Switch vs Router](/img/networking/computer-networking/image4.png)
 
 ---
 
@@ -50,6 +60,20 @@ Məzmun “Computer networking.pptx” təqdimatından konsolidasiya edilib və 
 - Unicast: bir‑birinə çatdırılma. Qeyd: veb/applikasiya trafiki əsasən unicastdır.
 - Multicast: abunəçilərə bir‑çox. Qeyd: yayım/axın üçün səmərəlidir; multicast yönləndirmə tələb edir.
 - Broadcast: alt şəbəkədə hamıya. Qeyd: L2 ilə məhdud; həddən artıq broadcast “storm” yarada bilər.
+
+![Unicast/Multicast/Broadcast](/img/networking/computer-networking/image5.png)
+
+---
+
+## 🧵 VLAN və Trunking
+
+- VLAN: məntiqi L2 seqmentləşdirmə; yayım sahələrini ayırır, təhlükəsizliyi/miqyası yaxşılaşdırır.
+- Access port: tək VLAN; Trunk port: çox VLAN (802.1Q etiketləri).
+- Native VLAN: trunk üzərində etiketsiz trafik; hər iki tərəfdə eyni saxlayın.
+- Inter‑VLAN: L3 qapı (SVI) tələb edir; VLAN‑lar arasında ACL/firewall qaydaları tətbiq edin.
+- Qeyd: trunklarda istifadə olunmayan VLAN‑ları kəsin; idarəetmə üçün VLAN 1‑dən qaçın.
+
+![VLAN](/img/networking/computer-networking/image6.png)
 
 ---
 
@@ -63,6 +87,13 @@ Məzmun “Computer networking.pptx” təqdimatından konsolidasiya edilib və 
   - Statik: sabit; serverlər/DNS üçün stabil seçim.
 - IPv6: 128‑bit; nəhəng ünvan sahəsi, sadələşmiş başlıq, NAT tələb etmir. Qeyd: keçiddə dual‑stack geniş yayılıb.
 
+IPv6 detallar:
+- Ünvan tipləri: Global Unicast (2000::/3), Link‑Local (fe80::/10), Unique Local (fc00::/7), Multicast (ff00::/8).
+- Host ünvanlanması: SLAAC (RA) və ya DHCPv6; ND/RS/RA, ARP yerinə işləyir.
+- Subnet: tipik olaraq /64; hostlar üçün /120+ yalnız əsaslandırıldıqda.
+
+![IP Ünvanlama](/img/networking/computer-networking/image7.png)
+
 ---
 
 ## ➗ Subnetləşdirmə və CIDR
@@ -71,6 +102,10 @@ Məzmun “Computer networking.pptx” təqdimatından konsolidasiya edilib və 
 - P2P xətləri: `/30` (IPv4) 2 istifadə oluna bilən IP; `/31` P2P üçün (RFC 3021).
 - Siniflər (A/B/C) tarixi anlayışdır; praktikada VLSM/CIDR istifadə olunur.
 - Qeyd: alt şəbəkələri funksiyaya görə planlamaq firewall qaydalarını sadələşdirir.
+
+Nümunə: `192.168.10.0/24` şəbəkəsini 4 bərabər `/26` alt şəbəkəyə bölün: `192.168.10.0/26`, `.64/26`, `.128/26`, `.192/26`.
+
+![Subnet](/img/networking/computer-networking/image8.png)
 
 ---
 
@@ -81,6 +116,12 @@ Məzmun “Computer networking.pptx” təqdimatından konsolidasiya edilib və 
 - İstifadə: IPv4 qorunması, daxili ünvanların gizlədilməsi, sadə çıxış siyasəti.
 - Qeyd: NAT ucdan‑uca əlaqəni pozur; daxil olan trafik üçün port yönləndirmə və ya reverse proxy istifadə edin.
 
+Qabaqcıl qeydlər:
+- Hairpin NAT (loopback) — daxildə olarkən publik IP ilə daxili hosta çıxış.
+- NAT64/NPTv6 — IPv6 üçün xüsusi hallar; əsasən NAT‑sız nativ IPv6 üstünlükdür.
+
+![NAT](/img/networking/computer-networking/image9.png)
+
 ---
 
 ## 🆔 MAC və ARP
@@ -89,12 +130,18 @@ Məzmun “Computer networking.pptx” təqdimatından konsolidasiya edilib və 
 - ARP: eyni yayım sahəsində IPv4‑ü MAC‑a xəritələyir.
 - Qeyd: gratuitous ARP qonşuları yeniləyir; ARP zəhərlənməsi tipik L2 hücumudur.
 
+![MAC/ARP](/img/networking/computer-networking/image10.png)
+
 ---
 
 ## 🤝 DHCP (DORA)
 
 - Discover → Offer → Request → Ack: IP icarəsi və parametrlərin (gateway, DNS, icarə vaxtı) alınması.
 - Qeyd: rezervasiya MAC→IP təyin edir; relay (IP Helper) yayımı digər şəbəkələrə ötürür.
+
+Faydalı opsiyalar: `3` Default Gateway, `6` DNS, `15` Domain, `42` NTP.
+
+![DHCP](/img/networking/computer-networking/image11.png)
 
 ---
 
@@ -103,6 +150,10 @@ Məzmun “Computer networking.pptx” təqdimatından konsolidasiya edilib və 
 - Məqsəd: adların IP‑lərə (A/AAAA), poçt (MX), ləqəb (CNAME), mətn (TXT) yazılarına xəritələnməsi.
 - Komponentlər: keş, rezolver, avt. ad serverləri, ad məkanı (root, TLD, domenlər).
 - Qeyd: TTL keşləmə müddətini tənzimləyir; split‑horizon daxili və xarici üçün fərqli cavab verir.
+
+Reverse DNS: PTR IP→ad. Poçt serverləri üçün PTR, SPF (TXT), DKIM, DMARC uyğunluğu vacibdir.
+
+![DNS](/img/networking/computer-networking/image12.png)
 
 ---
 
@@ -123,6 +174,8 @@ Məzmun “Computer networking.pptx” təqdimatından konsolidasiya edilib və 
 - 1433 MSSQL, 1521 Oracle, 3306 MySQL, 5432 PostgreSQL — verilənlər bazaları.
 - 3389 RDP — Windows uzaq masaüstü.
 
+![Portlar](/img/networking/computer-networking/image13.png)
+
 ---
 
 ## 🧭 Modellər: TCP/IP və OSI
@@ -138,21 +191,40 @@ Məzmun “Computer networking.pptx” təqdimatından konsolidasiya edilib və 
   - 1 Physical — bitlər, siqnal, media, konnektorlar. Bit.
 - Qeyd: kapsullaşma məlumatı aşağı qatlardan keçirdikcə başlıq əlavə edir; hopda uyğun qat decapsulation edir.
 
-OSI şəkilləri (slaydlardan):
-
-![Şəkil](/img/networking/computer-networking/image33.png)
-![Şəkil](/img/networking/computer-networking/image40.png)
+![OSI Layihəsi](/img/networking/computer-networking/image33.png)
 
 ---
 
-## 📎 Slayd Şəkil Qalereyası
+## 📶 Simsiz Şəbəkə (Wi‑Fi)
 
-Aşağıda təqdimatdan çıxarılmış əlavə şəkillər var.
+- Zolaqlar: 2.4 GHz (uzun məsafə, sıx), 5 GHz (sürətli, daha çox kanal), 6 GHz (Wi‑Fi 6E, təmiz spektr).
+- Kanallar: 2.4 GHz‑də üst‑üstə düşməyən 1/6/11; 5 GHz‑də DFS kanalları nəzərə alın.
+- Təhlükəsizlik: minimum WPA2‑PSK; mümkün olduqda WPA3. Açıq/WEP şəbəkələrdən qaçın.
+- Dizayn: rouminq üçün 15–20% örtüşmə; həddən artıq gücdən qaçın; 20/40/80 MHz kanal enini məqsədə görə seçin.
+- Qeyd: korp/qonaq/IoT üçün ayrıca SSID; IoT ayrıca VLAN və firewall qaydaları ilə.
 
-![Şəkil](/img/networking/computer-networking/image5.png)
-![Şəkil](/img/networking/computer-networking/image6.png)
-![Şəkil](/img/networking/computer-networking/image7.png)
-![Şəkil](/img/networking/computer-networking/image8.png)
-![Şəkil](/img/networking/computer-networking/image9.png)
-![Şəkil](/img/networking/computer-networking/image10.png)
+![Wi‑Fi](/img/networking/computer-networking/image14.png)
 
+---
+
+## 🧰 Diaqnostika
+
+- Əlaqə: `ping`, `traceroute`/`tracert`, `arp -a`, `ipconfig`/`ifconfig`, `route`/`ip route`.
+- Ad həlli: `nslookup`/`dig` ilə A/AAAA/MX yoxlayın; DNS server və search domain düzgünmü?
+- Trafik: `tcpdump`/Wireshark — paketlər, handshake, retransmitləri izləyin.
+- Tipik problemlər: səhv VLAN, defolt gateway yoxdur, DNS səhv, asimmetrik marşrut, MTU/PMTUD.
+- Qeyd: hər iki tərəfdən test edin; switch‑də MAC cədvəlləri, hostda ARP keşinə baxın.
+
+![Diaqnostika](/img/networking/computer-networking/image15.png)
+
+---
+
+## 🔒 Şəbəkə Təhlükəsizliyi
+
+- Seqmentləşdirmə: istifadəçi/server/idarəetmə VLAN/Subnet; arada ACL qaydaları.
+- Perimetr: stateful firewall; minimal icazə; lazım olduqda NAT/port yönləndirmə.
+- Görünürlük: log/NetFlow; SNMP/Telemetry ilə sağlamlıq və anomaliyalar.
+- Sərtləşdirmə: lazımsız servisləri söndürün, idarəetməni (SSH, AAA) qoruyun, sistemləri yeniləyin.
+- Qeyd: hər yerdə TLS; publik tətbiqləri reverse proxy/WAF arxasında saxlayın; həssas tətbiqlər üçün Zero Trust.
+
+![Təhlükəsizlik](/img/networking/computer-networking/image16.png)
