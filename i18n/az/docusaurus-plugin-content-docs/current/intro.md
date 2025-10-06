@@ -1,13 +1,13 @@
 ---
 id: intro
 title: Giriş
-description: InfoSec dərslərinə xoş gəlmisiniz!
+description: "Praktik kiber təhlükəsizlik dərsləri: Red/Blue Teaming, GRC və İT əsasları."
 slug: /
 ---
 
 # 👋 InfoSec Dərslərinə Xoş Gəlmisiniz
 
-**Kiber təhlükəsizlik üzrə praktiki bələdçiniz** – əsaslardan tutmuş irəliləmiş konseptlərə qədər hər şey bir yerdə.
+Qısa, dəqiq və güncəl məzmunla öyrənin.
 
 ---
 
@@ -15,18 +15,24 @@ slug: /
 
 İstər InfoSec sahəsində yeni başlayırsınız, istərsə də irəliləmiş mövzuları təkrarlayırsınız, burada strukturlaşdırılmış dərslər və məqalələr tapa bilərsiniz:
 
-- 🔴 **Red Teaming**: Pentestinq, imtiyazların artırılması və hücum texnikaları  
-- 🔵 **Blue Teaming**: SIEM, loq analizləri və aşkarlama mexanizmləri  
-- 🛡️ **GRC**: Risklərin idarə edilməsi, siyasətlər və uyğunluq  
-- 🌐 **Ümumi Təhlükəsizlik**: Ən yaxşı təcrübələr, alətlər və real dünya ssenariləri  
-- 🧱 **Foundation**: Şəbəkə, virtualizasiya, əməliyyat sistemləri və helpdesk bilikləri
+- 🔴 **Red Teaming** — Pentestinq, imtiyazların artırılması və hücum texnikaları
+- 🔵 **Blue Teaming** — SIEM, loq analizi və deteksiya mühəndisliyi
+- 🛡️ **GRC** — Risklərin idarə edilməsi, siyasətlər və uyğunluq
+- 🌐 **Ümumi Təhlükəsizlik** — Ən yaxşı təcrübələr, alətlər və real ssenarilər
+- 🧱 **İT Əsasları** — Şəbəkə, virtualizasiya, əməliyyat sistemləri və helpdesk
+
+---
+
+## ⚡ Sürətli Başlanğıc
+
+- Şəbəkə əsasları ilə başlayın: [/network-types](/network-types)
 
 ---
 
 ## 🛠️ Sayt Necə İşləyir?
 
-- 📚 Dərsləri yan menyudan izləyin  
-- 💬 Yeniliklərdən xəbərdar olmaq və ya töhfə vermək üçün [GitHub](https://github.com/farzaliyevemil/infoseclessons) səhifəsinə baxın  
+- 📚 Dərsləri yan menyudan izləyin
+- 💬 Yeniliklər üçün və ya töhfə vermək üçün [GitHub](https://github.com/farzaliyevemil/infoseclessons) səhifəsinə baxın
 
 ---
 

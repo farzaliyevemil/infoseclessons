@@ -1,16 +1,14 @@
 ---
 id: intro
 title: Welcome to InfoSec Lessons
-description: >-
-  A practical guide to cybersecurity, covering everything from foundations to
-  advanced concepts.
+description: "Practical cybersecurity lessons and resources on Red/Blue Teaming, GRC, and IT foundations."
 sidebar_position: 1
 slug: /
 ---
 
 # 👋 Welcome to InfoSec Lessons
 
-Your **practical guide to cybersecurity** – everything from foundations to advanced concepts, all in one place.
+Learn by doing with concise, accurate, and up‑to‑date material.
 
 ---
 
@@ -18,11 +16,17 @@ Your **practical guide to cybersecurity** – everything from foundations to adv
 
 Whether you're new to InfoSec or brushing up on advanced topics, you'll find structured lessons and articles on:
 
-- 🔴 **Red Teaming**: Pentesting, privilege escalation, and offensive techniques  
-- 🔵 **Blue Teaming**: SIEM, log analysis, and detection mechanisms  
-- 🛡️ **GRC**: Risk management, policies, and compliance  
-- 🌐 **General Security**: Best practices, tools, and real-world scenarios  
-- 🧱 **Foundations**: Networking, virtualization, operating systems, and helpdesk knowledge
+- 🔴 **Red Teaming** — Pentesting, privilege escalation, and offensive techniques
+- 🔵 **Blue Teaming** — SIEM, log analysis, and detection engineering
+- 🛡️ **GRC** — Risk management, policies, and compliance
+- 🌐 **General Security** — Best practices, tools, and real‑world scenarios
+- 🧱 **Foundations** — Networking, virtualization, operating systems, and helpdesk
+
+---
+
+## ⚡ Quick Start
+
+- Start with Networking Basics: [/network-types](/network-types)
 
 ---
 
