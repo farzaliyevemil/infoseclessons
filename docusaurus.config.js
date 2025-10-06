@@ -1,5 +1,9 @@
 // @ts-check
 import {themes as prismThemes} from 'prism-react-renderer';
+// NOTE: We avoid importing '@docusaurus/Translate' here because it is not
+// resolvable in this environment when running some CLI commands like
+// write-translations. We'll localize navbar labels after we configure
+// a safe translation path.
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -9,6 +13,7 @@ const config = {
 
   url: 'https://farzaliyevemil.github.io',
   baseUrl: '/infoseclessons/',
+  trailingSlash: true,
 
   organizationName: 'farzaliyevemil',
   projectName: 'infoseclessons',
