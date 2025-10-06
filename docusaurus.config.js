@@ -1,6 +1,5 @@
 // @ts-check
 import {themes as prismThemes} from 'prism-react-renderer';
-import {translate} from '@docusaurus/Translate';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -64,15 +63,15 @@ const config = {
         src: 'img/shield.png',
       },
       items: [
-        { to: '/', label: translate({id: 'navbar.start', message: 'Start'}), position: 'left' },
-        { to: '/about', label: translate({id: 'navbar.about', message: 'About'}), position: 'left' },
+        { to: '/', label: 'Start', position: 'left' },
+        { to: '/about', label: 'About', position: 'left' },
         {
           type: 'localeDropdown',
           position: 'right',
         },
         {
           href: 'https://github.com/farzaliyevemil/infoseclessons',
-          label: translate({id: 'navbar.github', message: 'GitHub'}),
+          label: 'GitHub',
           position: 'right',
         },
       ],
