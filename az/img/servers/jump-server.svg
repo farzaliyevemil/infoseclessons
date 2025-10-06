@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="220" viewBox="0 0 720 220">
+  <style>
+    .box{fill:#fff7e6;stroke:#e6a23c;stroke-width:2}
+    .title{font: bold 13px sans-serif; fill:#6b3d00}
+    .arrow{stroke:#444;stroke-width:2;marker-end:url(#arrow)}
+  </style>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#444"/>
+    </marker>
+  </defs>
+  <rect class="box" x="40" y="70" width="160" height="80" rx="6"/>
+  <text class="title" x="60" y="110">Client (Internet)</text>
+  <rect class="box" x="280" y="30" width="160" height="160" rx="6"/>
+  <text class="title" x="305" y="110">Jump Server (DMZ)</text>
+  <rect class="box" x="520" y="70" width="160" height="80" rx="6"/>
+  <text class="title" x="540" y="110">Internal Servers</text>
+  <line class="arrow" x1="200" y1="110" x2="280" y2="110"/>
+  <line class="arrow" x1="440" y1="110" x2="520" y2="110"/>
+</svg>
