@@ -2,7 +2,7 @@ import React, { useDeferredValue, useState } from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import lessons from '../data/lessonIndex';
+import lessons from '../generated/lessonIndex';
 
 const copy = {
   en: {
@@ -14,6 +14,7 @@ const copy = {
     searchPlaceholder: 'Search for Windows, networking, LAPS, certifications, helpdesk...',
     clear: 'Clear',
     all: 'All categories',
+    allStatuses: 'All levels',
     results: 'results',
     noResults: 'No lessons matched your search.',
     noResultsHint: 'Try a broader keyword or switch to another category.',
@@ -37,6 +38,12 @@ const copy = {
       servers: 'Servers',
       virtualization: 'Virtualization',
     },
+    statusLabel: {
+      starter: 'Starter',
+      reference: 'Reference',
+      overview: 'Overview',
+    },
+    reviewed: 'Reviewed',
   },
   az: {
     title: 'Dərslərdə Axtarış',
@@ -47,6 +54,7 @@ const copy = {
     searchPlaceholder: 'Windows, şəbəkə, LAPS, sertifikatlar, helpdesk üzrə axtarın...',
     clear: 'Təmizlə',
     all: 'Bütün kateqoriyalar',
+    allStatuses: 'Bütün səviyyələr',
     results: 'nəticə',
     noResults: 'Axtarışınıza uyğun dərs tapılmadı.',
     noResultsHint: 'Daha ümumi açar söz yazın və ya başqa kateqoriya seçin.',
@@ -70,6 +78,12 @@ const copy = {
       servers: 'Serverlər',
       virtualization: 'Virtualizasiya',
     },
+    statusLabel: {
+      starter: 'Başlanğıc',
+      reference: 'Əsas',
+      overview: 'İcmal',
+    },
+    reviewed: 'Yoxlanılıb',
   },
 };
 
@@ -90,15 +104,18 @@ export default function SearchPage() {
   const text = copy[locale];
   const [query, setQuery] = useState('');
   const [category, setCategory] = useState('all');
+  const [status, setStatus] = useState('all');
   const deferredQuery = useDeferredValue(query.trim().toLowerCase());
 
   const categories = ['all', ...new Set(lessons.map((lesson) => lesson.category))];
+  const statuses = ['all', ...new Set(lessons.map((lesson) => lesson.status))];
   const filteredLessons = lessons.filter((lesson) => {
     const matchesCategory = category === 'all' || lesson.category === category;
+    const matchesStatus = status === 'all' || lesson.status === status;
     const matchesQuery =
       deferredQuery.length === 0 ||
       buildSearchText(lesson, locale, text.categoryLabel).includes(deferredQuery);
-    return matchesCategory && matchesQuery;
+    return matchesCategory && matchesStatus && matchesQuery;
   });
 
   return (
@@ -135,6 +152,17 @@ export default function SearchPage() {
                 </button>
               ))}
             </div>
+            <div className="search-filters search-filters--secondary">
+              {statuses.map((value) => (
+                <button
+                  key={value}
+                  className={value === status ? 'search-chip search-chip--active' : 'search-chip'}
+                  type="button"
+                  onClick={() => setStatus(value)}>
+                  {value === 'all' ? text.allStatuses : text.statusLabel[value]}
+                </button>
+              ))}
+            </div>
           </div>
         </section>
 
@@ -155,8 +183,16 @@ export default function SearchPage() {
                   <span className="search-result-card__category">
                     {text.categoryLabel[lesson.category]}
                   </span>
+                  <span className="search-result-card__status">
+                    {text.statusLabel[lesson.status]}
+                  </span>
                   <strong>{lesson.title[locale]}</strong>
                   <p>{lesson.description[locale]}</p>
+                  {lesson.lastReviewed ? (
+                    <span className="search-result-card__meta">
+                      {text.reviewed}: {lesson.lastReviewed}
+                    </span>
+                  ) : null}
                 </Link>
               ))}
             </div>

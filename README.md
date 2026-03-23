@@ -44,16 +44,24 @@ npm start
 npm run build
 npm run serve
 npm run deploy
+npm run generate-search-index
+npm run check-docs-parity
 npm run write-translations
 node add-slugs.js
 ```
+
+`npm start`, `npm run build`, and `npm run serve` automatically refresh the lesson search index and verify EN/AZ parity before they run.
 
 ## Content Structure
 
 - English docs: `docs/`
 - Azerbaijani docs: `i18n/az/docusaurus-plugin-content-docs/current/`
+- Category landing pages: root-level `*-overview.md` docs
 - Sidebar config: `sidebars.js`
 - Site config: `docusaurus.config.js`
+- Search dataset generator: `scripts/generate-lesson-index.js`
+- Search dataset output: `src/generated/lessonIndex.js`
+- EN/AZ parity checker: `scripts/check-docs-parity.js`
 
 ## Contributing
 

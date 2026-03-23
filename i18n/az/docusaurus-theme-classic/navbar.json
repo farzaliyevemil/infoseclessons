@@ -7,10 +7,6 @@
     "message": "EF Logo",
     "description": "The alt text of navbar logo"
   },
-  "item.label.Lessons": {
-    "message": "Lessons",
-    "description": "Navbar item with label Lessons"
-  },
   "item.label.GitHub": {
     "message": "GitHub",
     "description": "Navbar item with label GitHub"
@@ -18,5 +14,13 @@
   "item.label.Search": {
     "message": "Axtarış",
     "description": "Navbar item with label Search"
+  },
+  "item.label.Start": {
+    "message": "Başla",
+    "description": "Navbar item with label Start"
+  },
+  "item.label.About": {
+    "message": "Haqqında",
+    "description": "Navbar item with label About"
   }
 }

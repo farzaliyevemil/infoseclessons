@@ -3,6 +3,9 @@ id: network-basics
 title: Şəbəkə Əsasları
 description: Geniş şəbəkə bələdçisi — növlər, topologiyalar, switch vs router, VLAN, IP/IPv6, subnetləşdirmə, NAT, DHCP/DNS, portlar, OSI/TCP‑IP, Wi‑Fi və diaqnostika.
 slug: /network-types
+sidebar_position: 1
+status: reference
+last_reviewed: 2026-03-23
 ---
 
 # 🧠 Şəbəkə Əsasları

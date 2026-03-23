@@ -5,50 +5,50 @@
   },
   "sidebar.tutorialSidebar.category.🔴 Red Teaming": {
     "message": "🔴 Red Team",
-    "description": "The label for category 🔴 Red Teaming in sidebar tutorialSidebar"
+    "description": "The label for category '🔴 Red Teaming' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.🔵 Blue Teaming": {
     "message": "🔵 Blue Team",
-    "description": "The label for category 🔵 Blue Teaming in sidebar tutorialSidebar"
+    "description": "The label for category '🔵 Blue Teaming' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.🛡️ GRC": {
     "message": "🛡️ GRC",
-    "description": "The label for category 🛡️ GRC in sidebar tutorialSidebar"
+    "description": "The label for category '🛡️ GRC' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.🌐 General Security": {
     "message": "🌐 Ümumi Təhlükəsizlik",
-    "description": "The label for category 🌐 General Security in sidebar tutorialSidebar"
+    "description": "The label for category '🌐 General Security' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.🎓 Certifications": {
     "message": "🎓 Sertifikatlar",
-    "description": "The label for category 🎓 Certifications in sidebar tutorialSidebar"
+    "description": "The label for category '🎓 Certifications' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.🖥️ Operating Systems": {
     "message": "🖥️ Əməliyyat Sistemləri",
-    "description": "The label for category 🖥️ Operating Systems in sidebar tutorialSidebar"
+    "description": "The label for category '🖥️ Operating Systems' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Windows": {
     "message": "Windows",
-    "description": "The label for category Windows in sidebar tutorialSidebar"
+    "description": "The label for category 'Windows' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Linux": {
     "message": "Linux",
-    "description": "The label for category Linux in sidebar tutorialSidebar"
+    "description": "The label for category 'Linux' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.🧰 Servers": {
     "message": "🧰 Serverlər",
-    "description": "The label for category 🧰 Servers in sidebar tutorialSidebar"
+    "description": "The label for category '🧰 Servers' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.📡 Networking": {
     "message": "📡 Şəbəkə",
-    "description": "The label for category 📡 Networking in sidebar tutorialSidebar"
+    "description": "The label for category '📡 Networking' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.🆘 Helpdesk Basics": {
     "message": "🆘 Helpdesk Əsasları",
-    "description": "The label for category 🆘 Helpdesk Basics in sidebar tutorialSidebar"
+    "description": "The label for category '🆘 Helpdesk Basics' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.🧱 Virtualization": {
     "message": "🧱 Virtualizasiya",
-    "description": "The label for category 🧱 Virtualization in sidebar tutorialSidebar"
+    "description": "The label for category '🧱 Virtualization' in sidebar 'tutorialSidebar'"
   }
 }
