@@ -745,6 +745,35 @@ const lessons = [
     }
   },
   {
+    "slug": "/servers/windows-server-2025-installation",
+    "category": "servers",
+    "title": {
+      "en": "Install Windows Server 2025 from Scratch",
+      "az": "Windows Server 2025-i Sıfırdan Quraşdırmaq"
+    },
+    "description": {
+      "en": "Step-by-step Windows Server 2025 installation guide covering media prep, setup flow, first boot tasks, and safe initial configuration.",
+      "az": "Windows Server 2025 üçün addım-addım quraşdırma bələdçisi: media hazırlığı, setup axını, ilk girişdən sonrakı əsas ayarlar və təhlükəsiz başlanğıc yoxlamaları."
+    },
+    "keywords": [
+      "windows server 2025",
+      "installation",
+      "server setup",
+      "evaluation center",
+      "initial configuration",
+      "servers",
+      "windows-server-2025-installation",
+      "quraşdırma",
+      "ilkin konfiqurasiya"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-03-23",
+    "sourcePaths": {
+      "en": "servers/windows-server-2025-installation.md",
+      "az": "servers/windows-server-2025-installation.md"
+    }
+  },
+  {
     "slug": "/servers/laps",
     "category": "servers",
     "title": {

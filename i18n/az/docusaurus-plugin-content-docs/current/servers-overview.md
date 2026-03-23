@@ -26,6 +26,10 @@ Bu bölmə Windows Server və Active Directory əməliyyatları üzərində quru
     <strong>Windows Server Planlaşdırması</strong>
     <p>Quraşdırmadan əvvəl düzgün edition, role və deployment modelini seçin.</p>
   </a>
+  <a className="landing-card" href="/infoseclessons/az/servers/windows-server-2025-installation">
+    <strong>Windows Server 2025 Quraşdırılması</strong>
+    <p>ISO-dan qur, düzgün setup yolunu seç və ilk girişdən sonrakı əsas ayarları təhlükəsiz tamamla.</p>
+  </a>
   <a className="landing-card" href="/infoseclessons/az/servers/fsmo">
     <strong>FSMO Rolları</strong>
     <p>Domain controller role yerləşdirməsini və recovery qərarlarını anlayın.</p>

@@ -26,6 +26,10 @@ This section is centered on Windows Server and Active Directory operations.
     <strong>Windows Server Planning</strong>
     <p>Choose the right edition, roles, and deployment model before installation.</p>
   </a>
+  <a className="landing-card" href="/infoseclessons/servers/windows-server-2025-installation">
+    <strong>Windows Server 2025 Installation</strong>
+    <p>Install from ISO, choose the right setup path, and finish the first-boot basics safely.</p>
+  </a>
   <a className="landing-card" href="/infoseclessons/servers/fsmo">
     <strong>FSMO Roles</strong>
     <p>Understand domain controller role placement and recovery decisions.</p>
