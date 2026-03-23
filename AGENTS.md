@@ -10,7 +10,7 @@ This file orients AI agents so you don’t re‑scan the repo each run. Treat it
 
 ## Repo Overview
 - Type: Docusaurus v3 documentation site for InfoSec tutorials.
-- Node: `>=18` (see `package.json` → `engines`).
+- Node: `>=20` (see `package.json` → `engines`).
 - i18n: English (`en`, default) and Azerbaijani (`az`). `routeBasePath: '/'`.
 - Hosting: GitHub Pages (`url` + `baseUrl` set in `docusaurus.config.js`).
 
