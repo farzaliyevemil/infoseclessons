@@ -2,73 +2,147 @@
 id: bitlocker
 title: What is BitLocker?
 description: >-
-  An introduction to BitLocker technology for disk encryption in Windows
-  systems.
+  Learn how BitLocker works, why TPM plus PIN matters, and how BitLocker differs from automatic device encryption.
 slug: /bitlocker
 ---
 
 # 🔐 What is BitLocker?
 
-**BitLocker** is a disk encryption technology provided by Windows. Its purpose is to ensure the protection of data. Even if the system is not booted, the data remains secure.
+**BitLocker** is Microsoft's built-in disk encryption feature for Windows. Its main goal is to protect data **if a device is lost, stolen, or accessed offline**.
+
+In other words, BitLocker helps protect the contents of a disk even if someone removes the drive or tries to boot the device outside the normal operating system flow.
 
 ---
 
-## 🎯 Main Purpose
+## 🎯 What Problem Does BitLocker Solve?
 
-- Prevent unauthorized access to the disk in case of physical theft or device loss.
-- Protect against offline attacks.
+BitLocker is designed to reduce risk from:
+
+- Lost or stolen laptops
+- Offline attacks against a powered-off device
+- Attempts to read disks from another machine
+- Certain tampering scenarios before Windows starts
 
 ---
 
-## ⚙️ How It Works
+## ⚙️ How BitLocker Works
 
-- **Full Disk Encryption**: Encrypts all data on the disk.
-- **Integration with TPM (Trusted Platform Module)**: Uses TPM to securely store encryption keys.
-- **Recovery Key for Restoration**: Allows recovery of encrypted disks using a Recovery Key.
+BitLocker encrypts the drive and protects access to the decryption keys by using one or more protectors.
+
+Common protectors include:
+
+- **TPM only**
+- **TPM + PIN**
+- **Startup key on removable media**
+- **Recovery key**
+
+Microsoft's current guidance still treats **TPM-backed BitLocker** as the standard starting point, and **TPM + PIN** as a stronger option when you want extra protection at boot.
+
+---
+
+## 🔐 TPM vs TPM + PIN
+
+| Mode | Security level | Notes |
+| --- | --- | --- |
+| **TPM only** | Good baseline | Most transparent for users |
+| **TPM + PIN** | Stronger | Adds preboot user authentication |
+| **Startup key** | Situational | Requires removable media handling |
+| **Password without TPM** | Weaker | Generally discouraged compared with TPM-backed protection |
+
+Why TPM + PIN matters:
+
+- It adds **multifactor-style preboot protection**
+- A stolen laptop is harder to boot even if the attacker has the device in hand
+- It is useful for higher-risk users and privileged admin devices
+
+---
+
+## 💻 BitLocker vs Device Encryption
+
+These terms are related, but not identical:
+
+| Feature | Meaning |
+| --- | --- |
+| **BitLocker** | The underlying Windows disk encryption technology |
+| **Device encryption** | A more automatic BitLocker experience on qualifying devices |
+
+On supported hardware, **device encryption** can enable BitLocker automatically and back up recovery information to a Microsoft account, Active Directory, or Microsoft Entra ID depending on the join state and management model.
 
 ---
 
 ## ✅ Advantages
 
-- Simple management (via GUI and PowerShell).
-- Full disk encryption.
-- **BitLocker To Go**: Encryption support for USB devices.
-- Enhanced security with TPM support.
+- Built into Windows
+- Strong protection against offline data theft
+- Works with TPM for hardware-backed protection
+- Supports **BitLocker To Go** for removable drives
+- Supports enterprise recovery and management workflows
 
 ---
 
-## ⚠️ Limitations
+## ⚠️ Important Limitations
 
-- Not available in the **Home Edition** version.
-- Configuration can be challenging on systems without TPM.
-- Slight performance impact may be observed.
+- BitLocker does **not** stop an attacker who already has access to your unlocked session
+- Weak recovery key handling can undermine the whole design
+- TPM-only mode is convenient, but not the strongest option
+- Some environments need careful planning around firmware updates, BIOS changes, and recovery workflows
 
 ---
 
-## 🛠️ Activation
+## 🧾 Recovery Key Handling
 
-### Using GUI:
-1. Search for **"Manage BitLocker"**.
-2. Select the desired disk and activate it.
-3. Choose a method to save the **Recovery Key** (Microsoft account, USB, or print).
-4. Select the encryption type and start the process.
+Recovery planning is part of BitLocker, not an optional extra.
 
-### Using PowerShell:
+Recovery keys may be stored in:
+
+- **Microsoft account**
+- **Active Directory**
+- **Microsoft Entra ID**
+- **Printed or offline secure storage**
+
+Good practice:
+
+- Back up recovery keys before broad rollout
+- Know who can retrieve them
+- Test support workflows before a real incident
+
+---
+
+## 🛠️ Example Enablement
+
+### GUI
+
+1. Open **Manage BitLocker**
+2. Turn on protection for the target drive
+3. Save the recovery key securely
+4. Choose encryption scope and start encryption
+
+### PowerShell
+
 ```powershell
 Enable-BitLocker -MountPoint "C:" -EncryptionMethod XtsAes256 -UsedSpaceOnly -TpmProtector
 ```
 
+If you need stronger startup assurance, plan around **TPM + PIN** instead of relying only on TPM.
+
 ---
 
-## 🧾 Where is the Recovery Key Stored?
+## 🧨 Common Mistakes
 
-- **Microsoft Account**: The Recovery Key is automatically uploaded to your account.
-- **Active Directory**: Can be stored in network environments.
-- **Azure AD**: For cloud-based management.
-- **USB or Print**: For physical storage.
+- Enabling BitLocker without a recovery key retrieval process
+- Assuming encryption alone protects an unlocked laptop
+- Forgetting firmware or boot changes can trigger recovery
+- Using local-only recovery storage with no central process
+- Treating device encryption and managed enterprise BitLocker as if they were operationally identical
 
 ---
 
 ## 🧠 Summary
 
-**BitLocker** is an effective security tool for both personal and corporate users. Offline disk encryption provides a primary level of protection against attacks. When configured correctly, it is an indispensable tool for enhancing data security.
+BitLocker is one of the most valuable built-in security controls in Windows. For most organizations, the right baseline is:
+
+- TPM-backed BitLocker everywhere possible
+- Central recovery key backup
+- TPM + PIN for higher-risk devices or privileged users
+
+When handled well, BitLocker significantly improves endpoint data protection with relatively low operational cost.

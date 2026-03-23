@@ -1,4 +1,12 @@
-#️⃣ FSMO Rolları (Flexible Single Master Operations)
+---
+id: fsmo
+title: Active Directory-də FSMO Rolları
+description: Beş FSMO rolunun funksiyasını, necə yoxlanıldığını, transfer və seize fərqini öyrənin.
+sidebar_position: 1
+slug: /fsmo
+---
+
+# Active Directory-də FSMO Rolları
 
 Flexible Single Master Operations (FSMO) — Active Directory (AD) mühitində xüsusi domen nəzarətçisi (domain controller) vəzifələridir. AD çoxmasterli sistem olsa da (istənilən domen nəzarətçisi dəyişiklik edə bilər), bəzi əməliyyatlar yalnız bir domen nəzarətçisi tərəfindən idarə olunmalıdır ki, konfliktlər yaranmasın — bu vəzifələr FSMO rolları adlanır.
 
@@ -43,6 +51,21 @@ netdom query fsmo
 
 ---
 
+## 🔄 Transfer və Seize fərqi
+
+Bu iki anlayış eyni deyil:
+
+| Əməliyyat | Nə vaxt istifadə olunur | Risk |
+| --- | --- | --- |
+| **Transfer** | Mövcud role holder online və sağlamdırsa | Daha az |
+| **Seize** | Köhnə role holder itib, bərpa olunmayacaq və ya geri qayıtmamalıdırsa | Daha yüksək |
+
+Microsoft-un cari yanaşmasına görə mümkün olduqca **transfer** üstün tutulmalıdır, çünki graceful handoff zamanı rol məlumatı sinxronlaşdırılır. **Seize** isə qəza və bərpa ssenarisidir.
+
+> Əgər bir DC-dən rol seize edilibsə, həmin server sonradan sanki heç nə olmayıb kimi geri qaytarılmamalıdır.
+
+---
+
 ## ⚙️ Ən Yaxşı Təcrübələr
 
 - **Schema Master** və **Domain Naming Master** rollarını ayrı domen nəzarətçilərində saxlayın (adətən kök domendə).
@@ -61,16 +84,38 @@ Düzgün yerləşdirilməsə, aşağıdakı problemlər yarana bilər:
 
 ---
 
-## 🛠️ FSMO Rollarının Köçürülməsi
+## 🚨 Ən tez hiss olunan rol hansıdır?
+
+Praktik mühitlərdə ən tez hiss olunan problem çox vaxt **PDC Emulator** ilə bağlı olur, çünki o:
+
+- Parol dəyişikliklərində
+- Account lockout davranışında
+- Vaxt sinxronizasiyasında
+- Group Policy ilə bağlı fəaliyyətlərdə
+
+əhəmiyyətli rol oynayır.
+
+---
+
+## 🛠️ FSMO Rollarının Daşınması
 
 FSMO rollarını köçürmək üçün:
 - **Qrafik interfeys** (AD Users & Computers, Schema Console və s.)
 - **Əmr sətri** ilə `ntdsutil`
 - **PowerShell**:
 ```powershell
-Move-ADDirectoryServerOperationMasterRole -Identity "DCName" -OperationMasterRole SchemaMaster,RIDMaster,...
+Move-ADDirectoryServerOperationMasterRole -Identity "DCName" -OperationMasterRole SchemaMaster,RIDMaster,PDCEmulator,InfrastructureMaster,DomainNamingMaster
 ```
 
 ---
 
-FSMO rolları hər bir Active Directory infrastrukturunun sağlamlığı üçün əsasdır. Onları düzgün başa düşmək domen və meşə daxilində sabitlik, miqyaslana bilənlik və ardıcıllıq təmin edir.
+## ✅ Praktik Qayda
+
+- Planlı maintenance və migrasiya zamanı **transfer** et
+- Köhnə DC faktiki olaraq ölüdürsə və qayıtmayacaqsa **seize** et
+- Dəyişiklikdən əvvəl və sonra role owner-ləri sənədləşdir
+- Əməliyyatdan sonra replication sağlamlığını yoxla
+
+---
+
+FSMO rolları Active Directory infrastrukturunun dayanıqlığı üçün əsasdır. Həm rolların funksiyasını, həm də nə vaxt **transfer**, nə vaxt **seize** edilməli olduğunu bilmək vacibdir.
