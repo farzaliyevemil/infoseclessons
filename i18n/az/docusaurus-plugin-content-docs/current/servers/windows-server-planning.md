@@ -3,7 +3,7 @@ id: windows-server-planning
 title: Windows Server Quraşdırmadan Əvvəl Planlaşdırma
 description: Windows Server quraşdırmazdan əvvəl edition, rol, deployment modeli və quraşdırma variantını düzgün planlayın.
 sidebar_position: 3
-slug: /az/servers/windows-server-planning
+slug: /servers/windows-server-planning
 ---
 
 # Windows Server Quraşdırmadan Əvvəl Planlaşdırma
