@@ -24,4 +24,9 @@ Networking is one of the highest-leverage foundations in the whole site. If this
     <strong>DNS</strong>
     <p>Resolution flow, record types, zones, caching, recursion, and reverse lookup.</p>
   </a>
+  <a className="landing-card" href="/infoseclessons/networking/dhcp">
+    <span className="landing-card__eyebrow">Core</span>
+    <strong>DHCP</strong>
+    <p>DORA flow, scopes, reservations, options, lease behavior, and failover basics.</p>
+  </a>
 </div>

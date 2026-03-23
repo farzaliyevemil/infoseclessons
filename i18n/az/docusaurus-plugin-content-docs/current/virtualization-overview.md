@@ -18,4 +18,8 @@ Virtualizasiya lab qurmağa, təhlükəsiz test etməyə, server sıxlığını 
     <strong>Virtualizasiya Əsasları</strong>
     <p>Hypervisor-lar, snapshot-lar, storage qatları, network modelləri və praktik istifadə halları.</p>
   </a>
+  <a className="landing-card" href="/infoseclessons/az/virtualization/vmware-virtualization">
+    <strong>VMware Virtualizasiya</strong>
+    <p>ESXi, vSphere, Workstation və VMware lab şəbəkəsinin production dizaynından fərqi.</p>
+  </a>
 </div>

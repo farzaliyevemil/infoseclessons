@@ -18,6 +18,10 @@ Bu bölmə Windows Server və Active Directory əməliyyatları üzərində quru
     <strong>Active Directory Domain Services</strong>
     <p>Forest, domain, OU, trust, global catalog və replication əsasları.</p>
   </a>
+  <a className="landing-card" href="/infoseclessons/az/servers/group-policy">
+    <strong>Group Policy</strong>
+    <p>Tətbiq ardıcıllığı, inheritance, SYSVOL, enforced linklər və policy troubleshooting əsasları.</p>
+  </a>
   <a className="landing-card" href="/infoseclessons/az/servers/windows-server-planning">
     <strong>Windows Server Planlaşdırması</strong>
     <p>Quraşdırmadan əvvəl düzgün edition, role və deployment modelini seçin.</p>
@@ -29,6 +33,10 @@ Bu bölmə Windows Server və Active Directory əməliyyatları üzərində quru
   <a className="landing-card" href="/infoseclessons/az/servers/laps">
     <strong>Microsoft LAPS</strong>
     <p>Local admin parol rotasiyası və əməliyyat gigiyenası.</p>
+  </a>
+  <a className="landing-card" href="/infoseclessons/az/servers/windows-server-tools">
+    <strong>Windows Server Alətləri</strong>
+    <p>Server Manager, Event Viewer, perfmon, resmon, services və remote admin iş axını.</p>
   </a>
   <a className="landing-card" href="/infoseclessons/az/servers/jump-server">
     <strong>Jump Server</strong>

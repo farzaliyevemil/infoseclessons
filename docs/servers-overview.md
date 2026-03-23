@@ -18,6 +18,10 @@ This section is centered on Windows Server and Active Directory operations.
     <strong>Active Directory Domain Services</strong>
     <p>Forest, domain, OU, trust, global catalog, and replication foundations.</p>
   </a>
+  <a className="landing-card" href="/infoseclessons/servers/group-policy">
+    <strong>Group Policy</strong>
+    <p>Processing order, inheritance, SYSVOL, enforced links, and policy troubleshooting basics.</p>
+  </a>
   <a className="landing-card" href="/infoseclessons/servers/windows-server-planning">
     <strong>Windows Server Planning</strong>
     <p>Choose the right edition, roles, and deployment model before installation.</p>
@@ -29,6 +33,10 @@ This section is centered on Windows Server and Active Directory operations.
   <a className="landing-card" href="/infoseclessons/servers/laps">
     <strong>Microsoft LAPS</strong>
     <p>Local admin password rotation and operational hygiene.</p>
+  </a>
+  <a className="landing-card" href="/infoseclessons/servers/windows-server-tools">
+    <strong>Windows Server Tools</strong>
+    <p>Server Manager, Event Viewer, perfmon, resmon, services, and remote admin workflow.</p>
   </a>
   <a className="landing-card" href="/infoseclessons/servers/jump-server">
     <strong>Jump Server</strong>

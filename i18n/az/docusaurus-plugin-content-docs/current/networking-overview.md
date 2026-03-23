@@ -24,4 +24,9 @@ last_reviewed: 2026-03-23
     <strong>DNS</strong>
     <p>Resolution axını, record tipləri, zonalar, caching, recursion və reverse lookup.</p>
   </a>
+  <a className="landing-card" href="/infoseclessons/az/networking/dhcp">
+    <span className="landing-card__eyebrow">Əsas</span>
+    <strong>DHCP</strong>
+    <p>DORA axını, scope-lar, reservation, option-lar, lease davranışı və failover əsasları.</p>
+  </a>
 </div>

@@ -281,6 +281,32 @@ const lessons = [
     }
   },
   {
+    "slug": "/networking/dhcp",
+    "category": "networking",
+    "title": {
+      "en": "DHCP (Dynamic Host Configuration Protocol)",
+      "az": "DHCP (Dynamic Host Configuration Protocol)"
+    },
+    "description": {
+      "en": "Practical DHCP guide covering DORA, scopes, reservations, leases, options, DHCPv4 vs DHCPv6, and failover basics.",
+      "az": "DHCP üçün praktik bələdçi: DORA, scope, reservation, lease, option-lar, DHCPv4 vs DHCPv6 və failover əsasları."
+    },
+    "keywords": [
+      "dhcp",
+      "dora",
+      "scope",
+      "reservation",
+      "failover",
+      "networking"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-03-23",
+    "sourcePaths": {
+      "en": "networking/dhcp.md",
+      "az": "networking/dhcp.md"
+    }
+  },
+  {
     "slug": "/networking/dns",
     "category": "networking",
     "title": {
@@ -692,6 +718,33 @@ const lessons = [
     }
   },
   {
+    "slug": "/servers/group-policy",
+    "category": "servers",
+    "title": {
+      "en": "Group Policy (GPO) Basics",
+      "az": "Group Policy (GPO) Əsasları"
+    },
+    "description": {
+      "en": "Learn GPO structure, processing order, inheritance, enforced links, password policy scope, SYSVOL, and practical troubleshooting basics.",
+      "az": "GPO strukturu, tətbiq ardıcıllığı, inheritance, enforced linklər, password policy sahəsi, SYSVOL və praktik troubleshooting əsasları."
+    },
+    "keywords": [
+      "group policy",
+      "gpo",
+      "lsdou",
+      "sysvol",
+      "fgpp",
+      "servers",
+      "group-policy"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-03-23",
+    "sourcePaths": {
+      "en": "servers/group-policy.md",
+      "az": "servers/group-policy.md"
+    }
+  },
+  {
     "slug": "/servers/laps",
     "category": "servers",
     "title": {
@@ -757,6 +810,34 @@ const lessons = [
     }
   },
   {
+    "slug": "/servers/windows-server-tools",
+    "category": "servers",
+    "title": {
+      "en": "Windows Server Administration Tools",
+      "az": "Windows Server İdarəetmə Alətləri"
+    },
+    "description": {
+      "en": "Practical guide to Server Manager, Event Viewer, Performance Monitor, Resource Monitor, Services, Server Core tools, and related admin workflows.",
+      "az": "Server Manager, Event Viewer, Performance Monitor, Resource Monitor, Services, Server Core alətləri və əlaqəli admin iş axını üçün praktik bələdçi."
+    },
+    "keywords": [
+      "windows server",
+      "server manager",
+      "event viewer",
+      "perfmon",
+      "resmon",
+      "services",
+      "servers",
+      "windows-server-tools"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-03-23",
+    "sourcePaths": {
+      "en": "servers/windows-server-tools.md",
+      "az": "servers/windows-server-tools.md"
+    }
+  },
+  {
     "slug": "/servers/windows-server-planning",
     "category": "servers",
     "title": {
@@ -819,6 +900,34 @@ const lessons = [
     "sourcePaths": {
       "en": "virtualization-overview.md",
       "az": "virtualization-overview.md"
+    }
+  },
+  {
+    "slug": "/virtualization/vmware-virtualization",
+    "category": "virtualization",
+    "title": {
+      "en": "VMware Virtualization Basics",
+      "az": "VMware Virtualizasiya Əsasları"
+    },
+    "description": {
+      "en": "Practical guide to VMware products, ESXi vs vSphere vs Workstation, VM creation flow, and how lab network modes differ from vSphere networking.",
+      "az": "VMware məhsulları, ESXi vs vSphere vs Workstation, VM yaratma axını və lab network modellərinin vSphere şəbəkəsindən fərqi üçün praktik bələdçi."
+    },
+    "keywords": [
+      "vmware",
+      "vsphere",
+      "esxi",
+      "workstation",
+      "bridged",
+      "nat",
+      "virtualization",
+      "vmware-virtualization"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-03-23",
+    "sourcePaths": {
+      "en": "virtualization/vmware-virtualization.md",
+      "az": "virtualization/vmware-virtualization.md"
     }
   }
 ];

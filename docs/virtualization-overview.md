@@ -18,4 +18,8 @@ Virtualization supports labs, safe testing, server density, and modern infrastru
     <strong>Virtualization Basics</strong>
     <p>Hypervisors, snapshots, storage layers, network modes, and practical use cases.</p>
   </a>
+  <a className="landing-card" href="/infoseclessons/virtualization/vmware-virtualization">
+    <strong>VMware Virtualization</strong>
+    <p>ESXi, vSphere, Workstation, and how VMware lab networking differs from production design.</p>
+  </a>
 </div>
