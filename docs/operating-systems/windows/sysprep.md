@@ -4,7 +4,7 @@ title: Sysprep – Windows System Preparation Tool
 description: >-
   Learn what Sysprep is, why it's used for imaging and deployment, and how to
   generalize Windows installations.
-slug: /sysprep
+slug: /operating-systems/windows/sysprep
 ---
 
 # 🧰 What is Sysprep?

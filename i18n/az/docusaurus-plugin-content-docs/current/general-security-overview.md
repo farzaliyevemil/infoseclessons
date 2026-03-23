@@ -19,7 +19,7 @@ Bu bölmədən birdən çox rol üçün faydalı olan daha geniş anlayışlar v
     <strong>Açıq Mənbə Təhlükəsizlik Həlləri</strong>
     <p>Açıq mənbə alətləri ümumi əməliyyat ehtiyacları ilə əlaqələndirin.</p>
   </a>
-  <a className="landing-card" href="/infoseclessons/az/raid">
+  <a className="landing-card" href="/infoseclessons/az/general-security/raid">
     <span className="landing-card__eyebrow">İnfrastruktur</span>
     <strong>RAID</strong>
     <p>Disk düzülüşlərinin redundancy və performans kompromislərinə baxın.</p>

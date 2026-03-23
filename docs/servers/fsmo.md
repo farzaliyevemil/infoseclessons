@@ -3,7 +3,7 @@ id: fsmo
 title: FSMO Roles in Active Directory
 description: Learn what the five FSMO roles do, how to check them, and when to transfer or seize them safely.
 sidebar_position: 1
-slug: /fsmo
+slug: /servers/fsmo
 ---
 
 # FSMO Roles in Active Directory

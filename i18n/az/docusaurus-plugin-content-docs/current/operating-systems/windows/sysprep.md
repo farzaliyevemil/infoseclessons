@@ -4,7 +4,7 @@ title: Sysprep – Windows Sistem Hazırlıq Aləti
 description: >-
   Sysprep nədir, niyə imaging və deployment üçün istifadə olunur, və Windows
   quraşdırmalarını necə ümumiləşdirmək olar.
-slug: /sysprep
+slug: /operating-systems/windows/sysprep
 ---
 
 # 🧰 Sysprep nədir?

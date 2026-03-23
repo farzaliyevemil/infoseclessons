@@ -22,15 +22,15 @@ This section is centered on Windows Server and Active Directory operations.
     <strong>Windows Server Planning</strong>
     <p>Choose the right edition, roles, and deployment model before installation.</p>
   </a>
-  <a className="landing-card" href="/infoseclessons/fsmo">
+  <a className="landing-card" href="/infoseclessons/servers/fsmo">
     <strong>FSMO Roles</strong>
     <p>Understand domain controller role placement and recovery decisions.</p>
   </a>
-  <a className="landing-card" href="/infoseclessons/laps">
+  <a className="landing-card" href="/infoseclessons/servers/laps">
     <strong>Microsoft LAPS</strong>
     <p>Local admin password rotation and operational hygiene.</p>
   </a>
-  <a className="landing-card" href="/infoseclessons/jump-server">
+  <a className="landing-card" href="/infoseclessons/servers/jump-server">
     <strong>Jump Server</strong>
     <p>Controlled administrative access into sensitive environments.</p>
   </a>

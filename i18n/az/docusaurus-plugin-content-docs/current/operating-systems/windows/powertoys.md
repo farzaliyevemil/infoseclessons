@@ -4,7 +4,7 @@ title: Microsoft PowerToys ilə Produktivliyi Artırmaq
 description: >-
   Microsoft PowerToys alətlər dəsti ilə Windows istifadəçiləri üçün
   məhsuldarlığı necə artırmaq olar, öyrənin.
-slug: /powertoys
+slug: /operating-systems/windows/powertoys
 ---
 
 # ⚙️ Microsoft PowerToys ilə Produktivliyi Artırmaq

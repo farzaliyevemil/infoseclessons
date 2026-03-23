@@ -4,7 +4,7 @@ title: BitLocker Nədir?
 description: >-
   BitLocker-in necə işlədiyini, TPM + PIN-in niyə vacib olduğunu və device
   encryption ilə fərqini öyrənin.
-slug: /bitlocker
+slug: /operating-systems/windows/bitlocker
 ---
 
 # 🔐 BitLocker Nədir?

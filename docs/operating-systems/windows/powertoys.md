@@ -4,7 +4,7 @@ title: Mastering Productivity with Microsoft PowerToys
 description: >-
   Discover how Microsoft PowerToys can boost your productivity with a suite of
   advanced utilities for Windows users.
-slug: /powertoys
+slug: /operating-systems/windows/powertoys
 ---
 
 # ⚙️ Mastering Productivity with Microsoft PowerToys

@@ -4,7 +4,7 @@ title: Windows Services Hardening Guide
 description: >-
   A safer guide to reviewing Windows services without breaking enterprise
   systems or disabling required functionality.
-slug: /services
+slug: /operating-systems/windows/services
 ---
 
 # 🔒 Windows Services Hardening Guide

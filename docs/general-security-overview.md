@@ -19,7 +19,7 @@ Use this section for broader concepts and tool sets that support multiple roles.
     <strong>Open-Source Security Solutions</strong>
     <p>Map open-source tools to common operational needs.</p>
   </a>
-  <a className="landing-card" href="/infoseclessons/raid">
+  <a className="landing-card" href="/infoseclessons/general-security/raid">
     <span className="landing-card__eyebrow">Infrastructure</span>
     <strong>RAID</strong>
     <p>Review redundancy and performance tradeoffs behind common disk layouts.</p>

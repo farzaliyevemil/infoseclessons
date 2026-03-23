@@ -14,7 +14,7 @@ Real IT və təhlükəsizlik işinə uyğun qısa, praktik dərslərlə öyrəni
 ## Bir Yol Seçin
 
 <div className="landing-grid">
-  <a className="landing-card" href="network-types">
+  <a className="landing-card" href="networking/network-types">
     <span className="landing-card__eyebrow">Əsaslar</span>
     <strong>Şəbəkə ilə başlayın</strong>
     <p>Əvvəl əsas modeli qurun: IP ünvanlama, routing, VLAN, DNS, portlar və diaqnostika.</p>
@@ -38,10 +38,10 @@ Real IT və təhlükəsizlik işinə uyğun qısa, praktik dərslərlə öyrəni
 
 ## Öyrənmə Yolları
 
-- **Başlanğıc IT / Helpdesk**: [Şəbəkə Əsasları](/network-types) ilə başlayın, sonra [Yayğın Helpdesk Ticket-ləri](/helpdesk-basics/common-helpdesk-tickets), daha sonra [Windows-da Run Əmrləri](/run-commands).
-- **Windows / Sysadmin**: [Windows Server Quraşdırmadan Əvvəl Planlaşdırma](/servers/windows-server-planning) ilə başlayın, sonra [FSMO Rolları](/fsmo), [Microsoft LAPS](/laps) və [BitLocker](/bitlocker).
-- **Blue Team**: [Loq Analizi](/blue-teaming/log-analysis) ilə başlayın, sonra [AppLocker](/applocker), [Windows Services Hardening](/services) və [Açıq Mənbə Təhlükəsizlik Həlləri](/open-source).
-- **Red Team**: [Initial Access](/red-teaming/initial-access) ilə başlayın, sonra [Şəbəkə Əsasları](/network-types), [Linux Əsas Komandaları](/operating-systems/linux/basic-commands) və [WSL](/wsl) ilə baza qurun.
+- **Başlanğıc IT / Helpdesk**: [Şəbəkə Əsasları](/networking/network-types) ilə başlayın, sonra [Yayğın Helpdesk Ticket-ləri](/helpdesk-basics/common-helpdesk-tickets), daha sonra [Windows-da Run Əmrləri](/operating-systems/windows/run-commands).
+- **Windows / Sysadmin**: [Windows Server Quraşdırmadan Əvvəl Planlaşdırma](/servers/windows-server-planning) ilə başlayın, sonra [FSMO Rolları](/servers/fsmo), [Microsoft LAPS](/servers/laps) və [BitLocker](/operating-systems/windows/bitlocker).
+- **Blue Team**: [Loq Analizi](/blue-teaming/log-analysis) ilə başlayın, sonra [AppLocker](/operating-systems/windows/applocker), [Windows Services Hardening](/operating-systems/windows/services) və [Açıq Mənbə Təhlükəsizlik Həlləri](/general-security/open-source).
+- **Red Team**: [Initial Access](/red-teaming/initial-access) ilə başlayın, sonra [Şəbəkə Əsasları](/networking/network-types), [Linux Əsas Komandaları](/operating-systems/linux/basic-commands) və [WSL](/operating-systems/windows/wsl) ilə baza qurun.
 - **Sertifikatlar**: İstədiyiniz rola görə [CompTIA](/certifications/comptia-certifications), [Microsoft](/certifications/microsoft-certifications) və [AWS](/certifications/aws-certifications) yollarını müqayisə edin.
 
 ## Dərsləri Daha Tez Tapın

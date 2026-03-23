@@ -15,7 +15,7 @@ Learn with short, practical lessons built for real IT and security work.
 ## Choose a Path
 
 <div className="landing-grid">
-  <a className="landing-card" href="network-types">
+  <a className="landing-card" href="networking/network-types">
     <span className="landing-card__eyebrow">Foundations</span>
     <strong>Start with Networking</strong>
     <p>Build the core mental model first: addressing, routing, VLANs, DNS, ports, and troubleshooting.</p>
@@ -39,10 +39,10 @@ Learn with short, practical lessons built for real IT and security work.
 
 ## Learning Paths
 
-- **Beginner IT / Helpdesk**: Start with [Networking Basics](/network-types), then [Common Helpdesk Tickets](/helpdesk-basics/common-helpdesk-tickets), then [Windows Run Commands](/run-commands).
-- **Windows / Sysadmin**: Start with [Windows Server Planning](/servers/windows-server-planning), then [FSMO Roles](/fsmo), [Microsoft LAPS](/laps), and [BitLocker](/bitlocker).
-- **Blue Team**: Start with [Log Analysis](/blue-teaming/log-analysis), then move into [AppLocker](/applocker), [Windows Services Hardening](/services), and [Open-Source Security Solutions](/open-source).
-- **Red Team**: Start with [Initial Access](/red-teaming/initial-access), then build stronger foundations in [Networking Basics](/network-types), [Linux Basic Commands](/operating-systems/linux/basic-commands), and [WSL](/wsl).
+- **Beginner IT / Helpdesk**: Start with [Networking Basics](/networking/network-types), then [Common Helpdesk Tickets](/helpdesk-basics/common-helpdesk-tickets), then [Windows Run Commands](/operating-systems/windows/run-commands).
+- **Windows / Sysadmin**: Start with [Windows Server Planning](/servers/windows-server-planning), then [FSMO Roles](/servers/fsmo), [Microsoft LAPS](/servers/laps), and [BitLocker](/operating-systems/windows/bitlocker).
+- **Blue Team**: Start with [Log Analysis](/blue-teaming/log-analysis), then move into [AppLocker](/operating-systems/windows/applocker), [Windows Services Hardening](/operating-systems/windows/services), and [Open-Source Security Solutions](/general-security/open-source).
+- **Red Team**: Start with [Initial Access](/red-teaming/initial-access), then build stronger foundations in [Networking Basics](/networking/network-types), [Linux Basic Commands](/operating-systems/linux/basic-commands), and [WSL](/operating-systems/windows/wsl).
 - **Certifications**: Compare [CompTIA](/certifications/comptia-certifications), [Microsoft](/certifications/microsoft-certifications), and [AWS](/certifications/aws-certifications) based on the job you want.
 
 ## Find Lessons Faster

@@ -5,7 +5,7 @@ description: >-
   Windows LAPS, legacy Microsoft LAPS, password backup seçimləri, rotation və
   əməliyyat best practice-ləri haqqında praktik izah.
 sidebar_position: 2
-slug: /laps
+slug: /servers/laps
 ---
 
 # 🔐 Microsoft LAPS İzahı

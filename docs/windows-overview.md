@@ -14,19 +14,19 @@ last_reviewed: 2026-03-23
 Use this page to navigate the Windows lessons in a sensible order.
 
 <div className="landing-grid">
-  <a className="landing-card" href="/infoseclessons/bitlocker">
+  <a className="landing-card" href="/infoseclessons/operating-systems/windows/bitlocker">
     <strong>BitLocker</strong>
     <p>Disk encryption, TPM assumptions, and recovery planning.</p>
   </a>
-  <a className="landing-card" href="/infoseclessons/applocker">
+  <a className="landing-card" href="/infoseclessons/operating-systems/windows/applocker">
     <strong>AppLocker</strong>
     <p>Application control and why audit mode should come first.</p>
   </a>
-  <a className="landing-card" href="/infoseclessons/services">
+  <a className="landing-card" href="/infoseclessons/operating-systems/windows/services">
     <strong>Services Hardening</strong>
     <p>Safer review and hardening of Windows services.</p>
   </a>
-  <a className="landing-card" href="/infoseclessons/run-commands">
+  <a className="landing-card" href="/infoseclessons/operating-systems/windows/run-commands">
     <strong>Run Commands</strong>
     <p>Fast access to administrative tools and troubleshooting paths.</p>
   </a>

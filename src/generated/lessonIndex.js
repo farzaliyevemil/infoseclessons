@@ -151,7 +151,7 @@ const lessons = [
     }
   },
   {
-    "slug": "/open-source",
+    "slug": "/general-security/open-source",
     "category": "general-security",
     "title": {
       "en": "Open-Source Security Solutions (Overview)",
@@ -173,7 +173,7 @@ const lessons = [
     }
   },
   {
-    "slug": "/raid",
+    "slug": "/general-security/raid",
     "category": "general-security",
     "title": {
       "en": "What is RAID? (Simple Explanation)",
@@ -309,7 +309,7 @@ const lessons = [
     }
   },
   {
-    "slug": "/network-types",
+    "slug": "/networking/network-types",
     "category": "networking",
     "title": {
       "en": "Networking Basics",
@@ -396,7 +396,7 @@ const lessons = [
     }
   },
   {
-    "slug": "/powertoys",
+    "slug": "/operating-systems/windows/powertoys",
     "category": "operating-systems",
     "title": {
       "en": "Mastering Productivity with Microsoft PowerToys",
@@ -440,7 +440,7 @@ const lessons = [
     }
   },
   {
-    "slug": "/run-commands",
+    "slug": "/operating-systems/windows/run-commands",
     "category": "operating-systems",
     "title": {
       "en": "Run Commands in Windows",
@@ -463,7 +463,7 @@ const lessons = [
     }
   },
   {
-    "slug": "/sysprep",
+    "slug": "/operating-systems/windows/sysprep",
     "category": "operating-systems",
     "title": {
       "en": "Sysprep – Windows System Preparation Tool",
@@ -486,7 +486,7 @@ const lessons = [
     }
   },
   {
-    "slug": "/applocker",
+    "slug": "/operating-systems/windows/applocker",
     "category": "operating-systems",
     "title": {
       "en": "What is AppLocker?",
@@ -509,7 +509,7 @@ const lessons = [
     }
   },
   {
-    "slug": "/bitlocker",
+    "slug": "/operating-systems/windows/bitlocker",
     "category": "operating-systems",
     "title": {
       "en": "What is BitLocker?",
@@ -532,7 +532,7 @@ const lessons = [
     }
   },
   {
-    "slug": "/wsl",
+    "slug": "/operating-systems/windows/wsl",
     "category": "operating-systems",
     "title": {
       "en": "What is WSL? (Windows Subsystem for Linux)",
@@ -576,7 +576,7 @@ const lessons = [
     }
   },
   {
-    "slug": "/services",
+    "slug": "/operating-systems/windows/services",
     "category": "operating-systems",
     "title": {
       "en": "Windows Services Hardening Guide",
@@ -670,7 +670,7 @@ const lessons = [
     }
   },
   {
-    "slug": "/fsmo",
+    "slug": "/servers/fsmo",
     "category": "servers",
     "title": {
       "en": "FSMO Roles in Active Directory",
@@ -692,7 +692,7 @@ const lessons = [
     }
   },
   {
-    "slug": "/laps",
+    "slug": "/servers/laps",
     "category": "servers",
     "title": {
       "en": "Microsoft LAPS Explained",
@@ -735,7 +735,7 @@ const lessons = [
     }
   },
   {
-    "slug": "/jump-server",
+    "slug": "/servers/jump-server",
     "category": "servers",
     "title": {
       "en": "What is a Jump Server?",
@@ -779,7 +779,7 @@ const lessons = [
     }
   },
   {
-    "slug": "/virtualization",
+    "slug": "/virtualization/virtualization-basics",
     "category": "virtualization",
     "title": {
       "en": "Virtualization Basics",
@@ -801,7 +801,7 @@ const lessons = [
     }
   },
   {
-    "slug": "/virtualization-guide",
+    "slug": "/virtualization",
     "category": "virtualization",
     "title": {
       "en": "Virtualization Guide",

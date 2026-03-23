@@ -2,7 +2,7 @@
 id: raid
 title: RAID nədir? (Sadə izah)
 description: RAID nədir, nə üçün istifadə olunur və hansı məqsədlərə xidmət edir? Sadə dildə tam izah.
-slug: /raid
+slug: /general-security/raid
 ---
 
 # 📦 RAID nədir?

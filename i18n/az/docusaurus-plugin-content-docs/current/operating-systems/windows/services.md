@@ -4,7 +4,7 @@ title: Windows Services Hardening Bələdçisi
 description: >-
   Windows xidmətlərini kor-koranə disable etmədən, daha təhlükəsiz və düzgün
   şəkildə necə review etmək lazım olduğunu öyrənin.
-slug: /services
+slug: /operating-systems/windows/services
 ---
 
 

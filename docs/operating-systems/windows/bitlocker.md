@@ -3,7 +3,7 @@ id: bitlocker
 title: What is BitLocker?
 description: >-
   Learn how BitLocker works, why TPM plus PIN matters, and how BitLocker differs from automatic device encryption.
-slug: /bitlocker
+slug: /operating-systems/windows/bitlocker
 ---
 
 # 🔐 What is BitLocker?

@@ -14,7 +14,7 @@ last_reviewed: 2026-03-23
 Networking is one of the highest-leverage foundations in the whole site. If this layer is weak, every other troubleshooting path becomes slower.
 
 <div className="landing-grid">
-  <a className="landing-card" href="/infoseclessons/network-types">
+  <a className="landing-card" href="/infoseclessons/networking/network-types">
     <span className="landing-card__eyebrow">Core</span>
     <strong>Networking Basics</strong>
     <p>Addressing, VLANs, switching, routing, DNS, DHCP, and troubleshooting.</p>

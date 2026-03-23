@@ -2,7 +2,7 @@
 id: virtualization-overview
 title: Virtualization Guide
 description: Overview of virtualization basics, lab building, and the platform concepts behind safer testing environments.
-slug: /virtualization-guide
+slug: /virtualization
 sidebar_position: 0
 category_key: virtualization
 status: overview

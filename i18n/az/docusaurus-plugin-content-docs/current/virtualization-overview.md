@@ -2,7 +2,7 @@
 id: virtualization-overview
 title: Virtualizasiya Bələdçisi
 description: Virtualizasiya əsasları, lab qurulması və daha təhlükəsiz test mühitlərinin arxasındakı platform anlayışlarının icmalı.
-slug: /virtualization-guide
+slug: /virtualization
 sidebar_position: 0
 category_key: virtualization
 status: overview

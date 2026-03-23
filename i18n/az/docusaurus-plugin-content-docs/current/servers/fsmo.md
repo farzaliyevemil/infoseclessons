@@ -3,7 +3,7 @@ id: fsmo
 title: Active Directory-də FSMO Rolları
 description: Beş FSMO rolunun funksiyasını, necə yoxlanıldığını, transfer və seize fərqini öyrənin.
 sidebar_position: 1
-slug: /fsmo
+slug: /servers/fsmo
 ---
 
 # Active Directory-də FSMO Rolları

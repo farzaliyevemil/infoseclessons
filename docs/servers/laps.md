@@ -5,7 +5,7 @@ description: >-
   Understand Windows LAPS, legacy Microsoft LAPS, password backup options,
   rotation, and operational best practices.
 sidebar_position: 2
-slug: /laps
+slug: /servers/laps
 ---
 
 # 🔐 Microsoft LAPS Explained
