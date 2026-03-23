@@ -2,7 +2,7 @@
 id: microsoft-certifications
 title: Microsoft Sertifikatları (2026 Bələdçisi)
 description: 23 mart 2026 tarixinə aktual Microsoft sertifikatları, renewal qaydaları və tövsiyə olunan öyrənmə yolları.
-slug: /general-security/microsoft-certifications
+slug: /certifications/microsoft-certifications
 sidebar_position: 3
 ---
 

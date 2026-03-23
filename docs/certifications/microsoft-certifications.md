@@ -2,7 +2,7 @@
 id: microsoft-certifications
 title: Microsoft Certifications (2026 Guide)
 description: A practical overview of active Microsoft certifications, renewal rules, and suggested learning paths as of March 23, 2026.
-slug: /general-security/microsoft-certifications
+slug: /certifications/microsoft-certifications
 sidebar_position: 3
 ---
 

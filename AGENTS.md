@@ -35,7 +35,7 @@ This file orients AI agents so you don’t re‑scan the repo each run. Treat it
 ## Content Layout & Conventions
 - Categories (English):
   - `red-teaming/`, `blue-teaming/`, `grc/`, `general-security/`,
-    `operating-systems/windows/`, `operating-systems/linux/`,
+    `certifications/`, `operating-systems/windows/`, `operating-systems/linux/`,
     `servers/`, `networking/`, `helpdesk-basics/`, `virtualization/`.
 - File type: plain Markdown (`.md`).
 - Frontmatter recommended fields:
