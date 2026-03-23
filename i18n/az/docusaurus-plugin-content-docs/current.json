@@ -1,14 +1,14 @@
 {
   "version.label": {
-    "message": "Next",
+    "message": "Cari",
     "description": "The label for version current"
   },
   "sidebar.tutorialSidebar.category.🔴 Red Teaming": {
-    "message": "🔴 Red Teaming",
+    "message": "🔴 Red Team",
     "description": "The label for category 🔴 Red Teaming in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.🔵 Blue Teaming": {
-    "message": "🔵 Blue Teaming",
+    "message": "🔵 Blue Team",
     "description": "The label for category 🔵 Blue Teaming in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.🛡️ GRC": {
@@ -16,11 +16,15 @@
     "description": "The label for category 🛡️ GRC in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.🌐 General Security": {
-    "message": "🌐 General Security",
+    "message": "🌐 Ümumi Təhlükəsizlik",
     "description": "The label for category 🌐 General Security in sidebar tutorialSidebar"
   },
+  "sidebar.tutorialSidebar.category.🎓 Certifications": {
+    "message": "🎓 Sertifikatlar",
+    "description": "The label for category 🎓 Certifications in sidebar tutorialSidebar"
+  },
   "sidebar.tutorialSidebar.category.🖥️ Operating Systems": {
-    "message": "🖥️ Operating Systems",
+    "message": "🖥️ Əməliyyat Sistemləri",
     "description": "The label for category 🖥️ Operating Systems in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Windows": {
@@ -32,19 +36,19 @@
     "description": "The label for category Linux in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.🧰 Servers": {
-    "message": "🧰 Servers",
+    "message": "🧰 Serverlər",
     "description": "The label for category 🧰 Servers in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.📡 Networking": {
-    "message": "📡 Networking",
+    "message": "📡 Şəbəkə",
     "description": "The label for category 📡 Networking in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.🆘 Helpdesk Basics": {
-    "message": "🆘 Helpdesk Basics",
+    "message": "🆘 Helpdesk Əsasları",
     "description": "The label for category 🆘 Helpdesk Basics in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.🧱 Virtualization": {
-    "message": "🧱 Virtualization",
+    "message": "🧱 Virtualizasiya",
     "description": "The label for category 🧱 Virtualization in sidebar tutorialSidebar"
   }
 }

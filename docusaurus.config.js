@@ -7,8 +7,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Welcome to Information Security World',
-  tagline: 'Your Practical Guide to Cybersecurity',
+  title: 'InfoSec Lessons',
+  tagline: 'Practical cybersecurity lessons, learning paths, and field notes',
   favicon: 'img/shield.png',
 
   url: 'https://farzaliyevemil.github.io',
@@ -48,6 +48,7 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/',
           editUrl: 'https://github.com/farzaliyevemil/infoseclessons/edit/main/',
+          editLocalizedFiles: true,
         },
         blog: false,
         theme: {
@@ -74,6 +75,7 @@ const config = {
       items: [
         { to: '/', label: 'Start', position: 'left' },
         { to: '/about', label: 'About', position: 'left' },
+        { to: '/search', label: 'Search', position: 'left' },
         {
           type: 'localeDropdown',
           position: 'right',
@@ -88,7 +90,7 @@ const config = {
     footer: {
       style: 'dark',
       links: [],
-      copyright: `Copyright © ${new Date().getFullYear()} Emil Farzaliyev.`,
+      copyright: 'Copyright © Emil Farzaliyev.',
     },
     prism: {
       theme: prismThemes.github,

@@ -1,56 +1,52 @@
 ---
 id: intro
-title: Welcome to InfoSec Lessons
-description: "Practical cybersecurity lessons and resources on Red/Blue Teaming, GRC, and IT foundations."
+title: Start Here
+description: "Start with clear cybersecurity learning paths, practical lessons, and foundational guidance across blue team, red team, systems, and certifications."
 sidebar_position: 1
 slug: /
 ---
 
-# 👋 Welcome to InfoSec Lessons
+# Welcome to InfoSec Lessons
 
-Learn by doing with concise, accurate, and up‑to‑date material.
-
----
-
-## 🚀 What You'll Learn
-
-Whether you're new to InfoSec or brushing up on advanced topics, you'll find structured lessons and articles on:
-
-- 🔴 **Red Teaming** — Pentesting, privilege escalation, and offensive techniques
-- 🔵 **Blue Teaming** — SIEM, log analysis, and detection engineering
-- 🛡️ **GRC** — Risk management, policies, and compliance
-- 🎓 **Certifications** — Microsoft and other certification guides
-- 🌐 **General Security** — Best practices, tools, and real‑world scenarios
-- 🧱 **Foundations** — Networking, virtualization, operating systems, and helpdesk
+Learn with short, practical lessons built for real IT and security work.
 
 ---
 
-## ⚡ Quick Start
+## Choose a Path
 
-- Start with Networking Basics: [/network-types](/network-types)
-- Browse certifications: [/certifications/microsoft-certifications](/certifications/microsoft-certifications)
+<div className="landing-grid">
+  <a className="landing-card" href="network-types">
+    <span className="landing-card__eyebrow">Foundations</span>
+    <strong>Start with Networking</strong>
+    <p>Build the core mental model first: addressing, routing, VLANs, DNS, ports, and troubleshooting.</p>
+  </a>
+  <a className="landing-card" href="blue-teaming/log-analysis">
+    <span className="landing-card__eyebrow">Blue Team</span>
+    <strong>Investigate Logs</strong>
+    <p>Understand what to collect, how to read Windows and Linux logs, and how to think during investigations.</p>
+  </a>
+  <a className="landing-card" href="red-teaming/initial-access">
+    <span className="landing-card__eyebrow">Red Team</span>
+    <strong>Study Initial Access</strong>
+    <p>Review common foothold vectors and the assumptions that make simulations realistic and useful.</p>
+  </a>
+  <a className="landing-card" href="certifications/microsoft-certifications">
+    <span className="landing-card__eyebrow">Career Planning</span>
+    <strong>Pick a Certification Track</strong>
+    <p>Compare Microsoft, AWS, and CompTIA paths and decide where to start based on your actual role.</p>
+  </a>
+</div>
 
----
+## Learning Paths
 
-## 🛠️ How This Site Works
+- **Beginner IT / Helpdesk**: Start with [Networking Basics](/network-types), then [Common Helpdesk Tickets](/helpdesk-basics/common-helpdesk-tickets), then [Windows Run Commands](/run-commands).
+- **Windows / Sysadmin**: Start with [Windows Server Planning](/servers/windows-server-planning), then [FSMO Roles](/fsmo), [Microsoft LAPS](/laps), and [BitLocker](/bitlocker).
+- **Blue Team**: Start with [Log Analysis](/blue-teaming/log-analysis), then move into [AppLocker](/applocker), [Windows Services Hardening](/services), and [Open-Source Security Solutions](/open-source).
+- **Red Team**: Start with [Initial Access](/red-teaming/initial-access), then build stronger foundations in [Networking Basics](/network-types), [Linux Basic Commands](/operating-systems/linux/basic-commands), and [WSL](/wsl).
+- **Certifications**: Compare [CompTIA](/certifications/comptia-certifications), [Microsoft](/certifications/microsoft-certifications), and [AWS](/certifications/aws-certifications) based on the job you want.
 
-- 📚 Navigate lessons from the sidebar
-- 💬 Stay up to date or contribute via [GitHub](https://github.com/farzaliyevemil/infoseclessons)
+## Find Lessons Faster
 
----
-
-## 💡 For Contributors
-
-To build this site locally:
-
-```bash
-git clone https://github.com/farzaliyevemil/infoseclessons.git
-cd infoseclessons
-npm install
-npm run start
-```
-Then go to http://localhost:3000 and start editing!
-
-📌 This project is built by @farzaliyevemil.
-
-Happy Hacking! 🔐
+- Browse every lesson from the sidebar.
+- Use the new [Search page](/search) to filter by role, category, or keyword.
+- Check [About](/about) if you want to understand the site's scope, update policy, and contribution flow.

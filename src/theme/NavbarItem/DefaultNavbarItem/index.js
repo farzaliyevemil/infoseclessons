@@ -11,6 +11,7 @@ function localizeLabel(props, locale) {
 
   if (to === '/') return 'Başla';
   if (to === '/about') return 'Haqqında';
+  if (to === '/search') return 'Axtarış';
   if (href.includes('github.com')) return 'GitHub';
   return props.label;
 }
@@ -31,4 +32,3 @@ export default function DefaultNavbarItem({ mobile = false, position, ...props }
     />
   );
 }
-
