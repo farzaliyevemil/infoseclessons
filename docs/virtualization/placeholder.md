@@ -1,7 +1,17 @@
 ---
-id: placeholder-server
-title: Coming Soon
-description: This section is under construction.
+id: virtualization-basics
+title: Virtualization Basics
+description: Starter guidance for virtualization concepts and common platforms. Full lesson coming soon.
+slug: /virtualization
 ---
 
-🚧 This section will be updated soon. Stay tuned!
+# Virtualization Basics
+
+This section will grow into practical virtualization content, including:
+
+- Hypervisor types
+- Virtual machines and snapshots
+- Storage and networking basics
+- Common lab and enterprise use cases
+
+The full lesson is still being prepared.

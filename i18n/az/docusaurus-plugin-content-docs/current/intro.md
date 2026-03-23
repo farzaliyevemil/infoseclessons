@@ -18,6 +18,7 @@ Qısa, dəqiq və güncəl məzmunla öyrənin.
 - 🔴 **Red Teaming** — Pentestinq, imtiyazların artırılması və hücum texnikaları
 - 🔵 **Blue Teaming** — SIEM, loq analizi və deteksiya mühəndisliyi
 - 🛡️ **GRC** — Risklərin idarə edilməsi, siyasətlər və uyğunluq
+- 🎓 **Certifications** — Microsoft və digər sertifikat bələdçiləri
 - 🌐 **Ümumi Təhlükəsizlik** — Ən yaxşı təcrübələr, alətlər və real ssenarilər
 - 🧱 **İT Əsasları** — Şəbəkə, virtualizasiya, əməliyyat sistemləri və helpdesk
 
@@ -26,6 +27,7 @@ Qısa, dəqiq və güncəl məzmunla öyrənin.
 ## ⚡ Sürətli Başlanğıc
 
 - Şəbəkə əsasları ilə başlayın: [/network-types](/network-types)
+- Sertifikat bələdçisinə baxın: [/certifications/microsoft-certifications](/certifications/microsoft-certifications)
 
 ---
 

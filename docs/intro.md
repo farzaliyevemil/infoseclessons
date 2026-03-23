@@ -19,6 +19,7 @@ Whether you're new to InfoSec or brushing up on advanced topics, you'll find str
 - 🔴 **Red Teaming** — Pentesting, privilege escalation, and offensive techniques
 - 🔵 **Blue Teaming** — SIEM, log analysis, and detection engineering
 - 🛡️ **GRC** — Risk management, policies, and compliance
+- 🎓 **Certifications** — Microsoft and other certification guides
 - 🌐 **General Security** — Best practices, tools, and real‑world scenarios
 - 🧱 **Foundations** — Networking, virtualization, operating systems, and helpdesk
 
@@ -27,6 +28,7 @@ Whether you're new to InfoSec or brushing up on advanced topics, you'll find str
 ## ⚡ Quick Start
 
 - Start with Networking Basics: [/network-types](/network-types)
+- Browse certifications: [/certifications/microsoft-certifications](/certifications/microsoft-certifications)
 
 ---
 
