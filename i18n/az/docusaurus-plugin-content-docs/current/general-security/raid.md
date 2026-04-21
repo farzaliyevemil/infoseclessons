@@ -38,6 +38,15 @@ RAID müxtəlif metodlarla yaddaşın bölünməsi və məlumatın qorunmasını
 
 ## 🚀 RAID 0 – Striping
 
+```mermaid
+flowchart LR
+    D["Məlumat<br/>A B C D"] --> S(("Striping"))
+    S --> D1["Disk 1<br/>A • C"]
+    S --> D2["Disk 2<br/>B • D"]
+    style D1 fill:#e3f2fd,stroke:#1976d2
+    style D2 fill:#e3f2fd,stroke:#1976d2
+```
+
 - **Necə işləyir:** Məlumat bloklara bölünür və birdən çox diskə paralel şəkildə yazılır.
 - **Üstünlüklər:** Yüksək oxuma və yazma sürəti.
 - **Çatışmazlıqlar:** Heç bir məlumat qoruması yoxdur. Bir disk sıradan çıxsa, bütün məlumat itir.
@@ -46,6 +55,15 @@ RAID müxtəlif metodlarla yaddaşın bölünməsi və məlumatın qorunmasını
 ---
 
 ## 🛡️ RAID 1 – Mirroring
+
+```mermaid
+flowchart LR
+    D["Məlumat<br/>A B C D"] --> M(("Mirror"))
+    M --> D1["Disk 1<br/>A B C D"]
+    M --> D2["Disk 2<br/>A B C D<br/>(surət)"]
+    style D1 fill:#e8f5e9,stroke:#2e7d32
+    style D2 fill:#e8f5e9,stroke:#2e7d32
+```
 
 - **Necə işləyir:** Məlumat hər iki diskə eyni anda yazılır. Əgər bir disk sıradan çıxsa, digəri işləyir.
 - **Üstünlüklər:** Yüksək təhlükəsizlik. Məlumatın tam surəti var.
@@ -56,6 +74,19 @@ RAID müxtəlif metodlarla yaddaşın bölünməsi və məlumatın qorunmasını
 
 ## ⚖️ RAID 5 – Striping + Single Parity
 
+```mermaid
+flowchart LR
+    D["Məlumat<br/>A B C"] --> S(("Stripe<br/>+ Paritet"))
+    S --> D1["Disk 1<br/>A • P3"]
+    S --> D2["Disk 2<br/>B • P1"]
+    S --> D3["Disk 3<br/>C • P2"]
+    style D1 fill:#fff3e0,stroke:#f57c00
+    style D2 fill:#fff3e0,stroke:#f57c00
+    style D3 fill:#fff3e0,stroke:#f57c00
+```
+
+*Paritet (P) blokları bütün disklər arasında paylanır. Bir disk sıradan çıxarsa, itən məlumat paritet + qalan məlumat əsasında bərpa olunur.*
+
 - **Necə işləyir:** Məlumat və paritet (nəzarət məlumatı) birdən çox disk arasında paylaşılır.
 - **Üstünlüklər:** Balanslaşdırılmış təhlükəsizlik və performans.
 - **Çatışmazlıqlar:** Paritet hesablamaları yazma sürətini azalda bilər. Rebuild zamanı məlumat itkisi riski artır.
@@ -65,6 +96,21 @@ RAID müxtəlif metodlarla yaddaşın bölünməsi və məlumatın qorunmasını
 
 ## 🧩 RAID 6 – Striping + Double Parity
 
+```mermaid
+flowchart LR
+    D["Məlumat<br/>A B"] --> S(("Stripe<br/>+ 2× Paritet"))
+    S --> D1["Disk 1<br/>A • P"]
+    S --> D2["Disk 2<br/>B • Q"]
+    S --> D3["Disk 3<br/>P • A"]
+    S --> D4["Disk 4<br/>Q • B"]
+    style D1 fill:#fce4ec,stroke:#c2185b
+    style D2 fill:#fce4ec,stroke:#c2185b
+    style D3 fill:#fce4ec,stroke:#c2185b
+    style D4 fill:#fce4ec,stroke:#c2185b
+```
+
+*İki paritet bloku (P və Q) saxlanır — iki disk sıradan çıxsa belə məlumat qorunur.*
+
 - **Necə işləyir:** RAID 5 kimidir, lakin iki fərqli paritet saxlanılır.
 - **Üstünlüklər:** İki disk sıradan çıxdıqda belə məlumat bərpa oluna bilir.
 - **Çatışmazlıqlar:** RAID 5-dən daha yavaşdır (çünki əlavə paritet hesablanır). Rebuild daha uzun çəkir. Minimum 4 disk tələb edir.
@@ -73,6 +119,23 @@ RAID müxtəlif metodlarla yaddaşın bölünməsi və məlumatın qorunmasını
 ---
 
 ## 🚀 RAID 10 – (RAID 1 + RAID 0 Kombinasiyası)
+
+```mermaid
+flowchart LR
+    D["Məlumat<br/>A B C D"] --> S(("Stripe"))
+    S --> M1(("Mirror 1"))
+    S --> M2(("Mirror 2"))
+    M1 --> D1["Disk 1<br/>A • C"]
+    M1 --> D2["Disk 2<br/>A • C"]
+    M2 --> D3["Disk 3<br/>B • D"]
+    M2 --> D4["Disk 4<br/>B • D"]
+    style D1 fill:#ede7f6,stroke:#5e35b1
+    style D2 fill:#ede7f6,stroke:#5e35b1
+    style D3 fill:#ede7f6,stroke:#5e35b1
+    style D4 fill:#ede7f6,stroke:#5e35b1
+```
+
+*Əvvəlcə cütlər arası mirror (RAID 1), sonra o cütlər arasında stripe (RAID 0) — hər iki üstünlüyü birləşdirir.*
 
 - **Necə işləyir:** Əvvəlcə disklər cüt-cüt mirrordan ibarət olur, sonra bu cütlər stripe edilir.
 - **Üstünlüklər:** Yüksək performans + Yüksək təhlükəsizlik.

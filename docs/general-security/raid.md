@@ -38,6 +38,15 @@ RAID ensures memory distribution and data protection using different methods. Ma
 
 ## 🚀 RAID 0 – Striping
 
+```mermaid
+flowchart LR
+    D["Data<br/>A B C D"] --> S(("Striping"))
+    S --> D1["Disk 1<br/>A • C"]
+    S --> D2["Disk 2<br/>B • D"]
+    style D1 fill:#e3f2fd,stroke:#1976d2
+    style D2 fill:#e3f2fd,stroke:#1976d2
+```
+
 - **How it works:** Data is split into blocks and written in parallel to multiple disks.
 - **Advantages:** High read and write speed.
 - **Disadvantages:** No data protection. If one disk fails, all data is lost.
@@ -46,6 +55,15 @@ RAID ensures memory distribution and data protection using different methods. Ma
 ---
 
 ## 🛡️ RAID 1 – Mirroring
+
+```mermaid
+flowchart LR
+    D["Data<br/>A B C D"] --> M(("Mirror"))
+    M --> D1["Disk 1<br/>A B C D"]
+    M --> D2["Disk 2<br/>A B C D<br/>(copy)"]
+    style D1 fill:#e8f5e9,stroke:#2e7d32
+    style D2 fill:#e8f5e9,stroke:#2e7d32
+```
 
 - **How it works:** Data is written to both disks at the same time. If one disk fails, the other continues to work.
 - **Advantages:** High security. There is a full copy of the data.
@@ -56,6 +74,19 @@ RAID ensures memory distribution and data protection using different methods. Ma
 
 ## ⚖️ RAID 5 – Striping + Single Parity
 
+```mermaid
+flowchart LR
+    D["Data<br/>A B C"] --> S(("Stripe<br/>+ Parity"))
+    S --> D1["Disk 1<br/>A • P3"]
+    S --> D2["Disk 2<br/>B • P1"]
+    S --> D3["Disk 3<br/>C • P2"]
+    style D1 fill:#fff3e0,stroke:#f57c00
+    style D2 fill:#fff3e0,stroke:#f57c00
+    style D3 fill:#fff3e0,stroke:#f57c00
+```
+
+*Parity (P) blocks are distributed across all disks. If one disk fails, the missing data is reconstructed from the parity + remaining data.*
+
 - **How it works:** Data and parity (control data) are distributed across multiple disks.
 - **Advantages:** Balanced security and performance.
 - **Disadvantages:** Parity calculations can reduce write speed. Data loss risk increases during rebuild.
@@ -65,6 +96,21 @@ RAID ensures memory distribution and data protection using different methods. Ma
 
 ## 🧩 RAID 6 – Striping + Double Parity
 
+```mermaid
+flowchart LR
+    D["Data<br/>A B"] --> S(("Stripe<br/>+ 2× Parity"))
+    S --> D1["Disk 1<br/>A • P"]
+    S --> D2["Disk 2<br/>B • Q"]
+    S --> D3["Disk 3<br/>P • A"]
+    S --> D4["Disk 4<br/>Q • B"]
+    style D1 fill:#fce4ec,stroke:#c2185b
+    style D2 fill:#fce4ec,stroke:#c2185b
+    style D3 fill:#fce4ec,stroke:#c2185b
+    style D4 fill:#fce4ec,stroke:#c2185b
+```
+
+*Two parity blocks (P and Q) are stored — the array survives even if two disks fail.*
+
 - **How it works:** Similar to RAID 5, but two different parities are stored.
 - **Advantages:** Data can be recovered even if two disks fail.
 - **Disadvantages:** Slower than RAID 5 (due to extra parity). Rebuild takes longer. Requires at least 4 disks.
@@ -73,6 +119,23 @@ RAID ensures memory distribution and data protection using different methods. Ma
 ---
 
 ## 🚀 RAID 10 – (Combination of RAID 1 + RAID 0)
+
+```mermaid
+flowchart LR
+    D["Data<br/>A B C D"] --> S(("Stripe"))
+    S --> M1(("Mirror 1"))
+    S --> M2(("Mirror 2"))
+    M1 --> D1["Disk 1<br/>A • C"]
+    M1 --> D2["Disk 2<br/>A • C"]
+    M2 --> D3["Disk 3<br/>B • D"]
+    M2 --> D4["Disk 4<br/>B • D"]
+    style D1 fill:#ede7f6,stroke:#5e35b1
+    style D2 fill:#ede7f6,stroke:#5e35b1
+    style D3 fill:#ede7f6,stroke:#5e35b1
+    style D4 fill:#ede7f6,stroke:#5e35b1
+```
+
+*First mirrored in pairs (RAID 1), then those pairs are striped (RAID 0) — best of both worlds.*
 
 - **How it works:** Disks are first paired as mirrors, then these pairs are striped.
 - **Advantages:** High performance + high security.

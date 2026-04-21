@@ -277,6 +277,37 @@ mail IN A  203.0.113.25
 
 ![OSI Layers](/img/networking/computer-networking/image33.png)
 
+**Encapsulation flow (sender → receiver):**
+
+```mermaid
+flowchart TB
+    subgraph Sender["📤 Sender"]
+      direction TB
+      A1["Application<br/>(HTTP data)"] --> T1["Transport<br/>+TCP header → Segment"]
+      T1 --> N1["Network<br/>+IP header → Packet"]
+      N1 --> D1["Data Link<br/>+MAC header → Frame"]
+      D1 --> P1["Physical<br/>→ Bits on wire"]
+    end
+    subgraph Receiver["📥 Receiver"]
+      direction TB
+      P2["Physical<br/>Bits"] --> D2["Data Link<br/>strip MAC"]
+      D2 --> N2["Network<br/>strip IP"]
+      N2 --> T2["Transport<br/>strip TCP"]
+      T2 --> A2["Application<br/>HTTP data"]
+    end
+    P1 -.->|"network"| P2
+    style A1 fill:#e3f2fd
+    style A2 fill:#e3f2fd
+    style T1 fill:#e8f5e9
+    style T2 fill:#e8f5e9
+    style N1 fill:#fff3e0
+    style N2 fill:#fff3e0
+    style D1 fill:#fce4ec
+    style D2 fill:#fce4ec
+    style P1 fill:#ede7f6
+    style P2 fill:#ede7f6
+```
+
 ---
 
 ## 📶 Wireless Basics (Wi‑Fi)

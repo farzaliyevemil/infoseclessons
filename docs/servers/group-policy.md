@@ -41,6 +41,21 @@ This is why GPO health depends on both directory replication and SYSVOL health.
 
 Group Policy processing is commonly described as **LSDOU**:
 
+```mermaid
+flowchart LR
+    L["1. Local<br/>GPO"] --> S["2. Site<br/>GPO"]
+    S --> D["3. Domain<br/>GPO"]
+    D --> O1["4a. Parent OU<br/>GPO"]
+    O1 --> O2["4b. Child OU<br/>GPO"]
+    O2 --> R["⚙️ Effective policy<br/>on endpoint"]
+    style L fill:#e3f2fd,stroke:#1976d2
+    style S fill:#e8f5e9,stroke:#388e3c
+    style D fill:#fff3e0,stroke:#f57c00
+    style O1 fill:#fce4ec,stroke:#c2185b
+    style O2 fill:#fce4ec,stroke:#c2185b
+    style R fill:#ede7f6,stroke:#5e35b1,stroke-width:2px
+```
+
 1. **Local**
 2. **Site**
 3. **Domain**
@@ -52,12 +67,15 @@ Later-applied settings normally win when there is a direct conflict, unless inhe
 
 By default, policies linked at higher levels flow downward.
 
-Example:
-
-```text
-Domain
-  -> OU: IT
-    -> OU: Admins
+```mermaid
+flowchart TD
+    D["Domain<br/>📄 Password Policy"] --> IT["OU: IT<br/>📄 +Firewall"]
+    IT --> Admins["OU: Admins<br/>📄 +Audit logging"]
+    IT --> Helpdesk["OU: Helpdesk<br/><i>inherits IT + Domain</i>"]
+    style D fill:#fff3e0,stroke:#f57c00
+    style IT fill:#e8f5e9,stroke:#388e3c
+    style Admins fill:#e3f2fd,stroke:#1976d2
+    style Helpdesk fill:#e3f2fd,stroke:#1976d2
 ```
 
 A domain-linked GPO is normally inherited by child OUs unless something blocks or overrides that behavior.

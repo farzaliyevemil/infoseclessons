@@ -42,12 +42,24 @@ AD DS combines logical and physical components.
 
 ## Logical hierarchy
 
-```text
-Forest
-  -> Tree
-    -> Domain
-      -> Organizational Unit (OU)
-        -> Objects (users, computers, groups, service accounts)
+```mermaid
+flowchart TD
+    F["🌐 Forest<br/><i>example.az</i>"] --> T1["🌳 Tree<br/><i>corp.example.az</i>"]
+    F --> T2["🌳 Tree<br/><i>lab.example.az</i>"]
+    T1 --> D1["🏢 Domain<br/><i>corp.example.az</i>"]
+    T1 --> D2["🏢 Domain<br/><i>baku.corp.example.az</i>"]
+    T2 --> D3["🏢 Domain<br/><i>lab.example.az</i>"]
+    D1 --> OU1["📁 OU: IT"]
+    D1 --> OU2["📁 OU: Finance"]
+    OU1 --> O1["👤 Users"]
+    OU1 --> O2["💻 Computers"]
+    OU2 --> O3["👥 Groups"]
+    style F fill:#e8eaf6,stroke:#3f51b5,stroke-width:2px
+    style T1 fill:#e8f5e9,stroke:#388e3c
+    style T2 fill:#e8f5e9,stroke:#388e3c
+    style D1 fill:#fff3e0,stroke:#f57c00
+    style D2 fill:#fff3e0,stroke:#f57c00
+    style D3 fill:#fff3e0,stroke:#f57c00
 ```
 
 This hierarchy is logical. It is separate from the physical placement of domain controllers and sites.
@@ -159,6 +171,19 @@ This is why the logical AD model and the physical deployment model should be pla
 ## Trusts
 
 Trusts allow identities in one domain or forest to be recognized in another.
+
+```mermaid
+flowchart LR
+    subgraph F1["Forest A: contoso.com"]
+      A1["Domain<br/>contoso.com"]
+      A2["Domain<br/>eu.contoso.com"]
+      A1 <-->|"two-way<br/>transitive"| A2
+    end
+    subgraph F2["Forest B: partner.com"]
+      B1["Domain<br/>partner.com"]
+    end
+    A1 <-.->|"forest trust<br/>(two-way)"| B1
+```
 
 Common trust ideas:
 

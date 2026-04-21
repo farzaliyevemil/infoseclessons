@@ -30,6 +30,16 @@ DHCP adətən bunları təmin edir:
 
 Klassik DHCPv4 axını çox vaxt **DORA** kimi izah olunur:
 
+```mermaid
+sequenceDiagram
+    participant C as Client
+    participant S as DHCP Server
+    C->>S: 1. DISCOVER (broadcast)<br/>"DHCP server varmı?"
+    S->>C: 2. OFFER<br/>"Budur 192.168.1.100, lease 8 saat"
+    C->>S: 3. REQUEST (broadcast)<br/>"192.168.1.100-ü götürürəm"
+    S->>C: 4. ACK<br/>"Təsdiqləndi. Gateway, DNS..."
+```
+
 1. **Discover**: client DHCP server axtarmaq üçün broadcast göndərir
 2. **Offer**: server IP və lease təklif edir
 3. **Request**: client həmin təklifi seçdiyini bildirir

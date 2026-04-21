@@ -30,12 +30,22 @@ Typical values delivered by DHCP include:
 
 The classic DHCPv4 flow is often described as **DORA**:
 
+```mermaid
+sequenceDiagram
+    participant C as Client
+    participant S as DHCP Server
+    C->>S: 1. DISCOVER (broadcast)<br/>"Is there a DHCP server?"
+    S->>C: 2. OFFER<br/>"Here's 192.168.1.100, lease 8h"
+    C->>S: 3. REQUEST (broadcast)<br/>"I'll take 192.168.1.100"
+    S->>C: 4. ACK<br/>"Confirmed. Options: gateway, DNS..."
+```
+
 1. **Discover**: the client broadcasts to find a DHCP server
 2. **Offer**: the server offers an address and lease
 3. **Request**: the client asks to use that offer
 4. **Acknowledge**: the server confirms the lease
 
-This is why DHCP problems often affect the entire “get on the network” path before higher-level troubleshooting even starts.
+This is why DHCP problems often affect the entire "get on the network" path before higher-level troubleshooting even starts.
 
 ## DHCPv4 vs DHCPv6
 

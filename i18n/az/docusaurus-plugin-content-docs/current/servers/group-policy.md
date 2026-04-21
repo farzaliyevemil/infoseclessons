@@ -41,6 +41,21 @@ Bu səbəbdən GPO sağlamlığı həm directory replication-dan, həm də SYSVO
 
 Group Policy tətbiqi çox vaxt **LSDOU** kimi izah olunur:
 
+```mermaid
+flowchart LR
+    L["1. Local<br/>GPO"] --> S["2. Site<br/>GPO"]
+    S --> D["3. Domain<br/>GPO"]
+    D --> O1["4a. Parent OU<br/>GPO"]
+    O1 --> O2["4b. Child OU<br/>GPO"]
+    O2 --> R["⚙️ Effective policy<br/>endpoint-də"]
+    style L fill:#e3f2fd,stroke:#1976d2
+    style S fill:#e8f5e9,stroke:#388e3c
+    style D fill:#fff3e0,stroke:#f57c00
+    style O1 fill:#fce4ec,stroke:#c2185b
+    style O2 fill:#fce4ec,stroke:#c2185b
+    style R fill:#ede7f6,stroke:#5e35b1,stroke-width:2px
+```
+
 1. **Local**
 2. **Site**
 3. **Domain**
@@ -52,12 +67,15 @@ Birbaşa konflikt olanda adətən daha sonra tətbiq olunan ayar üstün gəlir;
 
 Default olaraq yuxarı səviyyədəki GPO-lar aşağıya ötürülür.
 
-Nümunə:
-
-```text
-Domain
-  -> OU: IT
-    -> OU: Admins
+```mermaid
+flowchart TD
+    D["Domain<br/>📄 Password Policy"] --> IT["OU: IT<br/>📄 +Firewall"]
+    IT --> Admins["OU: Admins<br/>📄 +Audit logging"]
+    IT --> Helpdesk["OU: Helpdesk<br/><i>IT + Domain-dən miras alır</i>"]
+    style D fill:#fff3e0,stroke:#f57c00
+    style IT fill:#e8f5e9,stroke:#388e3c
+    style Admins fill:#e3f2fd,stroke:#1976d2
+    style Helpdesk fill:#e3f2fd,stroke:#1976d2
 ```
 
 Domain səviyyəsində link olunan GPO adətən child OU-lara da inheritance ilə düşür; ta ki nəsə bunu bloklamayana və ya override etməyənə qədər.
