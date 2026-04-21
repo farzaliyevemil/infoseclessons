@@ -6,16 +6,21 @@
  * - Writes to docs/networking/computer-networking.md by default
  */
 
-const {execSync} = require('child_process');
+const {spawnSync} = require('child_process');
 const fs = require('fs');
 const path = require('path');
 
-function run(cmd) {
-  return execSync(cmd, {encoding: 'utf8'});
+function runUnzip(args) {
+  const result = spawnSync('unzip', args, {encoding: 'utf8'});
+  if (result.error) throw result.error;
+  if (result.status !== 0) {
+    throw new Error(`unzip exited with code ${result.status}: ${result.stderr}`);
+  }
+  return result.stdout;
 }
 
 function listSlides(pptxPath) {
-  const out = run(`unzip -l ${JSON.stringify(pptxPath)}`);
+  const out = runUnzip(['-l', pptxPath]);
   const lines = out.split(/\r?\n/);
   const slides = [];
   for (const line of lines) {
@@ -35,9 +40,12 @@ function decodeEntities(s) {
 }
 
 function extractSlideParagraphs(pptxPath, slideNum) {
+  if (!Number.isInteger(slideNum) || slideNum < 1) {
+    throw new Error(`Invalid slide number: ${slideNum}`);
+  }
   let xml;
   try {
-    xml = run(`unzip -p ${JSON.stringify(pptxPath)} ppt/slides/slide${slideNum}.xml`);
+    xml = runUnzip(['-p', pptxPath, `ppt/slides/slide${slideNum}.xml`]);
   } catch (e) {
     return [];
   }

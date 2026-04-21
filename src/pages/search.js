@@ -2,7 +2,10 @@ import React, { useDeferredValue, useState } from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import lessons from '../generated/lessonIndex';
+import ErrorBoundary from '../components/ErrorBoundary';
+import lessonsData from '../generated/lessonIndex';
+
+const lessons = Array.isArray(lessonsData) ? lessonsData : [];
 
 const copy = {
   en: {
@@ -120,6 +123,7 @@ export default function SearchPage() {
 
   return (
     <Layout title={text.title} description={text.description}>
+     <ErrorBoundary fallback={<div className="container search-empty"><strong>{text.noResults}</strong></div>}>
       <main className="search-page">
         <section className="search-hero">
           <div className="container">
@@ -219,6 +223,7 @@ export default function SearchPage() {
           </div>
         </section>
       </main>
+     </ErrorBoundary>
     </Layout>
   );
 }

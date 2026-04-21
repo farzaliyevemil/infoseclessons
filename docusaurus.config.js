@@ -1,5 +1,6 @@
 // @ts-check
 import {themes as prismThemes} from 'prism-react-renderer';
+const remarkExternalLinks = require('./src/remark/external-links.js');
 // NOTE: We avoid importing '@docusaurus/Translate' here because it is not
 // resolvable in this environment when running some CLI commands like
 // write-translations. We'll localize navbar labels after we configure
@@ -49,6 +50,7 @@ const config = {
           routeBasePath: '/',
           editUrl: 'https://github.com/farzaliyevemil/infoseclessons/edit/main/',
           editLocalizedFiles: true,
+          remarkPlugins: [remarkExternalLinks],
         },
         blog: false,
         theme: {

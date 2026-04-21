@@ -19,12 +19,37 @@ function shouldIndex(doc) {
 }
 
 function buildIndex() {
-  const enDocs = collectDocs('en').filter(shouldIndex);
+  const enAll = collectDocs('en');
+  const azAll = collectDocs('az');
+
+  const enDocs = enAll.filter(shouldIndex);
   const azDocsByPath = new Map(
-    collectDocs('az')
-      .filter(shouldIndex)
-      .map((doc) => [doc.relativePath, doc]),
+    azAll.filter(shouldIndex).map((doc) => [doc.relativePath, doc]),
   );
+
+  const enIndexedPaths = new Set(enDocs.map((doc) => doc.relativePath));
+  const missingAz = [];
+  enIndexedPaths.forEach((relPath) => {
+    const azRaw = azAll.find((doc) => doc.relativePath === relPath);
+    if (!azRaw) {
+      missingAz.push(`${relPath} (no AZ file)`);
+    } else if (!shouldIndex(azRaw)) {
+      const reason = !azRaw.slug
+        ? 'slug'
+        : !azRaw.title
+          ? 'title'
+          : !azRaw.description
+            ? 'description'
+            : !azRaw.categoryKey
+              ? 'categoryKey'
+              : 'search_exclude';
+      missingAz.push(`${relPath} (AZ skipped: missing ${reason})`);
+    }
+  });
+  if (missingAz.length > 0) {
+    console.warn(`Warning: ${missingAz.length} AZ doc(s) missing from lesson index:`);
+    missingAz.forEach((entry) => console.warn(`  - ${entry}`));
+  }
 
   const records = enDocs.map((enDoc) => {
     const azDoc = azDocsByPath.get(enDoc.relativePath);

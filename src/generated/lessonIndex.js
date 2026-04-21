@@ -38,8 +38,8 @@ const lessons = [
     "status": "starter",
     "lastReviewed": null,
     "sourcePaths": {
-      "en": "blue-teaming/log-analysis.md",
-      "az": "blue-teaming/log-analysis.md"
+      "en": "blue-teaming\\log-analysis.md",
+      "az": "blue-teaming\\log-analysis.md"
     }
   },
   {
@@ -60,8 +60,8 @@ const lessons = [
     "status": "reference",
     "lastReviewed": null,
     "sourcePaths": {
-      "en": "certifications/aws-certifications.md",
-      "az": "certifications/aws-certifications.md"
+      "en": "certifications\\aws-certifications.md",
+      "az": "certifications\\aws-certifications.md"
     }
   },
   {
@@ -103,8 +103,8 @@ const lessons = [
     "status": "reference",
     "lastReviewed": null,
     "sourcePaths": {
-      "en": "certifications/comptia-certifications.md",
-      "az": "certifications/comptia-certifications.md"
+      "en": "certifications\\comptia-certifications.md",
+      "az": "certifications\\comptia-certifications.md"
     }
   },
   {
@@ -125,8 +125,8 @@ const lessons = [
     "status": "reference",
     "lastReviewed": null,
     "sourcePaths": {
-      "en": "certifications/microsoft-certifications.md",
-      "az": "certifications/microsoft-certifications.md"
+      "en": "certifications\\microsoft-certifications.md",
+      "az": "certifications\\microsoft-certifications.md"
     }
   },
   {
@@ -168,8 +168,8 @@ const lessons = [
     "status": "reference",
     "lastReviewed": null,
     "sourcePaths": {
-      "en": "general-security/open-source.md",
-      "az": "general-security/open-source.md"
+      "en": "general-security\\open-source.md",
+      "az": "general-security\\open-source.md"
     }
   },
   {
@@ -190,8 +190,8 @@ const lessons = [
     "status": "reference",
     "lastReviewed": null,
     "sourcePaths": {
-      "en": "general-security/raid.md",
-      "az": "general-security/raid.md"
+      "en": "general-security\\raid.md",
+      "az": "general-security\\raid.md"
     }
   },
   {
@@ -233,8 +233,8 @@ const lessons = [
     "status": "starter",
     "lastReviewed": null,
     "sourcePaths": {
-      "en": "grc/policies.md",
-      "az": "grc/policies.md"
+      "en": "grc\\policies.md",
+      "az": "grc\\policies.md"
     }
   },
   {
@@ -255,8 +255,8 @@ const lessons = [
     "status": "reference",
     "lastReviewed": null,
     "sourcePaths": {
-      "en": "helpdesk-basics/common-helpdesk-tickets.md",
-      "az": "helpdesk-basics/common-helpdesk-tickets.md"
+      "en": "helpdesk-basics\\common-helpdesk-tickets.md",
+      "az": "helpdesk-basics\\common-helpdesk-tickets.md"
     }
   },
   {
@@ -302,8 +302,8 @@ const lessons = [
     "status": "reference",
     "lastReviewed": "2026-03-23",
     "sourcePaths": {
-      "en": "networking/dhcp.md",
-      "az": "networking/dhcp.md"
+      "en": "networking\\dhcp.md",
+      "az": "networking\\dhcp.md"
     }
   },
   {
@@ -330,8 +330,8 @@ const lessons = [
     "status": "reference",
     "lastReviewed": "2026-03-23",
     "sourcePaths": {
-      "en": "networking/dns.md",
-      "az": "networking/dns.md"
+      "en": "networking\\dns.md",
+      "az": "networking\\dns.md"
     }
   },
   {
@@ -352,8 +352,8 @@ const lessons = [
     "status": "reference",
     "lastReviewed": "2026-03-23",
     "sourcePaths": {
-      "en": "networking/network-types.md",
-      "az": "networking/network-types.md"
+      "en": "networking\\network-types.md",
+      "az": "networking\\network-types.md"
     }
   },
   {
@@ -396,8 +396,8 @@ const lessons = [
     "status": "starter",
     "lastReviewed": null,
     "sourcePaths": {
-      "en": "operating-systems/linux/basic-commands.md",
-      "az": "operating-systems/linux/basic-commands.md"
+      "en": "operating-systems\\linux\\basic-commands.md",
+      "az": "operating-systems\\linux\\basic-commands.md"
     }
   },
   {
@@ -440,8 +440,8 @@ const lessons = [
     "status": "reference",
     "lastReviewed": null,
     "sourcePaths": {
-      "en": "operating-systems/windows/powertoys.md",
-      "az": "operating-systems/windows/powertoys.md"
+      "en": "operating-systems\\windows\\powertoys.md",
+      "az": "operating-systems\\windows\\powertoys.md"
     }
   },
   {
@@ -484,8 +484,8 @@ const lessons = [
     "status": "reference",
     "lastReviewed": null,
     "sourcePaths": {
-      "en": "operating-systems/windows/run-commands.md",
-      "az": "operating-systems/windows/run-commands.md"
+      "en": "operating-systems\\windows\\run-commands.md",
+      "az": "operating-systems\\windows\\run-commands.md"
     }
   },
   {
@@ -507,8 +507,8 @@ const lessons = [
     "status": "reference",
     "lastReviewed": null,
     "sourcePaths": {
-      "en": "operating-systems/windows/sysprep.md",
-      "az": "operating-systems/windows/sysprep.md"
+      "en": "operating-systems\\windows\\sysprep.md",
+      "az": "operating-systems\\windows\\sysprep.md"
     }
   },
   {
@@ -530,8 +530,8 @@ const lessons = [
     "status": "reference",
     "lastReviewed": null,
     "sourcePaths": {
-      "en": "operating-systems/windows/applocker.md",
-      "az": "operating-systems/windows/applocker.md"
+      "en": "operating-systems\\windows\\applocker.md",
+      "az": "operating-systems\\windows\\applocker.md"
     }
   },
   {
@@ -553,8 +553,8 @@ const lessons = [
     "status": "reference",
     "lastReviewed": null,
     "sourcePaths": {
-      "en": "operating-systems/windows/bitlocker.md",
-      "az": "operating-systems/windows/bitlocker.md"
+      "en": "operating-systems\\windows\\bitlocker.md",
+      "az": "operating-systems\\windows\\bitlocker.md"
     }
   },
   {
@@ -576,8 +576,8 @@ const lessons = [
     "status": "reference",
     "lastReviewed": null,
     "sourcePaths": {
-      "en": "operating-systems/windows/wsl.md",
-      "az": "operating-systems/windows/wsl.md"
+      "en": "operating-systems\\windows\\wsl.md",
+      "az": "operating-systems\\windows\\wsl.md"
     }
   },
   {
@@ -620,8 +620,8 @@ const lessons = [
     "status": "reference",
     "lastReviewed": null,
     "sourcePaths": {
-      "en": "operating-systems/windows/services.md",
-      "az": "operating-systems/windows/services.md"
+      "en": "operating-systems\\windows\\services.md",
+      "az": "operating-systems\\windows\\services.md"
     }
   },
   {
@@ -642,8 +642,8 @@ const lessons = [
     "status": "reference",
     "lastReviewed": null,
     "sourcePaths": {
-      "en": "red-teaming/initial-access.md",
-      "az": "red-teaming/initial-access.md"
+      "en": "red-teaming\\initial-access.md",
+      "az": "red-teaming\\initial-access.md"
     }
   },
   {
@@ -691,8 +691,8 @@ const lessons = [
     "status": "reference",
     "lastReviewed": "2026-03-23",
     "sourcePaths": {
-      "en": "servers/active-directory-domain-services.md",
-      "az": "servers/active-directory-domain-services.md"
+      "en": "servers\\active-directory-domain-services.md",
+      "az": "servers\\active-directory-domain-services.md"
     }
   },
   {
@@ -713,8 +713,8 @@ const lessons = [
     "status": "reference",
     "lastReviewed": null,
     "sourcePaths": {
-      "en": "servers/fsmo.md",
-      "az": "servers/fsmo.md"
+      "en": "servers\\fsmo.md",
+      "az": "servers\\fsmo.md"
     }
   },
   {
@@ -740,8 +740,8 @@ const lessons = [
     "status": "reference",
     "lastReviewed": "2026-03-23",
     "sourcePaths": {
-      "en": "servers/group-policy.md",
-      "az": "servers/group-policy.md"
+      "en": "servers\\group-policy.md",
+      "az": "servers\\group-policy.md"
     }
   },
   {
@@ -769,8 +769,8 @@ const lessons = [
     "status": "reference",
     "lastReviewed": "2026-03-23",
     "sourcePaths": {
-      "en": "servers/windows-server-2025-installation.md",
-      "az": "servers/windows-server-2025-installation.md"
+      "en": "servers\\windows-server-2025-installation.md",
+      "az": "servers\\windows-server-2025-installation.md"
     }
   },
   {
@@ -791,8 +791,8 @@ const lessons = [
     "status": "reference",
     "lastReviewed": null,
     "sourcePaths": {
-      "en": "servers/laps.md",
-      "az": "servers/laps.md"
+      "en": "servers\\laps.md",
+      "az": "servers\\laps.md"
     }
   },
   {
@@ -834,8 +834,8 @@ const lessons = [
     "status": "reference",
     "lastReviewed": null,
     "sourcePaths": {
-      "en": "servers/jump-server.md",
-      "az": "servers/jump-server.md"
+      "en": "servers\\jump-server.md",
+      "az": "servers\\jump-server.md"
     }
   },
   {
@@ -862,8 +862,8 @@ const lessons = [
     "status": "reference",
     "lastReviewed": "2026-03-23",
     "sourcePaths": {
-      "en": "servers/windows-server-tools.md",
-      "az": "servers/windows-server-tools.md"
+      "en": "servers\\windows-server-tools.md",
+      "az": "servers\\windows-server-tools.md"
     }
   },
   {
@@ -884,8 +884,8 @@ const lessons = [
     "status": "reference",
     "lastReviewed": null,
     "sourcePaths": {
-      "en": "servers/windows-server-planning.md",
-      "az": "servers/windows-server-planning.md"
+      "en": "servers\\windows-server-planning.md",
+      "az": "servers\\windows-server-planning.md"
     }
   },
   {
@@ -906,8 +906,8 @@ const lessons = [
     "status": "reference",
     "lastReviewed": null,
     "sourcePaths": {
-      "en": "virtualization/virtualization-basics.md",
-      "az": "virtualization/virtualization-basics.md"
+      "en": "virtualization\\virtualization-basics.md",
+      "az": "virtualization\\virtualization-basics.md"
     }
   },
   {
@@ -955,8 +955,8 @@ const lessons = [
     "status": "reference",
     "lastReviewed": "2026-03-23",
     "sourcePaths": {
-      "en": "virtualization/vmware-virtualization.md",
-      "az": "virtualization/vmware-virtualization.md"
+      "en": "virtualization\\vmware-virtualization.md",
+      "az": "virtualization\\vmware-virtualization.md"
     }
   }
 ];
