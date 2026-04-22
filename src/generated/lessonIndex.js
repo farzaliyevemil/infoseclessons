@@ -130,6 +130,69 @@ const lessons = [
     }
   },
   {
+    "slug": "/general-security/cia-triad",
+    "category": "general-security",
+    "title": {
+      "en": "CIA Triad — Confidentiality, Integrity, Availability",
+      "az": "CIA Triadası — Məxfilik, Bütövlük, Əlçatanlıq"
+    },
+    "description": {
+      "en": "Foundational infosec model explained with DAD, security control categories and types, data states, encryption, DLP, and hands-on examples.",
+      "az": "İnfosek üçün təməl model — DAD, təhlükəsizlik nəzarəti kateqoriyaları və tipləri, data vəziyyətləri, şifrələmə, DLP və praktik misallar."
+    },
+    "keywords": [
+      "cia triad",
+      "dad triad",
+      "confidentiality",
+      "integrity",
+      "availability",
+      "security controls",
+      "dlp",
+      "data encryption",
+      "data minimization",
+      "general-security",
+      "cia-triad"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-23",
+    "sourcePaths": {
+      "en": "general-security\\cia-triad.md",
+      "az": "general-security\\cia-triad.md"
+    }
+  },
+  {
+    "slug": "/general-security/cryptography-basics",
+    "category": "general-security",
+    "title": {
+      "en": "Cryptography Basics — Symmetric, Asymmetric, Hashing",
+      "az": "Kriptoqrafiyanın əsasları — Simmetrik, Asimmetrik, Heşləmə"
+    },
+    "description": {
+      "en": "Foundational cryptography for engineers — symmetric vs asymmetric ciphers, hashing, digital signatures, key exchange, and where each is used in practice.",
+      "az": "Mühəndislər üçün kriptoqrafiya təməli — simmetrik və asimmetrik şifrələr, heşləmə, rəqəmsal imzalar, açar mübadiləsi və onların praktikada harada işlədildiyi."
+    },
+    "keywords": [
+      "cryptography",
+      "symmetric encryption",
+      "asymmetric encryption",
+      "aes",
+      "rsa",
+      "ecc",
+      "sha-256",
+      "hashing",
+      "digital signatures",
+      "diffie-hellman",
+      "general-security",
+      "cryptography-basics"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-23",
+    "sourcePaths": {
+      "en": "general-security\\cryptography-basics.md",
+      "az": "general-security\\cryptography-basics.md"
+    }
+  },
+  {
     "slug": "/general-security",
     "category": "general-security",
     "title": {
@@ -173,6 +236,37 @@ const lessons = [
     }
   },
   {
+    "slug": "/general-security/vulnerability-management",
+    "category": "general-security",
+    "title": {
+      "en": "Vulnerability Management — Scanning, Scoring, and Remediation",
+      "az": "Zəifliklərin İdarə Edilməsi — Skanlama, Qiymətləndirmə və Aradan Qaldırma"
+    },
+    "description": {
+      "en": "End-to-end vulnerability lifecycle — asset inventory, scanning, CVE/CVSS scoring, prioritization, patching, and validation.",
+      "az": "Zəifliklərin tam həyat dövrü — aktivlərin inventarı, skanlama, CVE/CVSS qiymətləndirməsi, prioritetləşdirmə, yamaqlama və yoxlama."
+    },
+    "keywords": [
+      "vulnerability management",
+      "cve",
+      "cvss",
+      "patch management",
+      "vulnerability scanning",
+      "nessus",
+      "openvas",
+      "qualys",
+      "security assessment",
+      "general-security",
+      "vulnerability-management"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-23",
+    "sourcePaths": {
+      "en": "general-security\\vulnerability-management.md",
+      "az": "general-security\\vulnerability-management.md"
+    }
+  },
+  {
     "slug": "/general-security/raid",
     "category": "general-security",
     "title": {
@@ -213,6 +307,38 @@ const lessons = [
     "sourcePaths": {
       "en": "grc-overview.md",
       "az": "grc-overview.md"
+    }
+  },
+  {
+    "slug": "/grc/risk-and-privacy",
+    "category": "grc",
+    "title": {
+      "en": "Risk Management and Privacy",
+      "az": "Risk Management and Privacy"
+    },
+    "description": {
+      "en": "Risk-management fundamentals — identify, assess, treat, monitor — plus core privacy principles, GDPR / data subject rights, and hands-on risk-register templates.",
+      "az": "Risk-management fundamentals — identify, assess, treat, monitor — plus core privacy principles, GDPR / data subject rights, and hands-on risk-register templates."
+    },
+    "keywords": [
+      "risk management",
+      "risk assessment",
+      "qualitative risk",
+      "quantitative risk",
+      "privacy",
+      "gdpr",
+      "data subject rights",
+      "dpia",
+      "risk register",
+      "nist rmf",
+      "grc",
+      "risk-and-privacy"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-23",
+    "sourcePaths": {
+      "en": "grc\\risk-and-privacy.md",
+      "az": "grc\\risk-and-privacy.md"
     }
   },
   {
@@ -288,19 +414,22 @@ const lessons = [
       "az": "DHCP (Dynamic Host Configuration Protocol)"
     },
     "description": {
-      "en": "Practical DHCP guide covering DORA, scopes, reservations, leases, options, DHCPv4 vs DHCPv6, and failover basics.",
-      "az": "DHCP üçün praktik bələdçi: DORA, scope, reservation, lease, option-lar, DHCPv4 vs DHCPv6 və failover əsasları."
+      "en": "Hands-on DHCP guide — DORA, leases, scopes, reservations, options, filtering, failover, backup/restore, DNS integration and troubleshooting.",
+      "az": "DHCP üzrə praktik dərslik — DORA, lease, scope, reservation, option-lar, filtering, failover, backup/restore, DNS inteqrasiyası və troubleshooting."
     },
     "keywords": [
       "dhcp",
       "dora",
       "scope",
       "reservation",
+      "lease",
       "failover",
+      "apipa",
+      "dhcp options",
       "networking"
     ],
     "status": "reference",
-    "lastReviewed": "2026-03-23",
+    "lastReviewed": "2026-04-23",
     "sourcePaths": {
       "en": "networking\\dhcp.md",
       "az": "networking\\dhcp.md"
@@ -332,6 +461,34 @@ const lessons = [
     "sourcePaths": {
       "en": "networking\\dns.md",
       "az": "networking\\dns.md"
+    }
+  },
+  {
+    "slug": "/networking/ip-addressing-subnetting",
+    "category": "networking",
+    "title": {
+      "en": "IP Addressing and Subnetting",
+      "az": "IP Ünvanlama və Subnetting"
+    },
+    "description": {
+      "en": "Practical guide to IPv4 addressing, classes, public vs private, NAT, DMZ, CIDR, and subnet math.",
+      "az": "IPv4 ünvanlama üçün praktik bələdçi: classlar, public vs private, NAT, DMZ, CIDR və subnet hesablamaları."
+    },
+    "keywords": [
+      "ip",
+      "subnet",
+      "cidr",
+      "nat",
+      "dmz",
+      "private ip",
+      "networking",
+      "ip-addressing-subnetting"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-22",
+    "sourcePaths": {
+      "en": "networking\\ip-addressing-subnetting.md",
+      "az": "networking\\ip-addressing-subnetting.md"
     }
   },
   {
@@ -647,6 +804,36 @@ const lessons = [
     }
   },
   {
+    "slug": "/red-teaming/owasp-top-10",
+    "category": "red-teaming",
+    "title": {
+      "en": "OWASP Top 10 (2021) — Web App Security Walkthrough",
+      "az": "OWASP Top 10 (2021) — Veb Tətbiqləri Təhlükəsizliyi Dərsi"
+    },
+    "description": {
+      "en": "Every category of the OWASP Top 10 2021 with vulnerable-code examples, exploitation walkthroughs, and concrete defenses.",
+      "az": "OWASP Top 10 2021-in hər kateqoriyası — zəif kod nümunələri, istismar ssenariləri və konkret müdafiə tədbirləri."
+    },
+    "keywords": [
+      "owasp",
+      "owasp top 10",
+      "web application security",
+      "sqli",
+      "xss",
+      "broken access control",
+      "ssrf",
+      "insecure deserialization",
+      "red-teaming",
+      "owasp-top-10"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-23",
+    "sourcePaths": {
+      "en": "red-teaming\\owasp-top-10.md",
+      "az": "red-teaming\\owasp-top-10.md"
+    }
+  },
+  {
     "slug": "/red-teaming",
     "category": "red-teaming",
     "title": {
@@ -665,6 +852,36 @@ const lessons = [
     "sourcePaths": {
       "en": "red-teaming-overview.md",
       "az": "red-teaming-overview.md"
+    }
+  },
+  {
+    "slug": "/red-teaming/social-engineering",
+    "category": "red-teaming",
+    "title": {
+      "en": "Social Engineering — Human-Layer Attacks and Defenses",
+      "az": "Sosial Mühəndislik — İnsan Qatında Hücumlar və Müdafiə"
+    },
+    "description": {
+      "en": "Phishing, vishing, smishing, pretexting, tailgating and every major social-engineering vector — with real 2024/2025 examples, psychological levers, and defenses that actually work.",
+      "az": "Fişinq, vişinq, smişinq, bəhanə (pretexting), tailgatinq və bütün əsas sosial mühəndislik vektorları — 2024/2025 real nümunələri, psixoloji rıçaqlar və həqiqətən işləyən müdafiə ilə."
+    },
+    "keywords": [
+      "social engineering",
+      "phishing",
+      "vishing",
+      "smishing",
+      "pretexting",
+      "tailgating",
+      "mfa bombing",
+      "bec",
+      "red-teaming",
+      "social-engineering"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-23",
+    "sourcePaths": {
+      "en": "red-teaming\\social-engineering.md",
+      "az": "red-teaming\\social-engineering.md"
     }
   },
   {
@@ -696,6 +913,36 @@ const lessons = [
     }
   },
   {
+    "slug": "/servers/file-server-ntfs",
+    "category": "servers",
+    "title": {
+      "en": "File Server and NTFS Permissions",
+      "az": "File Server və NTFS Permissions"
+    },
+    "description": {
+      "en": "Hands-on File Server guide — SMB shares, share vs NTFS permissions, inheritance, ownership, Access-Based Enumeration, and FSRM quotas and file screens.",
+      "az": "File Server üzrə praktik dərslik — SMB share-lar, share vs NTFS permissions, inheritance, ownership, Access-Based Enumeration və FSRM quota və file screen."
+    },
+    "keywords": [
+      "file server",
+      "smb",
+      "ntfs permissions",
+      "share permissions",
+      "access-based enumeration",
+      "fsrm",
+      "quota",
+      "file screening",
+      "servers",
+      "file-server-ntfs"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-23",
+    "sourcePaths": {
+      "en": "servers\\file-server-ntfs.md",
+      "az": "servers\\file-server-ntfs.md"
+    }
+  },
+  {
     "slug": "/servers/fsmo",
     "category": "servers",
     "title": {
@@ -721,12 +968,12 @@ const lessons = [
     "slug": "/servers/group-policy",
     "category": "servers",
     "title": {
-      "en": "Group Policy (GPO) Basics",
-      "az": "Group Policy (GPO) Əsasları"
+      "en": "Group Policy (GPO)",
+      "az": "Group Policy (GPO)"
     },
     "description": {
-      "en": "Learn GPO structure, processing order, inheritance, enforced links, password policy scope, SYSVOL, and practical troubleshooting basics.",
-      "az": "GPO strukturu, tətbiq ardıcıllığı, inheritance, enforced linklər, password policy sahəsi, SYSVOL və praktik troubleshooting əsasları."
+      "en": "Hands-on Group Policy guide — structure, LSDOU, inheritance, enforcement, Policies vs Preferences, common templates, security/WMI filtering, troubleshooting, backup/restore and a full lab scenario.",
+      "az": "Group Policy üzrə praktik dərslik — struktur, LSDOU, inheritance, enforcement, Policies vs Preferences, tipik şablonlar, security/WMI filtering, troubleshooting, backup/restore və tam lab ssenarisi."
     },
     "keywords": [
       "group policy",
@@ -734,14 +981,48 @@ const lessons = [
       "lsdou",
       "sysvol",
       "fgpp",
+      "gpmc",
+      "gpresult",
+      "security filtering",
+      "wmi filter",
+      "loopback processing",
       "servers",
       "group-policy"
     ],
     "status": "reference",
-    "lastReviewed": "2026-03-23",
+    "lastReviewed": "2026-04-23",
     "sourcePaths": {
       "en": "servers\\group-policy.md",
       "az": "servers\\group-policy.md"
+    }
+  },
+  {
+    "slug": "/servers/iis",
+    "category": "servers",
+    "title": {
+      "en": "IIS (Internet Information Services)",
+      "az": "IIS (Internet Information Services)"
+    },
+    "description": {
+      "en": "Hands-on IIS guide — role installation, sites and bindings, host headers, application pools, HTTPS with certificates, authentication, logging, and troubleshooting.",
+      "az": "IIS üzrə praktik dərslik — rol quraşdırma, site və binding-lər, host header, application pool, sertifikatla HTTPS, authentication, logging və troubleshooting."
+    },
+    "keywords": [
+      "iis",
+      "web server",
+      "application pool",
+      "ssl",
+      "https",
+      "windows authentication",
+      "host header",
+      "binding",
+      "servers"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-23",
+    "sourcePaths": {
+      "en": "servers\\iis.md",
+      "az": "servers\\iis.md"
     }
   },
   {
@@ -774,6 +1055,60 @@ const lessons = [
     }
   },
   {
+    "slug": "/servers/jump-server",
+    "category": "servers",
+    "title": {
+      "en": "Jump Server (Bastion Host)",
+      "az": "Jump Server (Bastion Host)"
+    },
+    "description": {
+      "en": "Jump Server concept, where it sits in the network, key advantages, SSH ProxyJump and RDP configuration, and Windows setup checklist.",
+      "az": "Jump Server konsepti, şəbəkədəki yeri, əsas üstünlüklər, SSH ProxyJump və RDP konfiqurasiyası, Windows quraşdırma check-list-i."
+    },
+    "keywords": [
+      "jump server",
+      "bastion host",
+      "ssh proxyjump",
+      "rdp",
+      "dmz",
+      "privileged access",
+      "servers",
+      "jump-server"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-22",
+    "sourcePaths": {
+      "en": "servers\\jump-server.md",
+      "az": "servers\\jump-server.md"
+    }
+  },
+  {
+    "slug": "/servers/kms",
+    "category": "servers",
+    "title": {
+      "en": "KMS (Key Management Service)",
+      "az": "KMS (Key Management Service)"
+    },
+    "description": {
+      "en": "Centralized Windows and Office activation — KMS thresholds, renewal intervals, configuration, and ADBA alternative.",
+      "az": "Windows və Office üçün mərkəzləşdirilmiş aktivasiya: KMS həddləri, renewal interval-ları, konfiqurasiya və ADBA alternativi."
+    },
+    "keywords": [
+      "kms",
+      "activation",
+      "adba",
+      "volume licensing",
+      "servers",
+      "aktivasiya"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-22",
+    "sourcePaths": {
+      "en": "servers\\kms.md",
+      "az": "servers\\kms.md"
+    }
+  },
+  {
     "slug": "/servers/laps",
     "category": "servers",
     "title": {
@@ -793,6 +1128,35 @@ const lessons = [
     "sourcePaths": {
       "en": "servers\\laps.md",
       "az": "servers\\laps.md"
+    }
+  },
+  {
+    "slug": "/servers/rds",
+    "category": "servers",
+    "title": {
+      "en": "Remote Desktop Services (RDS)",
+      "az": "Remote Desktop Services (RDS)"
+    },
+    "description": {
+      "en": "Hands-on RDS guide — components, Quick Start deployment, session collections, RemoteApp, RD Gateway, RD Licensing, GPO tuning, monitoring and troubleshooting.",
+      "az": "RDS üzrə praktik dərslik — komponentlər, Quick Start quraşdırma, session collection-lar, RemoteApp, RD Gateway, RD Licensing, GPO tənzimləmələri, monitorinq və troubleshooting."
+    },
+    "keywords": [
+      "rds",
+      "remote desktop services",
+      "session host",
+      "remoteapp",
+      "rd gateway",
+      "rd licensing",
+      "connection broker",
+      "rdp",
+      "servers"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-23",
+    "sourcePaths": {
+      "en": "servers\\rds.md",
+      "az": "servers\\rds.md"
     }
   },
   {
@@ -817,25 +1181,61 @@ const lessons = [
     }
   },
   {
-    "slug": "/servers/jump-server",
+    "slug": "/servers/storage-filesystems-servers",
     "category": "servers",
     "title": {
-      "en": "What is a Jump Server?",
-      "az": "Jump Server Nədir?"
+      "en": "Storage, File Systems, and Server Form Factors",
+      "az": "Storage, Fayl Sistemləri və Server Form Factorları"
     },
     "description": {
-      "en": "What is a Jump Server (Bastion Host), where is it used, and what are its advantages?",
-      "az": "Jump Server (Bastion Host) nədir, harada istifadə olunur və üstünlükləri nələrdir?"
+      "en": "DAS, NAS, SAN, NTFS vs ReFS, MBR vs GPT, VHD types, tower/rack/blade servers, and vSphere datastore protocols.",
+      "az": "DAS, NAS, SAN, NTFS vs ReFS, MBR vs GPT, VHD növləri, tower/rack/blade serverlər və vSphere datastore protokolları."
     },
     "keywords": [
+      "storage",
+      "das",
+      "nas",
+      "san",
+      "ntfs",
+      "refs",
+      "gpt",
+      "vhd",
+      "rack server",
       "servers",
-      "jump-server"
+      "storage-filesystems-servers"
     ],
     "status": "reference",
-    "lastReviewed": null,
+    "lastReviewed": "2026-04-22",
     "sourcePaths": {
-      "en": "servers\\jump-server.md",
-      "az": "servers\\jump-server.md"
+      "en": "servers\\storage-filesystems-servers.md",
+      "az": "servers\\storage-filesystems-servers.md"
+    }
+  },
+  {
+    "slug": "/servers/upgrade-migration",
+    "category": "servers",
+    "title": {
+      "en": "Upgrade, Update, and Migration",
+      "az": "Upgrade, Update və Migration"
+    },
+    "description": {
+      "en": "Differences between Windows Server upgrade, update, and migration — supported paths, ADBA activation, and decision guidance.",
+      "az": "Windows Server-də upgrade, update və migration fərqləri: dəstəklənən yollar, ADBA aktivasiyası və qərar bələdçisi."
+    },
+    "keywords": [
+      "upgrade",
+      "update",
+      "migration",
+      "in-place upgrade",
+      "adba",
+      "servers",
+      "upgrade-migration"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-22",
+    "sourcePaths": {
+      "en": "servers\\upgrade-migration.md",
+      "az": "servers\\upgrade-migration.md"
     }
   },
   {
@@ -867,6 +1267,34 @@ const lessons = [
     }
   },
   {
+    "slug": "/servers/backup",
+    "category": "servers",
+    "title": {
+      "en": "Windows Server Backup",
+      "az": "Windows Server Backup"
+    },
+    "description": {
+      "en": "Hands-on Windows Server Backup guide — backup types, installation, scheduled and on-demand backup, file/System State/bare-metal recovery, and AD Recycle Bin.",
+      "az": "Windows Server Backup üzrə praktik dərslik — backup növləri, quraşdırma, scheduled və on-demand backup, fayl/System State/bare metal bərpa və AD Recycle Bin."
+    },
+    "keywords": [
+      "backup",
+      "windows server backup",
+      "wbadmin",
+      "system state",
+      "bare metal recovery",
+      "ad recycle bin",
+      "authoritative restore",
+      "servers"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-23",
+    "sourcePaths": {
+      "en": "servers\\backup.md",
+      "az": "servers\\backup.md"
+    }
+  },
+  {
     "slug": "/servers/windows-server-planning",
     "category": "servers",
     "title": {
@@ -886,6 +1314,60 @@ const lessons = [
     "sourcePaths": {
       "en": "servers\\windows-server-planning.md",
       "az": "servers\\windows-server-planning.md"
+    }
+  },
+  {
+    "slug": "/servers/wsus",
+    "category": "servers",
+    "title": {
+      "en": "WSUS (Windows Server Update Services)",
+      "az": "WSUS (Windows Server Update Services)"
+    },
+    "description": {
+      "en": "Hands-on WSUS guide — architecture, role installation, products/classifications, computer groups, approvals, client GPO, reporting, cleanup, and troubleshooting.",
+      "az": "WSUS üzrə praktik dərslik — arxitektura, rol quraşdırma, product/classification seçimi, computer groups, approval, client GPO, reporting, cleanup və troubleshooting."
+    },
+    "keywords": [
+      "wsus",
+      "windows update",
+      "patch management",
+      "gpo",
+      "wsusutil",
+      "auto-approval",
+      "servers"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-23",
+    "sourcePaths": {
+      "en": "servers\\wsus.md",
+      "az": "servers\\wsus.md"
+    }
+  },
+  {
+    "slug": "/virtualization/hypervisor",
+    "category": "virtualization",
+    "title": {
+      "en": "Hypervisors and Virtualization",
+      "az": "Hypervisor və Virtualizasiya"
+    },
+    "description": {
+      "en": "Hypervisor types explained — Type 1 vs Type 2, microkernel vs monolithic, vSphere/ESXi, Hyper-V, and common virtualization categories.",
+      "az": "Hypervisor növləri: Type 1 vs Type 2, microkernel vs monolithic, vSphere/ESXi, Hyper-V və virtualizasiya kateqoriyaları."
+    },
+    "keywords": [
+      "hypervisor",
+      "type 1",
+      "type 2",
+      "esxi",
+      "hyper-v",
+      "virtualization",
+      "virtualizasiya"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-22",
+    "sourcePaths": {
+      "en": "virtualization\\hypervisor.md",
+      "az": "virtualization\\hypervisor.md"
     }
   },
   {
