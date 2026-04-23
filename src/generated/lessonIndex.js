@@ -21,6 +21,38 @@ const lessons = [
     }
   },
   {
+    "slug": "/blue-teaming/endpoint-security",
+    "category": "blue-teaming",
+    "title": {
+      "en": "Endpoint Security",
+      "az": "Endpoint Təhlükəsizliyi"
+    },
+    "description": {
+      "en": "Antivirus, EDR, DLP, host firewalls, HIDS/HIPS, secure boot, TPM, disk encryption, OS hardening, and patch management for desktops, laptops, and servers.",
+      "az": "Antivirus, EDR, DLP, host firewall, HIDS/HIPS, təhlükəsiz yükləmə, TPM, disk şifrələməsi, ƏS sərtləşdirmə və yamaq idarəçiliyi — stolüstü, noutbuk və serverlər üçün."
+    },
+    "keywords": [
+      "endpoint",
+      "EDR",
+      "antivirus",
+      "DLP",
+      "HIDS",
+      "HIPS",
+      "TPM",
+      "secure boot",
+      "hardening",
+      "patch management",
+      "blue-teaming",
+      "endpoint-security"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-23",
+    "sourcePaths": {
+      "en": "blue-teaming\\endpoint-security.md",
+      "az": "blue-teaming\\endpoint-security.md"
+    }
+  },
+  {
     "slug": "/blue-teaming/log-analysis",
     "category": "blue-teaming",
     "title": {
@@ -778,6 +810,38 @@ const lessons = [
     "sourcePaths": {
       "en": "networking-overview.md",
       "az": "networking-overview.md"
+    }
+  },
+  {
+    "slug": "/networking/secure-protocols",
+    "category": "networking",
+    "title": {
+      "en": "Secure Network Protocols",
+      "az": "Təhlükəsiz Şəbəkə Protokolları"
+    },
+    "description": {
+      "en": "Secure alternatives to plaintext network protocols — DNSSEC, SSH, S/MIME, SRTP, LDAPS, SFTP, SNMPv3, HTTPS, IPSec — and how to choose the right one per use case.",
+      "az": "Açıq mətnli şəbəkə protokollarının təhlükəsiz alternativləri — DNSSEC, SSH, S/MIME, SRTP, LDAPS, SFTP, SNMPv3, HTTPS, IPSec — və hər istifadə halı üçün düzgün seçim."
+    },
+    "keywords": [
+      "DNSSEC",
+      "SSH",
+      "S/MIME",
+      "SRTP",
+      "LDAPS",
+      "SFTP",
+      "SNMPv3",
+      "HTTPS",
+      "IPSec",
+      "secure protocols",
+      "networking",
+      "secure-protocols"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-23",
+    "sourcePaths": {
+      "en": "networking\\secure-protocols.md",
+      "az": "networking\\secure-protocols.md"
     }
   },
   {
