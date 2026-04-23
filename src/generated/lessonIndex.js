@@ -813,6 +813,38 @@ const lessons = [
     }
   },
   {
+    "slug": "/networking/secure-network-design",
+    "category": "networking",
+    "title": {
+      "en": "Secure Network Design",
+      "az": "Təhlükəsiz Şəbəkə Dizaynı"
+    },
+    "description": {
+      "en": "Segmentation, zero trust, VPN, NAC, switch hardening, perimeter inspection, routing and monitoring controls for an enterprise network.",
+      "az": "Seqmentasiya, sıfır etibar, VPN, NAC, kommutator sərtləşdirmə, perimetr yoxlama, marşrutlaşdırma və monitorinq nəzarətləri korporativ şəbəkə üçün."
+    },
+    "keywords": [
+      "network segmentation",
+      "VLAN",
+      "zero trust",
+      "VPN",
+      "NAC",
+      "port security",
+      "NIDS",
+      "NGFW",
+      "WAF",
+      "proxy",
+      "networking",
+      "secure-network-design"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-23",
+    "sourcePaths": {
+      "en": "networking\\secure-network-design.md",
+      "az": "networking\\secure-network-design.md"
+    }
+  },
+  {
     "slug": "/networking/secure-protocols",
     "category": "networking",
     "title": {
@@ -842,6 +874,39 @@ const lessons = [
     "sourcePaths": {
       "en": "networking\\secure-protocols.md",
       "az": "networking\\secure-protocols.md"
+    }
+  },
+  {
+    "slug": "/networking/wireless-security",
+    "category": "networking",
+    "title": {
+      "en": "Wireless Network Security",
+      "az": "Simsiz Şəbəkə Təhlükəsizliyi"
+    },
+    "description": {
+      "en": "Wireless protocol generations, authentication frameworks, 802.1X with RADIUS, EAP variants, and RF design practices for defensible Wi-Fi networks.",
+      "az": "Simsiz protokol nəsilləri, autentifikasiya çərçivələri, RADIUS ilə 802.1X, EAP variantları və müdafiə oluna bilən Wi-Fi şəbəkələri üçün RF dizayn təcrübələri."
+    },
+    "keywords": [
+      "WPA3",
+      "WPA2",
+      "WEP",
+      "EAP",
+      "802.1X",
+      "RADIUS",
+      "SAE",
+      "4-way handshake",
+      "captive portal",
+      "wireless",
+      "Wi-Fi",
+      "networking",
+      "wireless-security"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-23",
+    "sourcePaths": {
+      "en": "networking\\wireless-security.md",
+      "az": "networking\\wireless-security.md"
     }
   },
   {
