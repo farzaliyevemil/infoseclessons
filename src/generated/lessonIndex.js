@@ -236,6 +236,96 @@ const lessons = [
     }
   },
   {
+    "slug": "/general-security/security-assessment",
+    "category": "general-security",
+    "title": {
+      "en": "Organizational Security Assessment",
+      "az": "Təşkilatın Təhlükəsizlik Qiymətləndirməsi"
+    },
+    "description": {
+      "en": "End-to-end organizational security assessment — scoping, discovery, testing, reporting, risk-rating, and remediation tracking for SMB and enterprise.",
+      "az": "Təşkilatın təhlükəsizliyinin tam qiymətləndirilməsi — miqyaslama, kəşf, sınaq, hesabat, risk reytinqi və düzəliş izləmə (SMB və enterprise üçün)."
+    },
+    "keywords": [
+      "security assessment",
+      "gap analysis",
+      "vulnerability assessment",
+      "penetration testing",
+      "compliance audit",
+      "risk rating",
+      "remediation plan",
+      "general-security",
+      "security-assessment"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-23",
+    "sourcePaths": {
+      "en": "general-security\\security-assessment.md",
+      "az": "general-security\\security-assessment.md"
+    }
+  },
+  {
+    "slug": "/general-security/security-tools",
+    "category": "general-security",
+    "title": {
+      "en": "Security Tools — The Working Toolkit",
+      "az": "Təhlükəsizlik Alətləri — İş Alət Dəsti"
+    },
+    "description": {
+      "en": "Network-discovery, vulnerability scanners, packet analyzers, exploitation frameworks, data-sanitization tools, and forensic utilities every SOC/IT engineer needs to know.",
+      "az": "Şəbəkə kəşfiyyatı, zəiflik skanerləri, paket analizatorları, istismar freymvorkları, məlumatın silinməsi alətləri və hər SOC/IT mühəndisinin bilməli olduğu ekspert utilitləri."
+    },
+    "keywords": [
+      "security tools",
+      "nmap",
+      "nessus",
+      "wireshark",
+      "metasploit",
+      "burp suite",
+      "tcpdump",
+      "kali linux",
+      "osint tools",
+      "general-security",
+      "security-tools"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-23",
+    "sourcePaths": {
+      "en": "general-security\\security-tools.md",
+      "az": "general-security\\security-tools.md"
+    }
+  },
+  {
+    "slug": "/general-security/sql-basics",
+    "category": "general-security",
+    "title": {
+      "en": "SQL Basics for Security Engineers",
+      "az": "Təhlükəsizlik mühəndisləri üçün SQL əsasları"
+    },
+    "description": {
+      "en": "SELECT/INSERT/UPDATE/DELETE, JOINs, WHERE, aggregate functions, indexes, transactions, and stored procedures — the SQL literacy you need to understand SQLi and read audit data.",
+      "az": "SELECT/INSERT/UPDATE/DELETE, JOIN-lar, WHERE, aqreqat funksiyalar, indekslər, tranzaksiyalar və stored procedure-lər — SQLi-ni anlamaq və audit datasını oxumaq üçün lazım olan SQL savadı."
+    },
+    "keywords": [
+      "sql",
+      "relational database",
+      "select",
+      "join",
+      "where",
+      "index",
+      "transaction",
+      "stored procedure",
+      "general-security",
+      "sql-basics"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-23",
+    "sourcePaths": {
+      "en": "general-security\\sql-basics.md",
+      "az": "general-security\\sql-basics.md"
+    }
+  },
+  {
     "slug": "/general-security/vulnerability-management",
     "category": "general-security",
     "title": {
@@ -514,6 +604,38 @@ const lessons = [
     }
   },
   {
+    "slug": "/networking/networking-fundamentals",
+    "category": "networking",
+    "title": {
+      "en": "Networking Fundamentals",
+      "az": "Şəbəkə əsasları"
+    },
+    "description": {
+      "en": "OSI and TCP/IP models, Ethernet and IP, ARP, routing, ports and protocols, DNS/DHCP overview, common devices (switch, router, firewall), and how a single HTTP request actually gets from your browser to a web server.",
+      "az": "OSI və TCP/IP modelləri, Ethernet və IP, ARP, marşrutlaşdırma, portlar və protokollar, DNS/DHCP icmal, geniş yayılmış cihazlar (kommutator, marşrutlaşdırıcı, təhlükəsizlik divarı) və tək bir HTTP sorğusunun brauzerinizdən web server-ə əslində necə çatması."
+    },
+    "keywords": [
+      "networking",
+      "osi model",
+      "tcp/ip",
+      "ethernet",
+      "arp",
+      "routing",
+      "ports",
+      "protocols",
+      "switch",
+      "router",
+      "firewall",
+      "networking-fundamentals"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-23",
+    "sourcePaths": {
+      "en": "networking\\networking-fundamentals.md",
+      "az": "networking\\networking-fundamentals.md"
+    }
+  },
+  {
     "slug": "/networking",
     "category": "networking",
     "title": {
@@ -555,6 +677,36 @@ const lessons = [
     "sourcePaths": {
       "en": "operating-systems\\linux\\basic-commands.md",
       "az": "operating-systems\\linux\\basic-commands.md"
+    }
+  },
+  {
+    "slug": "/operating-systems/linux/fundamentals",
+    "category": "operating-systems",
+    "title": {
+      "en": "Linux Fundamentals",
+      "az": "Linux Fundamentals"
+    },
+    "description": {
+      "en": "Architecture, distributions, filesystem hierarchy, shell, users and permissions, package managers, services, processes, networking, and logs — everything a SOC/IT engineer needs as baseline Linux literacy.",
+      "az": "Arxitektura, bölüşdürmələr, fayl sistemi iyerarxiyası, shell, istifadəçilər və icazələr, paket menecerləri, xidmətlər, proseslər, şəbəkə və loglar — SOC/IT mühəndisi üçün baza Linux savadı."
+    },
+    "keywords": [
+      "linux",
+      "fundamentals",
+      "bash",
+      "filesystem hierarchy",
+      "permissions",
+      "systemd",
+      "package manager",
+      "processes",
+      "syslog",
+      "operating-systems"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-23",
+    "sourcePaths": {
+      "en": "operating-systems\\linux\\fundamentals.md",
+      "az": "operating-systems\\linux\\fundamentals.md"
     }
   },
   {
@@ -605,18 +757,33 @@ const lessons = [
     "slug": "/operating-systems",
     "category": "operating-systems",
     "title": {
-      "en": "Operating Systems Guide",
-      "az": "Əməliyyat Sistemləri Bələdçisi"
+      "en": "Operating Systems — Overview and Foundations",
+      "az": "Əməliyyat Sistemləri — Ümumi Baxış və Əsaslar"
     },
     "description": {
-      "en": "A practical index for Windows and Linux administration, hardening, and day-to-day operator workflows.",
-      "az": "Windows və Linux administrasiyası, sərtləşdirmə və gündəlik operator iş axını üçün praktik indeks."
+      "en": "What an operating system actually does — kernel, processes, memory, file systems, boot, multi-user security — and why infosec engineers need fluency in both Windows and Linux.",
+      "az": "Əməliyyat sisteminin əslində nə etdiyi — nüvə, proseslər, yaddaş, fayl sistemləri, yükləmə, çoxistifadəçi təhlükəsizliyi — və infosec mühəndislərinin nə üçün həm Windows, həm də Linux-da səlislik tələb etdiyi."
     },
     "keywords": [
+      "operating system",
+      "kernel",
+      "userspace",
+      "process",
+      "virtual memory",
+      "file system",
+      "system call",
+      "boot process",
+      "bios",
+      "uefi",
+      "systemd",
+      "windows",
+      "linux",
+      "selinux",
+      "apparmor",
       "operating-systems-overview"
     ],
     "status": "overview",
-    "lastReviewed": "2026-03-23",
+    "lastReviewed": "2026-04-23",
     "sourcePaths": {
       "en": "operating-systems-overview.md",
       "az": "operating-systems-overview.md"
@@ -735,6 +902,36 @@ const lessons = [
     "sourcePaths": {
       "en": "operating-systems\\windows\\wsl.md",
       "az": "operating-systems\\windows\\wsl.md"
+    }
+  },
+  {
+    "slug": "/operating-systems/windows/fundamentals",
+    "category": "operating-systems",
+    "title": {
+      "en": "Windows Fundamentals",
+      "az": "Windows əsasları"
+    },
+    "description": {
+      "en": "Architecture, processes and services, the registry, event logs, users and SIDs, UAC and tokens, PowerShell, and built-in security features — foundational Windows literacy for SOC and IT engineers.",
+      "az": "Arxitektura, proseslər və xidmətlər, qeydiyyat (registry), hadisələr jurnalı, istifadəçilər və SID-lər, UAC və token-lər, PowerShell və daxili qoruma vasitələri — SOC və IT mühəndisləri üçün Windows üzrə təməl bilik."
+    },
+    "keywords": [
+      "windows",
+      "fundamentals",
+      "ntfs",
+      "registry",
+      "event log",
+      "powershell",
+      "uac",
+      "sids",
+      "defender",
+      "operating-systems"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-23",
+    "sourcePaths": {
+      "en": "operating-systems\\windows\\fundamentals.md",
+      "az": "operating-systems\\windows\\fundamentals.md"
     }
   },
   {
