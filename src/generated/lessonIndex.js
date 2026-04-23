@@ -161,6 +161,41 @@ const lessons = [
     }
   },
   {
+    "slug": "/general-security/cloud-computing-security",
+    "category": "general-security",
+    "title": {
+      "en": "Cloud Computing Security",
+      "az": "Bulud Hesablama Təhlükəsizliyi"
+    },
+    "description": {
+      "en": "Service and deployment models, shared responsibility, containers, serverless, virtualization, SDN, and VM escape protection for cloud-hosted workloads.",
+      "az": "Xidmət və yerləşdirmə modelləri, paylaşılan məsuliyyət, konteynerlər, serverless, virtuallaşdırma, SDN və buludda yerləşən yüklər üçün VM Escape mühafizəsi."
+    },
+    "keywords": [
+      "cloud security",
+      "IaaS",
+      "PaaS",
+      "SaaS",
+      "shared responsibility",
+      "containers",
+      "serverless",
+      "virtualization",
+      "SDN",
+      "general-security",
+      "cloud-computing-security",
+      "bulud təhlükəsizliyi",
+      "paylaşılan məsuliyyət",
+      "konteynerlər",
+      "virtuallaşdırma"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-23",
+    "sourcePaths": {
+      "en": "general-security\\cloud-computing-security.md",
+      "az": "general-security\\cloud-computing-security.md"
+    }
+  },
+  {
     "slug": "/general-security/cryptography-basics",
     "category": "general-security",
     "title": {
@@ -220,6 +255,36 @@ const lessons = [
     "sourcePaths": {
       "en": "general-security\\embedded-and-iot-security.md",
       "az": "general-security\\embedded-and-iot-security.md"
+    }
+  },
+  {
+    "slug": "/general-security/enterprise-security-architecture",
+    "category": "general-security",
+    "title": {
+      "en": "Enterprise Security Architecture",
+      "az": "Müəssisə Təhlükəsizlik Arxitekturası"
+    },
+    "description": {
+      "en": "Designing a resilient enterprise — configuration baselines, data protection, site resiliency, cryptographic boundaries, and deception technology for a modern organisation.",
+      "az": "Davamlı müəssisənin dizaynı — konfiqurasiya bazaları, məlumat qorunması, sayt davamlılığı, kriptoqrafik sərhədlər və müasir təşkilat üçün aldatma texnologiyası."
+    },
+    "keywords": [
+      "enterprise security",
+      "configuration management",
+      "data protection",
+      "DLP",
+      "encryption",
+      "honeypot",
+      "site resiliency",
+      "deception",
+      "general-security",
+      "enterprise-security-architecture"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-23",
+    "sourcePaths": {
+      "en": "general-security\\enterprise-security-architecture.md",
+      "az": "general-security\\enterprise-security-architecture.md"
     }
   },
   {
