@@ -193,6 +193,36 @@ const lessons = [
     }
   },
   {
+    "slug": "/general-security/embedded-and-iot-security",
+    "category": "general-security",
+    "title": {
+      "en": "Embedded Systems, IoT, and ICS Security",
+      "az": "Quraşdırılmış sistemlər, IoT və ICS təhlükəsizliyi"
+    },
+    "description": {
+      "en": "Securing embedded systems, IoT devices, and industrial control systems — from Raspberry Pi and FPGAs to SCADA networks, smart meters, and design constraints.",
+      "az": "Quraşdırılmış sistemlərin, IoT cihazlarının və sənaye nəzarət sistemlərinin qorunması — Raspberry Pi və FPGA-dan tutmuş SCADA şəbəkələrinə, ağıllı sayğaclara və dizayn məhdudiyyətlərinə qədər."
+    },
+    "keywords": [
+      "embedded systems",
+      "IoT",
+      "SCADA",
+      "ICS",
+      "Raspberry Pi",
+      "FPGA",
+      "smart devices",
+      "RTOS",
+      "general-security",
+      "embedded-and-iot-security"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-23",
+    "sourcePaths": {
+      "en": "general-security\\embedded-and-iot-security.md",
+      "az": "general-security\\embedded-and-iot-security.md"
+    }
+  },
+  {
     "slug": "/general-security",
     "category": "general-security",
     "title": {
@@ -262,6 +292,35 @@ const lessons = [
     "sourcePaths": {
       "en": "general-security\\security-assessment.md",
       "az": "general-security\\security-assessment.md"
+    }
+  },
+  {
+    "slug": "/general-security/physical-security",
+    "category": "general-security",
+    "title": {
+      "en": "Physical Security Controls",
+      "az": "Fiziki Təhlükəsizlik Nəzarətləri"
+    },
+    "description": {
+      "en": "Defense-in-depth physical controls — perimeter, entry, surveillance, environmental, and secure data destruction — for protecting facilities and the data inside them.",
+      "az": "Dərinlikli müdafiə prinsipi ilə fiziki nəzarətlər — perimetr, giriş, müşahidə, ətraf mühit və məlumatın təhlükəsiz məhv edilməsi — obyektləri və içərisindəki məlumatları qorumaq üçün."
+    },
+    "keywords": [
+      "physical security",
+      "access control",
+      "CCTV",
+      "fire suppression",
+      "data destruction",
+      "mantrap",
+      "Faraday cage",
+      "general-security",
+      "physical-security"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-23",
+    "sourcePaths": {
+      "en": "general-security\\physical-security.md",
+      "az": "general-security\\physical-security.md"
     }
   },
   {
