@@ -1,0 +1,10 @@
+{
+  "label": "🪟 Windows Server",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Windows Server quraşdırılması, planlaması, alətləri və yüksəltmə/miqrasiya."
+  },
+  "collapsible": true,
+  "collapsed": true
+}

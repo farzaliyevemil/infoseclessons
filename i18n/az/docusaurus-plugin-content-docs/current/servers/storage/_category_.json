@@ -1,0 +1,10 @@
+{
+  "label": "💾 Storage və Backup",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "Server storage, NTFS icazələri ilə file server-lər və müəssisə backup strategiyaları."
+  },
+  "collapsible": true,
+  "collapsed": true
+}

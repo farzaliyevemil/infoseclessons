@@ -1,0 +1,10 @@
+{
+  "label": "📱 Mobil, IoT və Fiziki",
+  "position": 8,
+  "link": {
+    "type": "generated-index",
+    "description": "Mobil cihaz idarəetməsi, embedded/IoT sistemləri və perimetri əhatə edən fiziki-təhlükəsizlik nəzarətləri."
+  },
+  "collapsible": true,
+  "collapsed": true
+}

@@ -16,6 +16,7 @@ keywords:
   - package manager
   - processes
   - syslog
+difficulty: foundation
 ---
 
 # Linux Fundamentals

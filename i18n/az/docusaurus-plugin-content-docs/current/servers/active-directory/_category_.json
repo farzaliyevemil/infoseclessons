@@ -1,0 +1,10 @@
+{
+  "label": "🔑 Active Directory",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Active Directory Domain Services, FSMO rolları, Group Policy və möhkəmlədilmiş identitet idarəetməsi üçün LAPS."
+  },
+  "collapsible": true,
+  "collapsed": true
+}

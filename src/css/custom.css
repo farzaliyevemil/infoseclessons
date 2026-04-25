@@ -400,6 +400,39 @@
   font-weight: 600;
 }
 
+/* Difficulty badge — colored chip per level */
+.doc-state__badge--difficulty {
+  background: var(--ifm-color-secondary-darker);
+  color: #fff;
+}
+
+.doc-state__badge--foundation {
+  background: linear-gradient(135deg, #16a34a, #15803d);
+  box-shadow: 0 0 0 1px rgba(34, 197, 94, 0.4);
+}
+
+.doc-state__badge--intermediate {
+  background: linear-gradient(135deg, #d97706, #b45309);
+  box-shadow: 0 0 0 1px rgba(245, 158, 11, 0.45);
+}
+
+.doc-state__badge--advanced {
+  background: linear-gradient(135deg, #dc2626, #991b1b);
+  box-shadow: 0 0 0 1px rgba(239, 68, 68, 0.45);
+}
+
+[data-theme='dark'] .doc-state__badge--foundation {
+  background: linear-gradient(135deg, #22c55e, #15803d);
+}
+
+[data-theme='dark'] .doc-state__badge--intermediate {
+  background: linear-gradient(135deg, #f59e0b, #b45309);
+}
+
+[data-theme='dark'] .doc-state__badge--advanced {
+  background: linear-gradient(135deg, #ef4444, #991b1b);
+}
+
 .landing-grid .landing-card:nth-child(2),
 .search-results__grid .search-result-card:nth-child(2) {
   animation-delay: 50ms;

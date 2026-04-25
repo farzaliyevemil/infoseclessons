@@ -3,6 +3,7 @@ id: open-source
 title: Açıq Mənbə Təhlükəsizlik Həlləri (Ümumi Baxış)
 description: Həll növünə görə kateqoriyalaşdırılmış əsas açıq mənbə alətlərin siyahısı (gizlənə bilən bölmələrlə).
 slug: /general-security/open-source
+difficulty: foundation
 ---
 
 ## 🧩 Açıq Mənbə Təhlükəsizlik Həlləri

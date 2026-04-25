@@ -16,6 +16,7 @@ keywords:
   - uac
   - sids
   - defender
+difficulty: foundation
 ---
 
 # Windows Fundamentals

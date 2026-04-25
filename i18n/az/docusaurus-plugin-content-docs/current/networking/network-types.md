@@ -6,6 +6,7 @@ slug: /networking/network-types
 sidebar_position: 1
 status: reference
 last_reviewed: 2026-03-23
+difficulty: foundation
 ---
 
 # 🧠 Şəbəkə Əsasları

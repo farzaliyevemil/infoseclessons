@@ -3,6 +3,7 @@ id: initial-access
 title: Initial Access
 description: A practical overview of common initial access vectors in authorized red team and adversary simulation work.
 slug: /red-teaming/initial-access
+difficulty: intermediate
 ---
 
 # Initial Access

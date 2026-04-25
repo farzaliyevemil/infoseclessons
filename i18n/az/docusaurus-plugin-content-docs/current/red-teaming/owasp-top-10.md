@@ -15,6 +15,7 @@ keywords:
   - broken access control
   - ssrf
   - insecure deserialization
+difficulty: intermediate
 ---
 
 # OWASP Top 10 (2021)

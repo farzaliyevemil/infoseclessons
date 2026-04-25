@@ -1,0 +1,10 @@
+{
+  "label": "🔑 Active Directory",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Active Directory Domain Services, FSMO roles, Group Policy, and LAPS for hardened identity management."
+  },
+  "collapsible": true,
+  "collapsed": true
+}

@@ -1,0 +1,10 @@
+{
+  "label": "🔐 Cryptography",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "Cryptographic primitives, protocols, key management, and applied crypto patterns for the modern enterprise."
+  },
+  "collapsible": true,
+  "collapsed": true
+}

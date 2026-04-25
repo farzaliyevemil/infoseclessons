@@ -1,0 +1,10 @@
+{
+  "label": "🛡️ Secure Network Design",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Segmentation, secure protocols, and wireless security — the design patterns and protocol choices that build a defensible network."
+  },
+  "collapsible": true,
+  "collapsed": true
+}

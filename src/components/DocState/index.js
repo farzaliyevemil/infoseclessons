@@ -19,6 +19,17 @@ function inferStatus(frontMatter = {}) {
   return 'reference';
 }
 
+function inferDifficulty(frontMatter = {}) {
+  const value = frontMatter.difficulty;
+  if (typeof value === 'string' && value.trim()) {
+    const normalized = value.trim().toLowerCase();
+    if (['foundation', 'intermediate', 'advanced'].includes(normalized)) {
+      return normalized;
+    }
+  }
+  return null;
+}
+
 function formatDate(value) {
   if (!value) {
     return null;
@@ -45,19 +56,31 @@ const copy = {
   en: {
     label: 'Coverage',
     reviewed: 'Last reviewed',
+    difficulty: 'Level',
     status: {
       starter: 'Starter',
       reference: 'Reference',
       overview: 'Overview',
     },
+    difficultyLabel: {
+      foundation: 'Foundation',
+      intermediate: 'Intermediate',
+      advanced: 'Advanced',
+    },
   },
   az: {
     label: 'Səviyyə',
     reviewed: 'Son baxış',
+    difficulty: 'Çətinlik',
     status: {
       starter: 'Başlanğıc',
       reference: 'Əsas',
       overview: 'İcmal',
+    },
+    difficultyLabel: {
+      foundation: 'Foundation',
+      intermediate: 'Orta',
+      advanced: 'İrəli',
     },
   },
 };
@@ -68,14 +91,20 @@ export default function DocState() {
   const locale = i18n.currentLocale === 'az' ? 'az' : 'en';
   const text = copy[locale];
   const status = inferStatus(frontMatter);
+  const difficulty = inferDifficulty(frontMatter);
   const lastReviewed = formatDate(frontMatter.last_reviewed);
 
-  if (!status && !lastReviewed) {
+  if (!status && !difficulty && !lastReviewed) {
     return null;
   }
 
   return (
     <div className="doc-state">
+      {difficulty ? (
+        <span className={`doc-state__badge doc-state__badge--difficulty doc-state__badge--${difficulty}`}>
+          {text.difficulty}: {text.difficultyLabel[difficulty]}
+        </span>
+      ) : null}
       {status ? (
         <span className="doc-state__badge">
           {text.label}: {text.status[status] || status}

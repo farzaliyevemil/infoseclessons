@@ -17,6 +17,7 @@ keywords:
   - secure boot
   - hardening
   - patch management
+difficulty: intermediate
 ---
 
 # Endpoint Təhlükəsizliyi

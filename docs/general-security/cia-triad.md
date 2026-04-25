@@ -16,6 +16,7 @@ keywords:
   - dlp
   - data encryption
   - data minimization
+difficulty: foundation
 ---
 
 # CIA Triad

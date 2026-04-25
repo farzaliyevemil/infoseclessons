@@ -3,6 +3,7 @@ id: raid
 title: What is RAID? (Simple Explanation)
 description: What is RAID, why is it used, and what purposes does it serve? A complete explanation in simple language.
 slug: /general-security/raid
+difficulty: foundation
 ---
 
 # 📦 What is RAID?

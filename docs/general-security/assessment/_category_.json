@@ -1,0 +1,10 @@
+{
+  "label": "🔎 Vulnerability & Assessment",
+  "position": 9,
+  "link": {
+    "type": "generated-index",
+    "description": "Vulnerability management lifecycle, security assessment methodologies, and the tools that drive a continuous-improvement program."
+  },
+  "collapsible": true,
+  "collapsed": true
+}

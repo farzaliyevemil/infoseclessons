@@ -15,6 +15,7 @@ keywords:
   - index
   - transaction
   - stored procedure
+difficulty: foundation
 ---
 
 # Təhlükəsizlik mühəndisləri üçün SQL əsasları

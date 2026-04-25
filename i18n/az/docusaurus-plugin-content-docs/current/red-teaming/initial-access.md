@@ -3,6 +3,7 @@ id: initial-access
 title: Initial Access
 description: Authorized red team və adversary simulation işində istifadə olunan əsas initial access vektorlarına praktik baxış.
 slug: /red-teaming/initial-access
+difficulty: intermediate
 ---
 
 # Initial Access

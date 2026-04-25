@@ -15,6 +15,7 @@ keywords:
   - tailgating
   - mfa bombing
   - bec
+difficulty: foundation
 ---
 
 # Social Engineering

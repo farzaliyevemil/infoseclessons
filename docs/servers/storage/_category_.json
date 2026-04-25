@@ -1,0 +1,10 @@
+{
+  "label": "💾 Storage & Backup",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "Server storage, file servers with NTFS permissions, and enterprise backup strategies."
+  },
+  "collapsible": true,
+  "collapsed": true
+}

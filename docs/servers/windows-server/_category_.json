@@ -1,0 +1,10 @@
+{
+  "label": "🪟 Windows Server",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Windows Server installation, planning, tooling, and upgrade/migration."
+  },
+  "collapsible": true,
+  "collapsed": true
+}

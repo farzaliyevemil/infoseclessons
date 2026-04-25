@@ -3,6 +3,7 @@ id: policies
 title: Təhlükəsizlik Siyasətləri
 description: Təhlükəsizlik siyasətlərinin strukturu və governance mövzuları üçün giriş qeydləri. Tam dərs tezliklə əlavə olunacaq.
 slug: /grc/policies
+difficulty: foundation
 ---
 
 # Təhlükəsizlik Siyasətləri

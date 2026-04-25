@@ -1,0 +1,10 @@
+{
+  "label": "☁️ Bulud Təhlükəsizliyi",
+  "position": 6,
+  "link": {
+    "type": "generated-index",
+    "description": "Bulud hesablama modelləri, paylaşılan məsuliyyət və IaaS / PaaS / SaaS deployment-ləri üçün əməliyyat təhlükəsizlik nəzarətləri."
+  },
+  "collapsible": true,
+  "collapsed": true
+}

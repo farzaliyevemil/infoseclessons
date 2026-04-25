@@ -3,6 +3,7 @@ id: log-analysis
 title: Loq Analizi
 description: Blue team loq analizi iş axınları üçün giriş qeydləri. Tam dərs tezliklə əlavə olunacaq.
 slug: /blue-teaming/log-analysis
+difficulty: foundation
 ---
 
 # Loq Analizi

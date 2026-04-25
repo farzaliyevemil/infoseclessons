@@ -17,6 +17,7 @@ keywords:
   - dpia
   - risk register
   - nist rmf
+difficulty: intermediate
 ---
 
 # Risk Management and Privacy

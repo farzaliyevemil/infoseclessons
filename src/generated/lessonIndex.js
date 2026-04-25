@@ -214,6 +214,7 @@ const lessons = [
       "virtualization",
       "SDN",
       "general-security",
+      "cloud",
       "cloud-computing-security",
       "bulud təhlükəsizliyi",
       "paylaşılan məsuliyyət",
@@ -223,8 +224,8 @@ const lessons = [
     "status": "reference",
     "lastReviewed": "2026-04-23",
     "sourcePaths": {
-      "en": "general-security\\cloud-computing-security.md",
-      "az": "general-security\\cloud-computing-security.md"
+      "en": "general-security\\cloud\\cloud-computing-security.md",
+      "az": "general-security\\cloud\\cloud-computing-security.md"
     }
   },
   {
@@ -249,13 +250,14 @@ const lessons = [
       "resource policies",
       "container security",
       "general-security",
+      "cloud",
       "cloud-security-solutions"
     ],
     "status": "reference",
     "lastReviewed": "2026-04-23",
     "sourcePaths": {
-      "en": "general-security\\cloud-security-solutions.md",
-      "az": "general-security\\cloud-security-solutions.md"
+      "en": "general-security\\cloud\\cloud-security-solutions.md",
+      "az": "general-security\\cloud\\cloud-security-solutions.md"
     }
   },
   {
@@ -286,8 +288,8 @@ const lessons = [
     "status": "reference",
     "lastReviewed": "2026-04-23",
     "sourcePaths": {
-      "en": "general-security\\cryptography-basics.md",
-      "az": "general-security\\cryptography-basics.md"
+      "en": "general-security\\cryptography\\cryptography-basics.md",
+      "az": "general-security\\cryptography\\cryptography-basics.md"
     }
   },
   {
@@ -311,13 +313,14 @@ const lessons = [
       "smart devices",
       "RTOS",
       "general-security",
+      "mobile-and-iot",
       "embedded-and-iot-security"
     ],
     "status": "reference",
     "lastReviewed": "2026-04-23",
     "sourcePaths": {
-      "en": "general-security\\embedded-and-iot-security.md",
-      "az": "general-security\\embedded-and-iot-security.md"
+      "en": "general-security\\mobile-and-iot\\embedded-and-iot-security.md",
+      "az": "general-security\\mobile-and-iot\\embedded-and-iot-security.md"
     }
   },
   {
@@ -341,13 +344,14 @@ const lessons = [
       "site resiliency",
       "deception",
       "general-security",
+      "architecture",
       "enterprise-security-architecture"
     ],
     "status": "reference",
     "lastReviewed": "2026-04-23",
     "sourcePaths": {
-      "en": "general-security\\enterprise-security-architecture.md",
-      "az": "general-security\\enterprise-security-architecture.md"
+      "en": "general-security\\architecture\\enterprise-security-architecture.md",
+      "az": "general-security\\architecture\\enterprise-security-architecture.md"
     }
   },
   {
@@ -396,13 +400,14 @@ const lessons = [
       "RFID",
       "containerization",
       "general-security",
+      "mobile-and-iot",
       "mobile-security"
     ],
     "status": "reference",
     "lastReviewed": "2026-04-23",
     "sourcePaths": {
-      "en": "general-security\\mobile-security.md",
-      "az": "general-security\\mobile-security.md"
+      "en": "general-security\\mobile-and-iot\\mobile-security.md",
+      "az": "general-security\\mobile-and-iot\\mobile-security.md"
     }
   },
   {
@@ -447,13 +452,14 @@ const lessons = [
       "risk rating",
       "remediation plan",
       "general-security",
+      "assessment",
       "security-assessment"
     ],
     "status": "reference",
     "lastReviewed": "2026-04-23",
     "sourcePaths": {
-      "en": "general-security\\security-assessment.md",
-      "az": "general-security\\security-assessment.md"
+      "en": "general-security\\assessment\\security-assessment.md",
+      "az": "general-security\\assessment\\security-assessment.md"
     }
   },
   {
@@ -476,13 +482,14 @@ const lessons = [
       "mantrap",
       "Faraday cage",
       "general-security",
+      "mobile-and-iot",
       "physical-security"
     ],
     "status": "reference",
     "lastReviewed": "2026-04-23",
     "sourcePaths": {
-      "en": "general-security\\physical-security.md",
-      "az": "general-security\\physical-security.md"
+      "en": "general-security\\mobile-and-iot\\physical-security.md",
+      "az": "general-security\\mobile-and-iot\\physical-security.md"
     }
   },
   {
@@ -507,13 +514,14 @@ const lessons = [
       "kali linux",
       "osint tools",
       "general-security",
+      "assessment",
       "security-tools"
     ],
     "status": "reference",
     "lastReviewed": "2026-04-23",
     "sourcePaths": {
-      "en": "general-security\\security-tools.md",
-      "az": "general-security\\security-tools.md"
+      "en": "general-security\\assessment\\security-tools.md",
+      "az": "general-security\\assessment\\security-tools.md"
     }
   },
   {
@@ -568,13 +576,14 @@ const lessons = [
       "qualys",
       "security assessment",
       "general-security",
+      "assessment",
       "vulnerability-management"
     ],
     "status": "reference",
     "lastReviewed": "2026-04-23",
     "sourcePaths": {
-      "en": "general-security\\vulnerability-management.md",
-      "az": "general-security\\vulnerability-management.md"
+      "en": "general-security\\assessment\\vulnerability-management.md",
+      "az": "general-security\\assessment\\vulnerability-management.md"
     }
   },
   {
@@ -770,13 +779,14 @@ const lessons = [
       "failover",
       "apipa",
       "dhcp options",
-      "networking"
+      "networking",
+      "addressing"
     ],
     "status": "reference",
     "lastReviewed": "2026-04-23",
     "sourcePaths": {
-      "en": "networking\\dhcp.md",
-      "az": "networking\\dhcp.md"
+      "en": "networking\\addressing\\dhcp.md",
+      "az": "networking\\addressing\\dhcp.md"
     }
   },
   {
@@ -797,14 +807,15 @@ const lessons = [
       "recursive query",
       "reverse lookup",
       "networking",
+      "addressing",
       "name resolution",
       "caching"
     ],
     "status": "reference",
     "lastReviewed": "2026-03-23",
     "sourcePaths": {
-      "en": "networking\\dns.md",
-      "az": "networking\\dns.md"
+      "en": "networking\\addressing\\dns.md",
+      "az": "networking\\addressing\\dns.md"
     }
   },
   {
@@ -826,13 +837,14 @@ const lessons = [
       "dmz",
       "private ip",
       "networking",
+      "addressing",
       "ip-addressing-subnetting"
     ],
     "status": "reference",
     "lastReviewed": "2026-04-22",
     "sourcePaths": {
-      "en": "networking\\ip-addressing-subnetting.md",
-      "az": "networking\\ip-addressing-subnetting.md"
+      "en": "networking\\addressing\\ip-addressing-subnetting.md",
+      "az": "networking\\addressing\\ip-addressing-subnetting.md"
     }
   },
   {
@@ -933,13 +945,14 @@ const lessons = [
       "WAF",
       "proxy",
       "networking",
+      "secure-design",
       "secure-network-design"
     ],
     "status": "reference",
     "lastReviewed": "2026-04-23",
     "sourcePaths": {
-      "en": "networking\\secure-network-design.md",
-      "az": "networking\\secure-network-design.md"
+      "en": "networking\\secure-design\\secure-network-design.md",
+      "az": "networking\\secure-design\\secure-network-design.md"
     }
   },
   {
@@ -965,13 +978,14 @@ const lessons = [
       "IPSec",
       "secure protocols",
       "networking",
+      "secure-design",
       "secure-protocols"
     ],
     "status": "reference",
     "lastReviewed": "2026-04-23",
     "sourcePaths": {
-      "en": "networking\\secure-protocols.md",
-      "az": "networking\\secure-protocols.md"
+      "en": "networking\\secure-design\\secure-protocols.md",
+      "az": "networking\\secure-design\\secure-protocols.md"
     }
   },
   {
@@ -998,13 +1012,14 @@ const lessons = [
       "wireless",
       "Wi-Fi",
       "networking",
+      "secure-design",
       "wireless-security"
     ],
     "status": "reference",
     "lastReviewed": "2026-04-23",
     "sourcePaths": {
-      "en": "networking\\wireless-security.md",
-      "az": "networking\\wireless-security.md"
+      "en": "networking\\secure-design\\wireless-security.md",
+      "az": "networking\\secure-design\\wireless-security.md"
     }
   },
   {
@@ -1451,13 +1466,14 @@ const lessons = [
       "organizational unit",
       "trust",
       "servers",
+      "active-directory",
       "active-directory-domain-services"
     ],
     "status": "reference",
     "lastReviewed": "2026-03-23",
     "sourcePaths": {
-      "en": "servers\\active-directory-domain-services.md",
-      "az": "servers\\active-directory-domain-services.md"
+      "en": "servers\\active-directory\\active-directory-domain-services.md",
+      "az": "servers\\active-directory\\active-directory-domain-services.md"
     }
   },
   {
@@ -1481,13 +1497,14 @@ const lessons = [
       "quota",
       "file screening",
       "servers",
+      "storage",
       "file-server-ntfs"
     ],
     "status": "reference",
     "lastReviewed": "2026-04-23",
     "sourcePaths": {
-      "en": "servers\\file-server-ntfs.md",
-      "az": "servers\\file-server-ntfs.md"
+      "en": "servers\\storage\\file-server-ntfs.md",
+      "az": "servers\\storage\\file-server-ntfs.md"
     }
   },
   {
@@ -1503,13 +1520,14 @@ const lessons = [
     },
     "keywords": [
       "servers",
+      "active-directory",
       "fsmo"
     ],
     "status": "reference",
     "lastReviewed": null,
     "sourcePaths": {
-      "en": "servers\\fsmo.md",
-      "az": "servers\\fsmo.md"
+      "en": "servers\\active-directory\\fsmo.md",
+      "az": "servers\\active-directory\\fsmo.md"
     }
   },
   {
@@ -1535,13 +1553,14 @@ const lessons = [
       "wmi filter",
       "loopback processing",
       "servers",
+      "active-directory",
       "group-policy"
     ],
     "status": "reference",
     "lastReviewed": "2026-04-23",
     "sourcePaths": {
-      "en": "servers\\group-policy.md",
-      "az": "servers\\group-policy.md"
+      "en": "servers\\active-directory\\group-policy.md",
+      "az": "servers\\active-directory\\group-policy.md"
     }
   },
   {
@@ -1564,13 +1583,14 @@ const lessons = [
       "windows authentication",
       "host header",
       "binding",
-      "servers"
+      "servers",
+      "services"
     ],
     "status": "reference",
     "lastReviewed": "2026-04-23",
     "sourcePaths": {
-      "en": "servers\\iis.md",
-      "az": "servers\\iis.md"
+      "en": "servers\\services\\iis.md",
+      "az": "servers\\services\\iis.md"
     }
   },
   {
@@ -1591,6 +1611,7 @@ const lessons = [
       "evaluation center",
       "initial configuration",
       "servers",
+      "windows-server",
       "windows-server-2025-installation",
       "quraşdırma",
       "ilkin konfiqurasiya"
@@ -1598,8 +1619,8 @@ const lessons = [
     "status": "reference",
     "lastReviewed": "2026-03-23",
     "sourcePaths": {
-      "en": "servers\\windows-server-2025-installation.md",
-      "az": "servers\\windows-server-2025-installation.md"
+      "en": "servers\\windows-server\\windows-server-2025-installation.md",
+      "az": "servers\\windows-server\\windows-server-2025-installation.md"
     }
   },
   {
@@ -1621,13 +1642,14 @@ const lessons = [
       "dmz",
       "privileged access",
       "servers",
+      "services",
       "jump-server"
     ],
     "status": "reference",
     "lastReviewed": "2026-04-22",
     "sourcePaths": {
-      "en": "servers\\jump-server.md",
-      "az": "servers\\jump-server.md"
+      "en": "servers\\services\\jump-server.md",
+      "az": "servers\\services\\jump-server.md"
     }
   },
   {
@@ -1647,13 +1669,14 @@ const lessons = [
       "adba",
       "volume licensing",
       "servers",
+      "services",
       "aktivasiya"
     ],
     "status": "reference",
     "lastReviewed": "2026-04-22",
     "sourcePaths": {
-      "en": "servers\\kms.md",
-      "az": "servers\\kms.md"
+      "en": "servers\\services\\kms.md",
+      "az": "servers\\services\\kms.md"
     }
   },
   {
@@ -1669,13 +1692,14 @@ const lessons = [
     },
     "keywords": [
       "servers",
+      "active-directory",
       "laps"
     ],
     "status": "reference",
     "lastReviewed": null,
     "sourcePaths": {
-      "en": "servers\\laps.md",
-      "az": "servers\\laps.md"
+      "en": "servers\\active-directory\\laps.md",
+      "az": "servers\\active-directory\\laps.md"
     }
   },
   {
@@ -1698,13 +1722,14 @@ const lessons = [
       "rd licensing",
       "connection broker",
       "rdp",
-      "servers"
+      "servers",
+      "services"
     ],
     "status": "reference",
     "lastReviewed": "2026-04-23",
     "sourcePaths": {
-      "en": "servers\\rds.md",
-      "az": "servers\\rds.md"
+      "en": "servers\\services\\rds.md",
+      "az": "servers\\services\\rds.md"
     }
   },
   {
@@ -1755,8 +1780,8 @@ const lessons = [
     "status": "reference",
     "lastReviewed": "2026-04-22",
     "sourcePaths": {
-      "en": "servers\\storage-filesystems-servers.md",
-      "az": "servers\\storage-filesystems-servers.md"
+      "en": "servers\\storage\\storage-filesystems-servers.md",
+      "az": "servers\\storage\\storage-filesystems-servers.md"
     }
   },
   {
@@ -1777,13 +1802,14 @@ const lessons = [
       "in-place upgrade",
       "adba",
       "servers",
+      "windows-server",
       "upgrade-migration"
     ],
     "status": "reference",
     "lastReviewed": "2026-04-22",
     "sourcePaths": {
-      "en": "servers\\upgrade-migration.md",
-      "az": "servers\\upgrade-migration.md"
+      "en": "servers\\windows-server\\upgrade-migration.md",
+      "az": "servers\\windows-server\\upgrade-migration.md"
     }
   },
   {
@@ -1805,13 +1831,14 @@ const lessons = [
       "resmon",
       "services",
       "servers",
+      "windows-server",
       "windows-server-tools"
     ],
     "status": "reference",
     "lastReviewed": "2026-03-23",
     "sourcePaths": {
-      "en": "servers\\windows-server-tools.md",
-      "az": "servers\\windows-server-tools.md"
+      "en": "servers\\windows-server\\windows-server-tools.md",
+      "az": "servers\\windows-server\\windows-server-tools.md"
     }
   },
   {
@@ -1833,13 +1860,14 @@ const lessons = [
       "bare metal recovery",
       "ad recycle bin",
       "authoritative restore",
-      "servers"
+      "servers",
+      "storage"
     ],
     "status": "reference",
     "lastReviewed": "2026-04-23",
     "sourcePaths": {
-      "en": "servers\\backup.md",
-      "az": "servers\\backup.md"
+      "en": "servers\\storage\\backup.md",
+      "az": "servers\\storage\\backup.md"
     }
   },
   {
@@ -1855,13 +1883,14 @@ const lessons = [
     },
     "keywords": [
       "servers",
+      "windows-server",
       "windows-server-planning"
     ],
     "status": "reference",
     "lastReviewed": null,
     "sourcePaths": {
-      "en": "servers\\windows-server-planning.md",
-      "az": "servers\\windows-server-planning.md"
+      "en": "servers\\windows-server\\windows-server-planning.md",
+      "az": "servers\\windows-server\\windows-server-planning.md"
     }
   },
   {
@@ -1882,13 +1911,14 @@ const lessons = [
       "gpo",
       "wsusutil",
       "auto-approval",
-      "servers"
+      "servers",
+      "services"
     ],
     "status": "reference",
     "lastReviewed": "2026-04-23",
     "sourcePaths": {
-      "en": "servers\\wsus.md",
-      "az": "servers\\wsus.md"
+      "en": "servers\\services\\wsus.md",
+      "az": "servers\\services\\wsus.md"
     }
   },
   {

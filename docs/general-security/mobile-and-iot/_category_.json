@@ -1,0 +1,10 @@
+{
+  "label": "📱 Mobile, IoT & Physical",
+  "position": 8,
+  "link": {
+    "type": "generated-index",
+    "description": "Mobile device management, embedded/IoT systems, and the physical-security controls that wrap the perimeter."
+  },
+  "collapsible": true,
+  "collapsed": true
+}

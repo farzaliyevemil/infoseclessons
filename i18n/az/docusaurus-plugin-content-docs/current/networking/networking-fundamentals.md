@@ -18,6 +18,7 @@ keywords:
   - switch
   - router
   - firewall
+difficulty: foundation
 ---
 
 # Şəbəkə əsasları

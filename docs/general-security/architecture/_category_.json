@@ -1,0 +1,10 @@
+{
+  "label": "🏛️ Enterprise Architecture",
+  "position": 7,
+  "link": {
+    "type": "generated-index",
+    "description": "Designing resilient enterprise security architecture — configuration baselines, data protection, site resiliency, and deception."
+  },
+  "collapsible": true,
+  "collapsed": true
+}

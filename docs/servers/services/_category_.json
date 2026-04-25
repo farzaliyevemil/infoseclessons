@@ -1,0 +1,10 @@
+{
+  "label": "🛠️ Server Services",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "IIS web server, Remote Desktop Services, WSUS, KMS licensing, and jump-server bastion hosts."
+  },
+  "collapsible": true,
+  "collapsed": true
+}

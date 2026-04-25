@@ -15,6 +15,7 @@ keywords:
   - index
   - transaction
   - stored procedure
+difficulty: foundation
 ---
 
 # SQL Basics for Security Engineers

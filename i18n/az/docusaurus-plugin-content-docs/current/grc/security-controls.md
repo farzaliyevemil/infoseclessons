@@ -18,6 +18,7 @@ keywords:
   - CIS Controls
   - CCM
   - benchmarks
+difficulty: intermediate
 ---
 
 # Təhlükəsizlik Nəzarətləri və Çərçivələr

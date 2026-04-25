@@ -3,6 +3,7 @@ id: log-analysis
 title: Log Analysis
 description: Introductory notes for blue team log analysis workflows. Full lesson coming soon.
 slug: /blue-teaming/log-analysis
+difficulty: foundation
 ---
 
 # Log Analysis
