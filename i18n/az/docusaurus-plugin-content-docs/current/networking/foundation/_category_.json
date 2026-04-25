@@ -1,0 +1,10 @@
+{
+  "label": "🟢 Foundation",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Yeni başlayanlar üçün şəbəkə əsasları — OSI və TCP/IP modelləri, Ethernet, ARP, TCP/UDP, port-lar, IP ünvanlama, subnetting, DHCP, DNS, cihazlar və topologiya. Hər infosec rolunun üzərində qurulduğu zehni model."
+  },
+  "collapsible": true,
+  "collapsed": false
+}

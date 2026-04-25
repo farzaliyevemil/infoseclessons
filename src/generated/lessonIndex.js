@@ -780,13 +780,13 @@ const lessons = [
       "apipa",
       "dhcp options",
       "networking",
-      "addressing"
+      "foundation"
     ],
     "status": "reference",
     "lastReviewed": "2026-04-23",
     "sourcePaths": {
-      "en": "networking\\addressing\\dhcp.md",
-      "az": "networking\\addressing\\dhcp.md"
+      "en": "networking\\foundation\\dhcp.md",
+      "az": "networking\\foundation\\dhcp.md"
     }
   },
   {
@@ -807,98 +807,167 @@ const lessons = [
       "recursive query",
       "reverse lookup",
       "networking",
-      "addressing",
+      "foundation",
       "name resolution",
       "caching"
     ],
     "status": "reference",
     "lastReviewed": "2026-03-23",
     "sourcePaths": {
-      "en": "networking\\addressing\\dns.md",
-      "az": "networking\\addressing\\dns.md"
+      "en": "networking\\foundation\\dns.md",
+      "az": "networking\\foundation\\dns.md"
     }
   },
   {
-    "slug": "/networking/ip-addressing-subnetting",
+    "slug": "/networking/ethernet-and-arp",
     "category": "networking",
     "title": {
-      "en": "IP Addressing and Subnetting",
-      "az": "IP Ünvanlama və Subnetting"
+      "en": "Ethernet and ARP",
+      "az": "Ethernet ve ARP"
     },
     "description": {
-      "en": "Practical guide to IPv4 addressing, classes, public vs private, NAT, DMZ, CIDR, and subnet math.",
-      "az": "IPv4 ünvanlama üçün praktik bələdçi: classlar, public vs private, NAT, DMZ, CIDR və subnet hesablamaları."
+      "en": "How Layer 2 actually works — MAC addresses, Ethernet frames, switches vs hubs, broadcast domains, VLANs, and ARP as the bridge from IP back down to MAC.",
+      "az": "Layer 2 aslinda nece islayir — MAC unvanlari, Ethernet cervileri, switch-ler hub-lara qarsi, broadcast domenleri, VLAN-lar ve IP-den yene MAC-a korpu kimi ARP."
     },
     "keywords": [
-      "ip",
-      "subnet",
-      "cidr",
-      "nat",
-      "dmz",
-      "private ip",
-      "networking",
-      "addressing",
-      "ip-addressing-subnetting"
-    ],
-    "status": "reference",
-    "lastReviewed": "2026-04-22",
-    "sourcePaths": {
-      "en": "networking\\addressing\\ip-addressing-subnetting.md",
-      "az": "networking\\addressing\\ip-addressing-subnetting.md"
-    }
-  },
-  {
-    "slug": "/networking/network-types",
-    "category": "networking",
-    "title": {
-      "en": "Networking Basics",
-      "az": "Şəbəkə Əsasları"
-    },
-    "description": {
-      "en": "Thorough networking guide — types, topologies, switching vs routing, VLANs, IP/IPv6, subnetting, NAT, DHCP/DNS, ports, OSI/TCP-IP, Wi‑Fi, and troubleshooting.",
-      "az": "Geniş şəbəkə bələdçisi — növlər, topologiyalar, switch vs router, VLAN, IP/IPv6, subnetləşdirmə, NAT, DHCP/DNS, portlar, OSI/TCP‑IP, Wi‑Fi və diaqnostika."
-    },
-    "keywords": [
-      "networking",
-      "network-types"
-    ],
-    "status": "reference",
-    "lastReviewed": "2026-03-23",
-    "sourcePaths": {
-      "en": "networking\\network-types.md",
-      "az": "networking\\network-types.md"
-    }
-  },
-  {
-    "slug": "/networking/networking-fundamentals",
-    "category": "networking",
-    "title": {
-      "en": "Networking Fundamentals",
-      "az": "Şəbəkə əsasları"
-    },
-    "description": {
-      "en": "OSI and TCP/IP models, Ethernet and IP, ARP, routing, ports and protocols, DNS/DHCP overview, common devices (switch, router, firewall), and how a single HTTP request actually gets from your browser to a web server.",
-      "az": "OSI və TCP/IP modelləri, Ethernet və IP, ARP, marşrutlaşdırma, portlar və protokollar, DNS/DHCP icmal, geniş yayılmış cihazlar (kommutator, marşrutlaşdırıcı, təhlükəsizlik divarı) və tək bir HTTP sorğusunun brauzerinizdən web server-ə əslində necə çatması."
-    },
-    "keywords": [
-      "networking",
-      "osi model",
-      "tcp/ip",
       "ethernet",
       "arp",
-      "routing",
-      "ports",
-      "protocols",
+      "mac address",
+      "layer 2",
+      "data link",
+      "switch",
+      "vlan",
+      "broadcast domain",
+      "arp spoofing",
+      "networking",
+      "foundation",
+      "ethernet-and-arp",
+      "mac unvani",
+      "broadcast domeni",
+      "arp spoofinq"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-25",
+    "sourcePaths": {
+      "en": "networking\\foundation\\ethernet-and-arp.md",
+      "az": "networking\\foundation\\ethernet-and-arp.md"
+    }
+  },
+  {
+    "slug": "/networking/ip-addressing",
+    "category": "networking",
+    "title": {
+      "en": "IP Addressing — IPv4 and IPv6",
+      "az": "IP Ünvanlama — IPv4 və IPv6"
+    },
+    "description": {
+      "en": "How IP addresses work — IPv4's 32-bit dotted-quad, IPv6's 128-bit hex, classes, private vs public ranges, special-purpose ranges, NAT, DMZ, loopback, and link-local.",
+      "az": "IP ünvanlarının necə işlədiyi — IPv4-ün 32-bitlik nöqtəli kvarteti, IPv6-nın 128-bitlik hex formatı, sinifləri, özəl və ictimai diapazonları, xüsusi təyinatlı diapazonları, NAT, DMZ, loopback və link-local."
+    },
+    "keywords": [
+      "ip addressing",
+      "ipv4",
+      "ipv6",
+      "private ip",
+      "public ip",
+      "rfc 1918",
+      "nat",
+      "dmz",
+      "loopback",
+      "apipa",
+      "networking fundamentals",
+      "networking",
+      "foundation",
+      "ip-addressing",
+      "ip ünvanlama",
+      "özəl ip",
+      "ictimai ip",
+      "şəbəkə əsasları"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-25",
+    "sourcePaths": {
+      "en": "networking\\foundation\\ip-addressing.md",
+      "az": "networking\\foundation\\ip-addressing.md"
+    }
+  },
+  {
+    "slug": "/networking/network-devices",
+    "category": "networking",
+    "title": {
+      "en": "Network Devices",
+      "az": "Şəbəkə Cihazları"
+    },
+    "description": {
+      "en": "Hubs, switches, routers, firewalls, load balancers, proxies, IDS/IPS, WAF, NAT gateways, VPN concentrators — what each does, which OSI layer it sits at, and how to choose the right one.",
+      "az": "Hub-lar, switch-lər, router-lər, firewall-lar, yük balanslayıcıları, proxy-lər, IDS/IPS, WAF, NAT şlüzləri, VPN konsentratorları — hər birinin nə etdiyi, hansı OSI səviyyəsində dayandığı və düzgün cihazı necə seçmək."
+    },
+    "keywords": [
+      "network devices",
       "switch",
       "router",
       "firewall",
-      "networking-fundamentals"
+      "load balancer",
+      "proxy",
+      "ids",
+      "ips",
+      "waf",
+      "nat",
+      "vpn",
+      "networking fundamentals",
+      "networking",
+      "foundation",
+      "network-devices"
     ],
     "status": "reference",
-    "lastReviewed": "2026-04-23",
+    "lastReviewed": "2026-04-25",
     "sourcePaths": {
-      "en": "networking\\networking-fundamentals.md",
-      "az": "networking\\networking-fundamentals.md"
+      "en": "networking\\foundation\\network-devices.md",
+      "az": "networking\\foundation\\network-devices.md"
+    }
+  },
+  {
+    "slug": "/networking/network-types-and-topology",
+    "category": "networking",
+    "title": {
+      "en": "Network Types and Topology",
+      "az": "Sebeke Novleri ve Topologiya"
+    },
+    "description": {
+      "en": "LAN, WAN, MAN, PAN, CAN, SAN, WLAN, VPN — and the physical/logical topologies (star, bus, ring, mesh) plus communication patterns (unicast, multicast, broadcast, anycast).",
+      "az": "LAN, WAN, MAN, PAN, CAN, SAN, WLAN, VPN — ve fiziki/mentiqi topologiyalar (ulduz, sin, halqa, mesh) ile elaqe modelleri (unicast, multicast, broadcast, anycast)."
+    },
+    "keywords": [
+      "network types",
+      "lan",
+      "wan",
+      "man",
+      "pan",
+      "can",
+      "san",
+      "wlan",
+      "topology",
+      "star topology",
+      "mesh topology",
+      "unicast",
+      "multicast",
+      "broadcast",
+      "anycast",
+      "networking fundamentals",
+      "networking",
+      "foundation",
+      "network-types-and-topology",
+      "sebeke novleri",
+      "topologiya",
+      "ulduz topologiyasi",
+      "mesh topologiyasi",
+      "sebeke esaslari"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-25",
+    "sourcePaths": {
+      "en": "networking\\foundation\\network-types-and-topology.md",
+      "az": "networking\\foundation\\network-types-and-topology.md"
     }
   },
   {
@@ -920,6 +989,37 @@ const lessons = [
     "sourcePaths": {
       "en": "networking-overview.md",
       "az": "networking-overview.md"
+    }
+  },
+  {
+    "slug": "/networking/ports-and-protocols",
+    "category": "networking",
+    "title": {
+      "en": "Ports and Protocols",
+      "az": "Portlar və Protokollar"
+    },
+    "description": {
+      "en": "How TCP/UDP ports work, the three port ranges, the 30 ports every infosec professional must know, secure-vs-cleartext alternatives, and how to find unexpected listeners on your hosts.",
+      "az": "TCP/UDP portları necə işləyir, üç port diapazonu, hər infosec mütəxəssisinin bilməli olduğu 30 port, təhlükəsiz və açıq mətn alternativləri, host-larınızda gözlənilməz dinləyiciləri necə tapmaq."
+    },
+    "keywords": [
+      "ports",
+      "protocols",
+      "well-known ports",
+      "tcp ports",
+      "udp ports",
+      "listening ports",
+      "networking fundamentals",
+      "port scanning",
+      "networking",
+      "foundation",
+      "ports-and-protocols"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-25",
+    "sourcePaths": {
+      "en": "networking\\foundation\\ports-and-protocols.md",
+      "az": "networking\\foundation\\ports-and-protocols.md"
     }
   },
   {
@@ -986,6 +1086,140 @@ const lessons = [
     "sourcePaths": {
       "en": "networking\\secure-design\\secure-protocols.md",
       "az": "networking\\secure-design\\secure-protocols.md"
+    }
+  },
+  {
+    "slug": "/networking/subnetting",
+    "category": "networking",
+    "title": {
+      "en": "Subnetting and CIDR",
+      "az": "Subnetlərə bölmə və CIDR"
+    },
+    "description": {
+      "en": "The math of dividing networks — binary refresher, subnet masks, CIDR notation, subnet calculation, VLSM (Variable-Length Subnet Masking), and IPv6 prefix notation.",
+      "az": "Şəbəkələri bölmənin riyaziyyatı — ikilik təkrarlama, subnet maskaları, CIDR notasiyası, subnet hesablanması, VLSM (Dəyişən Uzunluqlu Subnet Maskası) və IPv6 prefiks notasiyası."
+    },
+    "keywords": [
+      "subnetting",
+      "cidr",
+      "subnet mask",
+      "vlsm",
+      "binary",
+      "ipv6 prefix",
+      "subnet math",
+      "networking fundamentals",
+      "networking",
+      "foundation"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-25",
+    "sourcePaths": {
+      "en": "networking\\foundation\\subnetting.md",
+      "az": "networking\\foundation\\subnetting.md"
+    }
+  },
+  {
+    "slug": "/networking/tcp-and-udp",
+    "category": "networking",
+    "title": {
+      "en": "TCP and UDP — The Transport Layer",
+      "az": "TCP və UDP — Nəqliyyat Səviyyəsi"
+    },
+    "description": {
+      "en": "How Layer 4 actually works — TCP three-way handshake, sliding window flow control, connection states, TCP flags, UDP minimalism, and when to pick which (plus QUIC).",
+      "az": "4-cü səviyyə əslində necə işləyir — TCP üçtərəfli əl sıxma, sürüşən pəncərə ilə axın idarəsi, qoşulma vəziyyətləri, TCP bayraqları, UDP minimalizmi və hansını seçmək (artı QUIC)."
+    },
+    "keywords": [
+      "tcp",
+      "udp",
+      "transport layer",
+      "three-way handshake",
+      "tcp flags",
+      "sliding window",
+      "quic",
+      "http/3",
+      "networking fundamentals",
+      "networking",
+      "foundation",
+      "tcp-and-udp"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-25",
+    "sourcePaths": {
+      "en": "networking\\foundation\\tcp-and-udp.md",
+      "az": "networking\\foundation\\tcp-and-udp.md"
+    }
+  },
+  {
+    "slug": "/networking/osi-model",
+    "category": "networking",
+    "title": {
+      "en": "The OSI Model",
+      "az": "OSI Modeli"
+    },
+    "description": {
+      "en": "The seven-layer OSI reference model explained layer by layer with concrete protocol examples and the troubleshooting mindset of \"which layer is broken?\"",
+      "az": "Yeddi qatlı OSI istinad modeli — qatma-qat, konkret protokol nümunələri ilə və \"hansı qat sınıb?\" diaqnostika düşüncəsi ilə izah edilir."
+    },
+    "keywords": [
+      "osi model",
+      "seven layers",
+      "networking model",
+      "layer 1",
+      "layer 7",
+      "encapsulation",
+      "networking fundamentals",
+      "networking",
+      "foundation",
+      "osi-model",
+      "osi modeli",
+      "yeddi qat",
+      "şəbəkə modeli",
+      "qat 1",
+      "qat 7",
+      "inkapsulyasiya",
+      "şəbəkə əsasları"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-25",
+    "sourcePaths": {
+      "en": "networking\\foundation\\osi-model.md",
+      "az": "networking\\foundation\\osi-model.md"
+    }
+  },
+  {
+    "slug": "/networking/tcp-ip-model",
+    "category": "networking",
+    "title": {
+      "en": "The TCP/IP Model",
+      "az": "TCP/IP Modeli"
+    },
+    "description": {
+      "en": "The four-layer TCP/IP model — Network Access, Internet, Transport, Application — and how it maps to the seven OSI layers, with the full end-to-end walkthrough of an HTTPS request.",
+      "az": "Dord layli TCP/IP modeli — Sebeke Erisi, Internet, Transport, Tetbiq — yeddi OSI lay ile uyusmasi ve HTTPS sorgusunun ucdan-uca tam izahi."
+    },
+    "keywords": [
+      "tcp/ip model",
+      "dod model",
+      "internet protocol suite",
+      "networking model",
+      "encapsulation",
+      "networking fundamentals",
+      "networking",
+      "foundation",
+      "tcp-ip-model",
+      "tcp/ip modeli",
+      "dod modeli",
+      "internet protokol destesi",
+      "sebeke modeli",
+      "inkapsulyasiya",
+      "sebekenin esaslari"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-25",
+    "sourcePaths": {
+      "en": "networking\\foundation\\tcp-ip-model.md",
+      "az": "networking\\foundation\\tcp-ip-model.md"
     }
   },
   {

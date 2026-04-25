@@ -1,0 +1,10 @@
+{
+  "label": "🟢 Foundation",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Beginner-level networking — OSI and TCP/IP models, Ethernet, ARP, TCP/UDP, ports, IP addressing, subnetting, DHCP, DNS, devices, and topology. The mental model every infosec role builds on."
+  },
+  "collapsible": true,
+  "collapsed": false
+}
