@@ -653,6 +653,39 @@ const lessons = [
     }
   },
   {
+    "slug": "/grc/security-controls",
+    "category": "grc",
+    "title": {
+      "en": "Security Controls and Frameworks",
+      "az": "Təhlükəsizlik Nəzarətləri və Çərçivələr"
+    },
+    "description": {
+      "en": "Control categories and types, key regulations (GDPR, PCI DSS), and the main control frameworks (NIST CSF/RMF, CIS, ISO 27000-series, SOC 2, CSA CCM) and benchmarks that govern modern enterprise security programs.",
+      "az": "Nəzarət kateqoriyaları və tipləri, əsas tənzimləmələr (GDPR, PCI DSS) və müasir korporativ təhlükəsizlik proqramlarını idarə edən əsas nəzarət çərçivələri (NIST CSF/RMF, CIS, ISO 27000-seriyası, SOC 2, CSA CCM) və benchmarklar."
+    },
+    "keywords": [
+      "security controls",
+      "control types",
+      "GDPR",
+      "PCI DSS",
+      "NIST CSF",
+      "NIST RMF",
+      "ISO 27001",
+      "SOC 2",
+      "CIS Controls",
+      "CCM",
+      "benchmarks",
+      "grc",
+      "security-controls"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-23",
+    "sourcePaths": {
+      "en": "grc\\security-controls.md",
+      "az": "grc\\security-controls.md"
+    }
+  },
+  {
     "slug": "/grc/policies",
     "category": "grc",
     "title": {
