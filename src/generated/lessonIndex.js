@@ -228,6 +228,37 @@ const lessons = [
     }
   },
   {
+    "slug": "/general-security/cloud-security-solutions",
+    "category": "general-security",
+    "title": {
+      "en": "Cloud Security Controls and Solutions",
+      "az": "Bulud Təhlükəsizlik Nəzarətləri və Həlləri"
+    },
+    "description": {
+      "en": "Operational cloud security controls — resilience, identity, secrets, storage, network, compute, and cloud-specific products such as CASB and SWG.",
+      "az": "Əməliyyat səviyyəli bulud təhlükəsizlik nəzarətləri — dayanıqlılıq, identifikasiya, sirrlər, yaddaş, şəbəkə, hesablama və CASB, SWG kimi buluda xas məhsullar."
+    },
+    "keywords": [
+      "cloud security",
+      "CASB",
+      "SWG",
+      "VPC",
+      "security groups",
+      "secrets management",
+      "high availability",
+      "resource policies",
+      "container security",
+      "general-security",
+      "cloud-security-solutions"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-23",
+    "sourcePaths": {
+      "en": "general-security\\cloud-security-solutions.md",
+      "az": "general-security\\cloud-security-solutions.md"
+    }
+  },
+  {
     "slug": "/general-security/cryptography-basics",
     "category": "general-security",
     "title": {
@@ -338,6 +369,40 @@ const lessons = [
     "sourcePaths": {
       "en": "general-security-overview.md",
       "az": "general-security-overview.md"
+    }
+  },
+  {
+    "slug": "/general-security/mobile-security",
+    "category": "general-security",
+    "title": {
+      "en": "Mobile Device Security",
+      "az": "Mobil Cihaz Təhlükəsizliyi"
+    },
+    "description": {
+      "en": "Radio attack surface, MDM/UEM/MAM controls, on-device data protection, tampering threats, and enterprise deployment models for iOS and Android fleets.",
+      "az": "Radio hücum səthi, MDM/UEM/MAM nəzarətləri, cihaz üzərində məlumat qorunması, manipulyasiya təhdidləri və iOS/Android parkı üçün korporativ deployment modelləri."
+    },
+    "keywords": [
+      "mobile security",
+      "MDM",
+      "UEM",
+      "MAM",
+      "BYOD",
+      "COPE",
+      "jailbreak",
+      "rooting",
+      "Bluetooth",
+      "NFC",
+      "RFID",
+      "containerization",
+      "general-security",
+      "mobile-security"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-23",
+    "sourcePaths": {
+      "en": "general-security\\mobile-security.md",
+      "az": "general-security\\mobile-security.md"
     }
   },
   {
