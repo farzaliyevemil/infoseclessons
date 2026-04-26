@@ -1,0 +1,10 @@
+{
+  "label": "🧩 Açıq Mənbə Həllər",
+  "position": 10,
+  "link": {
+    "type": "generated-index",
+    "description": "Açıq mənbə təhlükəsizlik stack-ı — firewall/IDS/WAF, SIEM, zəiflik skanı, IAM/MFA, secrets, email təhlükəsizliyi, backup, threat intelligence, red team və büdcəyə uyğun komandalar üçün GRC alətləri."
+  },
+  "collapsible": true,
+  "collapsed": true
+}

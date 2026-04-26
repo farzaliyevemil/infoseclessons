@@ -411,25 +411,395 @@ const lessons = [
     }
   },
   {
-    "slug": "/general-security/open-source",
+    "slug": "/general-security/open-source-tools/backup-and-storage",
     "category": "general-security",
     "title": {
-      "en": "Open-Source Security Solutions (Overview)",
-      "az": "Açıq Mənbə Təhlükəsizlik Həlləri (Ümumi Baxış)"
+      "en": "Open-Source Backup and File Sharing",
+      "az": "Açıq Mənbə Backup və Fayl Paylaşımı"
     },
     "description": {
-      "en": "Collapsible list of essential open-source tools categorized by solution type.",
-      "az": "Həll növünə görə kateqoriyalaşdırılmış əsas açıq mənbə alətlərin siyahısı (gizlənə bilən bölmələrlə)."
+      "en": "Open-source backup and storage stack — BorgBackup and Restic for deduplicated backups, UrBackup for image-based, plus Nextcloud, Seafile and OnionShare for file sharing and self-hosted cloud.",
+      "az": "Açıq mənbə backup və saxlama stack-ı — dedup edilmiş backup-lar üçün BorgBackup və Restic, image-əsaslı üçün UrBackup, plus fayl paylaşımı və self-hosted cloud üçün Nextcloud, Seafile və OnionShare."
     },
     "keywords": [
+      "borgbackup",
+      "restic",
+      "urbackup",
+      "nextcloud",
+      "seafile",
+      "onionshare",
+      "backup",
+      "3-2-1 rule",
+      "file sharing",
+      "open source",
       "general-security",
-      "open-source"
+      "open-source-tools",
+      "backup-and-storage",
+      "3-2-1 qaydası",
+      "fayl paylaşımı",
+      "açıq mənbə"
     ],
     "status": "reference",
-    "lastReviewed": null,
+    "lastReviewed": "2026-04-25",
     "sourcePaths": {
-      "en": "general-security\\open-source.md",
-      "az": "general-security\\open-source.md"
+      "en": "general-security\\open-source-tools\\backup-and-storage.md",
+      "az": "general-security\\open-source-tools\\backup-and-storage.md"
+    }
+  },
+  {
+    "slug": "/general-security/open-source-tools/email-security",
+    "category": "general-security",
+    "title": {
+      "en": "Open-Source Email Security",
+      "az": "Açıq Mənbə Email Təhlükəsizliyi"
+    },
+    "description": {
+      "en": "Open-source mail security stack — Rspamd and SpamAssassin for filtering, Proxmox Mail Gateway for scanning, and Mailcow / Mail-in-a-Box / iRedMail as full self-hosted mail server bundles.",
+      "az": "Açıq mənbə poçt təhlükəsizliyi stack-ı — filtrasiya üçün Rspamd və SpamAssassin, skanlama üçün Proxmox Mail Gateway və tam self-hosted poçt server bundle-ları kimi Mailcow / Mail-in-a-Box / iRedMail."
+    },
+    "keywords": [
+      "rspamd",
+      "spamassassin",
+      "mailcow",
+      "mail-in-a-box",
+      "iredmail",
+      "proxmox mail gateway",
+      "email security",
+      "dmarc",
+      "dkim",
+      "spf",
+      "open source",
+      "general-security",
+      "open-source-tools",
+      "email-security"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-25",
+    "sourcePaths": {
+      "en": "general-security\\open-source-tools\\email-security.md",
+      "az": "general-security\\open-source-tools\\email-security.md"
+    }
+  },
+  {
+    "slug": "/general-security/open-source-tools/firewall-ids-waf",
+    "category": "general-security",
+    "title": {
+      "en": "Open-Source Firewall, IDS/IPS, WAF and NAC",
+      "az": "Açıq Mənbə Firewall, IDS/IPS, WAF və NAC"
+    },
+    "description": {
+      "en": "Open-source perimeter and inline defense — OPNsense and pfSense (firewalls), Suricata, Zeek and Snort (IDS/IPS), ModSecurity and BunkerWeb (WAF), and PacketFence (NAC).",
+      "az": "Açıq mənbə perimetr və inline müdafiə — OPNsense və pfSense (firewall-lar), Suricata, Zeek və Snort (IDS/IPS), ModSecurity və BunkerWeb (WAF) və PacketFence (NAC)."
+    },
+    "keywords": [
+      "opnsense",
+      "pfsense",
+      "suricata",
+      "zeek",
+      "snort",
+      "modsecurity",
+      "bunkerweb",
+      "packetfence",
+      "waf",
+      "ids",
+      "nac",
+      "open source",
+      "general-security",
+      "open-source-tools",
+      "firewall-ids-waf"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-25",
+    "sourcePaths": {
+      "en": "general-security\\open-source-tools\\firewall-ids-waf.md",
+      "az": "general-security\\open-source-tools\\firewall-ids-waf.md"
+    }
+  },
+  {
+    "slug": "/general-security/open-source-tools/grc-tools",
+    "category": "general-security",
+    "title": {
+      "en": "Open-Source GRC Tools",
+      "az": "Açıq Mənbə GRC Vasitələri"
+    },
+    "description": {
+      "en": "Open-source governance, risk and compliance tooling — CISO Assistant CE, Eramba CE, OpenGRC and Gapps for risk register, control mapping, audit evidence, and policy lifecycle management.",
+      "az": "Açıq mənbə governance, risk və compliance tooling — risk register, control mapping, audit evidence və policy lifecycle management üçün CISO Assistant CE, Eramba CE, OpenGRC və Gapps."
+    },
+    "keywords": [
+      "ciso assistant",
+      "eramba",
+      "opengrc",
+      "opencontrol",
+      "gapps",
+      "grc",
+      "risk register",
+      "audit",
+      "compliance",
+      "iso 27001",
+      "soc 2",
+      "open source",
+      "general-security",
+      "open-source-tools",
+      "grc-tools"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-25",
+    "sourcePaths": {
+      "en": "general-security\\open-source-tools\\grc-tools.md",
+      "az": "general-security\\open-source-tools\\grc-tools.md"
+    }
+  },
+  {
+    "slug": "/general-security/open-source-tools/iam-and-mfa",
+    "category": "general-security",
+    "title": {
+      "en": "Open-Source IAM and MFA",
+      "az": "Açıq Mənbə IAM və MFA"
+    },
+    "description": {
+      "en": "Open-source identity and access management — Keycloak as the de-facto enterprise SSO, Authentik as the modern UI-first alternative, the Ory stack for headless IAM, plus Authelia and PrivacyIDEA for MFA front-ends.",
+      "az": "Açıq mənbə identity və access management — Keycloak de-facto enterprise SSO kimi, Authentik müasir UI-first alternativ kimi, headless IAM üçün Ory stack, üstəgəl MFA front-end-ləri olan Authelia və PrivacyIDEA."
+    },
+    "keywords": [
+      "keycloak",
+      "authentik",
+      "ory",
+      "kratos",
+      "hydra",
+      "keto",
+      "authelia",
+      "privacyidea",
+      "iam",
+      "sso",
+      "mfa",
+      "oidc",
+      "saml",
+      "open source",
+      "general-security",
+      "open-source-tools",
+      "iam-and-mfa"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-25",
+    "sourcePaths": {
+      "en": "general-security\\open-source-tools\\iam-and-mfa.md",
+      "az": "general-security\\open-source-tools\\iam-and-mfa.md"
+    }
+  },
+  {
+    "slug": "/general-security/open-source-tools/red-team-tools",
+    "category": "general-security",
+    "title": {
+      "en": "Open-Source Red Team and Adversary Emulation",
+      "az": "Açıq Mənbə Red Team və Düşmən Emulyasiyası"
+    },
+    "description": {
+      "en": "Open-source tools for offensive security testing — GoPhish for phishing simulation, MITRE Caldera and Atomic Red Team for adversary emulation, Sliver as a modern C2, plus APTSimulator and RTA for technique simulation.",
+      "az": "Hücum təhlükəsizliyi testləri üçün açıq mənbə alətləri — fişinq simulyasiyası üçün GoPhish, düşmən emulyasiyası üçün MITRE Caldera və Atomic Red Team, müasir C2 kimi Sliver, üstəlik texnika simulyasiyası üçün APTSimulator və RTA."
+    },
+    "keywords": [
+      "gophish",
+      "king phisher",
+      "lucy",
+      "atomic red team",
+      "caldera",
+      "sliver",
+      "aptsimulator",
+      "rta",
+      "adversary emulation",
+      "red team",
+      "c2",
+      "phishing simulation",
+      "mitre attack",
+      "open source",
+      "general-security",
+      "open-source-tools",
+      "red-team-tools"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-25",
+    "sourcePaths": {
+      "en": "general-security\\open-source-tools\\red-team-tools.md",
+      "az": "general-security\\open-source-tools\\red-team-tools.md"
+    }
+  },
+  {
+    "slug": "/general-security/open-source-tools/secrets-and-pam",
+    "category": "general-security",
+    "title": {
+      "en": "Open-Source Secrets Management and Privileged Access",
+      "az": "Açıq Mənbə Secrets Management və Privileged Access"
+    },
+    "description": {
+      "en": "Open-source secrets management (HashiCorp Vault, Infisical, Conjur), privileged access (Teleport, JumpServer, Pritunl Zero) and password vaults (Vaultwarden, Passbolt, Psono) — the three layers of secret-handling for humans, machines, and admins.",
+      "az": "Açıq mənbə secrets management (HashiCorp Vault, Infisical, Conjur), privileged access (Teleport, JumpServer, Pritunl Zero) və password vault-lar (Vaultwarden, Passbolt, Psono) — insanlar, maşınlar və admin-lər üçün secret-handling-in üç təbəqəsi."
+    },
+    "keywords": [
+      "hashicorp vault",
+      "infisical",
+      "cyberark conjur",
+      "teleport",
+      "jumpserver",
+      "pritunl zero",
+      "vaultwarden",
+      "bitwarden",
+      "passbolt",
+      "psono",
+      "secrets management",
+      "pam",
+      "password manager",
+      "open source",
+      "general-security",
+      "open-source-tools",
+      "secrets-and-pam"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-25",
+    "sourcePaths": {
+      "en": "general-security\\open-source-tools\\secrets-and-pam.md",
+      "az": "general-security\\open-source-tools\\secrets-and-pam.md"
+    }
+  },
+  {
+    "slug": "/general-security/open-source-tools/overview",
+    "category": "general-security",
+    "title": {
+      "en": "Open-Source Security Stack — Overview",
+      "az": "Açıq mənbəli təhlükəsizlik stack-i — İcmal"
+    },
+    "description": {
+      "en": "Roadmap for building a budget-friendly open-source security stack across firewall/IDS, SIEM, vulnerability scanning, IAM, secrets, email, backup, threat intel, red team and GRC — plus IT asset management as the foundation.",
+      "az": "Firewall/IDS, SIEM, zəiflik skanı, IAM, sirlər, e-poçt, ehtiyat nüsxə, təhdid kəşfiyyatı, red team və GRC üzrə büdcəyə qənaət edən açıq mənbəli təhlükəsizlik stack-i qurmaq üçün yol xəritəsi — və təməl olaraq IT aktiv idarəetməsi."
+    },
+    "keywords": [
+      "open source security",
+      "open source tools",
+      "it asset management",
+      "glpi",
+      "snipe-it",
+      "netbox",
+      "security stack",
+      "general-security",
+      "open-source-tools",
+      "overview"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-25",
+    "sourcePaths": {
+      "en": "general-security\\open-source-tools\\overview.md",
+      "az": "general-security\\open-source-tools\\overview.md"
+    }
+  },
+  {
+    "slug": "/general-security/open-source-tools/siem-and-monitoring",
+    "category": "general-security",
+    "title": {
+      "en": "Open-Source SIEM, Logging and Monitoring",
+      "az": "Açıq Mənbə SIEM, Loglama və Monitorinq"
+    },
+    "description": {
+      "en": "Open-source detection and observability stack — Wazuh and OSSEC for HIDS, the ELK / OpenSearch stack for log aggregation, and Zabbix / Prometheus / Uptime Kuma for infrastructure monitoring.",
+      "az": "Açıq mənbə aşkarlama və müşahidə qabiliyyəti stack-ı — HIDS üçün Wazuh və OSSEC, log aqreqasiyası üçün ELK / OpenSearch stack və infrastruktur monitorinqi üçün Zabbix / Prometheus / Uptime Kuma."
+    },
+    "keywords": [
+      "wazuh",
+      "ossec",
+      "elk stack",
+      "elasticsearch",
+      "kibana",
+      "logstash",
+      "opensearch",
+      "zabbix",
+      "prometheus",
+      "grafana",
+      "uptime kuma",
+      "siem",
+      "monitoring",
+      "open source",
+      "general-security",
+      "open-source-tools",
+      "siem-and-monitoring"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-25",
+    "sourcePaths": {
+      "en": "general-security\\open-source-tools\\siem-and-monitoring.md",
+      "az": "general-security\\open-source-tools\\siem-and-monitoring.md"
+    }
+  },
+  {
+    "slug": "/general-security/open-source-tools/threat-intel-and-malware",
+    "category": "general-security",
+    "title": {
+      "en": "Open-Source Threat Intelligence and Malware Analysis",
+      "az": "Açıq Mənbə Təhdid Kəşfiyyatı və Zərərli Proqram Analizi"
+    },
+    "description": {
+      "en": "Open-source threat intel platforms (OpenCTI, MISP, YETI) and malware analysis sandboxes (Cuckoo, CAPEv2, IntelOwl) — the tools that turn raw indicators into operational intelligence.",
+      "az": "Açıq mənbə təhdid kəşfiyyatı platformaları (OpenCTI, MISP, YETI) və zərərli proqram analiz sandbox-ları (Cuckoo, CAPEv2, IntelOwl) — xam göstəriciləri operativ kəşfiyyata çevirən alətlər."
+    },
+    "keywords": [
+      "opencti",
+      "misp",
+      "yeti",
+      "cuckoo sandbox",
+      "capev2",
+      "intelowl",
+      "maltrail",
+      "threat intelligence",
+      "malware analysis",
+      "stix",
+      "taxii",
+      "open source",
+      "general-security",
+      "open-source-tools",
+      "threat-intel-and-malware"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-25",
+    "sourcePaths": {
+      "en": "general-security\\open-source-tools\\threat-intel-and-malware.md",
+      "az": "general-security\\open-source-tools\\threat-intel-and-malware.md"
+    }
+  },
+  {
+    "slug": "/general-security/open-source-tools/vulnerability-and-appsec",
+    "category": "general-security",
+    "title": {
+      "en": "Open-Source Vulnerability Scanning and Application Security",
+      "az": "Açıq Mənbə Zəiflik Skanlaması və Tətbiq Təhlükəsizliyi"
+    },
+    "description": {
+      "en": "Open-source vulnerability assessment and application security tooling — OpenVAS for infrastructure scanning, OWASP ZAP and Nuclei for DAST, Semgrep and Bandit for SAST, Trivy and Syft for SBOM and container scanning.",
+      "az": "Açıq mənbə zəiflik qiymətləndirmə və tətbiq təhlükəsizliyi alətləri — infrastruktur skanlaması üçün OpenVAS, DAST üçün OWASP ZAP və Nuclei, SAST üçün Semgrep və Bandit, SBOM və konteyner skanlaması üçün Trivy və Syft."
+    },
+    "keywords": [
+      "openvas",
+      "greenbone",
+      "nessus",
+      "owasp zap",
+      "nuclei",
+      "nikto",
+      "amass",
+      "semgrep",
+      "sonarqube",
+      "bandit",
+      "trivy",
+      "syft",
+      "sbom",
+      "sast",
+      "dast",
+      "open source",
+      "general-security",
+      "open-source-tools",
+      "vulnerability-and-appsec"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-25",
+    "sourcePaths": {
+      "en": "general-security\\open-source-tools\\vulnerability-and-appsec.md",
+      "az": "general-security\\open-source-tools\\vulnerability-and-appsec.md"
     }
   },
   {

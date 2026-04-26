@@ -1,0 +1,10 @@
+{
+  "label": "🧩 Open-Source Solutions",
+  "position": 10,
+  "link": {
+    "type": "generated-index",
+    "description": "Open-source security stack — firewall/IDS/WAF, SIEM, vulnerability scanning, IAM/MFA, secrets, email security, backup, threat intelligence, red team and GRC tooling for budget-conscious teams."
+  },
+  "collapsible": true,
+  "collapsed": true
+}
