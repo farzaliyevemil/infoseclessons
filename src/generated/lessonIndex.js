@@ -1065,6 +1065,62 @@ const lessons = [
     }
   },
   {
+    "slug": "/grc/security-governance",
+    "category": "grc",
+    "title": {
+      "en": "Security Governance, Policies and People",
+      "az": "Təhlükəsizlik İdarəetməsi, Siyasətlər və İnsanlar"
+    },
+    "description": {
+      "en": "Organisational policies (AUP, NDA, SoD, least privilege), training programs, third-party risk management (SLA/MOU/MSA/BPA), data lifecycle (classification, retention, EOL), credential policies, change management and asset management — the \"people and process\" half of a security program.",
+      "az": "Təşkilati siyasətlər (AUP, NDA, SoD, ən az imtiyaz), təlim proqramları, üçüncü tərəf risk idarəetməsi (SLA/MOU/MSA/BPA), məlumat həyat dövrü (təsnifat, saxlama, EOL), kredensial siyasətləri, dəyişiklik idarəetməsi və aktiv idarəetməsi — təhlükəsizlik proqramının \"insanlar və proseslər\" yarısı."
+    },
+    "keywords": [
+      "security governance",
+      "acceptable use policy",
+      "aup",
+      "separation of duties",
+      "least privilege",
+      "background checks",
+      "nda",
+      "onboarding",
+      "offboarding",
+      "user training",
+      "phishing simulation",
+      "third-party risk",
+      "sla",
+      "mou",
+      "msa",
+      "bpa",
+      "data classification",
+      "data retention",
+      "change management",
+      "asset management",
+      "grc",
+      "security-governance",
+      "təhlükəsizlik idarəetməsi",
+      "məqbul istifadə siyasəti",
+      "vəzifələrin ayrılması",
+      "ən az imtiyaz",
+      "keçmiş yoxlamaları",
+      "işə qəbul",
+      "işdən azad etmə",
+      "istifadəçi təlimi",
+      "fişinq simulyasiyası",
+      "üçüncü tərəf riski",
+      "məlumat təsnifatı",
+      "məlumat saxlanması",
+      "dəyişiklik idarəetməsi",
+      "aktiv idarəetməsi"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-26",
+    "sourcePaths": {
+      "en": "grc\\security-governance.md",
+      "az": "grc\\security-governance.md"
+    }
+  },
+  {
     "slug": "/grc/policies",
     "category": "grc",
     "title": {
