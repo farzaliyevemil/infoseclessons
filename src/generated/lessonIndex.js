@@ -162,6 +162,48 @@ const lessons = [
     }
   },
   {
+    "slug": "/general-security/aaa-non-repudiation",
+    "category": "general-security",
+    "title": {
+      "en": "AAA — Authentication, Authorization, Accounting and Non-Repudiation",
+      "az": "AAA — Autentifikasiya, Avtorizasiya, Uçot və Non-Repudiasiya"
+    },
+    "description": {
+      "en": "The AAA framework that complements CIA — authentication factors and methods, biometrics with FAR/FRR/CER, authorization models, accounting/audit trails, and non-repudiation as the proof-against-denial property.",
+      "az": "CIA-nı tamamlayan AAA çərçivəsi — autentifikasiya faktorları və metodları, FAR/FRR/CER ilə biometriya, avtorizasiya modelləri, uçot/audit izləri və inkar etməyə qarşı sübut xassəsi olaraq non-repudiasiya."
+    },
+    "keywords": [
+      "aaa",
+      "authentication",
+      "authorization",
+      "accounting",
+      "non-repudiation",
+      "mfa",
+      "multi-factor authentication",
+      "biometrics",
+      "far",
+      "frr",
+      "crossover error rate",
+      "radius",
+      "tacacs",
+      "general-security",
+      "aaa-non-repudiation",
+      "autentifikasiya",
+      "avtorizasiya",
+      "uçot",
+      "non-repudiasiya",
+      "çoxfaktorlu autentifikasiya",
+      "biometriya",
+      "keçid xəta dərəcəsi"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-26",
+    "sourcePaths": {
+      "en": "general-security\\aaa-non-repudiation.md",
+      "az": "general-security\\aaa-non-repudiation.md"
+    }
+  },
+  {
     "slug": "/general-security/cia-triad",
     "category": "general-security",
     "title": {
@@ -860,6 +902,48 @@ const lessons = [
     "sourcePaths": {
       "en": "general-security\\mobile-and-iot\\physical-security.md",
       "az": "general-security\\mobile-and-iot\\physical-security.md"
+    }
+  },
+  {
+    "slug": "/general-security/secure-app-development",
+    "category": "general-security",
+    "title": {
+      "en": "Secure Application Development",
+      "az": "Təhlükəsiz Tətbiq İnkişafı"
+    },
+    "description": {
+      "en": "Secure SDLC — environments (dev/test/staging/prod), secure coding techniques (validation, normalization, stored procedures, memory management), OWASP awareness, software diversity, CI/CD pipelines, version control and continuous monitoring.",
+      "az": "Təhlükəsiz SDLC — mühitlər (dev/test/staging/prod), təhlükəsiz kodlama texnikaları (validasiya, normalizasiya, stored prosedurlar, yaddaş idarəçiliyi), OWASP məlumatlılığı, proqram müxtəlifliyi, CI/CD pipeline-lar, versiya nəzarəti və davamlı monitorinq."
+    },
+    "keywords": [
+      "secure sdlc",
+      "secure coding",
+      "input validation",
+      "owasp",
+      "ci/cd",
+      "continuous integration",
+      "continuous deployment",
+      "version control",
+      "software supply chain",
+      "third-party libraries",
+      "sast",
+      "dast",
+      "general-security",
+      "secure-app-development",
+      "təhlükəsiz sdlc",
+      "təhlükəsiz kodlama",
+      "input validasiyası",
+      "davamlı inteqrasiya",
+      "davamlı yerləşdirmə",
+      "versiya nəzarəti",
+      "proqram təminatı təchizat zənciri",
+      "üçüncü tərəf kitabxanaları"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-26",
+    "sourcePaths": {
+      "en": "general-security\\secure-app-development.md",
+      "az": "general-security\\secure-app-development.md"
     }
   },
   {
