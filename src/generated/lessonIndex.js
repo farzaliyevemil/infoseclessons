@@ -2284,6 +2284,42 @@ const lessons = [
     }
   },
   {
+    "slug": "/red-teaming/penetration-testing",
+    "category": "red-teaming",
+    "title": {
+      "en": "Penetration Testing",
+      "az": "Penetration Testing"
+    },
+    "description": {
+      "en": "How a real penetration test runs end-to-end — scoping and Rules of Engagement, reconnaissance, vulnerability identification, exploitation, post-exploitation, lateral movement, persistence, cleanup and the report. Plus PTES, OSSTMM and the legal lines you cannot cross.",
+      "az": "How a real penetration test runs end-to-end — scoping and Rules of Engagement, reconnaissance, vulnerability identification, exploitation, post-exploitation, lateral movement, persistence, cleanup and the report. Plus PTES, OSSTMM and the legal lines you cannot cross."
+    },
+    "keywords": [
+      "penetration testing",
+      "pentest",
+      "red team",
+      "black box",
+      "white box",
+      "gray box",
+      "reconnaissance",
+      "exploitation",
+      "post-exploitation",
+      "lateral movement",
+      "persistence",
+      "rules of engagement",
+      "ptes",
+      "osstmm",
+      "red-teaming",
+      "penetration-testing"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-28",
+    "sourcePaths": {
+      "en": "red-teaming\\penetration-testing.md",
+      "az": "red-teaming\\penetration-testing.md"
+    }
+  },
+  {
     "slug": "/red-teaming",
     "category": "red-teaming",
     "title": {
