@@ -418,6 +418,42 @@ const lessons = [
     }
   },
   {
+    "slug": "/general-security/iam-account-management",
+    "category": "general-security",
+    "title": {
+      "en": "Identity and Account Management",
+      "az": "Şəxsiyyət və Hesab İdarəetməsi"
+    },
+    "description": {
+      "en": "Identity lifecycle from provisioning to deprovisioning, account types (user, service, admin, shared, guest), access policies (RBAC, ABAC, JIT, time-of-day), SSO and federation, IAM solutions across enterprise, cloud and hybrid environments.",
+      "az": "Provizioniadan deprovizioniyaya qədər şəxsiyyət həyat dövrü, hesab tipləri (istifadəçi, xidmət, admin, paylaşılan, qonaq), giriş siyasətləri (RBAC, ABAC, JIT, vaxt-əsaslı), SSO və federasiya, korporativ, bulud və hibrid mühitlərdə IAM həlləri."
+    },
+    "keywords": [
+      "iam",
+      "identity management",
+      "account management",
+      "rbac",
+      "abac",
+      "sso",
+      "federation",
+      "saml",
+      "oidc",
+      "jit access",
+      "service accounts",
+      "admin accounts",
+      "identity proofing",
+      "account lifecycle",
+      "general-security",
+      "iam-account-management"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-26",
+    "sourcePaths": {
+      "en": "general-security\\iam-account-management.md",
+      "az": "general-security\\iam-account-management.md"
+    }
+  },
+  {
     "slug": "/general-security/mobile-security",
     "category": "general-security",
     "title": {
