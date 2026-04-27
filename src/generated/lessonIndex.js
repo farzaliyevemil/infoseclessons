@@ -1806,6 +1806,41 @@ const lessons = [
     }
   },
   {
+    "slug": "/networking/vpn",
+    "category": "networking",
+    "title": {
+      "en": "Virtual Private Networks (VPN)",
+      "az": "Virtual Private Networks (VPN)"
+    },
+    "description": {
+      "en": "How VPNs work — IPsec, OpenVPN, WireGuard and SSL/TLS VPNs; Remote Access vs Site-to-Site vs Cloud VPN; AH/ESP/SA/IKE inside IPsec; split-tunnel and full-tunnel; kill-switch and DNS leak protection.",
+      "az": "How VPNs work — IPsec, OpenVPN, WireGuard and SSL/TLS VPNs; Remote Access vs Site-to-Site vs Cloud VPN; AH/ESP/SA/IKE inside IPsec; split-tunnel and full-tunnel; kill-switch and DNS leak protection."
+    },
+    "keywords": [
+      "vpn",
+      "virtual private network",
+      "ipsec",
+      "openvpn",
+      "wireguard",
+      "l2tp",
+      "pptp",
+      "ssl vpn",
+      "remote access vpn",
+      "site-to-site vpn",
+      "split tunnel",
+      "kill switch",
+      "tunnel encryption",
+      "networking",
+      "secure-design"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-28",
+    "sourcePaths": {
+      "en": "networking\\secure-design\\vpn.md",
+      "az": "networking\\secure-design\\vpn.md"
+    }
+  },
+  {
     "slug": "/networking/wireless-security",
     "category": "networking",
     "title": {
