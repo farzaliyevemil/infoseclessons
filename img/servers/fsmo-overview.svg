@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="380" viewBox="0 0 720 380">
+  <style>
+    .box{fill:#eaf3ff;stroke:#2a6fdb;stroke-width:2}
+    .title{font: bold 14px sans-serif; fill:#123}
+    .caption{font: 12px sans-serif; fill:#345}
+    .link{stroke:#999;stroke-dasharray:4,4}
+  </style>
+  <rect x="20" y="20" width="680" height="340" fill="#f8fbff" stroke="#c6d9ff"/>
+  <text x="30" y="45" class="title">Active Directory — FSMO Roles</text>
+  <rect class="box" x="60" y="80" width="220" height="90" rx="6"/>
+  <text class="title" x="70" y="105">Forest-wide</text>
+  <text class="caption" x="70" y="130">Schema Master</text>
+  <text class="caption" x="70" y="155">Domain Naming Master</text>
+
+  <rect class="box" x="360" y="80" width="300" height="180" rx="6"/>
+  <text class="title" x="370" y="105">Domain-wide</text>
+  <text class="caption" x="370" y="130">RID Master</text>
+  <text class="caption" x="370" y="155">PDC Emulator</text>
+  <text class="caption" x="370" y="180">Infrastructure Master</text>
+
+  <line class="link" x1="280" y1="125" x2="360" y2="125"/>
+  <line class="link" x1="280" y1="150" x2="360" y2="140"/>
+  <text class="caption" x="280" y="75">Forest</text>
+  <text class="caption" x="580" y="75">Domain</text>
+</svg>
