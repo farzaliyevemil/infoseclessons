@@ -905,6 +905,43 @@ const lessons = [
     }
   },
   {
+    "slug": "/general-security/cryptography/pki",
+    "category": "general-security",
+    "title": {
+      "en": "Public Key Infrastructure (PKI)",
+      "az": "Public Key Infrastructure (PKI)"
+    },
+    "description": {
+      "en": "How PKI binds public keys to identities — certificate authorities, root and intermediate CAs, X.509 certificates, registration and trust models, certificate lifecycle (issue, renew, revoke), CRL/OCSP, key escrow, and the practical TLS / S/MIME / code-signing use cases.",
+      "az": "PKI publik açarları şəxsiyyətlərə necə bağlayır — sertifikat hakimiyyətləri, kök və aralıq CA-lar, X.509 sertifikatları, qeydiyyat və etibar modelləri, sertifikatın həyat dövrü (verilmə, yenilənmə, ləğv), CRL/OCSP, açar deposi və praktik TLS / S/MIME / kod imzalama istifadə halları."
+    },
+    "keywords": [
+      "pki",
+      "public key infrastructure",
+      "certificate authority",
+      "root ca",
+      "intermediate ca",
+      "x.509",
+      "csr",
+      "crl",
+      "ocsp",
+      "certificate revocation",
+      "key escrow",
+      "hsm",
+      "acme",
+      "lets encrypt",
+      "tls",
+      "general-security",
+      "cryptography"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-26",
+    "sourcePaths": {
+      "en": "general-security\\cryptography\\pki.md",
+      "az": "general-security\\cryptography\\pki.md"
+    }
+  },
+  {
     "slug": "/general-security/secure-app-development",
     "category": "general-security",
     "title": {
