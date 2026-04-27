@@ -3,7 +3,7 @@ id: ethernet-and-arp
 title: Ethernet ve ARP
 description: Layer 2 aslinda nece islayir — MAC unvanlari, Ethernet cervileri, switch-ler hub-lara qarsi, broadcast domenleri, VLAN-lar ve IP-den yene MAC-a korpu kimi ARP.
 slug: /networking/ethernet-and-arp
-sidebar_position: 3
+sidebar_position: 4
 status: reference
 last_reviewed: 2026-04-25
 keywords:

@@ -3,7 +3,7 @@ id: dhcp
 title: DHCP (Dynamic Host Configuration Protocol)
 description: "DHCP üzrə praktik dərslik — DORA, lease, scope, reservation, option-lar, filtering, failover, backup/restore, DNS inteqrasiyası və troubleshooting."
 slug: /networking/dhcp
-sidebar_position: 3
+sidebar_position: 5
 status: reference
 last_reviewed: 2026-04-23
 keywords:

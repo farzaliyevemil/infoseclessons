@@ -3,7 +3,7 @@ id: tcp-and-udp
 title: TCP and UDP — The Transport Layer
 description: How Layer 4 actually works — TCP three-way handshake, sliding window flow control, connection states, TCP flags, UDP minimalism, and when to pick which (plus QUIC).
 slug: /networking/tcp-and-udp
-sidebar_position: 4
+sidebar_position: 10
 status: reference
 last_reviewed: 2026-04-25
 keywords:

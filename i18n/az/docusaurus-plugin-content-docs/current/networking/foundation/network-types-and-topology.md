@@ -3,7 +3,7 @@ id: network-types-and-topology
 title: Sebeke Novleri ve Topologiya
 description: LAN, WAN, MAN, PAN, CAN, SAN, WLAN, VPN — ve fiziki/mentiqi topologiyalar (ulduz, sin, halqa, mesh) ile elaqe modelleri (unicast, multicast, broadcast, anycast).
 slug: /networking/network-types-and-topology
-sidebar_position: 7
+sidebar_position: 1
 status: reference
 last_reviewed: 2026-04-25
 keywords:

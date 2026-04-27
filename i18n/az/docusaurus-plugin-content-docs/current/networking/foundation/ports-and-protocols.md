@@ -3,7 +3,7 @@ id: ports-and-protocols
 title: Portlar və Protokollar
 description: TCP/UDP portları necə işləyir, üç port diapazonu, hər infosec mütəxəssisinin bilməli olduğu 30 port, təhlükəsiz və açıq mətn alternativləri, host-larınızda gözlənilməz dinləyiciləri necə tapmaq.
 slug: /networking/ports-and-protocols
-sidebar_position: 5
+sidebar_position: 7
 status: reference
 last_reviewed: 2026-04-25
 keywords:

@@ -3,7 +3,7 @@ id: network-devices
 title: Şəbəkə Cihazları
 description: Hub-lar, switch-lər, router-lər, firewall-lar, yük balanslayıcıları, proxy-lər, IDS/IPS, WAF, NAT şlüzləri, VPN konsentratorları — hər birinin nə etdiyi, hansı OSI səviyyəsində dayandığı və düzgün cihazı necə seçmək.
 slug: /networking/network-devices
-sidebar_position: 6
+sidebar_position: 11
 status: reference
 last_reviewed: 2026-04-25
 keywords:

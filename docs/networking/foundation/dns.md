@@ -3,7 +3,7 @@ id: dns
 title: DNS (Domain Name System)
 description: A practical DNS guide covering resolution flow, query types, zones, caching, TTL, records, and reverse lookup.
 slug: /networking/dns
-sidebar_position: 2
+sidebar_position: 6
 status: reference
 last_reviewed: 2026-03-23
 keywords:

@@ -3,7 +3,7 @@ id: ip-addressing
 title: IP Addressing — IPv4 and IPv6
 description: How IP addresses work — IPv4's 32-bit dotted-quad, IPv6's 128-bit hex, classes, private vs public ranges, special-purpose ranges, NAT, DMZ, loopback, and link-local.
 slug: /networking/ip-addressing
-sidebar_position: 8
+sidebar_position: 2
 status: reference
 last_reviewed: 2026-04-25
 keywords:

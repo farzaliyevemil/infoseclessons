@@ -3,7 +3,7 @@ id: ports-and-protocols
 title: Ports and Protocols
 description: How TCP/UDP ports work, the three port ranges, the 30 ports every infosec professional must know, secure-vs-cleartext alternatives, and how to find unexpected listeners on your hosts.
 slug: /networking/ports-and-protocols
-sidebar_position: 5
+sidebar_position: 7
 status: reference
 last_reviewed: 2026-04-25
 keywords:

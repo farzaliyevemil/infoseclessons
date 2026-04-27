@@ -3,7 +3,7 @@ id: subnetting
 title: Subnetting and CIDR
 description: The math of dividing networks — binary refresher, subnet masks, CIDR notation, subnet calculation, VLSM (Variable-Length Subnet Masking), and IPv6 prefix notation.
 slug: /networking/subnetting
-sidebar_position: 9
+sidebar_position: 3
 status: reference
 last_reviewed: 2026-04-25
 keywords:

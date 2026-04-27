@@ -3,7 +3,7 @@ id: tcp-ip-model
 title: The TCP/IP Model
 description: The four-layer TCP/IP model — Network Access, Internet, Transport, Application — and how it maps to the seven OSI layers, with the full end-to-end walkthrough of an HTTPS request.
 slug: /networking/tcp-ip-model
-sidebar_position: 2
+sidebar_position: 9
 status: reference
 last_reviewed: 2026-04-25
 keywords:

@@ -3,7 +3,7 @@ id: subnetting
 title: Subnetlərə bölmə və CIDR
 description: Şəbəkələri bölmənin riyaziyyatı — ikilik təkrarlama, subnet maskaları, CIDR notasiyası, subnet hesablanması, VLSM (Dəyişən Uzunluqlu Subnet Maskası) və IPv6 prefiks notasiyası.
 slug: /networking/subnetting
-sidebar_position: 9
+sidebar_position: 3
 status: reference
 last_reviewed: 2026-04-25
 keywords:

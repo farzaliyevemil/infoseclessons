@@ -3,7 +3,7 @@ id: ethernet-and-arp
 title: Ethernet and ARP
 description: How Layer 2 actually works — MAC addresses, Ethernet frames, switches vs hubs, broadcast domains, VLANs, and ARP as the bridge from IP back down to MAC.
 slug: /networking/ethernet-and-arp
-sidebar_position: 3
+sidebar_position: 4
 status: reference
 last_reviewed: 2026-04-25
 keywords:

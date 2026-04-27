@@ -3,7 +3,7 @@ id: osi-model
 title: OSI Modeli
 description: Yeddi qatlı OSI istinad modeli — qatma-qat, konkret protokol nümunələri ilə və "hansı qat sınıb?" diaqnostika düşüncəsi ilə izah edilir.
 slug: /networking/osi-model
-sidebar_position: 1
+sidebar_position: 8
 status: reference
 last_reviewed: 2026-04-25
 keywords:

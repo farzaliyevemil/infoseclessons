@@ -3,7 +3,7 @@ id: dns
 title: DNS (Domain Name System)
 description: DNS-in necə işlədiyi, zone tipləri, query növləri, caching, TTL və record-lar haqqında praktik izah.
 slug: /networking/dns
-sidebar_position: 2
+sidebar_position: 6
 status: reference
 last_reviewed: 2026-03-23
 keywords:

@@ -3,7 +3,7 @@ id: network-types-and-topology
 title: Network Types and Topology
 description: LAN, WAN, MAN, PAN, CAN, SAN, WLAN, VPN — and the physical/logical topologies (star, bus, ring, mesh) plus communication patterns (unicast, multicast, broadcast, anycast).
 slug: /networking/network-types-and-topology
-sidebar_position: 7
+sidebar_position: 1
 status: reference
 last_reviewed: 2026-04-25
 keywords:

@@ -3,7 +3,7 @@ id: network-devices
 title: Network Devices
 description: Hubs, switches, routers, firewalls, load balancers, proxies, IDS/IPS, WAF, NAT gateways, VPN concentrators — what each does, which OSI layer it sits at, and how to choose the right one.
 slug: /networking/network-devices
-sidebar_position: 6
+sidebar_position: 11
 status: reference
 last_reviewed: 2026-04-25
 keywords:

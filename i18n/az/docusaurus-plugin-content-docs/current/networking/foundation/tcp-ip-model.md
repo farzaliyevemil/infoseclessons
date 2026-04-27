@@ -3,7 +3,7 @@ id: tcp-ip-model
 title: TCP/IP Modeli
 description: Dord layli TCP/IP modeli — Sebeke Erisi, Internet, Transport, Tetbiq — yeddi OSI lay ile uyusmasi ve HTTPS sorgusunun ucdan-uca tam izahi.
 slug: /networking/tcp-ip-model
-sidebar_position: 2
+sidebar_position: 9
 status: reference
 last_reviewed: 2026-04-25
 keywords:

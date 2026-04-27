@@ -3,7 +3,7 @@ id: osi-model
 title: The OSI Model
 description: The seven-layer OSI reference model explained layer by layer with concrete protocol examples and the troubleshooting mindset of "which layer is broken?"
 slug: /networking/osi-model
-sidebar_position: 1
+sidebar_position: 8
 status: reference
 last_reviewed: 2026-04-25
 keywords:

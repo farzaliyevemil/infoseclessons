@@ -3,7 +3,7 @@ id: tcp-and-udp
 title: TCP və UDP — Nəqliyyat Səviyyəsi
 description: 4-cü səviyyə əslində necə işləyir — TCP üçtərəfli əl sıxma, sürüşən pəncərə ilə axın idarəsi, qoşulma vəziyyətləri, TCP bayraqları, UDP minimalizmi və hansını seçmək (artı QUIC).
 slug: /networking/tcp-and-udp
-sidebar_position: 4
+sidebar_position: 10
 status: reference
 last_reviewed: 2026-04-25
 keywords:

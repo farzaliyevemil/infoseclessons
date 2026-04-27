@@ -3,7 +3,7 @@ id: ip-addressing
 title: IP Ünvanlama — IPv4 və IPv6
 description: IP ünvanlarının necə işlədiyi — IPv4-ün 32-bitlik nöqtəli kvarteti, IPv6-nın 128-bitlik hex formatı, sinifləri, özəl və ictimai diapazonları, xüsusi təyinatlı diapazonları, NAT, DMZ, loopback və link-local.
 slug: /networking/ip-addressing
-sidebar_position: 8
+sidebar_position: 2
 status: reference
 last_reviewed: 2026-04-25
 keywords:
