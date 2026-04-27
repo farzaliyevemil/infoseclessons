@@ -1806,6 +1806,41 @@ const lessons = [
     }
   },
   {
+    "slug": "/networking/tor-and-anonymity",
+    "category": "networking",
+    "title": {
+      "en": "Tor and Anonymity Networks",
+      "az": "Tor və Anonimlik Şəbəkələri"
+    },
+    "description": {
+      "en": "How Tor onion routing works, the threat model it defends against, when Tor genuinely helps vs when it actively hurts, hidden services, exit-node abuse, and the operational rules security teams need.",
+      "az": "Tor soğan marşrutlaşdırmasının necə işlədiyi, müdafiə etdiyi təhdid modeli, Tor-un nə vaxt həqiqətən kömək etdiyi və nə vaxt zərər verdiyi, gizli xidmətlər, çıxış-node sui-istifadəsi və təhlükəsizlik komandalarına lazım olan əməliyyat qaydaları."
+    },
+    "keywords": [
+      "tor",
+      "onion routing",
+      "anonymity network",
+      "hidden services",
+      "exit node",
+      "bridges",
+      "i2p",
+      "dark web",
+      "dread",
+      "tor browser",
+      "dread relay attacks",
+      "vpn over tor",
+      "networking",
+      "secure-design",
+      "tor-and-anonymity"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-28",
+    "sourcePaths": {
+      "en": "networking\\secure-design\\tor-and-anonymity.md",
+      "az": "networking\\secure-design\\tor-and-anonymity.md"
+    }
+  },
+  {
     "slug": "/networking/vpn",
     "category": "networking",
     "title": {
