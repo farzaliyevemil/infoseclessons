@@ -14,7 +14,7 @@ last_reviewed: 2026-03-23
 Şəbəkə bütün sayt üzrə ən yüksək dəyər verən əsaslardan biridir. Bu qat zəifdirsə, qalan bütün troubleshooting yolları yavaşlayır.
 
 <div className="landing-grid">
-  <a className="landing-card" href="/infoseclessons/az/networking/network-types">
+  <a className="landing-card" href="/infoseclessons/az/networking/network-types-and-topology">
     <span className="landing-card__eyebrow">Əsas</span>
     <strong>Şəbəkə Əsasları</strong>
     <p>Ünvanlama, VLAN, switching, routing, DNS, DHCP və troubleshooting.</p>

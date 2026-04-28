@@ -53,7 +53,7 @@ The physical layer carries raw bits as electrical signals on copper, light pulse
 
 Layer 2 turns a stream of bits into **frames** with a source and destination **MAC address**, so multiple devices can share one physical medium without garbling each other. **Ethernet** (IEEE 802.3) and **Wi-Fi** (IEEE 802.11) are the dominant L2 protocols. **ARP** (Address Resolution Protocol) lives here as the glue between L2 and L3. **VLANs** (802.1Q) split a single switch into multiple isolated L2 networks. Switches are the canonical L2 device — they learn which MAC sits on which port and forward frames only where needed.
 
-**What breaks at L2:** ARP cache poisoning, MAC flooding, duplex mismatches, broadcast storms, misconfigured VLAN trunks, a switch port still in the wrong VLAN after a move. See [Ethernet & ARP](./ethernet-arp.md) for the deep dive.
+**What breaks at L2:** ARP cache poisoning, MAC flooding, duplex mismatches, broadcast storms, misconfigured VLAN trunks, a switch port still in the wrong VLAN after a move. See [Ethernet & ARP](./ethernet-and-arp.md) for the deep dive.
 
 ### Layer 3 — Network
 
@@ -65,7 +65,7 @@ Layer 3 introduces **logical addressing** (IP) and **routing**, so packets can t
 
 Layer 4 is where "host talks to host" becomes "**application** talks to application." It introduces **ports** (so one host can run many services), **segmentation** (chopping a stream into pieces that fit in a packet), and — for TCP — **reliability** (sequence numbers, acknowledgements, retransmission, flow control). The two dominant L4 protocols are **TCP** (reliable, connection-oriented) and **UDP** (best-effort, connectionless). **QUIC** is a newer reliable protocol built on top of UDP.
 
-**What breaks at L4:** firewall dropping a port, full connection table on a NAT box, TCP window stalls, SYN floods, services bound to the wrong interface. See [TCP & UDP](./tcp-udp.md) for the deep dive.
+**What breaks at L4:** firewall dropping a port, full connection table on a NAT box, TCP window stalls, SYN floods, services bound to the wrong interface. See [TCP & UDP](./tcp-and-udp.md) for the deep dive.
 
 ### Layer 5 — Session
 
@@ -224,4 +224,4 @@ A user calls: "The internal portal `https://portal.example.local` is really slow
 - Cloudflare Learning Center — What is the OSI Model: https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/
 - Cisco — The OSI Model Explained: https://www.cisco.com/c/en/us/solutions/small-business/resource-center/networking/networking-basics.html
 - Wireshark User Guide — Packet Details: https://www.wireshark.org/docs/wsug_html_chunked/
-- Sibling lessons: [TCP/IP Model](./tcp-ip-model.md) · [Ethernet & ARP](./ethernet-arp.md) · [TCP & UDP](./tcp-udp.md) · [Ports & Protocols](./ports-protocols.md)
+- Sibling lessons: [TCP/IP Model](./tcp-ip-model.md) · [Ethernet & ARP](./ethernet-and-arp.md) · [TCP & UDP](./tcp-and-udp.md) · [Ports & Protocols](./ports-and-protocols.md)

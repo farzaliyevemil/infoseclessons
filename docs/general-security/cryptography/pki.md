@@ -352,7 +352,7 @@ Both intermediate CA private keys live in network-attached HSMs.
 
 **Revocation.** Both intermediates publish CRLs to `http://crl.example.local/EXAMPLE-CA-SRV.crl` and `http://crl.example.local/EXAMPLE-CA-USR.crl`. An OCSP responder runs at `http://ocsp.example.local`. Web servers staple OCSP responses by default. The HR offboarding workflow ticks a box that triggers immediate revocation of the leaver's user certs.
 
-**Governance.** A written Certification Practices Statement (CPS) is part of the [security governance](../security-governance.md) corpus. Every certificate template is tied to a business owner and reviewed annually. Certificate counts, expiry lead times and revocation rates are reported on the security dashboard alongside other [security controls](../security-controls.md).
+**Governance.** A written Certification Practices Statement (CPS) is part of the [security governance](../../grc/security-governance.md) corpus. Every certificate template is tied to a business owner and reviewed annually. Certificate counts, expiry lead times and revocation rates are reported on the security dashboard alongside other [security controls](../../grc/security-controls.md).
 
 ## Troubleshooting & pitfalls
 
@@ -399,4 +399,4 @@ Both intermediate CA private keys live in network-attached HSMs.
 - NIST SP 800-57 Part 1 Rev. 5 — *Recommendation for Key Management.* [https://csrc.nist.gov/publications/detail/sp/800-57-part-1/rev-5/final](https://csrc.nist.gov/publications/detail/sp/800-57-part-1/rev-5/final)
 - NIST SP 800-32 — *Introduction to Public Key Technology and the Federal PKI Infrastructure.* [https://csrc.nist.gov/publications/detail/sp/800-32/archive/2001-02-26](https://csrc.nist.gov/publications/detail/sp/800-32/archive/2001-02-26)
 - Mozilla — *CA Certificate Policy.* [https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/policy/](https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/policy/)
-- See also: [cryptography basics](./cryptography-basics.md), [security controls](../security-controls.md), [security governance](../security-governance.md), [AAA and non-repudiation](../aaa-non-repudiation.md), [secure protocols](../../networking/secure-design/secure-protocols.md).
+- See also: [cryptography basics](./cryptography-basics.md), [security controls](../../grc/security-controls.md), [security governance](../../grc/security-governance.md), [AAA and non-repudiation](../aaa-non-repudiation.md), [secure protocols](../../networking/secure-design/secure-protocols.md).

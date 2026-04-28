@@ -159,7 +159,7 @@ Beyond simply scanning for CVEs, mature programmes also vet new dependencies bef
 
 ### Data exposure
 
-Data exposure is loss of control over data during processing. Data must be protected at rest, in transit, and — increasingly — in use. The application team's job is to chart the flow of sensitive data through the system and verify that protection is applied at every hop. Confidentiality failures (unauthorised read) and integrity failures (unauthorised write) are equally serious. Data classification feeds directly into this — see [./security-controls.md](./security-controls.md) for the broader control catalogue.
+Data exposure is loss of control over data during processing. Data must be protected at rest, in transit, and — increasingly — in use. The application team's job is to chart the flow of sensitive data through the system and verify that protection is applied at every hop. Confidentiality failures (unauthorised read) and integrity failures (unauthorised write) are equally serious. Data classification feeds directly into this — see [../grc/security-controls.md](../grc/security-controls.md) for the broader control catalogue.
 
 Practical defences against data exposure include: encryption in transit (TLS 1.3 with strong ciphers, mTLS for service-to-service), encryption at rest (full-disk for hosts, transparent encryption for databases, customer-managed keys for sensitive stores), encryption in use where supported (Intel SGX, AMD SEV, AWS Nitro Enclaves, Azure Confidential Computing for highly sensitive workloads), tokenisation for fields like payment cards, and minimisation — collecting only the data the application actually needs and discarding it as soon as it is no longer required. The strongest data-exposure defence is the data the application does not store.
 
@@ -361,7 +361,7 @@ A secure-SDLC programme that answers the six questions at the top of this lesson
 
 The cultural shift is as important as the tooling. Security has to be a property of how the team works, not a department the team negotiates with. The most successful programmes embed AppSec engineers inside product teams, treat security findings the same way they treat any other defect, and reward engineers who propose proactive improvements rather than only those who fix what is already broken. When the developer who notices the missing rate-limit on a new endpoint is the one who adds it — without filing a ticket and waiting — the programme is mature.
 
-Cross-references: [./aaa-non-repudiation.md](./aaa-non-repudiation.md) for the identity foundations every pipeline relies on; [./vulnerability-management.md](./vulnerability-management.md) for the broader vulnerability lifecycle; [./security-controls.md](./security-controls.md) for the catalogue of controls these practices instantiate.
+Cross-references: [./aaa-non-repudiation.md](./aaa-non-repudiation.md) for the identity foundations every pipeline relies on; [vulnerability management](./assessment/vulnerability-management.md) for the broader vulnerability lifecycle; [../grc/security-controls.md](../grc/security-controls.md) for the catalogue of controls these practices instantiate.
 
 ## References
 

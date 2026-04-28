@@ -24,7 +24,7 @@ const copy = {
     quickLinks: 'Useful starting points',
     quickLinksIntro: 'If you are not sure where to begin, start from one of these practical paths.',
     quickCards: [
-      { label: 'Networking first', href: '/networking/network-types' },
+      { label: 'Networking first', href: '/networking/network-types-and-topology' },
       { label: 'Windows admin path', href: '/servers/windows-server-planning' },
       { label: 'Blue team path', href: '/blue-teaming/log-analysis' },
       { label: 'Certification planning', href: '/certifications/microsoft-certifications' },
@@ -64,7 +64,7 @@ const copy = {
     quickLinks: 'Başlamaq üçün yönlər',
     quickLinksIntro: 'Haradan başlamağı bilmirsinizsə, bu praktik istiqamətlərdən birini seçin.',
     quickCards: [
-      { label: 'Şəbəkə ilə başlayın', href: '/networking/network-types' },
+      { label: 'Şəbəkə ilə başlayın', href: '/networking/network-types-and-topology' },
       { label: 'Windows admin yolu', href: '/servers/windows-server-planning' },
       { label: 'Blue team yolu', href: '/blue-teaming/log-analysis' },
       { label: 'Sertifikat planı', href: '/certifications/microsoft-certifications' },
