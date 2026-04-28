@@ -99,6 +99,39 @@ const lessons = [
     }
   },
   {
+    "slug": "/blue-teaming/mitigation-techniques",
+    "category": "blue-teaming",
+    "title": {
+      "en": "Enterprise Mitigation Techniques",
+      "az": "Korporativ Mitigasiya Texnikaları"
+    },
+    "description": {
+      "en": "The eight families of mitigation that secure an enterprise — segmentation, access control, application allow-listing, isolation, monitoring, configuration enforcement, endpoint protection, and ports/protocols hardening.",
+      "az": "Müəssisəni qoruyan səkkiz mitigasiya ailəsi — seqmentasiya, giriş nəzarəti, tətbiq icazə siyahısı, izolyasiya, monitorinq, konfiqurasiya tətbiqi, son nöqtə qoruması və portların/protokolların sərtləşdirilməsi."
+    },
+    "keywords": [
+      "mitigation",
+      "segmentation",
+      "access control",
+      "application allow list",
+      "app allowlist",
+      "isolation",
+      "monitoring",
+      "configuration enforcement",
+      "endpoint protection",
+      "ports and protocols",
+      "hardening",
+      "blue-teaming",
+      "mitigation-techniques"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-28",
+    "sourcePaths": {
+      "en": "blue-teaming\\mitigation-techniques.md",
+      "az": "blue-teaming\\mitigation-techniques.md"
+    }
+  },
+  {
     "slug": "/blue-teaming/investigation-and-mitigation",
     "category": "blue-teaming",
     "title": {
