@@ -2555,6 +2555,49 @@ const lessons = [
     }
   },
   {
+    "slug": "/red-teaming/threat-actors-and-intel",
+    "category": "red-teaming",
+    "title": {
+      "en": "Threat Actors and Threat Intelligence",
+      "az": "Təhlükə Aktorları və Təhdid Kəşfiyyatı"
+    },
+    "description": {
+      "en": "Who attacks and why — nation-states, APTs, organised crime, hacktivists, insiders, script kiddies; the threat-intelligence lifecycle (CTI / TTI / OTI / STI); STIX/TAXII; the major tracker projects (MITRE ATT&CK, Mandiant, CrowdStrike) and how to actually use threat intel inside an SOC.",
+      "az": "Kim və nə üçün hücum edir — milli dövlətlər, APT-lər, mütəşəkkil cinayət, hacktivistlər, daxili işçilər, script kiddie-lər; təhdid kəşfiyyatı dövrü (CTI / TTI / OTI / STI); STIX/TAXII; əsas izləyici layihələr (MITRE ATT&CK, Mandiant, CrowdStrike) və SOC daxilində təhdid kəşfiyyatından necə istifadə etmək."
+    },
+    "keywords": [
+      "threat actors",
+      "apt",
+      "threat intelligence",
+      "cti",
+      "ttp",
+      "mitre attack",
+      "nation state",
+      "organized crime",
+      "hacktivist",
+      "insider threat",
+      "stix",
+      "taxii",
+      "opencti",
+      "misp",
+      "mandiant",
+      "crowdstrike",
+      "red-teaming",
+      "threat-actors-and-intel",
+      "təhlükə aktorları",
+      "təhdid kəşfiyyatı",
+      "milli dövlət",
+      "mütəşəkkil cinayət",
+      "daxili təhdid"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-28",
+    "sourcePaths": {
+      "en": "red-teaming\\threat-actors-and-intel.md",
+      "az": "red-teaming\\threat-actors-and-intel.md"
+    }
+  },
+  {
     "slug": "/servers/active-directory-domain-services",
     "category": "servers",
     "title": {
