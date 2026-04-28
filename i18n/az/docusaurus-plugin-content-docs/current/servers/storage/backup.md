@@ -5,7 +5,7 @@ description: "Windows Server Backup üzrə praktik dərslik — backup növləri
 slug: /servers/backup
 sidebar_position: 9
 status: reference
-last_reviewed: 2026-04-23
+last_reviewed: 2026-04-28
 keywords:
   - backup
   - windows server backup
@@ -14,6 +14,11 @@ keywords:
   - bare metal recovery
   - ad recycle bin
   - authoritative restore
+  - rto
+  - rpo
+  - gfs
+  - immutable backup
+  - replication
 difficulty: intermediate
 ---
 
@@ -85,6 +90,124 @@ Windows Server Backup arxa planda block-level incremental engine istifadə edir,
 | Cluster DB | Server cluster üzvüdürsə |
 
 Domain controller-də **System State aldığın ən vacib backup-dır** — bu, fəlakətdən sonra AD-ni bərpa etməyə imkan verən şeydir.
+
+## Backup strategiyasının əsasları
+
+Quraşdırma sehrbazına toxunmazdan əvvəl, əslində nədən qoruduğunu, nə qədər tez bərpa etmək lazım olduğunu və nə qədər geri qayıda biləcəyini qərarlaşdır. Windows Server Backup feature-ı sadəcə bir alətdir — ətrafındakı strategiya gerçək insidentin bir saatlıq bərpaya, yoxsa bir həftəlik dayanmaya çevrilməsini müəyyən edir.
+
+### RTO və RPO
+
+İki rəqəm hər backup dizaynını idarə edir. Onları biznes ilə razılaşdır, yaz və backup cədvəlini bu rəqəmlərə uyğun qur.
+
+| Termin | Cavab verdiyi sual | Hansı amilə bağlıdır | Tipik nümunə |
+| --- | --- | --- | --- |
+| **RTO** (Recovery Time Objective) | Servis nə qədər müddət sıradan çıxa bilər biznesə zərər vurmadan? | Bərpa sürəti, hardware mövcudluğu, runbook keyfiyyəti | File server üçün 4 saat |
+| **RPO** (Recovery Point Objective) | Vaxt baxımından nə qədər data itirə bilərik? | Backup tezliyi, replikasiya gecikməsi | HR share üçün 24 saat, AD üçün 15 dəqiqə |
+
+```
+                RPO                                    RTO
+   |<------------>|                       |<----------------------->|
+ son uğurlu       insident              bərpa                  servis
+ backup            baş verdi             başladı                qaytdı
+```
+
+Biznes RPO 1 saat deyirsə, gecəlik backup kifayət etmir — saatlıq snapshot, log shipping və ya replikasiya lazımdır. RTO 1 saatdırsa, kuryerlə offsite-dan gətirilən tape kifayət etmir — local restore tier lazımdır.
+
+### Coğrafi yayılma — 3-2-1-dəki "1"
+
+"1 offsite" nüsxə dəbdəbə deyil, sağ qalan yeganə şeydir:
+
+- **Saytı bütün tutan fəlakətlər** — yanğın, daşqın, zəlzələ, uzunmüddətli enerji kəsilməsi
+- **LAN-ı keçən ransomware** — müasir variantlar backup share-ləri tapıb şifrələyir
+- **Daxili sabotaj** — domain hüquqları olan admin on-prem backup-ları saniyələrlə silə bilər
+
+Elə məsafə seç ki, bir hadisə hər iki nüsxəni məhv edə bilməsin. Otağın o tərəfi offsite deyil. Şəhərin o tərəfi bina yanğınından qoruyur, amma regional daşqından yox. Cross-region cloud və ya başqa şəhərdəki partnyor DC hər ikisindən qoruyur.
+
+### Backup media tier-ləri
+
+Müxtəlif storage media sürəti, qiyməti və dayanıqlığı dəyişir. Yetkin strategiya bir neçəsini istifadə edir:
+
+| Tier | Üstünlük | Mənfi | Harada işə yarayır |
+| --- | --- | --- | --- |
+| **Disk (D2D)** | Sürətli bərpa, random access, asan script | Online — LAN-dakı ransomware-ə açıqdır | Gündəlik incremental üçün birinci hədəf |
+| **Tape (LTO)** | TB başına ucuz, çıxarıldıqda təbii air-gap, onilliklərlə saxlama müddəti | Sequential, bərpası yavaş, robot və ya operator lazımdır | Uzunmüddətli retention, tənzimləmə arxivi |
+| **Cloud / object storage** | Tərifinə görə offsite, dayanıqlı, miqyaslanır | Egress dəyəri, bərpa sürəti bandwidth-dən asılı, vendor lock-in | 3-2-1-dəki "1" nüsxə, DR landing zone |
+
+Tipik nümunə: gecəlik D2D yerli repository-yə, həftəlik kopyası cloud object storage-ə, aylıq tape kitabxanadan çıxarılıb yanğından qorunan seyfdə saxlanılır.
+
+### Replikasiya backup deyil
+
+Replikasiya canlı datanın ikinci nüsxəsini fasiləsiz olaraq sinxron saxlayır. High availability üçün əladır və **backup-ın əvəzi deyil**.
+
+| Rejim | Necə işləyir | RPO | Nə vaxt istifadə olunur |
+| --- | --- | --- | --- |
+| **Synchronous** | Yazma yalnız hər iki tərəf diskə yazandan sonra təsdiqlənir | Sıfıra yaxın | Eyni kampus və ya metro, aşağı latency link |
+| **Asynchronous** | Primary dərhal yazır, secondary çatır | Saniyələr–dəqiqələr | Cross-region, cloud DR, WAN latency olan yerlər |
+
+Tələ: replikasiya pis dəyişiklikləri də sədaqətlə kopyalayır. İstifadəçi qovluğu silsə, ransomware share-i şifrələsə və ya script database-i kəssə, replikasiya zərəri saniyələrlə secondary-yə ötürür. Əvvəlki vəziyyəti bərpa etmək üçün hələ də nöqtəvi backup lazımdır.
+
+`example.local` mühitində tipik replikasiya texnologiyaları:
+
+- **AD replikasiyası** domain controller-lər arasında (built-in, multi-master)
+- **DFS Replication** file share-lər üçün
+- **Storage Replica** volume səviyyəsində synchronous və ya asynchronous mirror
+- **Hyper-V Replica** VM səviyyəsində asynchronous replikasiya
+- **SAN-to-SAN** replikasiyası fərqli data-mərkəzlərdəki array-lar arasında
+
+### Backup retention — Grandfather-Father-Son (GFS)
+
+Sadəlövh "30 gün backup saxla" yanaşması 90 gün əvvəl başlayan korlanma görünənə qədər işləyir. GFS bunu bir neçə rotasiya tier-i ilə həll edir:
+
+| Tier | Tezlik | Retention | Məqsəd |
+| --- | --- | --- | --- |
+| **Son** | Gündəlik | 7–14 gün | Dünənki səhvi geri qaytar |
+| **Father** | Həftəlik | 4–6 həftə | Keçən ayın səhvini geri qaytar |
+| **Grandfather** | Aylıq (çox vaxt rüb sonu full) | 12+ ay | Audit, tənzimləmə, dərin tarix |
+
+```
+B.E. Ç.A. Ç. C.A. C.  Ş.   B.    <- Son (gündəlik, 14 gün)
+                     [Father]    <- Həftəlik full (6 həftə)
+Ay sonu: [Grandfather]            <- Aylıq arxiv (12 ay+)
+```
+
+Tənzimlənən iş yükləri (maliyyə qeydləri, sağlamlıq datası, GRC öhdəlikləri) üçün retention IT seçimi ilə deyil, qanunla təyin olunur — bax: [risk and privacy](../../grc/risk-and-privacy.md).
+
+### Immutable, WORM və air-gap backup
+
+Müasir ransomware operatorları əvvəlcə backup-ları axtarır. Şəbəkədə oturur, backup serveri tapır, repozitoriyaları silir və ya şifrələyir, və yalnız sonra ransomware-i tətikləyirlər. Hücumçunun silə biləcəyi backup — backup deyil.
+
+Üç üst-üstə düşən müdafiə:
+
+- **Immutable backup** — backup hədəfi retention vaxtı dolanadək "silmə yox, üstünə yazma yox" qaydasını məcburi edir. Nümunələr: S3 Object Lock, Azure Blob immutability policy, Veeam hardened repository, Wasabi immutable bucket.
+- **WORM (Write Once Read Many)** — eyni ideya storage səviyyəsində; tape-də və compliance-grade object storage-də adi haldır. Yazıldıqdan sonra mediyanın özü dəyişikliyi qəbul etmir.
+- **Air-gap backup** — production-dan fiziki və ya məntiqi ayrılmış. Seyfdə çıxarılmış tape, offline yaşayan çıxarılan disk, və ya yalnız backup pəncərəsində əlçatan olan ayrı şəbəkədəki repozitoriya.
+
+Praktik qayda: hər vacib datasetin ən azı bir nüsxəsi ya immutable, ya da air-gapped olmalıdır. Backup-ların yeganə yeri helpdesk-in yaza bildiyi domain-joined Windows share-dirsə, bir helpdesk hesabını phish edən hücumçu hamısını silə bilər. Ransomware cavab tərəfi üçün bax: [investigation and mitigation](../../blue-teaming/investigation-and-mitigation.md).
+
+### High availability backup deyil
+
+Bu ikisi tez-tez qarışdırılır və auditor və ya CIO "qorunmuşuqmu?" soruşanda fərq önəm daşıyır.
+
+| Aspekt | High availability | Backup |
+| --- | --- | --- |
+| **Nədən qoruyur** | Hardware xətası, tək node sıradan çıxması | Data korlanması, silinmə, ransomware, dərin bərpa |
+| **Vaxt üfüqü** | İndi (saniyələrlə failover) | Keçmiş (dünən, keçən ay, keçən il) |
+| **Nümunələr** | Failover cluster, RAID, NIC teaming, redundant PSU | Gündəlik WSB işi, aylıq tape, immutable cloud nüsxə |
+| **Səni xilas ETMƏYƏN** | İstifadəçi faylı silir — hər iki node silinməni xoşbəxt replikasiya edir | Anakart səhər 3-də yanır, ehtiyat hardware yoxdur |
+
+Hər ikisi lazımdır. RAID və clustering hardware xətası boyunca servisi saxlayır (bax: [RAID](../../general-security/raid.md)); backup-lar məntiqi bir şey pozulanda zaman keçidi imkan verir.
+
+### Ölçüləndirmə nümunəsi
+
+`DC01.example.local` AD, DNS və 200 GB file share saxlayır. Biznes deyir: fayllar üçün RPO 24 saat, AD üçün 1 saat; RTO 4 saat.
+
+- **Gündəlik** System State + critical-volume backup 21:00-da ayrılmış `D:` diskinə (Son tier, 14 gün)
+- **Saatlıq** VSS vasitəsilə AD-aware snapshot iş saatları ərzində — 1 saat AD RPO üçün
+- **Həftəlik** tam server image cloud object-storage bucket-ə kopyalanır, 30 gün object-lock ilə (offsite, immutable)
+- **Aylıq** arxiv nüsxəsi 12 ay GFS Grandfather tier-də saxlanır
+- **Bərpa təlimi** rüblük — təsadüfi backup götür, sandbox VM-ə bərpa et, AD database-in mount olduğunu və nümunə faylın açıldığını yoxla
+
+Windows Server Backup üçün açıq mənbə alternativlər (Veeam Community, Bacula, Restic, BorgBackup) — bax: [backup and storage tools](../../general-security/open-source-tools/backup-and-storage.md) referansı.
 
 ## Windows Server Backup quraşdırması
 

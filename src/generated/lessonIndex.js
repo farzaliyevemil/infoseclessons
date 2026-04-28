@@ -3010,11 +3010,16 @@ const lessons = [
       "bare metal recovery",
       "ad recycle bin",
       "authoritative restore",
+      "rto",
+      "rpo",
+      "gfs",
+      "immutable backup",
+      "replication",
       "servers",
       "storage"
     ],
     "status": "reference",
-    "lastReviewed": "2026-04-23",
+    "lastReviewed": "2026-04-28",
     "sourcePaths": {
       "en": "servers\\storage\\backup.md",
       "az": "servers\\storage\\backup.md"

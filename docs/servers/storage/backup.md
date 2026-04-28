@@ -5,7 +5,7 @@ description: Hands-on Windows Server Backup guide — backup types, installation
 slug: /servers/backup
 sidebar_position: 9
 status: reference
-last_reviewed: 2026-04-23
+last_reviewed: 2026-04-28
 keywords:
   - backup
   - windows server backup
@@ -14,6 +14,11 @@ keywords:
   - bare metal recovery
   - ad recycle bin
   - authoritative restore
+  - rto
+  - rpo
+  - gfs
+  - immutable backup
+  - replication
 difficulty: intermediate
 ---
 
@@ -85,6 +90,124 @@ Windows Server Backup uses a block-level incremental engine under the hood but p
 | Cluster DB | If the server is a cluster node |
 
 On a domain controller, **System State is the most important backup you take** — it is what lets you recover AD after a disaster.
+
+## Backup strategy fundamentals
+
+Before touching the install wizard, decide what you are actually defending against, how fast you need to recover, and how far back you need to be able to go. The Windows Server Backup feature is just one tool — the strategy around it is what determines whether a real incident becomes a one-hour recovery or a one-week outage.
+
+### RTO and RPO
+
+Two numbers drive every backup design. Agree them with the business, write them down, and design the backup schedule to meet them.
+
+| Term | Question it answers | Driven by | Typical example |
+| --- | --- | --- | --- |
+| **RTO** (Recovery Time Objective) | How long can the service be down before the business is hurt? | Restore speed, hardware availability, runbook quality | 4 hours for a file server |
+| **RPO** (Recovery Point Objective) | How much data can we afford to lose, measured in time? | Backup frequency, replication lag | 24 hours for an HR share, 15 minutes for AD |
+
+```
+                RPO                                    RTO
+   |<------------>|                       |<----------------------->|
+ last good        incident             restore                   service
+ backup            occurs               starts                    back up
+```
+
+If the business says RPO is 1 hour, a nightly backup does not meet the need — you need hourly snapshots, log shipping, or replication. If RTO is 1 hour, a tape that ships from offsite by courier does not meet the need — you need a local restore tier.
+
+### Geographic dispersal — the "1" in 3-2-1
+
+The "1 offsite" copy is not a luxury, it is the only thing that survives:
+
+- **Site-wide disasters** — fire, flood, earthquake, prolonged power loss
+- **Ransomware that traverses the LAN** — modern strains hunt down backup shares and encrypt them
+- **Insider sabotage** — an admin with domain rights can delete on-prem backups in seconds
+
+Pick a distance such that one event cannot destroy both copies. Across-the-room is not offsite. Across-town survives a building fire but not a regional flood. Cross-region cloud or a partner DC in another city survives both.
+
+### Backup media tiers
+
+Different storage media trade speed, cost, and durability. A mature strategy uses several:
+
+| Tier | Strengths | Weaknesses | Where it fits |
+| --- | --- | --- | --- |
+| **Disk (D2D)** | Fast restores, random access, easy to script | Online — exposed to ransomware on the LAN | First-tier target for daily incrementals |
+| **Tape (LTO)** | Cheap per TB, naturally air-gapped once ejected, decades of shelf life | Sequential, slow to restore, needs a robot or operator | Long-term retention, regulatory archive |
+| **Cloud / object storage** | Offsite by definition, durable, scales | Egress cost, restore speed depends on bandwidth, vendor lock-in | The "1" copy in 3-2-1, DR landing zone |
+
+A common pattern: nightly D2D to a local repository, weekly copy to cloud object storage, monthly tape pulled out of the library and stored in a fire safe.
+
+### Replication is not backup
+
+Replication keeps a second copy of live data continuously in sync. It is excellent for high availability, and it is **not a substitute for backup**.
+
+| Mode | How it works | RPO | When to use |
+| --- | --- | --- | --- |
+| **Synchronous** | Write only acknowledged when both sides have it on disk | Near zero | Same-campus or metro, low-latency links |
+| **Asynchronous** | Primary writes immediately, secondary catches up | Seconds to minutes | Cross-region, cloud DR, anywhere with WAN latency |
+
+The trap: replication faithfully copies bad changes too. If a user deletes a folder, ransomware encrypts a share, or a script truncates a database, replication propagates the damage to the secondary in seconds. You still need point-in-time backups to recover the *previous* state.
+
+Common replication technologies in an `example.local` environment:
+
+- **AD replication** between domain controllers (built-in, multi-master)
+- **DFS Replication** for file shares
+- **Storage Replica** for volume-level synchronous or asynchronous mirroring
+- **Hyper-V Replica** for VM-level asynchronous replication
+- **SAN-to-SAN** replication between arrays in different data centres
+
+### Backup retention — Grandfather-Father-Son (GFS)
+
+A naive "keep 30 days of backups" works until someone notices a corruption that started 90 days ago. GFS solves this by keeping multiple rotation tiers:
+
+| Tier | Frequency | Retention | Purpose |
+| --- | --- | --- | --- |
+| **Son** | Daily | 7–14 days | Recover from yesterday's mistake |
+| **Father** | Weekly | 4–6 weeks | Recover from last month's mistake |
+| **Grandfather** | Monthly (often a quarter-end full) | 12+ months | Audit, regulatory, deep history |
+
+```
+Mon Tue Wed Thu Fri  Sat  Sun     <- Sons (daily, kept 14 days)
+                     [Father]      <- Weekly full (kept 6 weeks)
+End of month: [Grandfather]        <- Monthly archive (kept 12 months+)
+```
+
+For regulated workloads (financial records, health data, GRC obligations), retention is set by law, not by IT preference — see [risk and privacy](../../grc/risk-and-privacy.md).
+
+### Immutable, WORM, and air-gapped backups
+
+Modern ransomware operators look for backups *first*. They sit in the network, find the backup server, delete or encrypt the repositories, and only then trigger the ransomware. A backup an attacker can delete is not a backup.
+
+Three overlapping defences:
+
+- **Immutable backups** — the backup target enforces "no delete, no overwrite" until a retention timer expires. Examples: S3 Object Lock, Azure Blob immutability policies, Veeam hardened repository, Wasabi immutable buckets.
+- **WORM (Write Once Read Many)** — same idea at the storage layer; common on tape and on compliance-grade object storage. Once written, the medium itself refuses to be changed.
+- **Air-gapped backups** — physically or logically disconnected from production. An ejected tape in a safe, a removable disk that lives offline, or a backup repository on a dedicated network reachable only during the backup window.
+
+Practical rule: at least one copy of every important dataset must be either immutable or air-gapped. If your only backups live on a domain-joined Windows share that the helpdesk tier can write to, an attacker who phishes one helpdesk account can delete them all. See [investigation and mitigation](../../blue-teaming/investigation-and-mitigation.md) for the ransomware response side.
+
+### High availability is not backup
+
+These two are often confused, and the difference matters when an auditor or a CIO asks "are we covered?"
+
+| Concern | High availability | Backup |
+| --- | --- | --- |
+| **Protects against** | Hardware failure, single-node outage | Data corruption, deletion, ransomware, long-tail recovery |
+| **Time horizon** | Now (seconds of failover) | Past (yesterday, last month, last year) |
+| **Examples** | Failover cluster, RAID, NIC teaming, redundant PSUs | Daily WSB job, monthly tape, immutable cloud copy |
+| **What it does NOT save you from** | A user deletes a file — both nodes happily replicate the deletion | A motherboard dies at 3am with no spare hardware |
+
+You need both. RAID and clustering keep the service running through hardware failure (see [RAID](../../general-security/raid.md)); backups let you walk back through time when something logical goes wrong.
+
+### Worked sizing example
+
+`DC01.example.local` hosts AD, DNS, and a 200 GB file share. Business says RPO 24h for files, 1h for AD; RTO 4h.
+
+- **Daily** System State + critical-volume backup at 21:00 to a dedicated `D:` disk (Son tier, 14 days)
+- **Hourly** AD-aware snapshots via VSS during business hours to meet the 1-hour AD RPO
+- **Weekly** full server image copied to a cloud object-storage bucket with object-lock for 30 days (offsite, immutable)
+- **Monthly** archive copy retained 12 months for the GFS Grandfather tier
+- **Restore drill** every quarter — pick a random backup, restore to a sandbox VM, verify AD database mounts and a sample file opens
+
+For open-source alternatives to Windows Server Backup (Veeam Community, Bacula, Restic, BorgBackup), see the [backup and storage tools](../../general-security/open-source-tools/backup-and-storage.md) reference.
 
 ## Installing Windows Server Backup
 
