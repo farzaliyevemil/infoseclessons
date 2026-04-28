@@ -3003,6 +3003,47 @@ const lessons = [
     }
   },
   {
+    "slug": "/servers/resilience-and-availability",
+    "category": "servers",
+    "title": {
+      "en": "Resilience and High Availability",
+      "az": "Resilience and High Availability"
+    },
+    "description": {
+      "en": "Engineering for failure — geographic dispersal, multipath I/O, NIC teaming (LACP/PAgP), power redundancy (UPS/generator/dual-supply/managed PDU), SAN vs NAS, synchronous vs asynchronous replication, and active-active vs active-passive HA clustering patterns.",
+      "az": "Nasazlığa uyğun dizayn — coğrafi səpələnmə, multipath I/O, NIC teaming (LACP/PAgP), elektrik artıqlığı (UPS/generator/dual-supply/managed PDU), SAN vs NAS, sinxron vs asinxron replikasiya və active-active vs active-passive HA cluster pattern-ları."
+    },
+    "keywords": [
+      "resilience",
+      "high availability",
+      "ha",
+      "geographic dispersal",
+      "multipath",
+      "nic teaming",
+      "lacp",
+      "pagp",
+      "ups",
+      "generator",
+      "dual supply",
+      "managed pdu",
+      "replication",
+      "san",
+      "nas",
+      "active-active",
+      "active-passive",
+      "clustering",
+      "servers",
+      "storage",
+      "resilience-and-availability"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-28",
+    "sourcePaths": {
+      "en": "servers\\storage\\resilience-and-availability.md",
+      "az": "servers\\storage\\resilience-and-availability.md"
+    }
+  },
+  {
     "slug": "/servers",
     "category": "servers",
     "title": {
