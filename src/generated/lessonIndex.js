@@ -21,6 +21,52 @@ const lessons = [
     }
   },
   {
+    "slug": "/blue-teaming/digital-forensics",
+    "category": "blue-teaming",
+    "title": {
+      "en": "Digital Forensics",
+      "az": "Rəqəmsal Forensika"
+    },
+    "description": {
+      "en": "How digital forensics works in practice — order of volatility, chain of custody, disk and memory imaging, file-system artifacts, registry forensics, network forensics, mobile and cloud forensics, and the legal-evidence standards courts actually accept.",
+      "az": "Rəqəmsal forensikanın praktikada necə işlədiyi — dəyişkənlik sırası, saxlanma zənciri, disk və yaddaş imici, fayl-sistem artefaktları, registr forensikası, şəbəkə forensikası, mobil və bulud forensikası və məhkəmələrin həqiqətən qəbul etdiyi hüquqi-sübut standartları."
+    },
+    "keywords": [
+      "digital forensics",
+      "dfir",
+      "chain of custody",
+      "order of volatility",
+      "disk imaging",
+      "memory forensics",
+      "volatility",
+      "registry forensics",
+      "network forensics",
+      "mobile forensics",
+      "cloud forensics",
+      "legal evidence",
+      "sleuthkit",
+      "autopsy",
+      "blue-teaming",
+      "digital-forensics",
+      "rəqəmsal forensika",
+      "saxlanma zənciri",
+      "dəyişkənlik sırası",
+      "disk imici",
+      "yaddaş forensikası",
+      "registr forensikası",
+      "şəbəkə forensikası",
+      "mobil forensika",
+      "bulud forensikası",
+      "hüquqi sübut"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-28",
+    "sourcePaths": {
+      "en": "blue-teaming\\digital-forensics.md",
+      "az": "blue-teaming\\digital-forensics.md"
+    }
+  },
+  {
     "slug": "/blue-teaming/endpoint-security",
     "category": "blue-teaming",
     "title": {
