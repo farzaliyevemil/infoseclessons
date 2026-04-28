@@ -416,6 +416,44 @@ const lessons = [
     }
   },
   {
+    "slug": "/general-security/cloud/container-and-kubernetes-security",
+    "category": "general-security",
+    "title": {
+      "en": "Container and Kubernetes Security",
+      "az": "Konteyner və Kubernetes Təhlükəsizliyi"
+    },
+    "description": {
+      "en": "How to secure container workloads from image to runtime — image hardening + scanning, supply-chain integrity (Cosign, SBOM), runtime isolation (gVisor, seccomp, AppArmor), Kubernetes RBAC + admission control + Pod Security Standards + network policies, plus the modern threat model.",
+      "az": "Konteyner iş yüklərinin imicdən işə salma anına qədər qorunması — imic sərtləşdirmə + skanlama, təchizat zənciri bütövlüyü (Cosign, SBOM), iş vaxtı izolyasiyası (gVisor, seccomp, AppArmor), Kubernetes RBAC + qəbul nəzarəti + Pod Security Standards + şəbəkə siyasətləri, və müasir təhdid modeli."
+    },
+    "keywords": [
+      "container security",
+      "kubernetes",
+      "k8s",
+      "docker",
+      "cosign",
+      "sbom",
+      "opa",
+      "admission controller",
+      "rbac",
+      "pod security standards",
+      "seccomp",
+      "apparmor",
+      "service mesh",
+      "gvisor",
+      "supply chain",
+      "general-security",
+      "cloud",
+      "container-and-kubernetes-security"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-28",
+    "sourcePaths": {
+      "en": "general-security\\cloud\\container-and-kubernetes-security.md",
+      "az": "general-security\\cloud\\container-and-kubernetes-security.md"
+    }
+  },
+  {
     "slug": "/general-security/cryptography/cryptography-advanced",
     "category": "general-security",
     "title": {
