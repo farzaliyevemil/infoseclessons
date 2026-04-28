@@ -2669,6 +2669,48 @@ const lessons = [
     }
   },
   {
+    "slug": "/red-teaming/threat-vectors-and-attack-surfaces",
+    "category": "red-teaming",
+    "title": {
+      "en": "Threat Vectors and Attack Surfaces",
+      "az": "Təhdid Vektorları və Hücum Səthləri"
+    },
+    "description": {
+      "en": "How attackers actually reach you — message-based vectors (email, SMS, IM, voice), file-based delivery, removable media, unsecure networks, open ports, default credentials, vulnerable/unsupported software, and supply chain compromise (MSP/vendor/software). Plus a quick recap of who attacks and why.",
+      "az": "Hücumçuların sizə necə çatdığı — mesaj əsaslı vektorlar (e-poçt, SMS, IM, səs), fayl əsaslı çatdırılma, çıxarıla bilən media, təhlükəsiz olmayan şəbəkələr, açıq portlar, defolt etibarnamələr, zəif/dəstəklənməyən proqram və təchizat zənciri kompromisi (MSP/satıcı/proqram). Üstəgəl kim hücum edir və niyə qısa təkrarı."
+    },
+    "keywords": [
+      "threat vectors",
+      "attack surface",
+      "phishing",
+      "smishing",
+      "vishing",
+      "removable media",
+      "default credentials",
+      "supply chain",
+      "vulnerable software",
+      "unsupported systems",
+      "shadow it",
+      "msp compromise",
+      "red-teaming",
+      "threat-vectors-and-attack-surfaces",
+      "təhdid vektorları",
+      "hücum səthi",
+      "çıxarıla bilən media",
+      "defolt etibarnamələr",
+      "təchizat zənciri",
+      "zəif proqram",
+      "dəstəklənməyən sistemlər",
+      "msp kompromisi"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-28",
+    "sourcePaths": {
+      "en": "red-teaming\\threat-vectors-and-attack-surfaces.md",
+      "az": "red-teaming\\threat-vectors-and-attack-surfaces.md"
+    }
+  },
+  {
     "slug": "/servers/active-directory-domain-services",
     "category": "servers",
     "title": {
