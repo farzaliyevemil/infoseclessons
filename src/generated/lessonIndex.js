@@ -383,6 +383,42 @@ const lessons = [
     }
   },
   {
+    "slug": "/general-security/cryptography/cryptography-advanced",
+    "category": "general-security",
+    "title": {
+      "en": "Cryptography — Advanced Topics",
+      "az": "Kriptoqrafiya — Qabaqcıl mövzular"
+    },
+    "description": {
+      "en": "Beyond the basics — modes of operation (CBC/GCM/ChaCha20-Poly1305), elliptic-curve cryptography, AEAD, post-quantum cryptography, blockchain crypto, homomorphic encryption, zero-knowledge proofs, and cryptanalysis attacks.",
+      "az": "Əsasları aşaraq — əməliyyat rejimləri (CBC/GCM/ChaCha20-Poly1305), elliptik əyri kriptoqrafiyası, AEAD, post-kvant kriptoqrafiyası, blokçeyn kriptosu, homomorf şifrələmə, sıfır-bilik sübutları və kriptoanaliz hücumları."
+    },
+    "keywords": [
+      "cryptography",
+      "aead",
+      "aes-gcm",
+      "chacha20-poly1305",
+      "elliptic curve",
+      "ecdh",
+      "ecdsa",
+      "post-quantum",
+      "kyber",
+      "dilithium",
+      "homomorphic encryption",
+      "zero-knowledge",
+      "blockchain crypto",
+      "cryptanalysis",
+      "general-security",
+      "cryptography-advanced"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-28",
+    "sourcePaths": {
+      "en": "general-security\\cryptography\\cryptography-advanced.md",
+      "az": "general-security\\cryptography\\cryptography-advanced.md"
+    }
+  },
+  {
     "slug": "/general-security/cryptography-basics",
     "category": "general-security",
     "title": {
