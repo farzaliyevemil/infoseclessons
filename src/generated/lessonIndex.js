@@ -53,6 +53,40 @@ const lessons = [
     }
   },
   {
+    "slug": "/blue-teaming/investigation-and-mitigation",
+    "category": "blue-teaming",
+    "title": {
+      "en": "Incident Investigation and Mitigation",
+      "az": "Hadisənin Araşdırılması və Yumşaldılması"
+    },
+    "description": {
+      "en": "How to investigate a security incident from first alert to closed ticket — triage, scoping, evidence collection, containment, eradication, recovery, lessons-learned. Plus the PICERL / NIST 800-61 incident-response lifecycle and the data sources that actually solve cases.",
+      "az": "Təhlükəsizlik hadisəsini ilk xəbərdarlıqdan bağlanmış biletə qədər necə araşdırmaq — triaj, miqyaslandırma, sübut toplama, məhdudlaşdırma, kökündən silmə, bərpa, öyrənilmiş dərslər. Üstəlik PICERL / NIST 800-61 hadisəyə cavab həyat dövrü və hadisələri həqiqətən həll edən məlumat mənbələri."
+    },
+    "keywords": [
+      "incident response",
+      "ir",
+      "investigation",
+      "mitigation",
+      "containment",
+      "eradication",
+      "recovery",
+      "picerl",
+      "nist 800-61",
+      "soar",
+      "playbook",
+      "chain of custody",
+      "blue-teaming",
+      "investigation-and-mitigation"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-28",
+    "sourcePaths": {
+      "en": "blue-teaming\\investigation-and-mitigation.md",
+      "az": "blue-teaming\\investigation-and-mitigation.md"
+    }
+  },
+  {
     "slug": "/blue-teaming/log-analysis",
     "category": "blue-teaming",
     "title": {
