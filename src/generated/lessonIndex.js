@@ -2403,6 +2403,44 @@ const lessons = [
     }
   },
   {
+    "slug": "/red-teaming/malware-types",
+    "category": "red-teaming",
+    "title": {
+      "en": "Malware Types and Behavior",
+      "az": "Zərərli proqram növləri və davranışı"
+    },
+    "description": {
+      "en": "A taxonomy of malware — ransomware, trojans, RATs, worms, spyware, viruses (polymorphic, fileless), keyloggers, logic bombs, rootkits, bots, cryptominers, adware, bloatware — with characteristics, propagation, persistence, and detection patterns.",
+      "az": "Zərərli proqramların təsnifatı — ransomware, trojanlar, RAT-lar, qurdlar, casus proqramlar, viruslar (polimorf, fileless), keyloggerlər, məntiqi bombalar, rootkitlər, botlar, kriptominerlər, adware, bloatware — xüsusiyyətləri, yayılma, davamlılıq və aşkarlama nümunələri ilə."
+    },
+    "keywords": [
+      "malware",
+      "ransomware",
+      "trojan",
+      "rat",
+      "worm",
+      "spyware",
+      "virus",
+      "polymorphic",
+      "fileless",
+      "keylogger",
+      "logic bomb",
+      "rootkit",
+      "bot",
+      "botnet",
+      "cryptominer",
+      "adware",
+      "red-teaming",
+      "malware-types"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-28",
+    "sourcePaths": {
+      "en": "red-teaming\\malware-types.md",
+      "az": "red-teaming\\malware-types.md"
+    }
+  },
+  {
     "slug": "/red-teaming/network-attacks",
     "category": "red-teaming",
     "title": {
