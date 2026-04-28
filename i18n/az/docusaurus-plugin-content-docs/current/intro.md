@@ -76,5 +76,6 @@ Real IT və təhlükəsizlik işinə uyğun qısa, praktik dərslərlə öyrəni
 ## Dərsləri Daha Tez Tapın
 
 - Bütün dərsləri yan menyudan gəzə bilərsiniz.
-- Yeni [Axtarış səhifəsi](/search) ilə rol, kateqoriya və açar sözə görə filtr edin.
+- [Axtarış səhifəsi](/search) ilə rol, kateqoriya və açar sözə görə filtr edin.
+- Naməlum terminə rast gəldikdə [Qısaltma Lüğəti](/glossary) açın — 288 yazı, hər biri izah edən dərsə bağlıdır.
 - Saytın məqsədi, yenilənmə qaydası və töhfə prosesi üçün [Haqqında](/about) səhifəsinə baxın.

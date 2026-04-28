@@ -77,5 +77,6 @@ Compare [CompTIA](/certifications/comptia-certifications), [Microsoft](/certific
 ## Find Lessons Faster
 
 - Browse every lesson from the sidebar.
-- Use the new [Search page](/search) to filter by role, category, or keyword.
+- Use the [Search page](/search) to filter by role, category, or keyword.
+- Reach for the [Acronym Glossary](/glossary) when a term is unfamiliar — 288 entries, every one linked to the lesson that explains it.
 - Check [About](/about) if you want to understand the site's scope, update policy, and contribution flow.
