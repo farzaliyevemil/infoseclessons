@@ -2348,6 +2348,39 @@ const lessons = [
     }
   },
   {
+    "slug": "/red-teaming/attack-indicators",
+    "category": "red-teaming",
+    "title": {
+      "en": "Attack Indicators (IOC and IOA)",
+      "az": "Hücum İndikatorları (IOC və IOA)"
+    },
+    "description": {
+      "en": "How attackers leave fingerprints — Indicators of Compromise (IOC) vs Indicators of Attack (IOA), the Pyramid of Pain, host and network artifacts, behavioural indicators, and how blue teams turn raw indicators into detection rules.",
+      "az": "Hücumçular hansı izləri qoyur — Indicators of Compromise (IOC) və Indicators of Attack (IOA), Pyramid of Pain, host və şəbəkə artefaktları, davranış indikatorları, və mavi komandanın xam indikatorlardan aşkarlama qaydaları yaratması."
+    },
+    "keywords": [
+      "ioc",
+      "ioa",
+      "indicators of compromise",
+      "indicators of attack",
+      "pyramid of pain",
+      "threat hunting",
+      "mitre attack",
+      "ttps",
+      "yara",
+      "sigma",
+      "stix",
+      "red-teaming",
+      "attack-indicators"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-28",
+    "sourcePaths": {
+      "en": "red-teaming\\attack-indicators.md",
+      "az": "red-teaming\\attack-indicators.md"
+    }
+  },
+  {
     "slug": "/red-teaming/initial-access",
     "category": "red-teaming",
     "title": {
