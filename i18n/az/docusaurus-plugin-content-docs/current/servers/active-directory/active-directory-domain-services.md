@@ -5,7 +5,7 @@ description: AD DS strukturu, forest, domain, OU, domain controller, trust, glob
 sidebar_position: 2
 slug: /servers/active-directory-domain-services
 status: reference
-last_reviewed: 2026-03-23
+last_reviewed: 2026-04-28
 keywords:
   - active directory
   - ad ds
@@ -13,6 +13,13 @@ keywords:
   - forest
   - organizational unit
   - trust
+  - schema
+  - sid
+  - guid
+  - spn
+  - acl
+  - ntds.dit
+  - kerberos
 difficulty: intermediate
 ---
 
@@ -40,6 +47,129 @@ AD DS həm məntiqi, həm də fiziki komponentlərdən ibarətdir.
 | Məntiqi | Tree | Eyni namespace-i paylaşan domain-lər |
 | Məntiqi | Domain | Forest daxilində inzibati və replication bölməsi |
 | Məntiqi | OU | Obyektləri qruplaşdırmaq və delegation və ya policy tətbiq etmək üçün konteyner |
+
+## Terminologiya, identifikatorlar və əsas obyektlər
+
+İyerarxiya və replication-a keçməzdən əvvəl AD-nin directory daxilində saxladığı şeylər üçün istifadə etdiyi terminologiyanı dəqiq bilmək faydalıdır. Hücumların və yanlış konfiqurasiyaların əksəriyyəti bu terminlərdən birinə qayıdır.
+
+### Object
+
+Object directory daxilində tək bir elementdir: istifadəçi, qrup, kompüter, printer, tətbiq və ya AD-nin tanıdığı hər hansı digər şey. Microsoft obyektləri iki geniş rola ayırır:
+
+- resurslar, məsələn printerlər və ya shared folder-lər
+- security principal-lar, məsələn istifadəçilər, kompüterlər və qruplar
+
+Qalan hər şey (atributlar, icazələr, policy targeting) object anlayışı üzərində qurulur.
+
+### Atribut
+
+Hər obyekt onu təsvir edən sabit atribut dəstinə malikdir. İstifadəçidə `displayName`, `givenName`, `sAMAccountName`, `mail`, `pwdLastSet` və `memberOf` kimi atributlar olur. Kompüterdə isə hostname, DNS adı və `operatingSystem` kimi atributlar olur.
+
+Hər AD atributunun directory sorğularında istifadə olunan LDAP adı da var. Bu LDAP adlarını bilmək hər autentifikasiya olunmuş hesabdan [LDAP enumeration](../../red-teaming/network-attacks.md) əməliyyatını effektiv edir.
+
+### Schema
+
+Schema directory-nin layihəsidir. O, müəyyən edir:
+
+- hansı obyekt class-ları mövcud ola bilər (user, computer, group, printer və s.)
+- hər class-ın hansı atributları olmalıdır və ya ola bilər
+- hansı atribut dəyərlərinin məcburi, hansının optional olduğu
+
+Class-dan real obyekt yaratmaq instantiation adlanır və yaranan obyekt həmin class-ın instance-i adlanır. Schema dəyişiklikləri forest miqyaslıdır və faktiki olaraq geri dönülməzdir, ona görə də schema-nı genişləndirmək Schema Admins və FSMO rolları tərəfindən idarə olunan həssas bir əməliyyatdır (bax [FSMO rolları](./fsmo.md)).
+
+### GUID
+
+GUID (Globally Unique Identifier) AD-də hər obyekt yaradılarkən təyin edilən 128-bitlik dəyərdir və `objectGUID` atributunda saxlanılır. Əsas xüsusiyyətləri:
+
+- bütün forest üzrə (və faktiki olaraq dünya üzrə) unikaldır
+- yalnız security principal-lara deyil, hər obyektə təyin edilir
+- obyekt adı dəyişsə və ya OU-lar arasında köçürülsə də dəyişmir
+
+Spesifik bir obyekti enumeration və ya recovery zamanı tanımağın ən etibarlı yolu GUID üzrə axtarış etməkdir.
+
+### SID
+
+SID (Security Identifier) security principal üçün unikal identifikatordur. Vacib davranışı:
+
+- hər istifadəçi, kompüter və ya qrup üçün domain controller tərəfindən verilir
+- principal silinsə belə təkrar istifadə olunmur
+- logon zamanı access token-ə yerləşdirilir, principal-ın üzv olduğu hər qrupun SID-i ilə birlikdə
+- principal hər securable obyektə toxunduqda ACL-lərə qarşı yoxlanılır
+
+Bəzi SID-lər well-known-dur və hər Windows sistemində eynidir (məsələn `Everyone` qrupu). İdentity, principal və token-lərə daha dərindən baxmaq üçün [IAM və hesab idarəçiliyi](../../general-security/iam-account-management.md) bölməsinə nəzər salın.
+
+### Security principal
+
+Security principal əməliyyat sisteminin autentifikasiya edə bildiyi hər şeydir: istifadəçi, kompüter və ya bu hesablardan biri altında işləyən proses (məsələn domain hesabı altında işləyən servis). Yalnız security principal-lar SID alır və ACL-lərdə görünə bilər.
+
+İş stansiyasındakı local hesablar da security principal-dır, lakin onlar AD tərəfindən yox, lokal Security Accounts Manager (SAM) tərəfindən idarə olunur. Bu fərq [LAPS ilə lokal administrator parolu idarəçiliyi](./laps.md) kimi nəzarət vasitələrinin lazım olmasının səbəbidir.
+
+### Distinguished Name (DN)
+
+Distinguished Name directory daxilində obyektə tam yoldur. Sağdan sola, domain root-undan obyektə qədər oxunur.
+
+```text
+CN=john.doe,OU=IT,OU=Employees,DC=example,DC=local
+```
+
+Komponentlərin mənası:
+
+| Hissə | Mənası | Nümunə |
+| --- | --- | --- |
+| `CN` | Common Name | `CN=john.doe` |
+| `OU` | Organizational Unit | `OU=IT` |
+| `DC` | Domain Component | `DC=example,DC=local` |
+
+Ən soldakı komponent həmçinin RDN (Relative Distinguished Name) adlanır və öz parent konteyneri daxilində unikal olmalıdır. Tool-lar, skriptlər və Group Policy targeting DN formatına əsaslanır.
+
+### SPN (Service Principal Name)
+
+SPN spesifik hesab altında işləyən servis instance-ini unikal şəkildə müəyyən edir. Kerberos SPN-dən istifadə edərək hansı hesabın gizli açarı ilə servis biletini şifrələyəcəyini bilir, beləliklə client hesabın əsl adını bilməyə bilər.
+
+Tipik SPN format nümunələri:
+
+```text
+HTTP/web01.example.local
+MSSQLSvc/sql01.example.local:1433
+CIFS/fileserver.example.local
+LDAP/dc01.example.local
+```
+
+Əgər SPN adi istifadəçi hesabına qeyd olunubsa (servis hesabları üçün tipikdir), istənilən autentifikasiya olunmuş sessiyaya sahib hücumçu həmin hesab üçün servis bileti tələb edə və alınan hash-i offline qıra bilər. Bu texnika Kerberoasting adlanır, [initial access](../../red-teaming/initial-access.md) bölməsində izah olunur və `ms-DS-MachineAccountQuota` ilə servis hesabı sərtləşdirməsinin niyə vacib olduğunu göstərir.
+
+### ACL və ACE
+
+Hər securable AD obyekti Access Control List (ACL) daşıyır. ACL Access Control Entry (ACE) toplusudur. Hər ACE bir trustee-ni göstərir (istifadəçi, qrup və ya logon session-ın SID-i) və nəyin icazəli, qadağan və ya audit olunduğunu sadalayır.
+
+AD obyektləri üzərindəki icazələr inherit oluna bilər: OU-ya tətbiq olunan ACE child OU-lara və daxilindəki obyektlərə axır, inheritance açıq şəkildə kəsilməyibsə. Tipik abuse-a uyğun hüquqlar `GenericAll`, `WriteDACL`, `WriteOwner` və `ForceChangePassword`-dur; məhz buna görə ACL nəzərdən keçirilməsi AD hardening prosesinin bir hissəsidir. Həmçinin bax [PKI və sertifikat etibarı](../../general-security/cryptography/pki.md) və [AAA-da non-repudiation](../../general-security/aaa-non-repudiation.md).
+
+### NTDS.DIT
+
+`NTDS.dit` Active Directory database faylıdır. O, hər domain controller-də saxlanılır, default olaraq:
+
+```text
+C:\Windows\NTDS\ntds.dit
+```
+
+Bu fayl həmin DC-nin host etdiyi bütün naming context-ləri saxlayır: configuration, schema və domain partition (DC həm də Global Catalog-dırsa, partial kopyaları da). Vacib olan odur ki, fayl həmçinin domain hesablarının parol hash-lərini də saxlayır.
+
+`NTDS.dit`-in offline kopyasını (SYSTEM hive ilə birlikdə boot key üçün) ələ keçirən hər kəs domain-dəki bütün credential-ları çıxara bilər. Buna görə də:
+
+- domain controller-lər tier-0 aktiv kimi qəbul edilir
+- NTDS.dit backup-ları domain-in özü qədər qorunmalıdır
+- Volume Shadow Copy və "ntdsutil ifm" output canlı DC ilə eyni nəzarət altında olmalıdır
+
+### Praktikada obyekt tipləri
+
+Gündəlik işdə ən çox qarşılaşacağınız obyekt class-ları:
+
+- **Users** — leaf obyekt, security principal, həm SID, həm GUID daşıyır. Yüzlərlə mümkün atributu var (ad, manager, last logon, parol metadata-sı, qrup üzvlüyü). İnsan və servis hesabları üçün əsas identity-dir.
+- **Computers** — leaf obyekt, SID və GUID-li security principal. Domain-ə qoşulmuş iş stansiyası və ya server-i təmsil edir. Domain-ə qoşulmuş maşındakı SYSTEM hesabı faktiki olaraq həmin kompüterin domain credential-larına sahibdir.
+- **Groups** — istifadəçi, kompüter və başqa qrupları saxlaya bilən container obyekt; SID və GUID-li security principal. Məqsədə görə iki növ: security qruplar (ACL-lərdə istifadə olunur) və distribution qruplar (yalnız mail üçün, security istifadəsi yoxdur). Əhatəyə görə üç scope: domain-local, global və universal — universal qruplar Global Catalog-da saxlanılır və cross-domain üzvlük məhz bu yolla işləyir.
+- **Shared Folders** — AD-də UNC yola işarə edən obyekt kimi published olur. GUID-i var, SID-i yoxdur, ona görə security principal sayılmır. Access control directory obyektində yox, fayl sistemində yaşayır.
+- **Organizational Units (OU)** — delegated administration və Group Policy targeting üçün vahid kimi istifadə olunan konteynerlər. OU üzərində hüquq vermək (məsələn "parol reset etmək") onun altındakı hər istifadəçiyə şamil olunur. [OU-ya bağlanmış Group Policy](./group-policy.md) həmin alt-ağacdakı obyektlərə tətbiq olunur.
+
+Dərsin qalan hissəsi məhz bu terminologiyaya əsaslanır.
 
 ## Məntiqi iyerarxiya
 

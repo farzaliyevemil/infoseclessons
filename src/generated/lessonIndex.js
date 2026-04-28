@@ -2615,12 +2615,19 @@ const lessons = [
       "forest",
       "organizational unit",
       "trust",
+      "schema",
+      "sid",
+      "guid",
+      "spn",
+      "acl",
+      "ntds.dit",
+      "kerberos",
       "servers",
       "active-directory",
       "active-directory-domain-services"
     ],
     "status": "reference",
-    "lastReviewed": "2026-03-23",
+    "lastReviewed": "2026-04-28",
     "sourcePaths": {
       "en": "servers\\active-directory\\active-directory-domain-services.md",
       "az": "servers\\active-directory\\active-directory-domain-services.md"
