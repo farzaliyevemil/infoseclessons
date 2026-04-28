@@ -2403,6 +2403,41 @@ const lessons = [
     }
   },
   {
+    "slug": "/red-teaming/network-attacks",
+    "category": "red-teaming",
+    "title": {
+      "en": "Network Attacks",
+      "az": "Network Attacks"
+    },
+    "description": {
+      "en": "Network-layer attack taxonomy — sniffing, spoofing, MITM (ARP/DNS/SSL stripping), DDoS, DNS amplification/poisoning, session hijacking, rogue AP / Evil Twin, BGP hijacking, and the defenses that work against each.",
+      "az": "Network-layer attack taxonomy — sniffing, spoofing, MITM (ARP/DNS/SSL stripping), DDoS, DNS amplification/poisoning, session hijacking, rogue AP / Evil Twin, BGP hijacking, and the defenses that work against each."
+    },
+    "keywords": [
+      "network attacks",
+      "mitm",
+      "arp poisoning",
+      "dns poisoning",
+      "ddos",
+      "dos",
+      "sniffing",
+      "session hijacking",
+      "rogue ap",
+      "evil twin",
+      "bgp hijacking",
+      "dns amplification",
+      "ssl stripping",
+      "red-teaming",
+      "network-attacks"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-04-28",
+    "sourcePaths": {
+      "en": "red-teaming\\network-attacks.md",
+      "az": "red-teaming\\network-attacks.md"
+    }
+  },
+  {
     "slug": "/red-teaming/owasp-top-10",
     "category": "red-teaming",
     "title": {
