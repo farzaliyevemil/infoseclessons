@@ -5,7 +5,7 @@ description: The seven-layer OSI reference model explained layer by layer with c
 slug: /networking/osi-model
 sidebar_position: 8
 status: reference
-last_reviewed: 2026-04-25
+last_reviewed: 2026-04-28
 keywords:
   - osi model
   - seven layers
@@ -128,6 +128,22 @@ The OSI model has seven layers and was designed by committee in the 1980s as a c
 | Data link (2) + Physical (1) | Network Access (Link) |
 
 OSI is the **vocabulary**; TCP/IP is the **implementation**. Every engineer uses both — "Layer 7 problem" and "Layer 2 issue" are everyday speech, even though the packets on the wire follow TCP/IP. For the implementation side, see [TCP/IP Model](./tcp-ip-model.md).
+
+## Common security attacks per OSI layer
+
+The same vocabulary that helps you troubleshoot also helps you triage **security incidents**. Almost every attack technique can be cleanly placed at the layer it abuses — and once you name the layer, the right defense category becomes obvious. The table below maps each layer to its most common attacks and the controls that blunt them. Treat it as a cheat-sheet for both red-team scoping ("what can I do at this layer?") and blue-team detection ("what should I be watching for here?").
+
+| Layer | Common attacks | Common defenses |
+|---|---|---|
+| L1 — Physical | Cable tapping (fibre/copper splitters), signal jamming and RF interference, hardware keyloggers, rogue USB drops, physical port tampering, environmental sabotage (cooling, power) | Physical access controls (badges, mantraps), locked racks and cages, tamper-evident seals on patch panels, CCTV and surveillance, environmental and door-sensor monitoring, port disablement on unused jacks |
+| L2 — Data Link | ARP poisoning / MITM, MAC flooding (CAM-table overflow), VLAN hopping (double-tag, switch-spoof), DHCP spoofing and starvation, BPDU/STP attacks, rogue access points | Dynamic ARP Inspection (DAI), port security with sticky MAC, BPDU Guard and Root Guard, DHCP Snooping, private VLANs, 802.1X authentication |
+| L3 — Network | IP spoofing, ICMP-based attacks (smurf, redirect), ping-of-death, route hijacking, BGP hijacking and route leaks, IP fragmentation abuse | Stateful firewalls, ingress/egress filtering (BCP38/uRPF), RPKI and route filtering, anti-spoofing ACLs, ICMP rate limiting, IPsec for path integrity |
+| L4 — Transport | SYN flood, TCP RST/FIN injection, port scanning (SYN, FIN, XMAS, UDP), session hijacking via sequence prediction, fragmentation and reassembly attacks | SYN cookies and SYN proxying, connection rate limiting, IDS/IPS with stateful inspection, conntrack tuning, scrubbing centres for volumetric DDoS |
+| L5 — Session | Session hijacking, session fixation, replay attacks, NetBIOS/SMB session abuse, SOCKS pivoting through compromised hosts | Strong, random session tokens, TLS for all session traffic, short session lifetimes and idle timeouts, server-side session invalidation on logout, MFA-bound sessions |
+| L6 — Presentation | TLS downgrade attacks (POODLE, BEAST, FREAK), padding-oracle attacks, weak-cipher and SSLv3 abuse, format-string and encoding bugs, certificate spoofing | TLS 1.3 only with AEAD ciphers (no CBC/RC4), HSTS and HSTS preload, certificate pinning where appropriate, strict cert validation, modern libraries patched against padding oracles |
+| L7 — Application | XSS, SQL injection, command and template injection, CSRF, SSRF, deserialisation flaws, API abuse and broken auth, bot/credential-stuffing — the OWASP Top 10 in general | Web Application Firewall (WAF) with OWASP CRS, strict input validation and output encoding, parameterised queries, secure-by-default frameworks, rate limiting, bot management, regular code review and SAST/DAST |
+
+When a ticket lands on your desk, asking **"which layer is being attacked?"** is the fastest way to scope the incident — it instantly narrows the relevant logs, the responsible team, and the playbook. A flood of half-open TCP handshakes is L4 and goes to network ops; a spike of `UNION SELECT` in access logs is L7 and goes to appsec; a sudden ARP storm is L2 and goes to the switch team. Once the layer is named, the rest of the response almost writes itself. For deeper coverage of offence and defence at each layer, see [Network attacks](../../red-teaming/network-attacks.md), [OWASP Top 10](../../red-teaming/owasp-top-10.md), and [Investigation and mitigation](../../blue-teaming/investigation-and-mitigation.md).
 
 ## Mnemonics
 

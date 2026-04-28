@@ -5,7 +5,7 @@ description: Yeddi qatlı OSI istinad modeli — qatma-qat, konkret protokol nü
 slug: /networking/osi-model
 sidebar_position: 8
 status: reference
-last_reviewed: 2026-04-25
+last_reviewed: 2026-04-28
 keywords:
   - osi modeli
   - yeddi qat
@@ -128,6 +128,22 @@ OSI modelinin yeddi qatı var və 1980-ci illərdə komitə tərəfindən təmiz
 | Data link (2) + Physical (1) | Network Access (Link) |
 
 OSI **lüğətdir**; TCP/IP **icradır**. Hər mühəndis hər ikisini istifadə edir — kabeldə paketlər TCP/IP izləsə də, "Layer 7 problemi" və "Layer 2 məsələsi" gündəlik nitqdir. İcra tərəfi üçün: [TCP/IP Modeli](./tcp-ip-model.md).
+
+## OSI qatları üzrə yayılmış təhlükəsizlik hücumları
+
+Diaqnostikaya kömək edən eyni lüğət **təhlükəsizlik insidentlərini** triaj etməyə də kömək edir. Demək olar ki, hər bir hücum texnikası sui-istifadə etdiyi qata təmiz şəkildə yerləşdirilə bilər — qatın adı çəkiləndən sonra düzgün müdafiə kateqoriyası özü-özünə aydın olur. Aşağıdakı cədvəl hər qatı ən yayılmış hücumlara və onları zəiflədən idarəetmələrə uyğunlaşdırır. Onu həm red-team miqyaslandırması ("bu qatda nə edə bilərəm?") həm də blue-team aşkarlaması ("burada nəyi izləməliyəm?") üçün cheat-sheet kimi qəbul edin.
+
+| Qat | Yayılmış hücumlar | Yayılmış müdafiələr |
+|---|---|---|
+| L1 — Physical | Cable tapping (fiber/mis splitter), signal jamming və RF maneələri, hardware keylogger, rogue USB atılması, fiziki port qurdalanması, ətraf-mühit sabotajı (soyutma, enerji) | Fiziki giriş nəzarəti (badge, mantrap), kilidli rack və qəfəslər, patch panel-də tamper-evident möhürlər, CCTV və müşahidə, ətraf-mühit və qapı sensorlarının izlənməsi, istifadə olunmayan jakların portlarının söndürülməsi |
+| L2 — Data Link | ARP poisoning / MITM, MAC flooding (CAM-table overflow), VLAN hopping (double-tag, switch-spoof), DHCP spoofing və starvation, BPDU/STP hücumları, rogue access point | Dynamic ARP Inspection (DAI), sticky MAC ilə port security, BPDU Guard və Root Guard, DHCP Snooping, private VLAN, 802.1X autentifikasiyası |
+| L3 — Network | IP spoofing, ICMP-əsaslı hücumlar (smurf, redirect), ping-of-death, route hijacking, BGP hijacking və route leak, IP fraqmentasiya sui-istifadəsi | Stateful firewall, ingress/egress filtrasiya (BCP38/uRPF), RPKI və route filtrasiyası, anti-spoofing ACL, ICMP rate limit, yol bütövlüyü üçün IPsec |
+| L4 — Transport | SYN flood, TCP RST/FIN injection, port scanning (SYN, FIN, XMAS, UDP), ardıcıllıq proqnozu ilə session hijacking, fraqmentasiya və yenidən-yığma hücumları | SYN cookies və SYN proxy, əlaqə rate limit, stateful inspection ilə IDS/IPS, conntrack tənzimlənməsi, volumetrik DDoS üçün scrubbing mərkəzləri |
+| L5 — Session | Session hijacking, session fixation, replay hücumları, NetBIOS/SMB sessiya sui-istifadəsi, kompromis edilmiş hostlardan SOCKS pivoting | Güclü, təsadüfi sessiya tokenləri, bütün sessiya trafiki üçün TLS, qısa sessiya ömrü və idle timeout, çıxışda server tərəfində sessiya ləğvi, MFA-ya bağlı sessiyalar |
+| L6 — Presentation | TLS downgrade hücumları (POODLE, BEAST, FREAK), padding-oracle hücumları, zəif şifrə və SSLv3 sui-istifadəsi, format-string və kodlama səhvləri, sertifikat saxtakarlığı | Yalnız AEAD şifrələri ilə TLS 1.3 (CBC/RC4 yox), HSTS və HSTS preload, lazım olan yerlərdə certificate pinning, ciddi sertifikat doğrulaması, padding oracle-a qarşı yamanmış müasir kitabxanalar |
+| L7 — Application | XSS, SQL injection, command və template injection, CSRF, SSRF, deserialization səhvləri, API abuse və sınmış autentifikasiya, bot/credential-stuffing — ümumiyyətlə OWASP Top 10 | OWASP CRS ilə Web Application Firewall (WAF), ciddi input validation və output encoding, parametrli sorğular, secure-by-default freymvorkları, rate limiting, bot idarəetməsi, müntəzəm kod baxışı və SAST/DAST |
+
+Stolunuza bir bilet düşəndə **"hansı qat hücuma məruz qalır?"** sualı insidenti miqyaslandırmağın ən sürətli yoludur — o, dərhal müvafiq logları, məsul komandanı və playbook-u daraldır. Yarımaçıq TCP handshake daşqını L4-dür və şəbəkə ops-a gedir; giriş loglarında `UNION SELECT` artımı L7-dir və appsec-ə gedir; qəfildən ARP tufanı L2-dir və switch komandasına gedir. Qatın adı çəkiləndən sonra cavabın qalan hissəsi demək olar ki, özü-özünü yazır. Hər qatda hücum və müdafiənin daha dərin əhatəsi üçün baxın: [Şəbəkə hücumları](../../red-teaming/network-attacks.md), [OWASP Top 10](../../red-teaming/owasp-top-10.md) və [Araşdırma və azaltma](../../blue-teaming/investigation-and-mitigation.md).
 
 ## Mnemonika
 

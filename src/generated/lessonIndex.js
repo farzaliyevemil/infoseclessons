@@ -1880,7 +1880,7 @@ const lessons = [
       "şəbəkə əsasları"
     ],
     "status": "reference",
-    "lastReviewed": "2026-04-25",
+    "lastReviewed": "2026-04-28",
     "sourcePaths": {
       "en": "networking\\foundation\\osi-model.md",
       "az": "networking\\foundation\\osi-model.md"
