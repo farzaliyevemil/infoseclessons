@@ -387,7 +387,7 @@ Hər mərhələdə commit-dən iş vaxtına qədər pinləyən, imzalayan, skanl
 - Əlaqəli dərs — [Bulud Hesablama Təhlükəsizliyi](./cloud-computing-security.md)
 - Əlaqəli dərs — [Bulud Təhlükəsizlik Həlləri](./cloud-security-solutions.md)
 - Əlaqəli dərs — [Təhlükəsiz Tətbiq İnkişafı](../secure-app-development.md)
-- Əlaqəli dərs — [Müəssisə Təhlükəsizlik Arxitekturası](../enterprise-security-architecture.md)
+- Əlaqəli dərs — [Müəssisə Təhlükəsizlik Arxitekturası](../architecture/enterprise-security-architecture.md)
 - Əlaqəli dərs — [Zəiflik və AppSec Alətləri](../open-source-tools/vulnerability-and-appsec.md)
 - Əlaqəli dərs — [Sirlər və PAM Alətləri](../open-source-tools/secrets-and-pam.md)
 - Əlaqəli dərs — [OWASP Top 10](../../red-teaming/owasp-top-10.md)

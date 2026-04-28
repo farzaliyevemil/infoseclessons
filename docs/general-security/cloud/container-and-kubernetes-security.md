@@ -387,7 +387,7 @@ A container and Kubernetes programme that pins, signs, scans, gates, segments, a
 - Related lesson — [Cloud Computing Security](./cloud-computing-security.md)
 - Related lesson — [Cloud Security Solutions](./cloud-security-solutions.md)
 - Related lesson — [Secure Application Development](../secure-app-development.md)
-- Related lesson — [Enterprise Security Architecture](../enterprise-security-architecture.md)
+- Related lesson — [Enterprise Security Architecture](../architecture/enterprise-security-architecture.md)
 - Related lesson — [Vulnerability and AppSec Tools](../open-source-tools/vulnerability-and-appsec.md)
 - Related lesson — [Secrets and PAM Tools](../open-source-tools/secrets-and-pam.md)
 - Related lesson — [OWASP Top 10](../../red-teaming/owasp-top-10.md)
