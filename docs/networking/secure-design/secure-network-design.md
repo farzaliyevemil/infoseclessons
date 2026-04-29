@@ -343,6 +343,24 @@ The redesign is not exotic — no novel protocols, no bleeding-edge vendors. It 
 - SPAN and TAP ports feed the monitoring stack. Network security monitoring and file integrity monitoring tell you when the preventive controls failed — and they will fail eventually.
 - Everything in this lesson is mundane by design. Good network security is boring network security applied consistently. The estate that can answer "which zone is this in, who can reach it, and who sees the traffic" has a posture that will survive both audits and attackers.
 
+
+## Reference images
+
+These illustrations are from the original training deck and complement the lesson content above.
+
+<div className="lesson-image-grid">
+  <figure><img src="/img/lessons/secure-network-design/slide01_image1.jpeg" alt="Slide 1" loading="lazy" /><figcaption>Slide 1</figcaption></figure>
+  <figure><img src="/img/lessons/secure-network-design/slide04_image2.png" alt="Slide 4" loading="lazy" /><figcaption>Slide 4</figcaption></figure>
+  <figure><img src="/img/lessons/secure-network-design/slide12_image3.png" alt="Slide 12" loading="lazy" /><figcaption>Slide 12</figcaption></figure>
+  <figure><img src="/img/lessons/secure-network-design/slide14_image4.png" alt="Slide 14" loading="lazy" /><figcaption>Slide 14</figcaption></figure>
+  <figure><img src="/img/lessons/secure-network-design/slide26_image5.png" alt="Slide 26" loading="lazy" /><figcaption>Slide 26</figcaption></figure>
+  <figure><img src="/img/lessons/secure-network-design/slide32_image6.png" alt="Slide 32" loading="lazy" /><figcaption>Slide 32</figcaption></figure>
+  <figure><img src="/img/lessons/secure-network-design/slide38_image7.png" alt="Slide 38" loading="lazy" /><figcaption>Slide 38</figcaption></figure>
+  <figure><img src="/img/lessons/secure-network-design/slide47_image8.png" alt="Slide 47" loading="lazy" /><figcaption>Slide 47</figcaption></figure>
+  <figure><img src="/img/lessons/secure-network-design/slide57_image9.png" alt="Slide 57" loading="lazy" /><figcaption>Slide 57</figcaption></figure>
+  <figure><img src="/img/lessons/secure-network-design/slide68_image10.png" alt="Slide 68" loading="lazy" /><figcaption>Slide 68</figcaption></figure>
+  <figure><img src="/img/lessons/secure-network-design/slide75_image11.png" alt="Slide 75" loading="lazy" /><figcaption>Slide 75</figcaption></figure>
+</div>
 ## References
 
 - NIST SP 800-207 — *Zero Trust Architecture* — https://csrc.nist.gov/publications/detail/sp/800-207/final

@@ -402,6 +402,15 @@ Enterprise security architecture turns the collection of "good practices" into a
 - Deception technology (honeypots, honeyfiles, honeyrecords, honeynets, fake telemetry, DNS sinkholes) turns any attacker interaction into a high-signal alert because nothing legitimate touches the bait.
 - `example.local` and any real enterprise design from the architecture down, not the ticket up — written, versioned, reviewed, and tested.
 
+
+## Reference images
+
+These illustrations are from the original training deck and complement the lesson content above.
+
+<div className="lesson-image-grid">
+  <figure><img src="/img/lessons/enterprise-security-architecture/slide01_image1.png" alt="Slide 1" loading="lazy" /><figcaption>Slide 1</figcaption></figure>
+  <figure><img src="/img/lessons/enterprise-security-architecture/slide34_image2.png" alt="Slide 34" loading="lazy" /><figcaption>Slide 34</figcaption></figure>
+</div>
 ## References
 
 - NIST SP 800-53 Rev. 5 — *Security and Privacy Controls for Information Systems and Organizations* — https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final

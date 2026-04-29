@@ -342,6 +342,18 @@ The programme is, again, not innovative. It is Intune with Apple Business Manage
 
 An enterprise that can answer "which devices are enrolled, which OS versions are supported, what the policy says, what happens on loss, how BYOD data is separated, and how we detect tampering" has a mobile security story that holds up to both an audit and a red team. An enterprise that cannot is trusting 800 roaming endpoints to behave.
 
+
+## Reference images
+
+These illustrations are from the original training deck and complement the lesson content above.
+
+<div className="lesson-image-grid">
+  <figure><img src="/img/lessons/mobile-security/slide01_image1.jpeg" alt="Slide 1" loading="lazy" /><figcaption>Slide 1</figcaption></figure>
+  <figure><img src="/img/lessons/mobile-security/slide03_image2.png" alt="Slide 3" loading="lazy" /><figcaption>Slide 3</figcaption></figure>
+  <figure><img src="/img/lessons/mobile-security/slide05_image3.png" alt="Slide 5" loading="lazy" /><figcaption>Slide 5</figcaption></figure>
+  <figure><img src="/img/lessons/mobile-security/slide10_image4.png" alt="Slide 10" loading="lazy" /><figcaption>Slide 10</figcaption></figure>
+  <figure><img src="/img/lessons/mobile-security/slide11_image5.png" alt="Slide 11" loading="lazy" /><figcaption>Slide 11</figcaption></figure>
+</div>
 ## References
 
 - NIST SP 800-124 Rev. 2 — *Guidelines for Managing the Security of Mobile Devices in the Enterprise* — https://csrc.nist.gov/publications/detail/sp/800-124/rev-2/final

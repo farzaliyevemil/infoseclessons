@@ -415,6 +415,18 @@ Real kriptoqrafik alqoritmlər yetkin olduğu halda. Real insidentlərin çoxu b
 - Rəqəmsal imzalar = heş + gizli açarla asimmetrik şifrələmə. Onlar hər real "etibar" qərarının (imzalanmış kod, imzalanmış commit-lər, TLS sertifikatları) əsasıdır.
 - 2026-da forward secrecy müzakirə edilməzdir — `ECDHE` şifr suites və TLS 1.3 istifadə edin.
 
+
+## İstinad şəkilləri
+
+Bu illüstrasiyalar orijinal təlim slaydından götürülüb və yuxarıdakı dərs məzmununu tamamlayır.
+
+<div className="lesson-image-grid">
+  <figure><img src="/img/lessons/cryptography-basics/slide02_image1.png" alt="Slayd 2" loading="lazy" /><figcaption>Slayd 2</figcaption></figure>
+  <figure><img src="/img/lessons/cryptography-basics/slide02_image2.svg" alt="Slayd 2" loading="lazy" /><figcaption>Slayd 2</figcaption></figure>
+  <figure><img src="/img/lessons/cryptography-basics/slide15_image3.png" alt="Slayd 15" loading="lazy" /><figcaption>Slayd 15</figcaption></figure>
+  <figure><img src="/img/lessons/cryptography-basics/slide16_image4.png" alt="Slayd 16" loading="lazy" /><figcaption>Slayd 16</figcaption></figure>
+  <figure><img src="/img/lessons/cryptography-basics/slide17_image5.png" alt="Slayd 17" loading="lazy" /><figcaption>Slayd 17</figcaption></figure>
+</div>
 ## İstinadlar
 
 - NIST SP 800-175B Rev. 1 — *Guideline for Using Cryptographic Standards in the Federal Government: Cryptographic Mechanisms.* https://csrc.nist.gov/publications/detail/sp/800-175b/rev-1/final

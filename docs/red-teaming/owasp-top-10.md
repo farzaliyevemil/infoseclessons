@@ -564,6 +564,35 @@ A small number of engineering patterns, applied by default, wipe out big chunks 
 
 ---
 
+
+## Reference images
+
+These illustrations are from the original training deck and complement the lesson content above.
+
+<div className="lesson-image-grid">
+  <figure><img src="/img/lessons/owasp-top-10/slide01_image1.png" alt="Slide 1" loading="lazy" /><figcaption>Slide 1</figcaption></figure>
+  <figure><img src="/img/lessons/owasp-top-10/slide02_image2.png" alt="Slide 2" loading="lazy" /><figcaption>Slide 2</figcaption></figure>
+  <figure><img src="/img/lessons/owasp-top-10/slide04_image3.png" alt="Slide 4" loading="lazy" /><figcaption>Slide 4</figcaption></figure>
+  <figure><img src="/img/lessons/owasp-top-10/slide04_image4.png" alt="Slide 4" loading="lazy" /><figcaption>Slide 4</figcaption></figure>
+  <figure><img src="/img/lessons/owasp-top-10/slide04_image5.png" alt="Slide 4" loading="lazy" /><figcaption>Slide 4</figcaption></figure>
+  <figure><img src="/img/lessons/owasp-top-10/slide09_image6.jpeg" alt="Slide 9" loading="lazy" /><figcaption>Slide 9</figcaption></figure>
+  <figure><img src="/img/lessons/owasp-top-10/slide12_image10.png" alt="Slide 12" loading="lazy" /><figcaption>Slide 12</figcaption></figure>
+  <figure><img src="/img/lessons/owasp-top-10/slide12_image7.png" alt="Slide 12" loading="lazy" /><figcaption>Slide 12</figcaption></figure>
+  <figure><img src="/img/lessons/owasp-top-10/slide12_image8.jpeg" alt="Slide 12" loading="lazy" /><figcaption>Slide 12</figcaption></figure>
+  <figure><img src="/img/lessons/owasp-top-10/slide12_image9.png" alt="Slide 12" loading="lazy" /><figcaption>Slide 12</figcaption></figure>
+  <figure><img src="/img/lessons/owasp-top-10/slide21_image11.jpeg" alt="Slide 21" loading="lazy" /><figcaption>Slide 21</figcaption></figure>
+  <figure><img src="/img/lessons/owasp-top-10/slide24_image12.png" alt="Slide 24" loading="lazy" /><figcaption>Slide 24</figcaption></figure>
+  <figure><img src="/img/lessons/owasp-top-10/slide24_image13.png" alt="Slide 24" loading="lazy" /><figcaption>Slide 24</figcaption></figure>
+  <figure><img src="/img/lessons/owasp-top-10/slide26_image14.png" alt="Slide 26" loading="lazy" /><figcaption>Slide 26</figcaption></figure>
+  <figure><img src="/img/lessons/owasp-top-10/slide26_image15.png" alt="Slide 26" loading="lazy" /><figcaption>Slide 26</figcaption></figure>
+  <figure><img src="/img/lessons/owasp-top-10/slide27_image16.png" alt="Slide 27" loading="lazy" /><figcaption>Slide 27</figcaption></figure>
+  <figure><img src="/img/lessons/owasp-top-10/slide27_image17.png" alt="Slide 27" loading="lazy" /><figcaption>Slide 27</figcaption></figure>
+  <figure><img src="/img/lessons/owasp-top-10/slide29_image18.png" alt="Slide 29" loading="lazy" /><figcaption>Slide 29</figcaption></figure>
+  <figure><img src="/img/lessons/owasp-top-10/slide31_image19.jpeg" alt="Slide 31" loading="lazy" /><figcaption>Slide 31</figcaption></figure>
+  <figure><img src="/img/lessons/owasp-top-10/slide34_image20.png" alt="Slide 34" loading="lazy" /><figcaption>Slide 34</figcaption></figure>
+  <figure><img src="/img/lessons/owasp-top-10/slide37_image21.png" alt="Slide 37" loading="lazy" /><figcaption>Slide 37</figcaption></figure>
+  <figure><img src="/img/lessons/owasp-top-10/slide38_image22.png" alt="Slide 38" loading="lazy" /><figcaption>Slide 38</figcaption></figure>
+</div>
 ## References
 
 - **OWASP Top 10 (2021):** https://owasp.org/www-project-top-ten/

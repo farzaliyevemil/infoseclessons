@@ -332,6 +332,26 @@ Altı ay sonra qiymətləndirmə yenidən aparıldı. Xarici səth deltası 60% 
 - **Müdafiəçilər hücumçu kimi düşünməlidir.** İnventar üzərində red-komanda düşüncəsi yoxlama siyahısının heç vaxt tapmayacağı boşluqları tapır.
 - **Qalığı sənədləşdir.** Bağlaya bilmədiyini yaz — qəbul edilmiş, sahibi və nəzərdən keçirmə tarixi ilə.
 
+
+## İstinad şəkilləri
+
+Bu illüstrasiyalar orijinal təlim slaydından götürülüb və yuxarıdakı dərs məzmununu tamamlayır.
+
+<div className="lesson-image-grid">
+  <figure><img src="/img/lessons/threat-vectors-and-attack-surfaces/slide02_image1.png" alt="Slayd 2" loading="lazy" /><figcaption>Slayd 2</figcaption></figure>
+  <figure><img src="/img/lessons/threat-vectors-and-attack-surfaces/slide03_image2.png" alt="Slayd 3" loading="lazy" /><figcaption>Slayd 3</figcaption></figure>
+  <figure><img src="/img/lessons/threat-vectors-and-attack-surfaces/slide04_image3.jpeg" alt="Slayd 4" loading="lazy" /><figcaption>Slayd 4</figcaption></figure>
+  <figure><img src="/img/lessons/threat-vectors-and-attack-surfaces/slide05_image4.jpeg" alt="Slayd 5" loading="lazy" /><figcaption>Slayd 5</figcaption></figure>
+  <figure><img src="/img/lessons/threat-vectors-and-attack-surfaces/slide06_image5.jpeg" alt="Slayd 6" loading="lazy" /><figcaption>Slayd 6</figcaption></figure>
+  <figure><img src="/img/lessons/threat-vectors-and-attack-surfaces/slide07_image6.png" alt="Slayd 7" loading="lazy" /><figcaption>Slayd 7</figcaption></figure>
+  <figure><img src="/img/lessons/threat-vectors-and-attack-surfaces/slide08_image7.png" alt="Slayd 8" loading="lazy" /><figcaption>Slayd 8</figcaption></figure>
+  <figure><img src="/img/lessons/threat-vectors-and-attack-surfaces/slide09_image8.png" alt="Slayd 9" loading="lazy" /><figcaption>Slayd 9</figcaption></figure>
+  <figure><img src="/img/lessons/threat-vectors-and-attack-surfaces/slide18_image10.png" alt="Slayd 18" loading="lazy" /><figcaption>Slayd 18</figcaption></figure>
+  <figure><img src="/img/lessons/threat-vectors-and-attack-surfaces/slide18_image9.png" alt="Slayd 18" loading="lazy" /><figcaption>Slayd 18</figcaption></figure>
+  <figure><img src="/img/lessons/threat-vectors-and-attack-surfaces/slide19_image11.png" alt="Slayd 19" loading="lazy" /><figcaption>Slayd 19</figcaption></figure>
+  <figure><img src="/img/lessons/threat-vectors-and-attack-surfaces/slide19_image12.png" alt="Slayd 19" loading="lazy" /><figcaption>Slayd 19</figcaption></figure>
+  <figure><img src="/img/lessons/threat-vectors-and-attack-surfaces/slide24_image13.jpg" alt="Slayd 24" loading="lazy" /><figcaption>Slayd 24</figcaption></figure>
+</div>
 ## İstinadlar
 
 - MITRE ATT&CK — Initial Access taktikası — [attack.mitre.org/tactics/TA0001](https://attack.mitre.org/tactics/TA0001/)

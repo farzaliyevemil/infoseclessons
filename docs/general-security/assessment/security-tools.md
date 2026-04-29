@@ -637,6 +637,20 @@ If you are unsure whether a particular action is in scope, ask before doing it. 
 - NIST SP 800-88 (Clear / Purge / Destroy) is the disposal standard; SSDs need cryptographic erase or physical destruction, not DBAN.
 - Authorisation, scope, and blast-radius control are not paperwork — they are what separates a security engineer from a criminal.
 
+
+## Reference images
+
+These illustrations are from the original training deck and complement the lesson content above.
+
+<div className="lesson-image-grid">
+  <figure><img src="/img/lessons/security-tools/slide01_image1.jpeg" alt="Slide 1" loading="lazy" /><figcaption>Slide 1</figcaption></figure>
+  <figure><img src="/img/lessons/security-tools/slide03_image2.png" alt="Slide 3" loading="lazy" /><figcaption>Slide 3</figcaption></figure>
+  <figure><img src="/img/lessons/security-tools/slide04_image3.png" alt="Slide 4" loading="lazy" /><figcaption>Slide 4</figcaption></figure>
+  <figure><img src="/img/lessons/security-tools/slide48_image4.png" alt="Slide 48" loading="lazy" /><figcaption>Slide 48</figcaption></figure>
+  <figure><img src="/img/lessons/security-tools/slide61_image5.png" alt="Slide 61" loading="lazy" /><figcaption>Slide 61</figcaption></figure>
+  <figure><img src="/img/lessons/security-tools/slide63_image6.png" alt="Slide 63" loading="lazy" /><figcaption>Slide 63</figcaption></figure>
+  <figure><img src="/img/lessons/security-tools/slide65_image7.png" alt="Slide 65" loading="lazy" /><figcaption>Slide 65</figcaption></figure>
+</div>
 ## References
 
 - Nmap reference guide and NSE scripts — `https://nmap.org/book/man.html`

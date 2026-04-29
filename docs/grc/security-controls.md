@@ -395,6 +395,15 @@ A naive program would build three control sets, run three audit cycles, and prod
 - **CSA's CCM** maps cloud controls to every major standard. The **STAR registry** lets buyers short-circuit due diligence.
 - The biggest leverage in any program is a **harmonised control set** mapped to all in-scope regulations: one control, one piece of evidence, multiple audits satisfied.
 
+
+## Reference images
+
+These illustrations are from the original training deck and complement the lesson content above.
+
+<div className="lesson-image-grid">
+  <figure><img src="/img/lessons/security-controls/slide01_image1.jpeg" alt="Slide 1" loading="lazy" /><figcaption>Slide 1</figcaption></figure>
+  <figure><img src="/img/lessons/security-controls/slide17_image2.png" alt="Slide 17" loading="lazy" /><figcaption>Slide 17</figcaption></figure>
+</div>
 ## References
 
 - **NIST Cybersecurity Framework (CSF) 2.0** — https://www.nist.gov/cyberframework

@@ -392,6 +392,16 @@ Dövrə **ISO 27001 Annex A** ilə açıq şəkildə bağlıdır (hər Annex A n
 - Pozuntu saatları danışıq mövzusu deyil: **GDPR 72 saat**, **HIPAA 60 gün**, **NIS2 24 s erkən / 72 s bildiriş**, **SEC 4 iş günü**. Saatlarınızı lazım olmadan əvvəl öyrənin.
 - Təsadüfi çərşənbə axşamı işləyən DSR qəbul prosesi, ofis arxasına heç kimin bağlamadığı zərif məxfilik bildirişindən daha dəyərlidir.
 
+
+## İstinad şəkilləri
+
+Bu illüstrasiyalar orijinal təlim slaydından götürülüb və yuxarıdakı dərs məzmununu tamamlayır.
+
+<div className="lesson-image-grid">
+  <figure><img src="/img/lessons/risk-and-privacy/slide01_image1.jpeg" alt="Slayd 1" loading="lazy" /><figcaption>Slayd 1</figcaption></figure>
+  <figure><img src="/img/lessons/risk-and-privacy/slide16_image2.png" alt="Slayd 16" loading="lazy" /><figcaption>Slayd 16</figcaption></figure>
+  <figure><img src="/img/lessons/risk-and-privacy/slide47_image3.png" alt="Slayd 47" loading="lazy" /><figcaption>Slayd 47</figcaption></figure>
+</div>
 ## İstinadlar
 
 - **NIST SP 800-30 Rev. 1**, *Guide for Conducting Risk Assessments* — https://csrc.nist.gov/publications/detail/sp/800-30/rev-1/final

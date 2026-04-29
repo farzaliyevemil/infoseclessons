@@ -329,6 +329,19 @@ Bir səhifəlik əsaslandırma ilə tövsiyənizi sənədləşdirin — arxitekt
 
 Hər xidmət üçün "biz hansı təhlükəsiz protokoldayıq, TLS/SSH/IPSec-in hansı versiyası və sonuncu sertifikat dövrü nə vaxt oldu" cavabı verə bilən estet həm auditə, həm də penetrasiya testinə sağ qalacaq idarəetmə hekayəsinə sahibdir. Cavab verə bilməyən estet ümidlə birlikdə tutulur.
 
+
+## İstinad şəkilləri
+
+Bu illüstrasiyalar orijinal təlim slaydından götürülüb və yuxarıdakı dərs məzmununu tamamlayır.
+
+<div className="lesson-image-grid">
+  <figure><img src="/img/lessons/secure-protocols/slide01_image1.jpeg" alt="Slayd 1" loading="lazy" /><figcaption>Slayd 1</figcaption></figure>
+  <figure><img src="/img/lessons/secure-protocols/slide28_image2.png" alt="Slayd 28" loading="lazy" /><figcaption>Slayd 28</figcaption></figure>
+  <figure><img src="/img/lessons/secure-protocols/slide34_image3.png" alt="Slayd 34" loading="lazy" /><figcaption>Slayd 34</figcaption></figure>
+  <figure><img src="/img/lessons/secure-protocols/slide35_image4.png" alt="Slayd 35" loading="lazy" /><figcaption>Slayd 35</figcaption></figure>
+  <figure><img src="/img/lessons/secure-protocols/slide36_image5.png" alt="Slayd 36" loading="lazy" /><figcaption>Slayd 36</figcaption></figure>
+  <figure><img src="/img/lessons/secure-protocols/slide38_image6.png" alt="Slayd 38" loading="lazy" /><figcaption>Slayd 38</figcaption></figure>
+</div>
 ## İstinadlar
 
 - NIST SP 800-52 Rev. 2 — *Guidelines for the Selection, Configuration, and Use of TLS Implementations* — https://csrc.nist.gov/publications/detail/sp/800-52/rev-2/final

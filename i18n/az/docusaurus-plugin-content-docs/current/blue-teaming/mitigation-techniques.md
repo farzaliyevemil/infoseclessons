@@ -322,6 +322,16 @@ Gündə 200 alert istehsal edən FIM heç kimin oxumadığı FIM-dir. Gözlənil
 
 Səkkiz ailəni adlandıran, hər birinə sahib olan, hər birini ölçən və hər birini illik nəzərdən keçirən mitigasiya proqramı miqyaslanan proqramdır. Tribal biliklə və firewall-u sonuncu konfiqurasiya edən şəxslə cavab verən birinci hadisəsindən sağ çıxmayacaq.
 
+
+## İstinad şəkilləri
+
+Bu illüstrasiyalar orijinal təlim slaydından götürülüb və yuxarıdakı dərs məzmununu tamamlayır.
+
+<div className="lesson-image-grid">
+  <figure><img src="/img/lessons/mitigation-techniques/slide10_image3.jpg" alt="Slayd 10" loading="lazy" /><figcaption>Slayd 10</figcaption></figure>
+  <figure><img src="/img/lessons/mitigation-techniques/slide00_image1.jpg" alt="İstinad" loading="lazy" /><figcaption>İstinad</figcaption></figure>
+  <figure><img src="/img/lessons/mitigation-techniques/slide00_image2.jpeg" alt="İstinad" loading="lazy" /><figcaption>İstinad</figcaption></figure>
+</div>
 ## İstinadlar
 
 - NIST SP 800-53 — *İnformasiya Sistemləri və Təşkilatlar üçün Təhlükəsizlik və Məxfilik Nəzarətləri* (AC, CM, SI ailələri) — [csrc.nist.gov/publications/detail/sp/800-53/rev-5/final](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final)

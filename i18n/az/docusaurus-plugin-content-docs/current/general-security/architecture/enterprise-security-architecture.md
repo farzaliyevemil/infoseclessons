@@ -402,6 +402,15 @@ Müəssisə təhlükəsizlik arxitekturası "yaxşı təcrübələr" toplusunu i
 - Aldatma texnologiyası (honeypot'lar, honeyfayllar, honeyrecord'lar, honeynet'lər, saxta telemetri, DNS sinkhole'ları) hər hücumçu qarşılıqlı əlaqəsini yüksək-siqnallı xəbərdarlığa çevirir, çünki heç bir qanuni yemə toxunmur.
 - `example.local` və hər real müəssisə arxitekturadan aşağı dizayn olunur, biletdən yuxarı deyil — yazılmış, versiyalanmış, nəzərdən keçirilmiş və test edilmiş.
 
+
+## İstinad şəkilləri
+
+Bu illüstrasiyalar orijinal təlim slaydından götürülüb və yuxarıdakı dərs məzmununu tamamlayır.
+
+<div className="lesson-image-grid">
+  <figure><img src="/img/lessons/enterprise-security-architecture/slide01_image1.png" alt="Slayd 1" loading="lazy" /><figcaption>Slayd 1</figcaption></figure>
+  <figure><img src="/img/lessons/enterprise-security-architecture/slide34_image2.png" alt="Slayd 34" loading="lazy" /><figcaption>Slayd 34</figcaption></figure>
+</div>
 ## İstinadlar
 
 - NIST SP 800-53 Rev. 5 — *Security and Privacy Controls for Information Systems and Organizations* — https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final

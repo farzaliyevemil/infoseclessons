@@ -329,6 +329,36 @@ Bu xətt üzrə izlənilməyə dəyər iki metrik:
 - **Detection-as-code** — Sigma/YARA qaydalarını CI testləri ilə Git-ə qoymaq kövrək SIEM məzmununu versiyalı, baxılabilən, sınanabilən mühəndislik artefaktlarına çevirir.
 - **Geri paylaşın** — MISP, ISAC və ya satıcı tədqiqatlarına sterillaşdırılmış töhfələr bütün icmanı gücləndirir və daha yaxşı feed-lərə qarşılıqlı çıxış qazandırır.
 
+
+## İstinad şəkilləri
+
+Bu illüstrasiyalar orijinal təlim slaydından götürülüb və yuxarıdakı dərs məzmununu tamamlayır.
+
+<div className="lesson-image-grid">
+  <figure><img src="/img/lessons/attack-indicators/slide01_image1.jpg" alt="Slayd 1" loading="lazy" /><figcaption>Slayd 1</figcaption></figure>
+  <figure><img src="/img/lessons/attack-indicators/slide02_image2.jpeg" alt="Slayd 2" loading="lazy" /><figcaption>Slayd 2</figcaption></figure>
+  <figure><img src="/img/lessons/attack-indicators/slide03_image3.png" alt="Slayd 3" loading="lazy" /><figcaption>Slayd 3</figcaption></figure>
+  <figure><img src="/img/lessons/attack-indicators/slide04_image4.png" alt="Slayd 4" loading="lazy" /><figcaption>Slayd 4</figcaption></figure>
+  <figure><img src="/img/lessons/attack-indicators/slide05_image5.png" alt="Slayd 5" loading="lazy" /><figcaption>Slayd 5</figcaption></figure>
+  <figure><img src="/img/lessons/attack-indicators/slide06_image6.png" alt="Slayd 6" loading="lazy" /><figcaption>Slayd 6</figcaption></figure>
+  <figure><img src="/img/lessons/attack-indicators/slide08_image7.png" alt="Slayd 8" loading="lazy" /><figcaption>Slayd 8</figcaption></figure>
+  <figure><img src="/img/lessons/attack-indicators/slide09_image8.png" alt="Slayd 9" loading="lazy" /><figcaption>Slayd 9</figcaption></figure>
+  <figure><img src="/img/lessons/attack-indicators/slide10_image10.png" alt="Slayd 10" loading="lazy" /><figcaption>Slayd 10</figcaption></figure>
+  <figure><img src="/img/lessons/attack-indicators/slide10_image9.png" alt="Slayd 10" loading="lazy" /><figcaption>Slayd 10</figcaption></figure>
+  <figure><img src="/img/lessons/attack-indicators/slide11_image11.png" alt="Slayd 11" loading="lazy" /><figcaption>Slayd 11</figcaption></figure>
+  <figure><img src="/img/lessons/attack-indicators/slide12_image12.png" alt="Slayd 12" loading="lazy" /><figcaption>Slayd 12</figcaption></figure>
+  <figure><img src="/img/lessons/attack-indicators/slide13_image13.png" alt="Slayd 13" loading="lazy" /><figcaption>Slayd 13</figcaption></figure>
+  <figure><img src="/img/lessons/attack-indicators/slide14_image14.png" alt="Slayd 14" loading="lazy" /><figcaption>Slayd 14</figcaption></figure>
+  <figure><img src="/img/lessons/attack-indicators/slide15_image15.jpeg" alt="Slayd 15" loading="lazy" /><figcaption>Slayd 15</figcaption></figure>
+  <figure><img src="/img/lessons/attack-indicators/slide16_image16.jpeg" alt="Slayd 16" loading="lazy" /><figcaption>Slayd 16</figcaption></figure>
+  <figure><img src="/img/lessons/attack-indicators/slide17_image17.png" alt="Slayd 17" loading="lazy" /><figcaption>Slayd 17</figcaption></figure>
+  <figure><img src="/img/lessons/attack-indicators/slide19_image18.png" alt="Slayd 19" loading="lazy" /><figcaption>Slayd 19</figcaption></figure>
+  <figure><img src="/img/lessons/attack-indicators/slide20_image19.jpeg" alt="Slayd 20" loading="lazy" /><figcaption>Slayd 20</figcaption></figure>
+  <figure><img src="/img/lessons/attack-indicators/slide21_image20.png" alt="Slayd 21" loading="lazy" /><figcaption>Slayd 21</figcaption></figure>
+  <figure><img src="/img/lessons/attack-indicators/slide22_image21.png" alt="Slayd 22" loading="lazy" /><figcaption>Slayd 22</figcaption></figure>
+  <figure><img src="/img/lessons/attack-indicators/slide25_image22.png" alt="Slayd 25" loading="lazy" /><figcaption>Slayd 25</figcaption></figure>
+  <figure><img src="/img/lessons/attack-indicators/slide26_image23.jpeg" alt="Slayd 26" loading="lazy" /><figcaption>Slayd 26</figcaption></figure>
+</div>
 ## İstinadlar
 
 - David Bianco — [The Pyramid of Pain (orijinal blog yazısı)](https://detect-respond.blogspot.com/2013/03/the-pyramid-of-pain.html)

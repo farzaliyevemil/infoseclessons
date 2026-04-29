@@ -342,6 +342,18 @@ Proqram, yenə də, innovativ deyil. Bu, aydın siyasətə qarşı diqqətlə de
 
 "Hansı cihazlar qeyd edilib, hansı OS versiyaları dəstəklənir, siyasət nə deyir, itki zamanı nə baş verir, BYOD məlumatı necə ayrılır və manipulyasiyanı necə aşkarlayırıq" suallarına cavab verə bilən müəssisə həm audit, həm də red team-ə qarşı duran mobil təhlükəsizlik hekayəsinə malikdir. Cavab verə bilməyən müəssisə 800 dolaşan endpoint-in özünü düzgün aparmasına güvənir.
 
+
+## İstinad şəkilləri
+
+Bu illüstrasiyalar orijinal təlim slaydından götürülüb və yuxarıdakı dərs məzmununu tamamlayır.
+
+<div className="lesson-image-grid">
+  <figure><img src="/img/lessons/mobile-security/slide01_image1.jpeg" alt="Slayd 1" loading="lazy" /><figcaption>Slayd 1</figcaption></figure>
+  <figure><img src="/img/lessons/mobile-security/slide03_image2.png" alt="Slayd 3" loading="lazy" /><figcaption>Slayd 3</figcaption></figure>
+  <figure><img src="/img/lessons/mobile-security/slide05_image3.png" alt="Slayd 5" loading="lazy" /><figcaption>Slayd 5</figcaption></figure>
+  <figure><img src="/img/lessons/mobile-security/slide10_image4.png" alt="Slayd 10" loading="lazy" /><figcaption>Slayd 10</figcaption></figure>
+  <figure><img src="/img/lessons/mobile-security/slide11_image5.png" alt="Slayd 11" loading="lazy" /><figcaption>Slayd 11</figcaption></figure>
+</div>
 ## İstinadlar
 
 - NIST SP 800-124 Rev. 2 — *Guidelines for Managing the Security of Mobile Devices in the Enterprise* — https://csrc.nist.gov/publications/detail/sp/800-124/rev-2/final

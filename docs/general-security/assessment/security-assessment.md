@@ -439,6 +439,26 @@ The honest answers tell you which year you are in, regardless of how long the pr
 - Every finding becomes a ticket with a severity-driven SLA, an owner, and a re-test gate.
 - A healthy programme runs on an annual rhythm — quarterly scans, annual pentest, annual ISO 27001 internal audit, continuous asset discovery — feeding a board review that funds next year.
 
+
+## Reference images
+
+These illustrations are from the original training deck and complement the lesson content above.
+
+<div className="lesson-image-grid">
+  <figure><img src="/img/lessons/security-assessment/slide04_image1.png" alt="Slide 4" loading="lazy" /><figcaption>Slide 4</figcaption></figure>
+  <figure><img src="/img/lessons/security-assessment/slide07_image2.png" alt="Slide 7" loading="lazy" /><figcaption>Slide 7</figcaption></figure>
+  <figure><img src="/img/lessons/security-assessment/slide10_image10.png" alt="Slide 10" loading="lazy" /><figcaption>Slide 10</figcaption></figure>
+  <figure><img src="/img/lessons/security-assessment/slide10_image11.png" alt="Slide 10" loading="lazy" /><figcaption>Slide 10</figcaption></figure>
+  <figure><img src="/img/lessons/security-assessment/slide10_image90.png" alt="Slide 10" loading="lazy" /><figcaption>Slide 10</figcaption></figure>
+  <figure><img src="/img/lessons/security-assessment/slide12_image3.png" alt="Slide 12" loading="lazy" /><figcaption>Slide 12</figcaption></figure>
+  <figure><img src="/img/lessons/security-assessment/slide14_image4.png" alt="Slide 14" loading="lazy" /><figcaption>Slide 14</figcaption></figure>
+  <figure><img src="/img/lessons/security-assessment/slide14_image5.png" alt="Slide 14" loading="lazy" /><figcaption>Slide 14</figcaption></figure>
+  <figure><img src="/img/lessons/security-assessment/slide14_image6.png" alt="Slide 14" loading="lazy" /><figcaption>Slide 14</figcaption></figure>
+  <figure><img src="/img/lessons/security-assessment/slide14_image7.jpeg" alt="Slide 14" loading="lazy" /><figcaption>Slide 14</figcaption></figure>
+  <figure><img src="/img/lessons/security-assessment/slide17_image8.png" alt="Slide 17" loading="lazy" /><figcaption>Slide 17</figcaption></figure>
+  <figure><img src="/img/lessons/security-assessment/slide17_image9.png" alt="Slide 17" loading="lazy" /><figcaption>Slide 17</figcaption></figure>
+  <figure><img src="/img/lessons/security-assessment/slide25_image12.png" alt="Slide 25" loading="lazy" /><figcaption>Slide 25</figcaption></figure>
+</div>
 ## References
 
 - PTES — Penetration Testing Execution Standard: https://www.pentest-standard.org/

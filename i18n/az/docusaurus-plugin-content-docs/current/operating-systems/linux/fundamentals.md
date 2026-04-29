@@ -642,6 +642,20 @@ Bundan sonra `ops` kimi SSH edə biləcəyinizi, `root` girişinin rədd edildiy
 - Hadisələr üçün `/var/log/auth.log` (və ya `secure`) plus `journalctl -u <service>` ilk sorğu turunun əksər suallarına cavab verir.
 - Hardening əhval-ruhiyyə deyil, yoxlama siyahısıdır: root olmayan SSH, yalnız açar autentifikasiyası, firewall, gözlənilməz yeniləmələr, fail2ban, mərkəzləşdirilmiş loglar. Bunu birinci gün edin.
 
+
+## İstinad şəkilləri
+
+Bu illüstrasiyalar orijinal təlim slaydından götürülüb və yuxarıdakı dərs məzmununu tamamlayır.
+
+<div className="lesson-image-grid">
+  <figure><img src="/img/lessons/linux-fundamentals/slide01_image1.png" alt="Slayd 1" loading="lazy" /><figcaption>Slayd 1</figcaption></figure>
+  <figure><img src="/img/lessons/linux-fundamentals/slide03_image2.png" alt="Slayd 3" loading="lazy" /><figcaption>Slayd 3</figcaption></figure>
+  <figure><img src="/img/lessons/linux-fundamentals/slide04_image3.png" alt="Slayd 4" loading="lazy" /><figcaption>Slayd 4</figcaption></figure>
+  <figure><img src="/img/lessons/linux-fundamentals/slide05_image4.png" alt="Slayd 5" loading="lazy" /><figcaption>Slayd 5</figcaption></figure>
+  <figure><img src="/img/lessons/linux-fundamentals/slide06_image5.png" alt="Slayd 6" loading="lazy" /><figcaption>Slayd 6</figcaption></figure>
+  <figure><img src="/img/lessons/linux-fundamentals/slide09_image6.png" alt="Slayd 9" loading="lazy" /><figcaption>Slayd 9</figcaption></figure>
+  <figure><img src="/img/lessons/linux-fundamentals/slide33_image7.png" alt="Slayd 33" loading="lazy" /><figcaption>Slayd 33</figcaption></figure>
+</div>
 ## References
 
 - The Linux Foundation — pulsuz "Introduction to Linux" (LFS101): https://training.linuxfoundation.org/training/introduction-to-linux/

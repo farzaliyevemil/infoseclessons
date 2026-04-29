@@ -349,6 +349,26 @@ It still does. Air-gap kills the *network* attack surface; it does nothing for a
 - Data minimization is the cheapest control — bytes you never stored cannot be leaked.
 - Real risk reviews always stack controls across categories. A lone hero control is a gap hiding in plain sight.
 
+
+## Reference images
+
+These illustrations are from the original training deck and complement the lesson content above.
+
+<div className="lesson-image-grid">
+  <figure><img src="/img/lessons/cia-triad/slide01_image1.jpg" alt="Slide 1" loading="lazy" /><figcaption>Slide 1</figcaption></figure>
+  <figure><img src="/img/lessons/cia-triad/slide04_image2.png" alt="Slide 4" loading="lazy" /><figcaption>Slide 4</figcaption></figure>
+  <figure><img src="/img/lessons/cia-triad/slide05_image3.png" alt="Slide 5" loading="lazy" /><figcaption>Slide 5</figcaption></figure>
+  <figure><img src="/img/lessons/cia-triad/slide06_image4.png" alt="Slide 6" loading="lazy" /><figcaption>Slide 6</figcaption></figure>
+  <figure><img src="/img/lessons/cia-triad/slide13_image5.png" alt="Slide 13" loading="lazy" /><figcaption>Slide 13</figcaption></figure>
+  <figure><img src="/img/lessons/cia-triad/slide17_image6.png" alt="Slide 17" loading="lazy" /><figcaption>Slide 17</figcaption></figure>
+  <figure><img src="/img/lessons/cia-triad/slide18_image7.png" alt="Slide 18" loading="lazy" /><figcaption>Slide 18</figcaption></figure>
+  <figure><img src="/img/lessons/cia-triad/slide19_image8.png" alt="Slide 19" loading="lazy" /><figcaption>Slide 19</figcaption></figure>
+  <figure><img src="/img/lessons/cia-triad/slide20_image9.png" alt="Slide 20" loading="lazy" /><figcaption>Slide 20</figcaption></figure>
+  <figure><img src="/img/lessons/cia-triad/slide21_image10.png" alt="Slide 21" loading="lazy" /><figcaption>Slide 21</figcaption></figure>
+  <figure><img src="/img/lessons/cia-triad/slide22_image11.png" alt="Slide 22" loading="lazy" /><figcaption>Slide 22</figcaption></figure>
+  <figure><img src="/img/lessons/cia-triad/slide23_image12.png" alt="Slide 23" loading="lazy" /><figcaption>Slide 23</figcaption></figure>
+  <figure><img src="/img/lessons/cia-triad/slide34_image13.png" alt="Slide 34" loading="lazy" /><figcaption>Slide 34</figcaption></figure>
+</div>
 ## References
 
 - [NIST SP 800-53 Rev. 5 — Security and Privacy Controls for Information Systems](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final)

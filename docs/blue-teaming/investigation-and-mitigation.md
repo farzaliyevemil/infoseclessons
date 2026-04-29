@@ -366,6 +366,21 @@ An incident-response programme that answers the six questions at the top of this
 
 For the controls and frameworks that this response programme builds on, see the related lessons on [endpoint security](./endpoint-security.md), [log analysis](./log-analysis.md), [SIEM and monitoring tooling](../general-security/open-source-tools/siem-and-monitoring.md), [threat intelligence and malware analysis](../general-security/open-source-tools/threat-intel-and-malware.md), and [security controls](../grc/security-controls.md).
 
+
+## Reference images
+
+These illustrations are from the original training deck and complement the lesson content above.
+
+<div className="lesson-image-grid">
+  <figure><img src="/img/lessons/investigation-and-mitigation/slide01_image1.jpeg" alt="Slide 1" loading="lazy" /><figcaption>Slide 1</figcaption></figure>
+  <figure><img src="/img/lessons/investigation-and-mitigation/slide02_image2.png" alt="Slide 2" loading="lazy" /><figcaption>Slide 2</figcaption></figure>
+  <figure><img src="/img/lessons/investigation-and-mitigation/slide15_image3.png" alt="Slide 15" loading="lazy" /><figcaption>Slide 15</figcaption></figure>
+  <figure><img src="/img/lessons/investigation-and-mitigation/slide21_image4.png" alt="Slide 21" loading="lazy" /><figcaption>Slide 21</figcaption></figure>
+  <figure><img src="/img/lessons/investigation-and-mitigation/slide23_image5.png" alt="Slide 23" loading="lazy" /><figcaption>Slide 23</figcaption></figure>
+  <figure><img src="/img/lessons/investigation-and-mitigation/slide28_image6.png" alt="Slide 28" loading="lazy" /><figcaption>Slide 28</figcaption></figure>
+  <figure><img src="/img/lessons/investigation-and-mitigation/slide43_image7.png" alt="Slide 43" loading="lazy" /><figcaption>Slide 43</figcaption></figure>
+  <figure><img src="/img/lessons/investigation-and-mitigation/slide51_image8.png" alt="Slide 51" loading="lazy" /><figcaption>Slide 51</figcaption></figure>
+</div>
 ## References
 
 - NIST SP 800-61 Rev 2 — *Computer Security Incident Handling Guide* — [https://csrc.nist.gov/publications/detail/sp/800-61/rev-2/final](https://csrc.nist.gov/publications/detail/sp/800-61/rev-2/final)

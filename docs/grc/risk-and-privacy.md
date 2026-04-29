@@ -392,6 +392,16 @@ The operational rhythm — quarterly workshops, annual refresh, board-level repo
 - Breach clocks are not negotiable: **GDPR 72 h**, **HIPAA 60 days**, **NIS2 24 h early / 72 h notification**, **SEC 4 business days**. Know your clocks before you need them.
 - A DSR intake process that works on a random Tuesday is worth more than an elegant privacy notice that no one links to the back-office.
 
+
+## Reference images
+
+These illustrations are from the original training deck and complement the lesson content above.
+
+<div className="lesson-image-grid">
+  <figure><img src="/img/lessons/risk-and-privacy/slide01_image1.jpeg" alt="Slide 1" loading="lazy" /><figcaption>Slide 1</figcaption></figure>
+  <figure><img src="/img/lessons/risk-and-privacy/slide16_image2.png" alt="Slide 16" loading="lazy" /><figcaption>Slide 16</figcaption></figure>
+  <figure><img src="/img/lessons/risk-and-privacy/slide47_image3.png" alt="Slide 47" loading="lazy" /><figcaption>Slide 47</figcaption></figure>
+</div>
 ## References
 
 - **NIST SP 800-30 Rev. 1**, *Guide for Conducting Risk Assessments* — https://csrc.nist.gov/publications/detail/sp/800-30/rev-1/final

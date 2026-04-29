@@ -332,6 +332,26 @@ The lesson `example.local` took away was process, not technology. The Amass and 
 - **Defenders should think like attackers.** A red-team mindset over the inventory finds gaps that a checklist never will.
 - **Document the residual.** What you cannot close, write down — accepted, with owner and review date.
 
+
+## Reference images
+
+These illustrations are from the original training deck and complement the lesson content above.
+
+<div className="lesson-image-grid">
+  <figure><img src="/img/lessons/threat-vectors-and-attack-surfaces/slide02_image1.png" alt="Slide 2" loading="lazy" /><figcaption>Slide 2</figcaption></figure>
+  <figure><img src="/img/lessons/threat-vectors-and-attack-surfaces/slide03_image2.png" alt="Slide 3" loading="lazy" /><figcaption>Slide 3</figcaption></figure>
+  <figure><img src="/img/lessons/threat-vectors-and-attack-surfaces/slide04_image3.jpeg" alt="Slide 4" loading="lazy" /><figcaption>Slide 4</figcaption></figure>
+  <figure><img src="/img/lessons/threat-vectors-and-attack-surfaces/slide05_image4.jpeg" alt="Slide 5" loading="lazy" /><figcaption>Slide 5</figcaption></figure>
+  <figure><img src="/img/lessons/threat-vectors-and-attack-surfaces/slide06_image5.jpeg" alt="Slide 6" loading="lazy" /><figcaption>Slide 6</figcaption></figure>
+  <figure><img src="/img/lessons/threat-vectors-and-attack-surfaces/slide07_image6.png" alt="Slide 7" loading="lazy" /><figcaption>Slide 7</figcaption></figure>
+  <figure><img src="/img/lessons/threat-vectors-and-attack-surfaces/slide08_image7.png" alt="Slide 8" loading="lazy" /><figcaption>Slide 8</figcaption></figure>
+  <figure><img src="/img/lessons/threat-vectors-and-attack-surfaces/slide09_image8.png" alt="Slide 9" loading="lazy" /><figcaption>Slide 9</figcaption></figure>
+  <figure><img src="/img/lessons/threat-vectors-and-attack-surfaces/slide18_image10.png" alt="Slide 18" loading="lazy" /><figcaption>Slide 18</figcaption></figure>
+  <figure><img src="/img/lessons/threat-vectors-and-attack-surfaces/slide18_image9.png" alt="Slide 18" loading="lazy" /><figcaption>Slide 18</figcaption></figure>
+  <figure><img src="/img/lessons/threat-vectors-and-attack-surfaces/slide19_image11.png" alt="Slide 19" loading="lazy" /><figcaption>Slide 19</figcaption></figure>
+  <figure><img src="/img/lessons/threat-vectors-and-attack-surfaces/slide19_image12.png" alt="Slide 19" loading="lazy" /><figcaption>Slide 19</figcaption></figure>
+  <figure><img src="/img/lessons/threat-vectors-and-attack-surfaces/slide24_image13.jpg" alt="Slide 24" loading="lazy" /><figcaption>Slide 24</figcaption></figure>
+</div>
 ## References
 
 - MITRE ATT&CK — Initial Access tactic — [attack.mitre.org/tactics/TA0001](https://attack.mitre.org/tactics/TA0001/)

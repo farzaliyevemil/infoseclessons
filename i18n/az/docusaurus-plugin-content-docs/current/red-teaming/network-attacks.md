@@ -318,6 +318,19 @@ Yoxlama siyahısı qəsdən *zəmindir*, tavan deyil — daha qabaqcıl nəzarə
 - **Bulud və IPv6 boşluqları irs alır** — on-prem-də mitigasiya etdiyiniz hər L2 / L3 hücumu bulud-virtual-şəbəkə və IPv6 yolları üçün yenidən qiymətləndirilməlidir.
 - **Prosedural runbook-lar aşkarlamalar qədər vacibdir** — cihazı karantinə salmaq işin yarısıdır; onu xidmətə qaytarmaq digər yarısıdır və oradakı boşluqlar məşq istəkliliyini azaldır.
 
+
+## İstinad şəkilləri
+
+Bu illüstrasiyalar orijinal təlim slaydından götürülüb və yuxarıdakı dərs məzmununu tamamlayır.
+
+<div className="lesson-image-grid">
+  <figure><img src="/img/lessons/network-attacks/slide03_image1.jpeg" alt="Slayd 3" loading="lazy" /><figcaption>Slayd 3</figcaption></figure>
+  <figure><img src="/img/lessons/network-attacks/slide05_image2.jpeg" alt="Slayd 5" loading="lazy" /><figcaption>Slayd 5</figcaption></figure>
+  <figure><img src="/img/lessons/network-attacks/slide06_image3.png" alt="Slayd 6" loading="lazy" /><figcaption>Slayd 6</figcaption></figure>
+  <figure><img src="/img/lessons/network-attacks/slide06_image4.png" alt="Slayd 6" loading="lazy" /><figcaption>Slayd 6</figcaption></figure>
+  <figure><img src="/img/lessons/network-attacks/slide07_image5.png" alt="Slayd 7" loading="lazy" /><figcaption>Slayd 7</figcaption></figure>
+  <figure><img src="/img/lessons/network-attacks/slide07_image6.png" alt="Slayd 7" loading="lazy" /><figcaption>Slayd 7</figcaption></figure>
+</div>
 ## İstinadlar
 
 - RFC 826 — [Address Resolution Protocol](https://www.rfc-editor.org/rfc/rfc826)

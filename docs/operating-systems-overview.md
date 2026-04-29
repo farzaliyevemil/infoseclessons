@@ -203,6 +203,19 @@ Anyone who only knows one platform spends the day handing tickets to a colleague
 - Most "I don't know what I'm looking at" moments dissolve when you map the new tool to the concept it shows (process, service, file, memory, port, log, user).
 - Spend a weekend with one Windows VM and one Ubuntu VM open side by side and the unfamiliarity disappears faster than any book.
 
+
+## Reference images
+
+These illustrations are from the original training deck and complement the lesson content above.
+
+<div className="lesson-image-grid">
+  <figure><img src="/img/lessons/operating-systems-overview/slide01_image1.png" alt="Slide 1" loading="lazy" /><figcaption>Slide 1</figcaption></figure>
+  <figure><img src="/img/lessons/operating-systems-overview/slide01_image2.png" alt="Slide 1" loading="lazy" /><figcaption>Slide 1</figcaption></figure>
+  <figure><img src="/img/lessons/operating-systems-overview/slide02_image3.png" alt="Slide 2" loading="lazy" /><figcaption>Slide 2</figcaption></figure>
+  <figure><img src="/img/lessons/operating-systems-overview/slide08_image4.png" alt="Slide 8" loading="lazy" /><figcaption>Slide 8</figcaption></figure>
+  <figure><img src="/img/lessons/operating-systems-overview/slide30_image5.png" alt="Slide 30" loading="lazy" /><figcaption>Slide 30</figcaption></figure>
+  <figure><img src="/img/lessons/operating-systems-overview/slide37_image6.png" alt="Slide 37" loading="lazy" /><figcaption>Slide 37</figcaption></figure>
+</div>
 ## References
 
 - *Operating Systems: Three Easy Pieces* (Remzi & Andrea Arpaci-Dusseau) — the standard free textbook on OS concepts. https://pages.cs.wisc.edu/~remzi/OSTEP/

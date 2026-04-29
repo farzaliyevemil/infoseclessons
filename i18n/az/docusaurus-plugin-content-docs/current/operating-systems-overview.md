@@ -203,6 +203,19 @@ Yalnız bir platformanı bilən hər kəs günü ticket-ləri həmkarına ötür
 - "Nəyə baxdığımı bilmirəm" anlarının əksəriyyəti yeni aləti onun göstərdiyi anlayışa (proses, servis, fayl, yaddaş, port, log, istifadəçi) xəritələdikdə həll olur.
 - Bir Windows VM və bir Ubuntu VM yan-yana açıq həftəsonu keçirin və naməlumluq hər kitabdan daha sürətli yox olur.
 
+
+## İstinad şəkilləri
+
+Bu illüstrasiyalar orijinal təlim slaydından götürülüb və yuxarıdakı dərs məzmununu tamamlayır.
+
+<div className="lesson-image-grid">
+  <figure><img src="/img/lessons/operating-systems-overview/slide01_image1.png" alt="Slayd 1" loading="lazy" /><figcaption>Slayd 1</figcaption></figure>
+  <figure><img src="/img/lessons/operating-systems-overview/slide01_image2.png" alt="Slayd 1" loading="lazy" /><figcaption>Slayd 1</figcaption></figure>
+  <figure><img src="/img/lessons/operating-systems-overview/slide02_image3.png" alt="Slayd 2" loading="lazy" /><figcaption>Slayd 2</figcaption></figure>
+  <figure><img src="/img/lessons/operating-systems-overview/slide08_image4.png" alt="Slayd 8" loading="lazy" /><figcaption>Slayd 8</figcaption></figure>
+  <figure><img src="/img/lessons/operating-systems-overview/slide30_image5.png" alt="Slayd 30" loading="lazy" /><figcaption>Slayd 30</figcaption></figure>
+  <figure><img src="/img/lessons/operating-systems-overview/slide37_image6.png" alt="Slayd 37" loading="lazy" /><figcaption>Slayd 37</figcaption></figure>
+</div>
 ## İstinadlar
 
 - *Operating Systems: Three Easy Pieces* (Remzi & Andrea Arpaci-Dusseau) — OS anlayışları üzrə standart pulsuz dərslik. https://pages.cs.wisc.edu/~remzi/OSTEP/

@@ -343,6 +343,24 @@ Yenidən dizayn ekzotik deyil — yeni protokollar, qabaqcıl satıcılar yoxdur
 - SPAN və TAP portları monitorinq yığınını qidalandırır. Şəbəkə təhlükəsizliyi monitorinqi və fayl bütövlüyü monitorinqi preventiv nəzarətlərin uğursuz olduğu vaxtı sizə söyləyir — və onlar nəticədə uğursuz olacaq.
 - Bu dərsdəki hər şey qəsdən adidir. Yaxşı şəbəkə təhlükəsizliyi ardıcıl tətbiq olunan sıxıcı şəbəkə təhlükəsizliyidir. "Bu hansı zonadadır, kim ona çata bilər və trafiki kim görür" sualına cavab verə bilən mülkün həm auditi, həm də təcavüzkarları sağ qalacaq duruşu var.
 
+
+## İstinad şəkilləri
+
+Bu illüstrasiyalar orijinal təlim slaydından götürülüb və yuxarıdakı dərs məzmununu tamamlayır.
+
+<div className="lesson-image-grid">
+  <figure><img src="/img/lessons/secure-network-design/slide01_image1.jpeg" alt="Slayd 1" loading="lazy" /><figcaption>Slayd 1</figcaption></figure>
+  <figure><img src="/img/lessons/secure-network-design/slide04_image2.png" alt="Slayd 4" loading="lazy" /><figcaption>Slayd 4</figcaption></figure>
+  <figure><img src="/img/lessons/secure-network-design/slide12_image3.png" alt="Slayd 12" loading="lazy" /><figcaption>Slayd 12</figcaption></figure>
+  <figure><img src="/img/lessons/secure-network-design/slide14_image4.png" alt="Slayd 14" loading="lazy" /><figcaption>Slayd 14</figcaption></figure>
+  <figure><img src="/img/lessons/secure-network-design/slide26_image5.png" alt="Slayd 26" loading="lazy" /><figcaption>Slayd 26</figcaption></figure>
+  <figure><img src="/img/lessons/secure-network-design/slide32_image6.png" alt="Slayd 32" loading="lazy" /><figcaption>Slayd 32</figcaption></figure>
+  <figure><img src="/img/lessons/secure-network-design/slide38_image7.png" alt="Slayd 38" loading="lazy" /><figcaption>Slayd 38</figcaption></figure>
+  <figure><img src="/img/lessons/secure-network-design/slide47_image8.png" alt="Slayd 47" loading="lazy" /><figcaption>Slayd 47</figcaption></figure>
+  <figure><img src="/img/lessons/secure-network-design/slide57_image9.png" alt="Slayd 57" loading="lazy" /><figcaption>Slayd 57</figcaption></figure>
+  <figure><img src="/img/lessons/secure-network-design/slide68_image10.png" alt="Slayd 68" loading="lazy" /><figcaption>Slayd 68</figcaption></figure>
+  <figure><img src="/img/lessons/secure-network-design/slide75_image11.png" alt="Slayd 75" loading="lazy" /><figcaption>Slayd 75</figcaption></figure>
+</div>
 ## İstinadlar
 
 - NIST SP 800-207 — *Zero Trust Architecture* — https://csrc.nist.gov/publications/detail/sp/800-207/final

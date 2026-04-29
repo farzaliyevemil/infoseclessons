@@ -398,6 +398,23 @@ Eighteen failure modes that keep showing up in audits and post-mortems.
 - Real breaks come from implementations and protocols, not algorithms — constant-time code, authenticated modes, and rigorous key management close most of the gap.
 - Key management is the discipline that decides whether your crypto investment delivers; track every key through generation, rotation and destruction.
 
+
+## Reference images
+
+These illustrations are from the original training deck and complement the lesson content above.
+
+<div className="lesson-image-grid">
+  <figure><img src="/img/lessons/cryptography-advanced/slide01_image1.jpeg" alt="Slide 1" loading="lazy" /><figcaption>Slide 1</figcaption></figure>
+  <figure><img src="/img/lessons/cryptography-advanced/slide02_image2.png" alt="Slide 2" loading="lazy" /><figcaption>Slide 2</figcaption></figure>
+  <figure><img src="/img/lessons/cryptography-advanced/slide08_image3.png" alt="Slide 8" loading="lazy" /><figcaption>Slide 8</figcaption></figure>
+  <figure><img src="/img/lessons/cryptography-advanced/slide09_image4.png" alt="Slide 9" loading="lazy" /><figcaption>Slide 9</figcaption></figure>
+  <figure><img src="/img/lessons/cryptography-advanced/slide11_image5.png" alt="Slide 11" loading="lazy" /><figcaption>Slide 11</figcaption></figure>
+  <figure><img src="/img/lessons/cryptography-advanced/slide12_image6.png" alt="Slide 12" loading="lazy" /><figcaption>Slide 12</figcaption></figure>
+  <figure><img src="/img/lessons/cryptography-advanced/slide17_image7.png" alt="Slide 17" loading="lazy" /><figcaption>Slide 17</figcaption></figure>
+  <figure><img src="/img/lessons/cryptography-advanced/slide23_image8.png" alt="Slide 23" loading="lazy" /><figcaption>Slide 23</figcaption></figure>
+  <figure><img src="/img/lessons/cryptography-advanced/slide24_image9.png" alt="Slide 24" loading="lazy" /><figcaption>Slide 24</figcaption></figure>
+  <figure><img src="/img/lessons/cryptography-advanced/slide38_image10.png" alt="Slide 38" loading="lazy" /><figcaption>Slide 38</figcaption></figure>
+</div>
 ## References
 
 - NIST FIPS 197 — *Advanced Encryption Standard (AES).* [csrc.nist.gov/publications/detail/fips/197/final](https://csrc.nist.gov/publications/detail/fips/197/final)

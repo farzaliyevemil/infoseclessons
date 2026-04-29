@@ -361,6 +361,17 @@ Təşkilatın harada olduğunu və növbəti nəyi quracağını xəritələmək
 - HR, təhlükəsizlik və İT əməliyyatları IAM proqramını birlikdə işlətməlidirlər; istənilən ikisi arasındakı divar demək olar ki, hər həyat dövrü boşluğunun kök səbəbidir.
 - İş yükü şəxsiyyətləri (bulud rolları, idarə olunan şəxsiyyətlər, K8s xidmət hesabları) insanlarla eyni həyat dövrünü izləyirlər; onları konfiqurasiya kimi deyil, birinci-sinif şəxsiyyətlər kimi qəbul edin.
 
+
+## İstinad şəkilləri
+
+Bu illüstrasiyalar orijinal təlim slaydından götürülüb və yuxarıdakı dərs məzmununu tamamlayır.
+
+<div className="lesson-image-grid">
+  <figure><img src="/img/lessons/iam-account-management/slide01_image1.jpeg" alt="Slayd 1" loading="lazy" /><figcaption>Slayd 1</figcaption></figure>
+  <figure><img src="/img/lessons/iam-account-management/slide45_image2.png" alt="Slayd 45" loading="lazy" /><figcaption>Slayd 45</figcaption></figure>
+  <figure><img src="/img/lessons/iam-account-management/slide54_image3.png" alt="Slayd 54" loading="lazy" /><figcaption>Slayd 54</figcaption></figure>
+  <figure><img src="/img/lessons/iam-account-management/slide64_image4.png" alt="Slayd 64" loading="lazy" /><figcaption>Slayd 64</figcaption></figure>
+</div>
 ## İstinadlar
 
 - [NIST SP 800-63A — Digital Identity Guidelines: Enrolment and Identity Proofing](https://pages.nist.gov/800-63-3/sp800-63a.html)

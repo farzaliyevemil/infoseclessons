@@ -363,6 +363,54 @@ The cultural shift is as important as the tooling. Security has to be a property
 
 Cross-references: [./aaa-non-repudiation.md](./aaa-non-repudiation.md) for the identity foundations every pipeline relies on; [vulnerability management](./assessment/vulnerability-management.md) for the broader vulnerability lifecycle; [../grc/security-controls.md](../grc/security-controls.md) for the catalogue of controls these practices instantiate.
 
+
+## Reference images
+
+These illustrations are from the original training deck and complement the lesson content above.
+
+<div className="lesson-image-grid">
+  <figure><img src="/img/lessons/secure-app-development/slide01_image1.jpeg" alt="Slide 1" loading="lazy" /><figcaption>Slide 1</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide02_image2.png" alt="Slide 2" loading="lazy" /><figcaption>Slide 2</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide03_image3.png" alt="Slide 3" loading="lazy" /><figcaption>Slide 3</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide04_image4.png" alt="Slide 4" loading="lazy" /><figcaption>Slide 4</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide05_image5.png" alt="Slide 5" loading="lazy" /><figcaption>Slide 5</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide06_image6.png" alt="Slide 6" loading="lazy" /><figcaption>Slide 6</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide07_image7.png" alt="Slide 7" loading="lazy" /><figcaption>Slide 7</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide08_image8.png" alt="Slide 8" loading="lazy" /><figcaption>Slide 8</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide10_image9.png" alt="Slide 10" loading="lazy" /><figcaption>Slide 10</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide11_image10.png" alt="Slide 11" loading="lazy" /><figcaption>Slide 11</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide12_image11.png" alt="Slide 12" loading="lazy" /><figcaption>Slide 12</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide13_image12.png" alt="Slide 13" loading="lazy" /><figcaption>Slide 13</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide14_image13.png" alt="Slide 14" loading="lazy" /><figcaption>Slide 14</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide15_image14.png" alt="Slide 15" loading="lazy" /><figcaption>Slide 15</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide16_image15.png" alt="Slide 16" loading="lazy" /><figcaption>Slide 16</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide17_image16.png" alt="Slide 17" loading="lazy" /><figcaption>Slide 17</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide18_image17.png" alt="Slide 18" loading="lazy" /><figcaption>Slide 18</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide19_image18.png" alt="Slide 19" loading="lazy" /><figcaption>Slide 19</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide20_image19.png" alt="Slide 20" loading="lazy" /><figcaption>Slide 20</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide22_image20.png" alt="Slide 22" loading="lazy" /><figcaption>Slide 22</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide24_image21.png" alt="Slide 24" loading="lazy" /><figcaption>Slide 24</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide25_image22.png" alt="Slide 25" loading="lazy" /><figcaption>Slide 25</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide26_image23.png" alt="Slide 26" loading="lazy" /><figcaption>Slide 26</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide28_image24.png" alt="Slide 28" loading="lazy" /><figcaption>Slide 28</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide29_image25.png" alt="Slide 29" loading="lazy" /><figcaption>Slide 29</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide30_image26.png" alt="Slide 30" loading="lazy" /><figcaption>Slide 30</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide34_image27.png" alt="Slide 34" loading="lazy" /><figcaption>Slide 34</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide35_image28.png" alt="Slide 35" loading="lazy" /><figcaption>Slide 35</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide40_image29.png" alt="Slide 40" loading="lazy" /><figcaption>Slide 40</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide43_image30.png" alt="Slide 43" loading="lazy" /><figcaption>Slide 43</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide44_image31.png" alt="Slide 44" loading="lazy" /><figcaption>Slide 44</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide45_image32.png" alt="Slide 45" loading="lazy" /><figcaption>Slide 45</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide46_image33.png" alt="Slide 46" loading="lazy" /><figcaption>Slide 46</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide47_image34.png" alt="Slide 47" loading="lazy" /><figcaption>Slide 47</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide48_image35.png" alt="Slide 48" loading="lazy" /><figcaption>Slide 48</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide49_image36.png" alt="Slide 49" loading="lazy" /><figcaption>Slide 49</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide50_image37.png" alt="Slide 50" loading="lazy" /><figcaption>Slide 50</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide52_image38.png" alt="Slide 52" loading="lazy" /><figcaption>Slide 52</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide53_image39.png" alt="Slide 53" loading="lazy" /><figcaption>Slide 53</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide54_image40.png" alt="Slide 54" loading="lazy" /><figcaption>Slide 54</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide56_image41.png" alt="Slide 56" loading="lazy" /><figcaption>Slide 56</figcaption></figure>
+</div>
 ## References
 
 - NIST SP 800-218 — *Secure Software Development Framework (SSDF)* — [https://csrc.nist.gov/publications/detail/sp/800-218/final](https://csrc.nist.gov/publications/detail/sp/800-218/final)

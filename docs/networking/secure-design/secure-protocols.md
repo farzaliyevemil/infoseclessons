@@ -329,6 +329,19 @@ The `example.local` programme is deliberately not interesting — no exotic cryp
 
 An estate that can answer, for every service, "which secure protocol are we on, which version of TLS/SSH/IPSec, and when was the last certificate rotated" has a management story that will survive both an audit and a penetration test. An estate that cannot is held together by hope.
 
+
+## Reference images
+
+These illustrations are from the original training deck and complement the lesson content above.
+
+<div className="lesson-image-grid">
+  <figure><img src="/img/lessons/secure-protocols/slide01_image1.jpeg" alt="Slide 1" loading="lazy" /><figcaption>Slide 1</figcaption></figure>
+  <figure><img src="/img/lessons/secure-protocols/slide28_image2.png" alt="Slide 28" loading="lazy" /><figcaption>Slide 28</figcaption></figure>
+  <figure><img src="/img/lessons/secure-protocols/slide34_image3.png" alt="Slide 34" loading="lazy" /><figcaption>Slide 34</figcaption></figure>
+  <figure><img src="/img/lessons/secure-protocols/slide35_image4.png" alt="Slide 35" loading="lazy" /><figcaption>Slide 35</figcaption></figure>
+  <figure><img src="/img/lessons/secure-protocols/slide36_image5.png" alt="Slide 36" loading="lazy" /><figcaption>Slide 36</figcaption></figure>
+  <figure><img src="/img/lessons/secure-protocols/slide38_image6.png" alt="Slide 38" loading="lazy" /><figcaption>Slide 38</figcaption></figure>
+</div>
 ## References
 
 - NIST SP 800-52 Rev. 2 — *Guidelines for the Selection, Configuration, and Use of TLS Implementations* — https://csrc.nist.gov/publications/detail/sp/800-52/rev-2/final

@@ -394,6 +394,24 @@ Click rate alone is misleading — a low click rate with a low report rate means
 - Every high-value finance action needs an out-of-band verification step — always on a number you already have, never the number in the email.
 - Rehearse a BEC table-top exercise at least once a year. The first time you run the playbook should not be during a real incident.
 
+
+## Reference images
+
+These illustrations are from the original training deck and complement the lesson content above.
+
+<div className="lesson-image-grid">
+  <figure><img src="/img/lessons/social-engineering/slide01_image1.jpg" alt="Slide 1" loading="lazy" /><figcaption>Slide 1</figcaption></figure>
+  <figure><img src="/img/lessons/social-engineering/slide02_image2.png" alt="Slide 2" loading="lazy" /><figcaption>Slide 2</figcaption></figure>
+  <figure><img src="/img/lessons/social-engineering/slide03_image3.png" alt="Slide 3" loading="lazy" /><figcaption>Slide 3</figcaption></figure>
+  <figure><img src="/img/lessons/social-engineering/slide07_image4.png" alt="Slide 7" loading="lazy" /><figcaption>Slide 7</figcaption></figure>
+  <figure><img src="/img/lessons/social-engineering/slide07_image5.png" alt="Slide 7" loading="lazy" /><figcaption>Slide 7</figcaption></figure>
+  <figure><img src="/img/lessons/social-engineering/slide08_image6.png" alt="Slide 8" loading="lazy" /><figcaption>Slide 8</figcaption></figure>
+  <figure><img src="/img/lessons/social-engineering/slide08_image7.png" alt="Slide 8" loading="lazy" /><figcaption>Slide 8</figcaption></figure>
+  <figure><img src="/img/lessons/social-engineering/slide09_image8.jpeg" alt="Slide 9" loading="lazy" /><figcaption>Slide 9</figcaption></figure>
+  <figure><img src="/img/lessons/social-engineering/slide09_image9.jpeg" alt="Slide 9" loading="lazy" /><figcaption>Slide 9</figcaption></figure>
+  <figure><img src="/img/lessons/social-engineering/slide12_image10.png" alt="Slide 12" loading="lazy" /><figcaption>Slide 12</figcaption></figure>
+  <figure><img src="/img/lessons/social-engineering/slide16_image11.png" alt="Slide 16" loading="lazy" /><figcaption>Slide 16</figcaption></figure>
+</div>
 ## References
 
 - Verizon DBIR 2024 — `https://www.verizon.com/business/resources/reports/dbir/`

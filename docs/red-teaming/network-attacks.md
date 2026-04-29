@@ -318,6 +318,19 @@ The checklist is deliberately a *floor*, not a ceiling — every item below shou
 - **Cloud and IPv6 inherit the gaps** — every L2 / L3 attack you mitigate on-prem must be re-evaluated for the cloud-virtual-network and IPv6 paths.
 - **Procedural runbooks matter as much as detections** — quarantining a device is half the work; getting it back into service is the other half, and gaps there reduce exercise willingness.
 
+
+## Reference images
+
+These illustrations are from the original training deck and complement the lesson content above.
+
+<div className="lesson-image-grid">
+  <figure><img src="/img/lessons/network-attacks/slide03_image1.jpeg" alt="Slide 3" loading="lazy" /><figcaption>Slide 3</figcaption></figure>
+  <figure><img src="/img/lessons/network-attacks/slide05_image2.jpeg" alt="Slide 5" loading="lazy" /><figcaption>Slide 5</figcaption></figure>
+  <figure><img src="/img/lessons/network-attacks/slide06_image3.png" alt="Slide 6" loading="lazy" /><figcaption>Slide 6</figcaption></figure>
+  <figure><img src="/img/lessons/network-attacks/slide06_image4.png" alt="Slide 6" loading="lazy" /><figcaption>Slide 6</figcaption></figure>
+  <figure><img src="/img/lessons/network-attacks/slide07_image5.png" alt="Slide 7" loading="lazy" /><figcaption>Slide 7</figcaption></figure>
+  <figure><img src="/img/lessons/network-attacks/slide07_image6.png" alt="Slide 7" loading="lazy" /><figcaption>Slide 7</figcaption></figure>
+</div>
 ## References
 
 - RFC 826 — [Address Resolution Protocol](https://www.rfc-editor.org/rfc/rfc826)

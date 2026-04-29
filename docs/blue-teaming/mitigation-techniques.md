@@ -322,6 +322,16 @@ A FIM that produces 200 alerts a day is a FIM no one reads. Tune until expected 
 
 A mitigation programme that names the eight families, owns each, measures each, and reviews each annually is a programme that scales. One that answers by tribal knowledge and the last person who configured the firewall will not survive its first incident.
 
+
+## Reference images
+
+These illustrations are from the original training deck and complement the lesson content above.
+
+<div className="lesson-image-grid">
+  <figure><img src="/img/lessons/mitigation-techniques/slide10_image3.jpg" alt="Slide 10" loading="lazy" /><figcaption>Slide 10</figcaption></figure>
+  <figure><img src="/img/lessons/mitigation-techniques/slide00_image1.jpg" alt="Reference" loading="lazy" /><figcaption>Reference</figcaption></figure>
+  <figure><img src="/img/lessons/mitigation-techniques/slide00_image2.jpeg" alt="Reference" loading="lazy" /><figcaption>Reference</figcaption></figure>
+</div>
 ## References
 
 - NIST SP 800-53 — *Security and Privacy Controls for Information Systems and Organizations* (families AC, CM, SI) — [csrc.nist.gov/publications/detail/sp/800-53/rev-5/final](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final)

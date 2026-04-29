@@ -378,3 +378,14 @@ Quraşdırmadan sonra yalnız promotion tamamlandığı üçün mühiti sağlam 
 - Logical model: [https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/understanding-the-active-directory-logical-model](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/understanding-the-active-directory-logical-model)
 - Install AD DS: [https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/deploy/install-active-directory-domain-services--level-100-](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/deploy/install-active-directory-domain-services--level-100-)
 - Functional levels: [https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/raise-domain-forest-functional-levels](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/raise-domain-forest-functional-levels)
+
+## İstinad şəkilləri
+
+Bu illüstrasiyalar orijinal təlim slaydından götürülüb və yuxarıdakı dərs məzmununu tamamlayır.
+
+<div className="lesson-image-grid">
+  <figure><img src="/img/lessons/active-directory-domain-services/slide01_image1.png" alt="Slayd 1" loading="lazy" /><figcaption>Slayd 1</figcaption></figure>
+  <figure><img src="/img/lessons/active-directory-domain-services/slide01_image2.png" alt="Slayd 1" loading="lazy" /><figcaption>Slayd 1</figcaption></figure>
+  <figure><img src="/img/lessons/active-directory-domain-services/slide04_image3.png" alt="Slayd 4" loading="lazy" /><figcaption>Slayd 4</figcaption></figure>
+  <figure><img src="/img/lessons/active-directory-domain-services/slide05_image4.png" alt="Slayd 5" loading="lazy" /><figcaption>Slayd 5</figcaption></figure>
+</div>

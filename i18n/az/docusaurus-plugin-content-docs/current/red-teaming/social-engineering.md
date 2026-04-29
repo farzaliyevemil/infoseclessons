@@ -394,6 +394,24 @@ Yalnız klik nisbəti yanıldıcıdır — aşağı klik və aşağı bildiriş 
 - Yüksək dəyərli hər maliyyə əməliyyatı kanal-xarici doğrulama addımı tələb edir — həmişə sizdə artıq olan nömrəyə, heç vaxt məktubdakı nömrəyə.
 - BEC table-top məşqini ildə ən azı bir dəfə keçirin. Playbook-u ilk dəfə real insident zamanı oxumaq olmaz.
 
+
+## İstinad şəkilləri
+
+Bu illüstrasiyalar orijinal təlim slaydından götürülüb və yuxarıdakı dərs məzmununu tamamlayır.
+
+<div className="lesson-image-grid">
+  <figure><img src="/img/lessons/social-engineering/slide01_image1.jpg" alt="Slayd 1" loading="lazy" /><figcaption>Slayd 1</figcaption></figure>
+  <figure><img src="/img/lessons/social-engineering/slide02_image2.png" alt="Slayd 2" loading="lazy" /><figcaption>Slayd 2</figcaption></figure>
+  <figure><img src="/img/lessons/social-engineering/slide03_image3.png" alt="Slayd 3" loading="lazy" /><figcaption>Slayd 3</figcaption></figure>
+  <figure><img src="/img/lessons/social-engineering/slide07_image4.png" alt="Slayd 7" loading="lazy" /><figcaption>Slayd 7</figcaption></figure>
+  <figure><img src="/img/lessons/social-engineering/slide07_image5.png" alt="Slayd 7" loading="lazy" /><figcaption>Slayd 7</figcaption></figure>
+  <figure><img src="/img/lessons/social-engineering/slide08_image6.png" alt="Slayd 8" loading="lazy" /><figcaption>Slayd 8</figcaption></figure>
+  <figure><img src="/img/lessons/social-engineering/slide08_image7.png" alt="Slayd 8" loading="lazy" /><figcaption>Slayd 8</figcaption></figure>
+  <figure><img src="/img/lessons/social-engineering/slide09_image8.jpeg" alt="Slayd 9" loading="lazy" /><figcaption>Slayd 9</figcaption></figure>
+  <figure><img src="/img/lessons/social-engineering/slide09_image9.jpeg" alt="Slayd 9" loading="lazy" /><figcaption>Slayd 9</figcaption></figure>
+  <figure><img src="/img/lessons/social-engineering/slide12_image10.png" alt="Slayd 12" loading="lazy" /><figcaption>Slayd 12</figcaption></figure>
+  <figure><img src="/img/lessons/social-engineering/slide16_image11.png" alt="Slayd 16" loading="lazy" /><figcaption>Slayd 16</figcaption></figure>
+</div>
 ## İstinadlar
 
 - Verizon DBIR 2024 — `https://www.verizon.com/business/resources/reports/dbir/`

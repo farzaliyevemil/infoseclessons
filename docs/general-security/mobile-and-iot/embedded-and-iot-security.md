@@ -427,6 +427,58 @@ The OT boundary firewall is deny-by-default both ways. Every flow has a justific
 - Security for embedded and OT is mostly about containment. You cannot patch everything; you can control who talks to what, watch for surprises, and keep a manual fallback.
 - Procurement is where embedded security is won or lost. Push security requirements into the contract before money changes hands.
 
+
+## Reference images
+
+These illustrations are from the original training deck and complement the lesson content above.
+
+<div className="lesson-image-grid">
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide01_image1.jpeg" alt="Slide 1" loading="lazy" /><figcaption>Slide 1</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide02_image2.png" alt="Slide 2" loading="lazy" /><figcaption>Slide 2</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide04_image3.png" alt="Slide 4" loading="lazy" /><figcaption>Slide 4</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide05_image4.png" alt="Slide 5" loading="lazy" /><figcaption>Slide 5</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide07_image5.png" alt="Slide 7" loading="lazy" /><figcaption>Slide 7</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide08_image6.png" alt="Slide 8" loading="lazy" /><figcaption>Slide 8</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide15_image7.png" alt="Slide 15" loading="lazy" /><figcaption>Slide 15</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide16_image8.png" alt="Slide 16" loading="lazy" /><figcaption>Slide 16</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide18_image9.png" alt="Slide 18" loading="lazy" /><figcaption>Slide 18</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide19_image10.png" alt="Slide 19" loading="lazy" /><figcaption>Slide 19</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide22_image11.png" alt="Slide 22" loading="lazy" /><figcaption>Slide 22</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide25_image12.png" alt="Slide 25" loading="lazy" /><figcaption>Slide 25</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide26_image13.png" alt="Slide 26" loading="lazy" /><figcaption>Slide 26</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide27_image14.png" alt="Slide 27" loading="lazy" /><figcaption>Slide 27</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide28_image15.png" alt="Slide 28" loading="lazy" /><figcaption>Slide 28</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide29_image16.png" alt="Slide 29" loading="lazy" /><figcaption>Slide 29</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide31_image17.png" alt="Slide 31" loading="lazy" /><figcaption>Slide 31</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide32_image18.png" alt="Slide 32" loading="lazy" /><figcaption>Slide 32</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide33_image19.png" alt="Slide 33" loading="lazy" /><figcaption>Slide 33</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide35_image20.png" alt="Slide 35" loading="lazy" /><figcaption>Slide 35</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide36_image21.png" alt="Slide 36" loading="lazy" /><figcaption>Slide 36</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide37_image22.png" alt="Slide 37" loading="lazy" /><figcaption>Slide 37</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide38_image23.png" alt="Slide 38" loading="lazy" /><figcaption>Slide 38</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide39_image24.png" alt="Slide 39" loading="lazy" /><figcaption>Slide 39</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide52_image25.png" alt="Slide 52" loading="lazy" /><figcaption>Slide 52</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide54_image26.png" alt="Slide 54" loading="lazy" /><figcaption>Slide 54</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide55_image27.png" alt="Slide 55" loading="lazy" /><figcaption>Slide 55</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide56_image28.png" alt="Slide 56" loading="lazy" /><figcaption>Slide 56</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide57_image29.png" alt="Slide 57" loading="lazy" /><figcaption>Slide 57</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide58_image30.png" alt="Slide 58" loading="lazy" /><figcaption>Slide 58</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide59_image31.png" alt="Slide 59" loading="lazy" /><figcaption>Slide 59</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide60_image32.png" alt="Slide 60" loading="lazy" /><figcaption>Slide 60</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide61_image33.png" alt="Slide 61" loading="lazy" /><figcaption>Slide 61</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide62_image34.png" alt="Slide 62" loading="lazy" /><figcaption>Slide 62</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide63_image35.png" alt="Slide 63" loading="lazy" /><figcaption>Slide 63</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide65_image36.png" alt="Slide 65" loading="lazy" /><figcaption>Slide 65</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide66_image37.png" alt="Slide 66" loading="lazy" /><figcaption>Slide 66</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide67_image38.png" alt="Slide 67" loading="lazy" /><figcaption>Slide 67</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide68_image39.png" alt="Slide 68" loading="lazy" /><figcaption>Slide 68</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide69_image40.png" alt="Slide 69" loading="lazy" /><figcaption>Slide 69</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide71_image41.png" alt="Slide 71" loading="lazy" /><figcaption>Slide 71</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide72_image42.png" alt="Slide 72" loading="lazy" /><figcaption>Slide 72</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide73_image43.png" alt="Slide 73" loading="lazy" /><figcaption>Slide 73</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide77_image44.png" alt="Slide 77" loading="lazy" /><figcaption>Slide 77</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide79_image45.png" alt="Slide 79" loading="lazy" /><figcaption>Slide 79</figcaption></figure>
+</div>
 ## References
 
 - CompTIA Security+ SY0-701 — embedded and specialized system objectives

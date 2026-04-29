@@ -389,6 +389,25 @@ Both intermediate CA private keys live in network-attached HSMs.
 - Key escrow is acceptable for encryption keys (corporate continuity), unacceptable for signing keys (preserves non-repudiation).
 - PKI is a programme, not a project. Roots roll, algorithms deprecate, post-quantum is approaching. Staff it forever.
 
+
+## Reference images
+
+These illustrations are from the original training deck and complement the lesson content above.
+
+<div className="lesson-image-grid">
+  <figure><img src="/img/lessons/pki/slide01_image1.jpeg" alt="Slide 1" loading="lazy" /><figcaption>Slide 1</figcaption></figure>
+  <figure><img src="/img/lessons/pki/slide04_image2.png" alt="Slide 4" loading="lazy" /><figcaption>Slide 4</figcaption></figure>
+  <figure><img src="/img/lessons/pki/slide06_image3.png" alt="Slide 6" loading="lazy" /><figcaption>Slide 6</figcaption></figure>
+  <figure><img src="/img/lessons/pki/slide15_image4.png" alt="Slide 15" loading="lazy" /><figcaption>Slide 15</figcaption></figure>
+  <figure><img src="/img/lessons/pki/slide22_image5.png" alt="Slide 22" loading="lazy" /><figcaption>Slide 22</figcaption></figure>
+  <figure><img src="/img/lessons/pki/slide33_image6.png" alt="Slide 33" loading="lazy" /><figcaption>Slide 33</figcaption></figure>
+  <figure><img src="/img/lessons/pki/slide48_image7.png" alt="Slide 48" loading="lazy" /><figcaption>Slide 48</figcaption></figure>
+  <figure><img src="/img/lessons/pki/slide50_image8.png" alt="Slide 50" loading="lazy" /><figcaption>Slide 50</figcaption></figure>
+  <figure><img src="/img/lessons/pki/slide52_image9.png" alt="Slide 52" loading="lazy" /><figcaption>Slide 52</figcaption></figure>
+  <figure><img src="/img/lessons/pki/slide54_image10.png" alt="Slide 54" loading="lazy" /><figcaption>Slide 54</figcaption></figure>
+  <figure><img src="/img/lessons/pki/slide55_image11.png" alt="Slide 55" loading="lazy" /><figcaption>Slide 55</figcaption></figure>
+  <figure><img src="/img/lessons/pki/slide57_image12.png" alt="Slide 57" loading="lazy" /><figcaption>Slide 57</figcaption></figure>
+</div>
 ## References
 
 - RFC 5280 — *Internet X.509 Public Key Infrastructure Certificate and CRL Profile.* [https://www.rfc-editor.org/rfc/rfc5280](https://www.rfc-editor.org/rfc/rfc5280)

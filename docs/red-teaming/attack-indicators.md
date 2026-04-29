@@ -329,6 +329,36 @@ Two metrics worth tracking against this pipeline:
 - **Detection-as-code** — putting Sigma/YARA rules in Git with CI tests turns brittle SIEM content into versioned, reviewable, testable engineering artefacts.
 - **Share back** — sanitised contributions to MISP, ISACs, or vendor research strengthen the whole community and earn reciprocal access to better feeds.
 
+
+## Reference images
+
+These illustrations are from the original training deck and complement the lesson content above.
+
+<div className="lesson-image-grid">
+  <figure><img src="/img/lessons/attack-indicators/slide01_image1.jpg" alt="Slide 1" loading="lazy" /><figcaption>Slide 1</figcaption></figure>
+  <figure><img src="/img/lessons/attack-indicators/slide02_image2.jpeg" alt="Slide 2" loading="lazy" /><figcaption>Slide 2</figcaption></figure>
+  <figure><img src="/img/lessons/attack-indicators/slide03_image3.png" alt="Slide 3" loading="lazy" /><figcaption>Slide 3</figcaption></figure>
+  <figure><img src="/img/lessons/attack-indicators/slide04_image4.png" alt="Slide 4" loading="lazy" /><figcaption>Slide 4</figcaption></figure>
+  <figure><img src="/img/lessons/attack-indicators/slide05_image5.png" alt="Slide 5" loading="lazy" /><figcaption>Slide 5</figcaption></figure>
+  <figure><img src="/img/lessons/attack-indicators/slide06_image6.png" alt="Slide 6" loading="lazy" /><figcaption>Slide 6</figcaption></figure>
+  <figure><img src="/img/lessons/attack-indicators/slide08_image7.png" alt="Slide 8" loading="lazy" /><figcaption>Slide 8</figcaption></figure>
+  <figure><img src="/img/lessons/attack-indicators/slide09_image8.png" alt="Slide 9" loading="lazy" /><figcaption>Slide 9</figcaption></figure>
+  <figure><img src="/img/lessons/attack-indicators/slide10_image10.png" alt="Slide 10" loading="lazy" /><figcaption>Slide 10</figcaption></figure>
+  <figure><img src="/img/lessons/attack-indicators/slide10_image9.png" alt="Slide 10" loading="lazy" /><figcaption>Slide 10</figcaption></figure>
+  <figure><img src="/img/lessons/attack-indicators/slide11_image11.png" alt="Slide 11" loading="lazy" /><figcaption>Slide 11</figcaption></figure>
+  <figure><img src="/img/lessons/attack-indicators/slide12_image12.png" alt="Slide 12" loading="lazy" /><figcaption>Slide 12</figcaption></figure>
+  <figure><img src="/img/lessons/attack-indicators/slide13_image13.png" alt="Slide 13" loading="lazy" /><figcaption>Slide 13</figcaption></figure>
+  <figure><img src="/img/lessons/attack-indicators/slide14_image14.png" alt="Slide 14" loading="lazy" /><figcaption>Slide 14</figcaption></figure>
+  <figure><img src="/img/lessons/attack-indicators/slide15_image15.jpeg" alt="Slide 15" loading="lazy" /><figcaption>Slide 15</figcaption></figure>
+  <figure><img src="/img/lessons/attack-indicators/slide16_image16.jpeg" alt="Slide 16" loading="lazy" /><figcaption>Slide 16</figcaption></figure>
+  <figure><img src="/img/lessons/attack-indicators/slide17_image17.png" alt="Slide 17" loading="lazy" /><figcaption>Slide 17</figcaption></figure>
+  <figure><img src="/img/lessons/attack-indicators/slide19_image18.png" alt="Slide 19" loading="lazy" /><figcaption>Slide 19</figcaption></figure>
+  <figure><img src="/img/lessons/attack-indicators/slide20_image19.jpeg" alt="Slide 20" loading="lazy" /><figcaption>Slide 20</figcaption></figure>
+  <figure><img src="/img/lessons/attack-indicators/slide21_image20.png" alt="Slide 21" loading="lazy" /><figcaption>Slide 21</figcaption></figure>
+  <figure><img src="/img/lessons/attack-indicators/slide22_image21.png" alt="Slide 22" loading="lazy" /><figcaption>Slide 22</figcaption></figure>
+  <figure><img src="/img/lessons/attack-indicators/slide25_image22.png" alt="Slide 25" loading="lazy" /><figcaption>Slide 25</figcaption></figure>
+  <figure><img src="/img/lessons/attack-indicators/slide26_image23.jpeg" alt="Slide 26" loading="lazy" /><figcaption>Slide 26</figcaption></figure>
+</div>
 ## References
 
 - David Bianco — [The Pyramid of Pain (original blog post)](https://detect-respond.blogspot.com/2013/03/the-pyramid-of-pain.html)

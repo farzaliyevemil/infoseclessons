@@ -439,6 +439,26 @@ Doğru cavablar proqramın texniki olaraq nə qədər mövcud olmasından asıl�
 - Hər tapıntı ciddilik-yönlü SLA, sahib və re-test gate ilə ticket-ə çevrilir.
 - Sağlam proqram illik ritmlə işləyir — rüblük skan, illik pentest, illik ISO 27001 daxili audit, davamlı asset kəşfi — və growth-u maliyyələşdirən board araşdırmasını qidalandırır.
 
+
+## İstinad şəkilləri
+
+Bu illüstrasiyalar orijinal təlim slaydından götürülüb və yuxarıdakı dərs məzmununu tamamlayır.
+
+<div className="lesson-image-grid">
+  <figure><img src="/img/lessons/security-assessment/slide04_image1.png" alt="Slayd 4" loading="lazy" /><figcaption>Slayd 4</figcaption></figure>
+  <figure><img src="/img/lessons/security-assessment/slide07_image2.png" alt="Slayd 7" loading="lazy" /><figcaption>Slayd 7</figcaption></figure>
+  <figure><img src="/img/lessons/security-assessment/slide10_image10.png" alt="Slayd 10" loading="lazy" /><figcaption>Slayd 10</figcaption></figure>
+  <figure><img src="/img/lessons/security-assessment/slide10_image11.png" alt="Slayd 10" loading="lazy" /><figcaption>Slayd 10</figcaption></figure>
+  <figure><img src="/img/lessons/security-assessment/slide10_image90.png" alt="Slayd 10" loading="lazy" /><figcaption>Slayd 10</figcaption></figure>
+  <figure><img src="/img/lessons/security-assessment/slide12_image3.png" alt="Slayd 12" loading="lazy" /><figcaption>Slayd 12</figcaption></figure>
+  <figure><img src="/img/lessons/security-assessment/slide14_image4.png" alt="Slayd 14" loading="lazy" /><figcaption>Slayd 14</figcaption></figure>
+  <figure><img src="/img/lessons/security-assessment/slide14_image5.png" alt="Slayd 14" loading="lazy" /><figcaption>Slayd 14</figcaption></figure>
+  <figure><img src="/img/lessons/security-assessment/slide14_image6.png" alt="Slayd 14" loading="lazy" /><figcaption>Slayd 14</figcaption></figure>
+  <figure><img src="/img/lessons/security-assessment/slide14_image7.jpeg" alt="Slayd 14" loading="lazy" /><figcaption>Slayd 14</figcaption></figure>
+  <figure><img src="/img/lessons/security-assessment/slide17_image8.png" alt="Slayd 17" loading="lazy" /><figcaption>Slayd 17</figcaption></figure>
+  <figure><img src="/img/lessons/security-assessment/slide17_image9.png" alt="Slayd 17" loading="lazy" /><figcaption>Slayd 17</figcaption></figure>
+  <figure><img src="/img/lessons/security-assessment/slide25_image12.png" alt="Slayd 25" loading="lazy" /><figcaption>Slayd 25</figcaption></figure>
+</div>
 ## İstinadlar
 
 - PTES — Penetration Testing Execution Standard: https://www.pentest-standard.org/

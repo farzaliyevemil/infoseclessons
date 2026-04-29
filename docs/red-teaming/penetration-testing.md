@@ -363,6 +363,14 @@ A practical guide for the receiving organisation. The first time a security mana
 - **"We don't need a pen test, we have a SOC."** A SOC catches *attacks in progress* against *known patterns*. A pen test finds the *holes that let the attack succeed in the first place*. Different jobs.
 - **"OSCP / CRTP / etc. is enough — the certificate proves the tester is good."** The certificate proves a baseline; experience and report-writing skill separate competent testers from great ones. Always ask for redacted past reports as part of vendor selection.
 
+
+## Reference images
+
+These illustrations are from the original training deck and complement the lesson content above.
+
+<div className="lesson-image-grid">
+  <figure><img src="/img/lessons/penetration-testing/slide01_image1.png" alt="Slide 1" loading="lazy" /><figcaption>Slide 1</figcaption></figure>
+</div>
 ## References
 
 - **PTES — Penetration Testing Execution Standard:** [pentest-standard.org](http://www.pentest-standard.org/)

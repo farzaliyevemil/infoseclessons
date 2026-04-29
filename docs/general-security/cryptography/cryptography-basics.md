@@ -415,6 +415,18 @@ Real cryptographic algorithms are mature. Most real incidents come from one of t
 - Digital signatures = hash + asymmetric encryption with the private key. They are what every real "trust" decision (signed code, signed commits, TLS certs) is built on.
 - Forward secrecy is non-negotiable in 2026 — use `ECDHE` cipher suites and TLS 1.3.
 
+
+## Reference images
+
+These illustrations are from the original training deck and complement the lesson content above.
+
+<div className="lesson-image-grid">
+  <figure><img src="/img/lessons/cryptography-basics/slide02_image1.png" alt="Slide 2" loading="lazy" /><figcaption>Slide 2</figcaption></figure>
+  <figure><img src="/img/lessons/cryptography-basics/slide02_image2.svg" alt="Slide 2" loading="lazy" /><figcaption>Slide 2</figcaption></figure>
+  <figure><img src="/img/lessons/cryptography-basics/slide15_image3.png" alt="Slide 15" loading="lazy" /><figcaption>Slide 15</figcaption></figure>
+  <figure><img src="/img/lessons/cryptography-basics/slide16_image4.png" alt="Slide 16" loading="lazy" /><figcaption>Slide 16</figcaption></figure>
+  <figure><img src="/img/lessons/cryptography-basics/slide17_image5.png" alt="Slide 17" loading="lazy" /><figcaption>Slide 17</figcaption></figure>
+</div>
 ## References
 
 - NIST SP 800-175B Rev. 1 — *Guideline for Using Cryptographic Standards in the Federal Government: Cryptographic Mechanisms.* https://csrc.nist.gov/publications/detail/sp/800-175b/rev-1/final

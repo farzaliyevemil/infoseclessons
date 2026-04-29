@@ -642,6 +642,20 @@ After this, confirm you can SSH as `ops`, that `root` login is refused, that `uf
 - For incidents, `/var/log/auth.log` (or `secure`) plus `journalctl -u <service>` answer most of the first round of questions.
 - Hardening is a checklist, not a mood: non-root SSH, key-only auth, a firewall, unattended upgrades, fail2ban, centralized logs. Do it on day one.
 
+
+## Reference images
+
+These illustrations are from the original training deck and complement the lesson content above.
+
+<div className="lesson-image-grid">
+  <figure><img src="/img/lessons/linux-fundamentals/slide01_image1.png" alt="Slide 1" loading="lazy" /><figcaption>Slide 1</figcaption></figure>
+  <figure><img src="/img/lessons/linux-fundamentals/slide03_image2.png" alt="Slide 3" loading="lazy" /><figcaption>Slide 3</figcaption></figure>
+  <figure><img src="/img/lessons/linux-fundamentals/slide04_image3.png" alt="Slide 4" loading="lazy" /><figcaption>Slide 4</figcaption></figure>
+  <figure><img src="/img/lessons/linux-fundamentals/slide05_image4.png" alt="Slide 5" loading="lazy" /><figcaption>Slide 5</figcaption></figure>
+  <figure><img src="/img/lessons/linux-fundamentals/slide06_image5.png" alt="Slide 6" loading="lazy" /><figcaption>Slide 6</figcaption></figure>
+  <figure><img src="/img/lessons/linux-fundamentals/slide09_image6.png" alt="Slide 9" loading="lazy" /><figcaption>Slide 9</figcaption></figure>
+  <figure><img src="/img/lessons/linux-fundamentals/slide33_image7.png" alt="Slide 33" loading="lazy" /><figcaption>Slide 33</figcaption></figure>
+</div>
 ## References
 
 - The Linux Foundation — free "Introduction to Linux" (LFS101): https://training.linuxfoundation.org/training/introduction-to-linux/

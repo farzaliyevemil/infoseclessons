@@ -349,6 +349,26 @@ Hələ də lazımdır. Air-gap *şəbəkə* hücum səthini öldürür; zərərl
 - Data minimizasiyası — ən ucuz nəzarətdir — heç vaxt saxlamadığınız baytlar sızdırıla bilməz.
 - Real risk baxışları həmişə kateqoriyalar arasında nəzarətləri yığır. Tək qəhrəman nəzarət — aşkarda gizlənən boşluqdur.
 
+
+## İstinad şəkilləri
+
+Bu illüstrasiyalar orijinal təlim slaydından götürülüb və yuxarıdakı dərs məzmununu tamamlayır.
+
+<div className="lesson-image-grid">
+  <figure><img src="/img/lessons/cia-triad/slide01_image1.jpg" alt="Slayd 1" loading="lazy" /><figcaption>Slayd 1</figcaption></figure>
+  <figure><img src="/img/lessons/cia-triad/slide04_image2.png" alt="Slayd 4" loading="lazy" /><figcaption>Slayd 4</figcaption></figure>
+  <figure><img src="/img/lessons/cia-triad/slide05_image3.png" alt="Slayd 5" loading="lazy" /><figcaption>Slayd 5</figcaption></figure>
+  <figure><img src="/img/lessons/cia-triad/slide06_image4.png" alt="Slayd 6" loading="lazy" /><figcaption>Slayd 6</figcaption></figure>
+  <figure><img src="/img/lessons/cia-triad/slide13_image5.png" alt="Slayd 13" loading="lazy" /><figcaption>Slayd 13</figcaption></figure>
+  <figure><img src="/img/lessons/cia-triad/slide17_image6.png" alt="Slayd 17" loading="lazy" /><figcaption>Slayd 17</figcaption></figure>
+  <figure><img src="/img/lessons/cia-triad/slide18_image7.png" alt="Slayd 18" loading="lazy" /><figcaption>Slayd 18</figcaption></figure>
+  <figure><img src="/img/lessons/cia-triad/slide19_image8.png" alt="Slayd 19" loading="lazy" /><figcaption>Slayd 19</figcaption></figure>
+  <figure><img src="/img/lessons/cia-triad/slide20_image9.png" alt="Slayd 20" loading="lazy" /><figcaption>Slayd 20</figcaption></figure>
+  <figure><img src="/img/lessons/cia-triad/slide21_image10.png" alt="Slayd 21" loading="lazy" /><figcaption>Slayd 21</figcaption></figure>
+  <figure><img src="/img/lessons/cia-triad/slide22_image11.png" alt="Slayd 22" loading="lazy" /><figcaption>Slayd 22</figcaption></figure>
+  <figure><img src="/img/lessons/cia-triad/slide23_image12.png" alt="Slayd 23" loading="lazy" /><figcaption>Slayd 23</figcaption></figure>
+  <figure><img src="/img/lessons/cia-triad/slide34_image13.png" alt="Slayd 34" loading="lazy" /><figcaption>Slayd 34</figcaption></figure>
+</div>
 ## İstinadlar
 
 - [NIST SP 800-53 Rev. 5 — Information Systems üçün Təhlükəsizlik və Məxfilik Nəzarətləri](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final)

@@ -563,6 +563,16 @@ ORDER BY u.email;
 - Transactions plus ACID are why audit data can be trusted — wrap related changes together, including the audit write.
 - Web apps must connect as least-privileged users. Parameterised queries — not string escaping — are the SQL injection mitigation that actually works.
 
+
+## Reference images
+
+These illustrations are from the original training deck and complement the lesson content above.
+
+<div className="lesson-image-grid">
+  <figure><img src="/img/lessons/sql-basics/slide00_image1.png" alt="Reference" loading="lazy" /><figcaption>Reference</figcaption></figure>
+  <figure><img src="/img/lessons/sql-basics/slide00_image2.png" alt="Reference" loading="lazy" /><figcaption>Reference</figcaption></figure>
+  <figure><img src="/img/lessons/sql-basics/slide00_image3.png" alt="Reference" loading="lazy" /><figcaption>Reference</figcaption></figure>
+</div>
 ## References
 
 - PostgreSQL documentation — https://www.postgresql.org/docs/current/

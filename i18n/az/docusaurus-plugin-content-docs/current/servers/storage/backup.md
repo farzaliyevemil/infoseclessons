@@ -463,3 +463,38 @@ Get-WinEvent -LogName "Microsoft-Windows-Backup" -MaxEvents 20 |
 - `wbadmin` reference: [https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/wbadmin](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/wbadmin)
 - AD Recycle Bin addım-addım: [https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd392261(v=ws.10)](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd392261(v=ws.10))
 - `ntdsutil` ilə authoritative restore: [https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/troubleshoot/perform-an-authoritative-restore](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/troubleshoot/perform-an-authoritative-restore)
+
+## İstinad şəkilləri
+
+Bu illüstrasiyalar orijinal təlim slaydından götürülüb və yuxarıdakı dərs məzmununu tamamlayır.
+
+<div className="lesson-image-grid">
+  <figure><img src="/img/lessons/backup/slide01_image1.jpeg" alt="Slayd 1" loading="lazy" /><figcaption>Slayd 1</figcaption></figure>
+  <figure><img src="/img/lessons/backup/slide03_image2.png" alt="Slayd 3" loading="lazy" /><figcaption>Slayd 3</figcaption></figure>
+  <figure><img src="/img/lessons/backup/slide04_image3.png" alt="Slayd 4" loading="lazy" /><figcaption>Slayd 4</figcaption></figure>
+  <figure><img src="/img/lessons/backup/slide05_image4.png" alt="Slayd 5" loading="lazy" /><figcaption>Slayd 5</figcaption></figure>
+  <figure><img src="/img/lessons/backup/slide06_image5.png" alt="Slayd 6" loading="lazy" /><figcaption>Slayd 6</figcaption></figure>
+  <figure><img src="/img/lessons/backup/slide07_image6.png" alt="Slayd 7" loading="lazy" /><figcaption>Slayd 7</figcaption></figure>
+  <figure><img src="/img/lessons/backup/slide08_image7.png" alt="Slayd 8" loading="lazy" /><figcaption>Slayd 8</figcaption></figure>
+  <figure><img src="/img/lessons/backup/slide09_image8.png" alt="Slayd 9" loading="lazy" /><figcaption>Slayd 9</figcaption></figure>
+  <figure><img src="/img/lessons/backup/slide10_image9.png" alt="Slayd 10" loading="lazy" /><figcaption>Slayd 10</figcaption></figure>
+  <figure><img src="/img/lessons/backup/slide11_image10.png" alt="Slayd 11" loading="lazy" /><figcaption>Slayd 11</figcaption></figure>
+  <figure><img src="/img/lessons/backup/slide12_image11.png" alt="Slayd 12" loading="lazy" /><figcaption>Slayd 12</figcaption></figure>
+  <figure><img src="/img/lessons/backup/slide13_image12.jpeg" alt="Slayd 13" loading="lazy" /><figcaption>Slayd 13</figcaption></figure>
+  <figure><img src="/img/lessons/backup/slide14_image13.jpeg" alt="Slayd 14" loading="lazy" /><figcaption>Slayd 14</figcaption></figure>
+  <figure><img src="/img/lessons/backup/slide16_image14.png" alt="Slayd 16" loading="lazy" /><figcaption>Slayd 16</figcaption></figure>
+  <figure><img src="/img/lessons/backup/slide17_image15.png" alt="Slayd 17" loading="lazy" /><figcaption>Slayd 17</figcaption></figure>
+  <figure><img src="/img/lessons/backup/slide18_image16.png" alt="Slayd 18" loading="lazy" /><figcaption>Slayd 18</figcaption></figure>
+  <figure><img src="/img/lessons/backup/slide22_image17.png" alt="Slayd 22" loading="lazy" /><figcaption>Slayd 22</figcaption></figure>
+  <figure><img src="/img/lessons/backup/slide24_image18.png" alt="Slayd 24" loading="lazy" /><figcaption>Slayd 24</figcaption></figure>
+  <figure><img src="/img/lessons/backup/slide25_image19.png" alt="Slayd 25" loading="lazy" /><figcaption>Slayd 25</figcaption></figure>
+  <figure><img src="/img/lessons/backup/slide26_image20.png" alt="Slayd 26" loading="lazy" /><figcaption>Slayd 26</figcaption></figure>
+  <figure><img src="/img/lessons/backup/slide27_image21.png" alt="Slayd 27" loading="lazy" /><figcaption>Slayd 27</figcaption></figure>
+  <figure><img src="/img/lessons/backup/slide28_image22.png" alt="Slayd 28" loading="lazy" /><figcaption>Slayd 28</figcaption></figure>
+  <figure><img src="/img/lessons/backup/slide30_image23.png" alt="Slayd 30" loading="lazy" /><figcaption>Slayd 30</figcaption></figure>
+  <figure><img src="/img/lessons/backup/slide33_image24.png" alt="Slayd 33" loading="lazy" /><figcaption>Slayd 33</figcaption></figure>
+  <figure><img src="/img/lessons/backup/slide34_image25.png" alt="Slayd 34" loading="lazy" /><figcaption>Slayd 34</figcaption></figure>
+  <figure><img src="/img/lessons/backup/slide35_image26.png" alt="Slayd 35" loading="lazy" /><figcaption>Slayd 35</figcaption></figure>
+  <figure><img src="/img/lessons/backup/slide36_image27.png" alt="Slayd 36" loading="lazy" /><figcaption>Slayd 36</figcaption></figure>
+  <figure><img src="/img/lessons/backup/slide37_image28.png" alt="Slayd 37" loading="lazy" /><figcaption>Slayd 37</figcaption></figure>
+</div>

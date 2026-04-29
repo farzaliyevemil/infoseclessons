@@ -361,6 +361,17 @@ Most organisations sit between Repeatable and Defined; the journey to Managed is
 - HR, security, and IT operations must run the IAM programme together; a wall between any two of them is the root cause of nearly every lifecycle gap.
 - Workload identities (cloud roles, managed identities, K8s service accounts) follow the same lifecycle as humans; treat them as first-class identities, not as configuration.
 
+
+## Reference images
+
+These illustrations are from the original training deck and complement the lesson content above.
+
+<div className="lesson-image-grid">
+  <figure><img src="/img/lessons/iam-account-management/slide01_image1.jpeg" alt="Slide 1" loading="lazy" /><figcaption>Slide 1</figcaption></figure>
+  <figure><img src="/img/lessons/iam-account-management/slide45_image2.png" alt="Slide 45" loading="lazy" /><figcaption>Slide 45</figcaption></figure>
+  <figure><img src="/img/lessons/iam-account-management/slide54_image3.png" alt="Slide 54" loading="lazy" /><figcaption>Slide 54</figcaption></figure>
+  <figure><img src="/img/lessons/iam-account-management/slide64_image4.png" alt="Slide 64" loading="lazy" /><figcaption>Slide 64</figcaption></figure>
+</div>
 ## References
 
 - [NIST SP 800-63A — Digital Identity Guidelines: Enrolment and Identity Proofing](https://pages.nist.gov/800-63-3/sp800-63a.html)

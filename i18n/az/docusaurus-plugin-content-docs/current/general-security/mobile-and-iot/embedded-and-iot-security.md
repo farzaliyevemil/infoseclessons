@@ -427,6 +427,58 @@ OT sərhəd firewall-ı hər iki istiqamətdə deny-by-default. Hər axın dəyi
 - Quraşdırılmış və OT üçün təhlükəsizlik əsasən saxlama ilə bağlıdır. Hər şeyi yamaqlaya bilməzsiniz; kimin kiminlə danışdığına nəzarət edə, sürprizlərə diqqət edə və əl ilə geri dönüş saxlaya bilərsiniz.
 - Satınalma quraşdırılmış təhlükəsizliyin qazanıldığı və ya itirildiyi yerdir. Pul əl dəyişməmişdən əvvəl təhlükəsizlik tələblərini müqaviləyə itələyin.
 
+
+## İstinad şəkilləri
+
+Bu illüstrasiyalar orijinal təlim slaydından götürülüb və yuxarıdakı dərs məzmununu tamamlayır.
+
+<div className="lesson-image-grid">
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide01_image1.jpeg" alt="Slayd 1" loading="lazy" /><figcaption>Slayd 1</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide02_image2.png" alt="Slayd 2" loading="lazy" /><figcaption>Slayd 2</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide04_image3.png" alt="Slayd 4" loading="lazy" /><figcaption>Slayd 4</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide05_image4.png" alt="Slayd 5" loading="lazy" /><figcaption>Slayd 5</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide07_image5.png" alt="Slayd 7" loading="lazy" /><figcaption>Slayd 7</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide08_image6.png" alt="Slayd 8" loading="lazy" /><figcaption>Slayd 8</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide15_image7.png" alt="Slayd 15" loading="lazy" /><figcaption>Slayd 15</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide16_image8.png" alt="Slayd 16" loading="lazy" /><figcaption>Slayd 16</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide18_image9.png" alt="Slayd 18" loading="lazy" /><figcaption>Slayd 18</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide19_image10.png" alt="Slayd 19" loading="lazy" /><figcaption>Slayd 19</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide22_image11.png" alt="Slayd 22" loading="lazy" /><figcaption>Slayd 22</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide25_image12.png" alt="Slayd 25" loading="lazy" /><figcaption>Slayd 25</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide26_image13.png" alt="Slayd 26" loading="lazy" /><figcaption>Slayd 26</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide27_image14.png" alt="Slayd 27" loading="lazy" /><figcaption>Slayd 27</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide28_image15.png" alt="Slayd 28" loading="lazy" /><figcaption>Slayd 28</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide29_image16.png" alt="Slayd 29" loading="lazy" /><figcaption>Slayd 29</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide31_image17.png" alt="Slayd 31" loading="lazy" /><figcaption>Slayd 31</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide32_image18.png" alt="Slayd 32" loading="lazy" /><figcaption>Slayd 32</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide33_image19.png" alt="Slayd 33" loading="lazy" /><figcaption>Slayd 33</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide35_image20.png" alt="Slayd 35" loading="lazy" /><figcaption>Slayd 35</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide36_image21.png" alt="Slayd 36" loading="lazy" /><figcaption>Slayd 36</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide37_image22.png" alt="Slayd 37" loading="lazy" /><figcaption>Slayd 37</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide38_image23.png" alt="Slayd 38" loading="lazy" /><figcaption>Slayd 38</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide39_image24.png" alt="Slayd 39" loading="lazy" /><figcaption>Slayd 39</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide52_image25.png" alt="Slayd 52" loading="lazy" /><figcaption>Slayd 52</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide54_image26.png" alt="Slayd 54" loading="lazy" /><figcaption>Slayd 54</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide55_image27.png" alt="Slayd 55" loading="lazy" /><figcaption>Slayd 55</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide56_image28.png" alt="Slayd 56" loading="lazy" /><figcaption>Slayd 56</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide57_image29.png" alt="Slayd 57" loading="lazy" /><figcaption>Slayd 57</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide58_image30.png" alt="Slayd 58" loading="lazy" /><figcaption>Slayd 58</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide59_image31.png" alt="Slayd 59" loading="lazy" /><figcaption>Slayd 59</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide60_image32.png" alt="Slayd 60" loading="lazy" /><figcaption>Slayd 60</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide61_image33.png" alt="Slayd 61" loading="lazy" /><figcaption>Slayd 61</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide62_image34.png" alt="Slayd 62" loading="lazy" /><figcaption>Slayd 62</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide63_image35.png" alt="Slayd 63" loading="lazy" /><figcaption>Slayd 63</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide65_image36.png" alt="Slayd 65" loading="lazy" /><figcaption>Slayd 65</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide66_image37.png" alt="Slayd 66" loading="lazy" /><figcaption>Slayd 66</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide67_image38.png" alt="Slayd 67" loading="lazy" /><figcaption>Slayd 67</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide68_image39.png" alt="Slayd 68" loading="lazy" /><figcaption>Slayd 68</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide69_image40.png" alt="Slayd 69" loading="lazy" /><figcaption>Slayd 69</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide71_image41.png" alt="Slayd 71" loading="lazy" /><figcaption>Slayd 71</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide72_image42.png" alt="Slayd 72" loading="lazy" /><figcaption>Slayd 72</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide73_image43.png" alt="Slayd 73" loading="lazy" /><figcaption>Slayd 73</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide77_image44.png" alt="Slayd 77" loading="lazy" /><figcaption>Slayd 77</figcaption></figure>
+  <figure><img src="/img/lessons/embedded-and-iot-security/slide79_image45.png" alt="Slayd 79" loading="lazy" /><figcaption>Slayd 79</figcaption></figure>
+</div>
 ## İstinadlar
 
 - CompTIA Security+ SY0-701 — quraşdırılmış və ixtisaslaşdırılmış sistem obyektləri

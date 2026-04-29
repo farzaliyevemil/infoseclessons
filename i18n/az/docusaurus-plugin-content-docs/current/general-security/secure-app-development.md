@@ -363,6 +363,54 @@ Mədəni dəyişiklik alət qədər vacibdir. Təhlükəsizlik komandanın işl�
 
 Çapraz istinadlar: hər pipeline-ın əsaslandığı identitet təməlləri üçün [./aaa-non-repudiation.md](./aaa-non-repudiation.md); daha geniş zəiflik dövrü üçün [zəiflik idarəetməsi](./assessment/vulnerability-management.md); bu təcrübələrin nümunə etdiyi nəzarətlər kataloqu üçün [../grc/security-controls.md](../grc/security-controls.md).
 
+
+## İstinad şəkilləri
+
+Bu illüstrasiyalar orijinal təlim slaydından götürülüb və yuxarıdakı dərs məzmununu tamamlayır.
+
+<div className="lesson-image-grid">
+  <figure><img src="/img/lessons/secure-app-development/slide01_image1.jpeg" alt="Slayd 1" loading="lazy" /><figcaption>Slayd 1</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide02_image2.png" alt="Slayd 2" loading="lazy" /><figcaption>Slayd 2</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide03_image3.png" alt="Slayd 3" loading="lazy" /><figcaption>Slayd 3</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide04_image4.png" alt="Slayd 4" loading="lazy" /><figcaption>Slayd 4</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide05_image5.png" alt="Slayd 5" loading="lazy" /><figcaption>Slayd 5</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide06_image6.png" alt="Slayd 6" loading="lazy" /><figcaption>Slayd 6</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide07_image7.png" alt="Slayd 7" loading="lazy" /><figcaption>Slayd 7</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide08_image8.png" alt="Slayd 8" loading="lazy" /><figcaption>Slayd 8</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide10_image9.png" alt="Slayd 10" loading="lazy" /><figcaption>Slayd 10</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide11_image10.png" alt="Slayd 11" loading="lazy" /><figcaption>Slayd 11</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide12_image11.png" alt="Slayd 12" loading="lazy" /><figcaption>Slayd 12</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide13_image12.png" alt="Slayd 13" loading="lazy" /><figcaption>Slayd 13</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide14_image13.png" alt="Slayd 14" loading="lazy" /><figcaption>Slayd 14</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide15_image14.png" alt="Slayd 15" loading="lazy" /><figcaption>Slayd 15</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide16_image15.png" alt="Slayd 16" loading="lazy" /><figcaption>Slayd 16</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide17_image16.png" alt="Slayd 17" loading="lazy" /><figcaption>Slayd 17</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide18_image17.png" alt="Slayd 18" loading="lazy" /><figcaption>Slayd 18</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide19_image18.png" alt="Slayd 19" loading="lazy" /><figcaption>Slayd 19</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide20_image19.png" alt="Slayd 20" loading="lazy" /><figcaption>Slayd 20</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide22_image20.png" alt="Slayd 22" loading="lazy" /><figcaption>Slayd 22</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide24_image21.png" alt="Slayd 24" loading="lazy" /><figcaption>Slayd 24</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide25_image22.png" alt="Slayd 25" loading="lazy" /><figcaption>Slayd 25</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide26_image23.png" alt="Slayd 26" loading="lazy" /><figcaption>Slayd 26</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide28_image24.png" alt="Slayd 28" loading="lazy" /><figcaption>Slayd 28</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide29_image25.png" alt="Slayd 29" loading="lazy" /><figcaption>Slayd 29</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide30_image26.png" alt="Slayd 30" loading="lazy" /><figcaption>Slayd 30</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide34_image27.png" alt="Slayd 34" loading="lazy" /><figcaption>Slayd 34</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide35_image28.png" alt="Slayd 35" loading="lazy" /><figcaption>Slayd 35</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide40_image29.png" alt="Slayd 40" loading="lazy" /><figcaption>Slayd 40</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide43_image30.png" alt="Slayd 43" loading="lazy" /><figcaption>Slayd 43</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide44_image31.png" alt="Slayd 44" loading="lazy" /><figcaption>Slayd 44</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide45_image32.png" alt="Slayd 45" loading="lazy" /><figcaption>Slayd 45</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide46_image33.png" alt="Slayd 46" loading="lazy" /><figcaption>Slayd 46</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide47_image34.png" alt="Slayd 47" loading="lazy" /><figcaption>Slayd 47</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide48_image35.png" alt="Slayd 48" loading="lazy" /><figcaption>Slayd 48</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide49_image36.png" alt="Slayd 49" loading="lazy" /><figcaption>Slayd 49</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide50_image37.png" alt="Slayd 50" loading="lazy" /><figcaption>Slayd 50</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide52_image38.png" alt="Slayd 52" loading="lazy" /><figcaption>Slayd 52</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide53_image39.png" alt="Slayd 53" loading="lazy" /><figcaption>Slayd 53</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide54_image40.png" alt="Slayd 54" loading="lazy" /><figcaption>Slayd 54</figcaption></figure>
+  <figure><img src="/img/lessons/secure-app-development/slide56_image41.png" alt="Slayd 56" loading="lazy" /><figcaption>Slayd 56</figcaption></figure>
+</div>
 ## İstinadlar
 
 - NIST SP 800-218 — *Secure Software Development Framework (SSDF)* — [https://csrc.nist.gov/publications/detail/sp/800-218/final](https://csrc.nist.gov/publications/detail/sp/800-218/final)

@@ -343,6 +343,22 @@ A third outcome: the CTI program creates a feedback loop into vulnerability mana
 - **"We don't have anything attackers want."** Every organisation has credentials, payment data, identity-as-a-service value (your domain reputation phishes other people's customers), and ransom-payable systems. Threat models that conclude "we're not a target" are usually wrong.
 - **"AI/ML will replace CTI analysts."** ML helps with volume (clustering indicators, deduplicating reports, surfacing anomalies); it does not replace the judgement step where an analyst decides what changes in defence. Use both.
 
+
+## Reference images
+
+These illustrations are from the original training deck and complement the lesson content above.
+
+<div className="lesson-image-grid">
+  <figure><img src="/img/lessons/threat-actors-and-intel/slide02_image1.jpeg" alt="Slide 2" loading="lazy" /><figcaption>Slide 2</figcaption></figure>
+  <figure><img src="/img/lessons/threat-actors-and-intel/slide03_image2.png" alt="Slide 3" loading="lazy" /><figcaption>Slide 3</figcaption></figure>
+  <figure><img src="/img/lessons/threat-actors-and-intel/slide04_image3.png" alt="Slide 4" loading="lazy" /><figcaption>Slide 4</figcaption></figure>
+  <figure><img src="/img/lessons/threat-actors-and-intel/slide05_image4.jpeg" alt="Slide 5" loading="lazy" /><figcaption>Slide 5</figcaption></figure>
+  <figure><img src="/img/lessons/threat-actors-and-intel/slide06_image5.jpeg" alt="Slide 6" loading="lazy" /><figcaption>Slide 6</figcaption></figure>
+  <figure><img src="/img/lessons/threat-actors-and-intel/slide07_image6.png" alt="Slide 7" loading="lazy" /><figcaption>Slide 7</figcaption></figure>
+  <figure><img src="/img/lessons/threat-actors-and-intel/slide09_image7.png" alt="Slide 9" loading="lazy" /><figcaption>Slide 9</figcaption></figure>
+  <figure><img src="/img/lessons/threat-actors-and-intel/slide12_image8.png" alt="Slide 12" loading="lazy" /><figcaption>Slide 12</figcaption></figure>
+  <figure><img src="/img/lessons/threat-actors-and-intel/slide15_image9.jpeg" alt="Slide 15" loading="lazy" /><figcaption>Slide 15</figcaption></figure>
+</div>
 ## References
 
 - MITRE ATT&CK framework — [attack.mitre.org](https://attack.mitre.org/)

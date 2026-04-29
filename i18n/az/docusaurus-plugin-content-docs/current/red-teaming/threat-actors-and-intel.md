@@ -343,6 +343,22 @@ Qeyd etməyə dəyər ikinci nəticə: proqram indi hər həftə daxili CTI arte
 - **"Hücumçuların istəyəcəyi heç nəyimiz yoxdur."** Hər təşkilatın etimadnamələri, ödəniş məlumatı, kimlik-xidmət-kimi dəyəri (domeniniz başqalarının müştərilərini fişinq edir) və ödənilə bilən sistemləri var. "Hədəf deyilik" nəticəsinə gələn təhdid modelləri adətən səhvdirlər.
 - **"AI/ML CTI analitiklərini əvəz edəcək."** ML həcmlə kömək edir (indikatorları klasterləşdirmək, hesabatları dublikatdan çıxarmaq, anomaliyaları üzə çıxarmaq); analitikin müdafiədə nə dəyişdiyini qərarlaşdırdığı mühakimə addımını əvəz etmir. Hər ikisindən istifadə edin.
 
+
+## İstinad şəkilləri
+
+Bu illüstrasiyalar orijinal təlim slaydından götürülüb və yuxarıdakı dərs məzmununu tamamlayır.
+
+<div className="lesson-image-grid">
+  <figure><img src="/img/lessons/threat-actors-and-intel/slide02_image1.jpeg" alt="Slayd 2" loading="lazy" /><figcaption>Slayd 2</figcaption></figure>
+  <figure><img src="/img/lessons/threat-actors-and-intel/slide03_image2.png" alt="Slayd 3" loading="lazy" /><figcaption>Slayd 3</figcaption></figure>
+  <figure><img src="/img/lessons/threat-actors-and-intel/slide04_image3.png" alt="Slayd 4" loading="lazy" /><figcaption>Slayd 4</figcaption></figure>
+  <figure><img src="/img/lessons/threat-actors-and-intel/slide05_image4.jpeg" alt="Slayd 5" loading="lazy" /><figcaption>Slayd 5</figcaption></figure>
+  <figure><img src="/img/lessons/threat-actors-and-intel/slide06_image5.jpeg" alt="Slayd 6" loading="lazy" /><figcaption>Slayd 6</figcaption></figure>
+  <figure><img src="/img/lessons/threat-actors-and-intel/slide07_image6.png" alt="Slayd 7" loading="lazy" /><figcaption>Slayd 7</figcaption></figure>
+  <figure><img src="/img/lessons/threat-actors-and-intel/slide09_image7.png" alt="Slayd 9" loading="lazy" /><figcaption>Slayd 9</figcaption></figure>
+  <figure><img src="/img/lessons/threat-actors-and-intel/slide12_image8.png" alt="Slayd 12" loading="lazy" /><figcaption>Slayd 12</figcaption></figure>
+  <figure><img src="/img/lessons/threat-actors-and-intel/slide15_image9.jpeg" alt="Slayd 15" loading="lazy" /><figcaption>Slayd 15</figcaption></figure>
+</div>
 ## İstinadlar
 
 - MITRE ATT&CK çərçivəsi — [attack.mitre.org](https://attack.mitre.org/)

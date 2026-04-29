@@ -382,6 +382,17 @@ A forensic practice that answers the six questions at the top of this lesson —
 
 For the controls and frameworks this discipline builds on, see the related lessons on [incident investigation and mitigation](./investigation-and-mitigation.md), [endpoint security](./endpoint-security.md), [log analysis](./log-analysis.md), [threat intelligence and malware analysis](../general-security/open-source-tools/threat-intel-and-malware.md), [risk and privacy](../grc/risk-and-privacy.md), and [security governance](../grc/security-governance.md).
 
+
+## Reference images
+
+These illustrations are from the original training deck and complement the lesson content above.
+
+<div className="lesson-image-grid">
+  <figure><img src="/img/lessons/digital-forensics/slide01_image1.jpeg" alt="Slide 1" loading="lazy" /><figcaption>Slide 1</figcaption></figure>
+  <figure><img src="/img/lessons/digital-forensics/slide05_image2.png" alt="Slide 5" loading="lazy" /><figcaption>Slide 5</figcaption></figure>
+  <figure><img src="/img/lessons/digital-forensics/slide07_image3.png" alt="Slide 7" loading="lazy" /><figcaption>Slide 7</figcaption></figure>
+  <figure><img src="/img/lessons/digital-forensics/slide12_image4.png" alt="Slide 12" loading="lazy" /><figcaption>Slide 12</figcaption></figure>
+</div>
 ## References
 
 - RFC 3227 — *Guidelines for Evidence Collection and Archiving* — [https://www.rfc-editor.org/rfc/rfc3227](https://www.rfc-editor.org/rfc/rfc3227)

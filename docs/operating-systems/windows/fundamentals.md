@@ -497,6 +497,29 @@ At this point you should have enough to decide: isolate the box, escalate to IR,
 - PowerShell is powerful and heavily logged when you configure it to be — turn on script-block logging and transcription.
 - Built-in Defender + ASR + BitLocker + Credential Guard + WDAC/AppLocker is already a strong baseline before you buy anything.
 
+
+## Reference images
+
+These illustrations are from the original training deck and complement the lesson content above.
+
+<div className="lesson-image-grid">
+  <figure><img src="/img/lessons/windows-fundamentals/slide10_image6.png" alt="Slide 10" loading="lazy" /><figcaption>Slide 10</figcaption></figure>
+  <figure><img src="/img/lessons/windows-fundamentals/slide10_image7.png" alt="Slide 10" loading="lazy" /><figcaption>Slide 10</figcaption></figure>
+  <figure><img src="/img/lessons/windows-fundamentals/slide11_image8.png" alt="Slide 11" loading="lazy" /><figcaption>Slide 11</figcaption></figure>
+  <figure><img src="/img/lessons/windows-fundamentals/slide11_image9.png" alt="Slide 11" loading="lazy" /><figcaption>Slide 11</figcaption></figure>
+  <figure><img src="/img/lessons/windows-fundamentals/slide12_image10.png" alt="Slide 12" loading="lazy" /><figcaption>Slide 12</figcaption></figure>
+  <figure><img src="/img/lessons/windows-fundamentals/slide17_image11.png" alt="Slide 17" loading="lazy" /><figcaption>Slide 17</figcaption></figure>
+  <figure><img src="/img/lessons/windows-fundamentals/slide17_image12.png" alt="Slide 17" loading="lazy" /><figcaption>Slide 17</figcaption></figure>
+  <figure><img src="/img/lessons/windows-fundamentals/slide17_image13.png" alt="Slide 17" loading="lazy" /><figcaption>Slide 17</figcaption></figure>
+  <figure><img src="/img/lessons/windows-fundamentals/slide18_image14.png" alt="Slide 18" loading="lazy" /><figcaption>Slide 18</figcaption></figure>
+  <figure><img src="/img/lessons/windows-fundamentals/slide18_image15.png" alt="Slide 18" loading="lazy" /><figcaption>Slide 18</figcaption></figure>
+  <figure><img src="/img/lessons/windows-fundamentals/slide18_image16.png" alt="Slide 18" loading="lazy" /><figcaption>Slide 18</figcaption></figure>
+  <figure><img src="/img/lessons/windows-fundamentals/slide00_image1.jpeg" alt="Reference" loading="lazy" /><figcaption>Reference</figcaption></figure>
+  <figure><img src="/img/lessons/windows-fundamentals/slide00_image2.png" alt="Reference" loading="lazy" /><figcaption>Reference</figcaption></figure>
+  <figure><img src="/img/lessons/windows-fundamentals/slide00_image3.png" alt="Reference" loading="lazy" /><figcaption>Reference</figcaption></figure>
+  <figure><img src="/img/lessons/windows-fundamentals/slide00_image4.png" alt="Reference" loading="lazy" /><figcaption>Reference</figcaption></figure>
+  <figure><img src="/img/lessons/windows-fundamentals/slide00_image5.png" alt="Reference" loading="lazy" /><figcaption>Reference</figcaption></figure>
+</div>
 ## References
 
 - Mark Russinovich, David Solomon, Alex Ionescu. *Windows Internals*, 7th edition, Parts 1 and 2. Microsoft Press.

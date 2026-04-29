@@ -366,6 +366,21 @@ Bu dərsin yuxarısındakı altı suala — sürət, miqyas, sübut, məhdudlaş
 
 Bu cavab proqramının üzərində qurulan nəzarətlər və çərçivələr üçün, [endpoint təhlükəsizliyi](./endpoint-security.md), [jurnal təhlili](./log-analysis.md), [SIEM və monitorinq alətləri](../general-security/open-source-tools/siem-and-monitoring.md), [təhlükə kəşfiyyatı və zərərli proqram təhlili](../general-security/open-source-tools/threat-intel-and-malware.md) və [təhlükəsizlik nəzarətləri](../grc/security-controls.md) ilə bağlı müvafiq dərslərə baxın.
 
+
+## İstinad şəkilləri
+
+Bu illüstrasiyalar orijinal təlim slaydından götürülüb və yuxarıdakı dərs məzmununu tamamlayır.
+
+<div className="lesson-image-grid">
+  <figure><img src="/img/lessons/investigation-and-mitigation/slide01_image1.jpeg" alt="Slayd 1" loading="lazy" /><figcaption>Slayd 1</figcaption></figure>
+  <figure><img src="/img/lessons/investigation-and-mitigation/slide02_image2.png" alt="Slayd 2" loading="lazy" /><figcaption>Slayd 2</figcaption></figure>
+  <figure><img src="/img/lessons/investigation-and-mitigation/slide15_image3.png" alt="Slayd 15" loading="lazy" /><figcaption>Slayd 15</figcaption></figure>
+  <figure><img src="/img/lessons/investigation-and-mitigation/slide21_image4.png" alt="Slayd 21" loading="lazy" /><figcaption>Slayd 21</figcaption></figure>
+  <figure><img src="/img/lessons/investigation-and-mitigation/slide23_image5.png" alt="Slayd 23" loading="lazy" /><figcaption>Slayd 23</figcaption></figure>
+  <figure><img src="/img/lessons/investigation-and-mitigation/slide28_image6.png" alt="Slayd 28" loading="lazy" /><figcaption>Slayd 28</figcaption></figure>
+  <figure><img src="/img/lessons/investigation-and-mitigation/slide43_image7.png" alt="Slayd 43" loading="lazy" /><figcaption>Slayd 43</figcaption></figure>
+  <figure><img src="/img/lessons/investigation-and-mitigation/slide51_image8.png" alt="Slayd 51" loading="lazy" /><figcaption>Slayd 51</figcaption></figure>
+</div>
 ## İstinadlar
 
 - NIST SP 800-61 Rev 2 — *Computer Security Incident Handling Guide* — [https://csrc.nist.gov/publications/detail/sp/800-61/rev-2/final](https://csrc.nist.gov/publications/detail/sp/800-61/rev-2/final)

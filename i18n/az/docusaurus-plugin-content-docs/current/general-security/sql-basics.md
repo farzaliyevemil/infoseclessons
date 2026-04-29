@@ -563,6 +563,16 @@ ORDER BY u.email;
 - Tranzaksiyalar + ACID — məhz bu səbəbə görə audit dataya etibar etmək olur; əlaqəli dəyişiklikləri, audit yazısı ilə birlikdə, bir yerdə sar.
 - Veb tətbiqlər ən az imtiyazlı istifadəçi kimi qoşulmalıdır. Sətir escape-i yox, parametrləşdirilmiş sorğular — əsl işləyən SQL injection mitigation-dır.
 
+
+## İstinad şəkilləri
+
+Bu illüstrasiyalar orijinal təlim slaydından götürülüb və yuxarıdakı dərs məzmununu tamamlayır.
+
+<div className="lesson-image-grid">
+  <figure><img src="/img/lessons/sql-basics/slide00_image1.png" alt="İstinad" loading="lazy" /><figcaption>İstinad</figcaption></figure>
+  <figure><img src="/img/lessons/sql-basics/slide00_image2.png" alt="İstinad" loading="lazy" /><figcaption>İstinad</figcaption></figure>
+  <figure><img src="/img/lessons/sql-basics/slide00_image3.png" alt="İstinad" loading="lazy" /><figcaption>İstinad</figcaption></figure>
+</div>
 ## İstinadlar
 
 - PostgreSQL sənədləri — https://www.postgresql.org/docs/current/

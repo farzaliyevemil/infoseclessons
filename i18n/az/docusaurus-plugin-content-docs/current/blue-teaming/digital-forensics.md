@@ -382,6 +382,17 @@ Bu dərsin əvvəlindəki altı suala — mənşə, bütövlük, saxlanma zənci
 
 Bu intizamın əsaslandığı nəzarət və çərçivələr üçün [insident tədqiqatı və azaldılması](./investigation-and-mitigation.md), [endpoint təhlükəsizliyi](./endpoint-security.md), [log təhlili](./log-analysis.md), [təhdid kəşfiyyatı və zərərli proqram təhlili](../general-security/open-source-tools/threat-intel-and-malware.md), [risk və məxfilik](../grc/risk-and-privacy.md) və [təhlükəsizlik idarəetməsi](../grc/security-governance.md) ilə bağlı dərslərə baxın.
 
+
+## İstinad şəkilləri
+
+Bu illüstrasiyalar orijinal təlim slaydından götürülüb və yuxarıdakı dərs məzmununu tamamlayır.
+
+<div className="lesson-image-grid">
+  <figure><img src="/img/lessons/digital-forensics/slide01_image1.jpeg" alt="Slayd 1" loading="lazy" /><figcaption>Slayd 1</figcaption></figure>
+  <figure><img src="/img/lessons/digital-forensics/slide05_image2.png" alt="Slayd 5" loading="lazy" /><figcaption>Slayd 5</figcaption></figure>
+  <figure><img src="/img/lessons/digital-forensics/slide07_image3.png" alt="Slayd 7" loading="lazy" /><figcaption>Slayd 7</figcaption></figure>
+  <figure><img src="/img/lessons/digital-forensics/slide12_image4.png" alt="Slayd 12" loading="lazy" /><figcaption>Slayd 12</figcaption></figure>
+</div>
 ## İstinadlar
 
 - RFC 3227 — *Sübut Toplanması və Arxivləşdirilməsi üçün Təlimatlar* — [https://www.rfc-editor.org/rfc/rfc3227](https://www.rfc-editor.org/rfc/rfc3227)

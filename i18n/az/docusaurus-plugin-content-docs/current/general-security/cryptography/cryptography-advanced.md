@@ -398,6 +398,23 @@ Auditlərdə və post-mortemlərdə daim görünən on səkkiz uğursuzluq rejim
 - Real sınmalar alqoritmlərdən deyil, tətbiqlərdən və protokollardan gəlir — sabit-zamanlı kod, autentifikasiyalı rejimlər və ciddi açar idarəetmə fərqi əksinə bağlayır.
 - Açar idarəetmə kripto investisiyanızın nəticə verib-verməməsini həll edən intizamdır; hər açarı yaratma, rotasiya və məhv etmə vasitəsilə izləyin.
 
+
+## İstinad şəkilləri
+
+Bu illüstrasiyalar orijinal təlim slaydından götürülüb və yuxarıdakı dərs məzmununu tamamlayır.
+
+<div className="lesson-image-grid">
+  <figure><img src="/img/lessons/cryptography-advanced/slide01_image1.jpeg" alt="Slayd 1" loading="lazy" /><figcaption>Slayd 1</figcaption></figure>
+  <figure><img src="/img/lessons/cryptography-advanced/slide02_image2.png" alt="Slayd 2" loading="lazy" /><figcaption>Slayd 2</figcaption></figure>
+  <figure><img src="/img/lessons/cryptography-advanced/slide08_image3.png" alt="Slayd 8" loading="lazy" /><figcaption>Slayd 8</figcaption></figure>
+  <figure><img src="/img/lessons/cryptography-advanced/slide09_image4.png" alt="Slayd 9" loading="lazy" /><figcaption>Slayd 9</figcaption></figure>
+  <figure><img src="/img/lessons/cryptography-advanced/slide11_image5.png" alt="Slayd 11" loading="lazy" /><figcaption>Slayd 11</figcaption></figure>
+  <figure><img src="/img/lessons/cryptography-advanced/slide12_image6.png" alt="Slayd 12" loading="lazy" /><figcaption>Slayd 12</figcaption></figure>
+  <figure><img src="/img/lessons/cryptography-advanced/slide17_image7.png" alt="Slayd 17" loading="lazy" /><figcaption>Slayd 17</figcaption></figure>
+  <figure><img src="/img/lessons/cryptography-advanced/slide23_image8.png" alt="Slayd 23" loading="lazy" /><figcaption>Slayd 23</figcaption></figure>
+  <figure><img src="/img/lessons/cryptography-advanced/slide24_image9.png" alt="Slayd 24" loading="lazy" /><figcaption>Slayd 24</figcaption></figure>
+  <figure><img src="/img/lessons/cryptography-advanced/slide38_image10.png" alt="Slayd 38" loading="lazy" /><figcaption>Slayd 38</figcaption></figure>
+</div>
 ## İstinadlar
 
 - NIST FIPS 197 — *Advanced Encryption Standard (AES).* [csrc.nist.gov/publications/detail/fips/197/final](https://csrc.nist.gov/publications/detail/fips/197/final)

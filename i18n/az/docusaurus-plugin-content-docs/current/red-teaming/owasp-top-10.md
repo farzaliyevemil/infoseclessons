@@ -564,6 +564,35 @@ Default olaraq tətbiq edilən bir neçə mühəndislik pattern-i Top 10-un böy
 
 ---
 
+
+## İstinad şəkilləri
+
+Bu illüstrasiyalar orijinal təlim slaydından götürülüb və yuxarıdakı dərs məzmununu tamamlayır.
+
+<div className="lesson-image-grid">
+  <figure><img src="/img/lessons/owasp-top-10/slide01_image1.png" alt="Slayd 1" loading="lazy" /><figcaption>Slayd 1</figcaption></figure>
+  <figure><img src="/img/lessons/owasp-top-10/slide02_image2.png" alt="Slayd 2" loading="lazy" /><figcaption>Slayd 2</figcaption></figure>
+  <figure><img src="/img/lessons/owasp-top-10/slide04_image3.png" alt="Slayd 4" loading="lazy" /><figcaption>Slayd 4</figcaption></figure>
+  <figure><img src="/img/lessons/owasp-top-10/slide04_image4.png" alt="Slayd 4" loading="lazy" /><figcaption>Slayd 4</figcaption></figure>
+  <figure><img src="/img/lessons/owasp-top-10/slide04_image5.png" alt="Slayd 4" loading="lazy" /><figcaption>Slayd 4</figcaption></figure>
+  <figure><img src="/img/lessons/owasp-top-10/slide09_image6.jpeg" alt="Slayd 9" loading="lazy" /><figcaption>Slayd 9</figcaption></figure>
+  <figure><img src="/img/lessons/owasp-top-10/slide12_image10.png" alt="Slayd 12" loading="lazy" /><figcaption>Slayd 12</figcaption></figure>
+  <figure><img src="/img/lessons/owasp-top-10/slide12_image7.png" alt="Slayd 12" loading="lazy" /><figcaption>Slayd 12</figcaption></figure>
+  <figure><img src="/img/lessons/owasp-top-10/slide12_image8.jpeg" alt="Slayd 12" loading="lazy" /><figcaption>Slayd 12</figcaption></figure>
+  <figure><img src="/img/lessons/owasp-top-10/slide12_image9.png" alt="Slayd 12" loading="lazy" /><figcaption>Slayd 12</figcaption></figure>
+  <figure><img src="/img/lessons/owasp-top-10/slide21_image11.jpeg" alt="Slayd 21" loading="lazy" /><figcaption>Slayd 21</figcaption></figure>
+  <figure><img src="/img/lessons/owasp-top-10/slide24_image12.png" alt="Slayd 24" loading="lazy" /><figcaption>Slayd 24</figcaption></figure>
+  <figure><img src="/img/lessons/owasp-top-10/slide24_image13.png" alt="Slayd 24" loading="lazy" /><figcaption>Slayd 24</figcaption></figure>
+  <figure><img src="/img/lessons/owasp-top-10/slide26_image14.png" alt="Slayd 26" loading="lazy" /><figcaption>Slayd 26</figcaption></figure>
+  <figure><img src="/img/lessons/owasp-top-10/slide26_image15.png" alt="Slayd 26" loading="lazy" /><figcaption>Slayd 26</figcaption></figure>
+  <figure><img src="/img/lessons/owasp-top-10/slide27_image16.png" alt="Slayd 27" loading="lazy" /><figcaption>Slayd 27</figcaption></figure>
+  <figure><img src="/img/lessons/owasp-top-10/slide27_image17.png" alt="Slayd 27" loading="lazy" /><figcaption>Slayd 27</figcaption></figure>
+  <figure><img src="/img/lessons/owasp-top-10/slide29_image18.png" alt="Slayd 29" loading="lazy" /><figcaption>Slayd 29</figcaption></figure>
+  <figure><img src="/img/lessons/owasp-top-10/slide31_image19.jpeg" alt="Slayd 31" loading="lazy" /><figcaption>Slayd 31</figcaption></figure>
+  <figure><img src="/img/lessons/owasp-top-10/slide34_image20.png" alt="Slayd 34" loading="lazy" /><figcaption>Slayd 34</figcaption></figure>
+  <figure><img src="/img/lessons/owasp-top-10/slide37_image21.png" alt="Slayd 37" loading="lazy" /><figcaption>Slayd 37</figcaption></figure>
+  <figure><img src="/img/lessons/owasp-top-10/slide38_image22.png" alt="Slayd 38" loading="lazy" /><figcaption>Slayd 38</figcaption></figure>
+</div>
 ## İstinadlar
 
 - **OWASP Top 10 (2021):** https://owasp.org/www-project-top-ten/

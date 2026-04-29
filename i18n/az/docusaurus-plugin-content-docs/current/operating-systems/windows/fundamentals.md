@@ -509,3 +509,26 @@ Bu nöqtədə qərar vermək üçün kifayət qədər məlumatınız olmalıdır
 - PowerShell logging tövsiyəsi: https://learn.microsoft.com/en-us/powershell/scripting/windows-powershell/wmf/whats-new/script-logging
 - Məlum SID-lər: https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/understand-security-identifiers
 - User Account Control: https://learn.microsoft.com/en-us/windows/security/application-security/application-control/user-account-control/
+
+## İstinad şəkilləri
+
+Bu illüstrasiyalar orijinal təlim slaydından götürülüb və yuxarıdakı dərs məzmununu tamamlayır.
+
+<div className="lesson-image-grid">
+  <figure><img src="/img/lessons/windows-fundamentals/slide10_image6.png" alt="Slayd 10" loading="lazy" /><figcaption>Slayd 10</figcaption></figure>
+  <figure><img src="/img/lessons/windows-fundamentals/slide10_image7.png" alt="Slayd 10" loading="lazy" /><figcaption>Slayd 10</figcaption></figure>
+  <figure><img src="/img/lessons/windows-fundamentals/slide11_image8.png" alt="Slayd 11" loading="lazy" /><figcaption>Slayd 11</figcaption></figure>
+  <figure><img src="/img/lessons/windows-fundamentals/slide11_image9.png" alt="Slayd 11" loading="lazy" /><figcaption>Slayd 11</figcaption></figure>
+  <figure><img src="/img/lessons/windows-fundamentals/slide12_image10.png" alt="Slayd 12" loading="lazy" /><figcaption>Slayd 12</figcaption></figure>
+  <figure><img src="/img/lessons/windows-fundamentals/slide17_image11.png" alt="Slayd 17" loading="lazy" /><figcaption>Slayd 17</figcaption></figure>
+  <figure><img src="/img/lessons/windows-fundamentals/slide17_image12.png" alt="Slayd 17" loading="lazy" /><figcaption>Slayd 17</figcaption></figure>
+  <figure><img src="/img/lessons/windows-fundamentals/slide17_image13.png" alt="Slayd 17" loading="lazy" /><figcaption>Slayd 17</figcaption></figure>
+  <figure><img src="/img/lessons/windows-fundamentals/slide18_image14.png" alt="Slayd 18" loading="lazy" /><figcaption>Slayd 18</figcaption></figure>
+  <figure><img src="/img/lessons/windows-fundamentals/slide18_image15.png" alt="Slayd 18" loading="lazy" /><figcaption>Slayd 18</figcaption></figure>
+  <figure><img src="/img/lessons/windows-fundamentals/slide18_image16.png" alt="Slayd 18" loading="lazy" /><figcaption>Slayd 18</figcaption></figure>
+  <figure><img src="/img/lessons/windows-fundamentals/slide00_image1.jpeg" alt="İstinad" loading="lazy" /><figcaption>İstinad</figcaption></figure>
+  <figure><img src="/img/lessons/windows-fundamentals/slide00_image2.png" alt="İstinad" loading="lazy" /><figcaption>İstinad</figcaption></figure>
+  <figure><img src="/img/lessons/windows-fundamentals/slide00_image3.png" alt="İstinad" loading="lazy" /><figcaption>İstinad</figcaption></figure>
+  <figure><img src="/img/lessons/windows-fundamentals/slide00_image4.png" alt="İstinad" loading="lazy" /><figcaption>İstinad</figcaption></figure>
+  <figure><img src="/img/lessons/windows-fundamentals/slide00_image5.png" alt="İstinad" loading="lazy" /><figcaption>İstinad</figcaption></figure>
+</div>

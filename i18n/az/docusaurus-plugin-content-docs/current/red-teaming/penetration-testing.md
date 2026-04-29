@@ -363,6 +363,14 @@ Qəbul edən təşkilat üçün praktiki təlimat. Təhlükəsizlik meneceri ilk
 - **"Bizim pen testə ehtiyacımız yoxdur, SOC-umuz var."** SOC *məlum nümunələrə* qarşı *gedişdə olan hücumları* tutur. Pen test *ilk yerdə hücumun uğur qazanmasına icazə verən boşluqları* tapır. Fərqli işlər.
 - **"OSCP / CRTP / və s. kifayətdir — sertifikat testçinin yaxşı olduğunu sübut edir."** Sertifikat baseline-i sübut edir; təcrübə və hesabat yazma bacarığı bacarıqlı testçilərı əla olanlardan ayırır. Vendor seçimi prosesinin bir hissəsi olaraq həmişə redaktə edilmiş keçmiş hesabatlar istəyin.
 
+
+## İstinad şəkilləri
+
+Bu illüstrasiyalar orijinal təlim slaydından götürülüb və yuxarıdakı dərs məzmununu tamamlayır.
+
+<div className="lesson-image-grid">
+  <figure><img src="/img/lessons/penetration-testing/slide01_image1.png" alt="Slayd 1" loading="lazy" /><figcaption>Slayd 1</figcaption></figure>
+</div>
 ## İstinadlar
 
 - **PTES — Penetration Testing Execution Standard:** [pentest-standard.org](http://www.pentest-standard.org/)

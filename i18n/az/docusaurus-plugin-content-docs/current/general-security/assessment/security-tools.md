@@ -637,6 +637,20 @@ Müəyyən bir hərəkətin əhatə dairəsində olub-olmadığına əmin deyils
 - NIST SP 800-88 (Clear / Purge / Destroy) utilizasiya standartıdır; SSD-lər DBAN deyil, kriptoqrafik silmə və ya fiziki məhv tələb edir.
 - İcazə, əhatə dairəsi və partlayış radiusu nəzarəti sənəd işi deyil — onlar təhlükəsizlik mühəndisini cinayətkardan ayıran şeydir.
 
+
+## İstinad şəkilləri
+
+Bu illüstrasiyalar orijinal təlim slaydından götürülüb və yuxarıdakı dərs məzmununu tamamlayır.
+
+<div className="lesson-image-grid">
+  <figure><img src="/img/lessons/security-tools/slide01_image1.jpeg" alt="Slayd 1" loading="lazy" /><figcaption>Slayd 1</figcaption></figure>
+  <figure><img src="/img/lessons/security-tools/slide03_image2.png" alt="Slayd 3" loading="lazy" /><figcaption>Slayd 3</figcaption></figure>
+  <figure><img src="/img/lessons/security-tools/slide04_image3.png" alt="Slayd 4" loading="lazy" /><figcaption>Slayd 4</figcaption></figure>
+  <figure><img src="/img/lessons/security-tools/slide48_image4.png" alt="Slayd 48" loading="lazy" /><figcaption>Slayd 48</figcaption></figure>
+  <figure><img src="/img/lessons/security-tools/slide61_image5.png" alt="Slayd 61" loading="lazy" /><figcaption>Slayd 61</figcaption></figure>
+  <figure><img src="/img/lessons/security-tools/slide63_image6.png" alt="Slayd 63" loading="lazy" /><figcaption>Slayd 63</figcaption></figure>
+  <figure><img src="/img/lessons/security-tools/slide65_image7.png" alt="Slayd 65" loading="lazy" /><figcaption>Slayd 65</figcaption></figure>
+</div>
 ## İstinadlar
 
 - Nmap istinad təlimatı və NSE skriptləri — `https://nmap.org/book/man.html`
