@@ -60,6 +60,8 @@ Niyə:
 5. Policy-yə uyğun rotasiya olunur
 6. Admin yalnız ehtiyac olduqda parolu oxuyur
 
+![LAPS axını](/img/servers/laps-flow.svg)
+
 ---
 
 ## 🗂️ Parol hara backup edilə bilər?

@@ -11,6 +11,8 @@ difficulty: advanced
 
 Flexible Single Master Operations (FSMO) — Active Directory (AD) mühitində xüsusi domen nəzarətçisi (domain controller) vəzifələridir. AD çoxmasterli sistem olsa da (istənilən domen nəzarətçisi dəyişiklik edə bilər), bəzi əməliyyatlar yalnız bir domen nəzarətçisi tərəfindən idarə olunmalıdır ki, konfliktlər yaranmasın — bu vəzifələr FSMO rolları adlanır.
 
+![FSMO İcmalı](/img/servers/fsmo-overview.svg)
+
 ---
 
 ## 🔹 FSMO Rollarının Növləri

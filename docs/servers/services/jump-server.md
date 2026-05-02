@@ -20,6 +20,8 @@ difficulty: intermediate
 
 A **Jump Server** (or bastion host) is a hardened, narrowly scoped server that administrators connect to first in order to reach other systems on an internal network. Instead of exposing every internal server to direct access, all administrative traffic is funneled through this single, controlled entry point.
 
+![Jump Server architecture](/img/servers/jump-server.svg)
+
 ```
 User (internet) → Jump Server (DMZ) → Internal servers (AD, DB, web…)
 ```

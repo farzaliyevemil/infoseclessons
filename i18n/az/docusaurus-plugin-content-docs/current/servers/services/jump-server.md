@@ -20,6 +20,8 @@ difficulty: intermediate
 
 **Jump Server** (və ya bastion host) — administratorların daxili şəbəkədəki digər sistemlərə çatmaq üçün ilk qoşulduqları hardened, dar təyinatlı serverdir. Hər daxili serveri birbaşa əlçatan etmək əvəzinə, bütün administrativ trafik bu tək, nəzarətli giriş nöqtəsi üzərindən yönləndirilir.
 
+![Jump Server arxitekturası](/img/servers/jump-server.svg)
+
 ```
 İstifadəçi (internet) → Jump Server (DMZ) → Daxili serverlər (AD, DB, web…)
 ```
