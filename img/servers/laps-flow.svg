@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="260" viewBox="0 0 720 260">
+  <style>
+    .box{fill:#eefdf4;stroke:#2abf7a;stroke-width:2}
+    .title{font: bold 13px sans-serif; fill:#0d3b2a}
+    .arrow{stroke:#3c7;stroke-width:2;marker-end:url(#arrow)}
+  </style>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#3c7"/>
+    </marker>
+  </defs>
+  <rect class="box" x="40" y="40" width="160" height="60" rx="6"/>
+  <text class="title" x="55" y="75">GPO (Policy)</text>
+  <rect class="box" x="280" y="40" width="160" height="60" rx="6"/>
+  <text class="title" x="300" y="75">Client (PC)</text>
+  <rect class="box" x="520" y="40" width="160" height="60" rx="6"/>
+  <text class="title" x="540" y="75">Active Directory</text>
+  <text class="title" x="535" y="140">ms-Mcs-AdmPwd</text>
+  <text class="title" x="520" y="160">ms-Mcs-AdmPwdExpirationTime</text>
+
+  <line class="arrow" x1="200" y1="70" x2="280" y2="70"/>
+  <line class="arrow" x1="440" y1="70" x2="520" y2="70"/>
+</svg>

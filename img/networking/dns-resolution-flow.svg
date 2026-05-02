@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="340" viewBox="0 0 960 340" role="img" aria-labelledby="title desc">
+  <title id="title">DNS resolution flow</title>
+  <desc id="desc">Client checks cache, sends a query to resolver, and receives an answer after recursive lookup.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eef7fc" />
+      <stop offset="100%" stop-color="#f8fbfd" />
+    </linearGradient>
+    <linearGradient id="box" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1f5f8b" />
+      <stop offset="100%" stop-color="#2f8f6b" />
+    </linearGradient>
+    <style>
+      .label { font: 700 22px sans-serif; fill: #12344c; }
+      .small { font: 500 16px sans-serif; fill: #4b6274; }
+      .box-text { font: 700 18px sans-serif; fill: #ffffff; }
+      .arrow { stroke: #1f5f8b; stroke-width: 6; fill: none; stroke-linecap: round; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="960" height="340" rx="26" fill="url(#bg)" />
+  <text x="60" y="54" class="label">DNS Resolution Flow</text>
+  <text x="60" y="82" class="small">Practical path: cache -&gt; resolver -&gt; recursive lookup -&gt; answer</text>
+
+  <rect x="60" y="130" width="190" height="96" rx="20" fill="url(#box)" />
+  <text x="155" y="170" text-anchor="middle" class="box-text">Client</text>
+  <text x="155" y="196" text-anchor="middle" class="box-text">Cache / hosts</text>
+
+  <rect x="320" y="130" width="190" height="96" rx="20" fill="url(#box)" />
+  <text x="415" y="170" text-anchor="middle" class="box-text">DNS Resolver</text>
+  <text x="415" y="196" text-anchor="middle" class="box-text">Recursive query</text>
+
+  <rect x="580" y="110" width="130" height="68" rx="18" fill="#13344c" />
+  <text x="645" y="152" text-anchor="middle" class="box-text">Root</text>
+
+  <rect x="580" y="192" width="130" height="68" rx="18" fill="#13344c" />
+  <text x="645" y="234" text-anchor="middle" class="box-text">TLD</text>
+
+  <rect x="770" y="130" width="130" height="96" rx="20" fill="#184d70" />
+  <text x="835" y="170" text-anchor="middle" class="box-text">Authoritative</text>
+  <text x="835" y="196" text-anchor="middle" class="box-text">Answer</text>
+
+  <path d="M250 178 H300" class="arrow" />
+  <polygon points="300,178 286,170 286,186" fill="#1f5f8b" />
+
+  <path d="M510 156 H550 C565 156 565 144 580 144" class="arrow" />
+  <polygon points="580,144 566,136 566,152" fill="#1f5f8b" />
+
+  <path d="M510 200 H550 C565 200 565 226 580 226" class="arrow" />
+  <polygon points="580,226 566,218 566,234" fill="#1f5f8b" />
+
+  <path d="M710 144 H748 C760 144 760 160 770 160" class="arrow" />
+  <polygon points="770,160 756,152 756,168" fill="#1f5f8b" />
+
+  <path d="M710 226 H748 C760 226 760 196 770 196" class="arrow" />
+  <polygon points="770,196 756,188 756,204" fill="#1f5f8b" />
+
+  <path d="M770 256 H600 C540 256 540 256 510 228" class="arrow" opacity="0.65" />
+  <path d="M320 228 C290 256 250 256 180 256" class="arrow" opacity="0.65" />
+  <text x="363" y="292" class="small">Resolved answer cached for later use according to TTL</text>
+</svg>
