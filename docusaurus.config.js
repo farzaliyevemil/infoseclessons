@@ -19,11 +19,14 @@ const config = {
   organizationName: 'farzaliyevemil',
   projectName: 'infoseclessons',
 
-  onBrokenLinks: 'warn',
+  // Hard gate: a docs site that hands readers dead links erodes exactly the
+  // trust it is trying to build. The tree is currently clean, so failures here
+  // are regressions to fix before merge, not legacy debt.
+  onBrokenLinks: 'throw',
   markdown: {
     mermaid: true,
     hooks: {
-      onBrokenMarkdownLinks: 'warn',
+      onBrokenMarkdownLinks: 'throw',
     },
   },
   themes: ['@docusaurus/theme-mermaid'],
