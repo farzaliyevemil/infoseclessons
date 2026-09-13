@@ -5,6 +5,9 @@ description: >-
   Sysprep nədir, niyə imaging və deployment üçün istifadə olunur, və Windows
   quraşdırmalarını necə ümumiləşdirmək olar.
 slug: /operating-systems/windows/sysprep
+
+tags:
+  - windows
 ---
 
 # 🧰 Sysprep nədir?

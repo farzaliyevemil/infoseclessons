@@ -19,6 +19,10 @@ keywords:
   - spf
   - open source
 difficulty: intermediate
+
+tags:
+  - security-basics
+  - intermediate
 ---
 
 # Open-Source Email Security

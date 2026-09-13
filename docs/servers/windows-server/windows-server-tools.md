@@ -14,6 +14,10 @@ keywords:
   - resmon
   - services
 difficulty: foundation
+
+tags:
+  - servers
+  - beginner
 ---
 
 # Windows Server Administration Tools

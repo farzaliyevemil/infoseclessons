@@ -7,7 +7,6 @@ sidebar_position: 1
 status: reference
 last_reviewed: 2026-04-23
 keywords:
-  - linux
   - fundamentals
   - bash
   - filesystem hierarchy
@@ -17,6 +16,10 @@ keywords:
   - processes
   - syslog
 difficulty: foundation
+
+tags:
+  - linux
+  - beginner
 ---
 
 # Linux Fundamentals

@@ -4,6 +4,9 @@ title: CompTIA Sertifikatları (2026 Bələdçisi)
 description: 23 mart 2026 tarixinə əsas CompTIA sertifikatları, karyera yolları, renewal məntiqi və stackable progression üçün praktik baxış.
 slug: /certifications/comptia-certifications
 sidebar_position: 1
+
+tags:
+  - certifications
 ---
 
 # CompTIA Sertifikatları

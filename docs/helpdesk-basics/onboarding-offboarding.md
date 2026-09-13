@@ -16,6 +16,10 @@ keywords:
   - identity lifecycle
   - compliance
 difficulty: foundation
+
+tags:
+  - helpdesk
+  - beginner
 ---
 
 # IT Onboarding and Offboarding

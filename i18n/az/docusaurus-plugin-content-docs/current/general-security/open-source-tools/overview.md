@@ -15,6 +15,10 @@ keywords:
   - netbox
   - security stack
 difficulty: foundation
+
+tags:
+  - security-basics
+  - beginner
 ---
 
 # Açıq mənbəli təhlükəsizlik stack-i — İcmal

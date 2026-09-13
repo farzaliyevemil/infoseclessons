@@ -15,8 +15,11 @@ keywords:
   - nist csf
   - gdpr
   - audit readiness
-  - grc
 difficulty: intermediate
+
+tags:
+  - grc
+  - intermediate
 ---
 
 # Compliance Frameworks — ISO 27001, SOC 2, PCI DSS and Friends

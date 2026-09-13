@@ -16,6 +16,10 @@ keywords:
   - apipa
   - dhcp options
 difficulty: foundation
+
+tags:
+  - networking
+  - beginner
 ---
 
 # DHCP (Dynamic Host Configuration Protocol)

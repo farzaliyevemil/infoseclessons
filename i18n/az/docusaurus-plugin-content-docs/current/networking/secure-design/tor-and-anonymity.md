@@ -20,6 +20,10 @@ keywords:
   - dread relay attacks
   - vpn over tor
 difficulty: advanced
+
+tags:
+  - networking
+  - advanced
 ---
 
 # Tor və Anonimlik Şəbəkələri

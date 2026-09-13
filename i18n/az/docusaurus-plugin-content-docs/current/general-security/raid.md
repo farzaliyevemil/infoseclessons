@@ -4,6 +4,10 @@ title: RAID nədir? (Sadə izah)
 description: RAID nədir, nə üçün istifadə olunur və hansı məqsədlərə xidmət edir? Sadə dildə tam izah.
 slug: /general-security/raid
 difficulty: foundation
+
+tags:
+  - security-basics
+  - beginner
 ---
 
 # 📦 RAID nədir?

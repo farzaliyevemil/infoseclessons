@@ -5,6 +5,8 @@ description: >-
   Discover how Microsoft PowerToys can boost your productivity with a suite of
   advanced utilities for Windows users.
 slug: /operating-systems/windows/powertoys
+tags:
+  - windows
 ---
 
 # ⚙️ Mastering Productivity with Microsoft PowerToys

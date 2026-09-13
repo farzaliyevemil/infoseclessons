@@ -20,6 +20,10 @@ keywords:
   - playbook
   - chain of custody
 difficulty: advanced
+
+tags:
+  - blue-team
+  - advanced
 ---
 
 # Hadisənin Araşdırılması və Yumşaldılması

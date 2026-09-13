@@ -19,6 +19,10 @@ keywords:
   - ports and protocols
   - hardening
 difficulty: intermediate
+
+tags:
+  - blue-team
+  - intermediate
 ---
 
 # Enterprise Mitigation Techniques

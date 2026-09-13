@@ -7,7 +7,6 @@ sidebar_position: 1
 status: reference
 last_reviewed: 2026-04-23
 keywords:
-  - windows
   - fundamentals
   - ntfs
   - registry
@@ -17,6 +16,10 @@ keywords:
   - sids
   - defender
 difficulty: foundation
+
+tags:
+  - windows
+  - beginner
 ---
 
 # Windows əsasları

@@ -16,6 +16,10 @@ keywords:
   - subnet math
   - networking fundamentals
 difficulty: foundation
+
+tags:
+  - networking
+  - beginner
 ---
 
 # Subnetting and CIDR

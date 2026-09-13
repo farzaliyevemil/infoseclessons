@@ -23,6 +23,10 @@ keywords:
   - gvisor
   - supply chain
 difficulty: advanced
+
+tags:
+  - security-basics
+  - advanced
 ---
 
 # Container and Kubernetes Security

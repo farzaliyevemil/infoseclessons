@@ -15,6 +15,10 @@ keywords:
   - inkapsulyasiya
   - şəbəkə əsasları
 difficulty: foundation
+
+tags:
+  - networking
+  - beginner
 ---
 
 # OSI Modeli

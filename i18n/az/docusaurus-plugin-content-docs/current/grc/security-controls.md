@@ -19,6 +19,10 @@ keywords:
   - CCM
   - benchmarks
 difficulty: intermediate
+
+tags:
+  - grc
+  - intermediate
 ---
 
 # Təhlükəsizlik Nəzarətləri və Çərçivələr

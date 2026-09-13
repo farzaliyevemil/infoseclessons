@@ -15,6 +15,10 @@ keywords:
   - risk rating
   - remediation plan
 difficulty: intermediate
+
+tags:
+  - security-basics
+  - intermediate
 ---
 
 # Organizational Security Assessment

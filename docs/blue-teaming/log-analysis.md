@@ -18,6 +18,10 @@ keywords:
   - ioc hunting
   - timeline
 difficulty: foundation
+
+tags:
+  - blue-team
+  - beginner
 ---
 
 # Log Analysis for Blue Teams

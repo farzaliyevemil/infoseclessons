@@ -5,6 +5,8 @@ description: >-
   BitLocker-in necə işlədiyini, TPM + PIN-in niyə vacib olduğunu və device
   encryption ilə fərqini öyrənin.
 slug: /operating-systems/windows/bitlocker
+tags:
+  - windows
 ---
 
 # 🔐 BitLocker Nədir?

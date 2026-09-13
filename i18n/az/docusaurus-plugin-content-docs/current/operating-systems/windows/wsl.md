@@ -5,6 +5,9 @@ description: >-
   WSL-in Linux-u Windows-da necə işə salmağa imkan verdiyini və niyə kiber
   təhlükəsizlik və inkişaf üçün güclü bir alət olduğunu öyrənin.
 slug: /operating-systems/windows/wsl
+
+tags:
+  - windows
 ---
 
 # 🧩 WSL Nədir?

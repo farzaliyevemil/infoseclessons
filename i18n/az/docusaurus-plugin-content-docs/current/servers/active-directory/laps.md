@@ -7,6 +7,10 @@ description: >-
 sidebar_position: 2
 slug: /servers/laps
 difficulty: intermediate
+
+tags:
+  - servers
+  - intermediate
 ---
 
 # 🔐 Microsoft LAPS İzahı

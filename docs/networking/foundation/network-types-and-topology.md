@@ -24,6 +24,10 @@ keywords:
   - anycast
   - networking fundamentals
 difficulty: foundation
+
+tags:
+  - networking
+  - beginner
 ---
 
 # Network Types and Topology

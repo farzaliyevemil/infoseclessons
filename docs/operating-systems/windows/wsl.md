@@ -5,6 +5,8 @@ description: >-
   Learn how WSL enables you to run Linux on Windows and why it's a powerful tool
   for cybersecurity and development.
 slug: /operating-systems/windows/wsl
+tags:
+  - windows
 ---
 
 # 🧩 What is WSL?

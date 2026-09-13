@@ -20,6 +20,10 @@ keywords:
   - vpn
   - networking fundamentals
 difficulty: foundation
+
+tags:
+  - networking
+  - beginner
 ---
 
 # Şəbəkə Cihazları

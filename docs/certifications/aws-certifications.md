@@ -4,6 +4,9 @@ title: AWS Certifications (2026 Guide)
 description: A practical overview of current AWS Certification levels, major role-based paths, and notable 2025-2026 updates as of March 23, 2026.
 slug: /certifications/aws-certifications
 sidebar_position: 2
+
+tags:
+  - certifications
 ---
 
 # AWS Certifications

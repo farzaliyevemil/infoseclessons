@@ -20,6 +20,10 @@ keywords:
   - shadow it
   - msp kompromisi
 difficulty: intermediate
+
+tags:
+  - red-team
+  - intermediate
 ---
 
 # Təhdid Vektorları və Hücum Səthləri

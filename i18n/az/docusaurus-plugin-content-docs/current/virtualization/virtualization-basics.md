@@ -3,6 +3,9 @@ id: virtualization-basics
 title: Virtualizasiya Əsasları
 description: Hypervisor-lar, virtual maşınlar, snapshot, storage, şəbəkə və əsas istifadə ssenariləri üçün praktik giriş.
 slug: /virtualization/virtualization-basics
+
+tags:
+  - virtualization
 ---
 
 # Virtualizasiya Əsasları

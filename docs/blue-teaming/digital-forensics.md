@@ -22,6 +22,10 @@ keywords:
   - sleuthkit
   - autopsy
 difficulty: advanced
+
+tags:
+  - blue-team
+  - advanced
 ---
 
 # Digital Forensics

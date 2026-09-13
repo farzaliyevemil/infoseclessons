@@ -20,6 +20,10 @@ keywords:
   - playbook
   - chain of custody
 difficulty: advanced
+
+tags:
+  - blue-team
+  - advanced
 ---
 
 # Incident Investigation and Mitigation

@@ -3,6 +3,9 @@ id: common-helpdesk-tickets
 title: Common Helpdesk Tickets
 description: A practical starter guide to the most common helpdesk requests, triage steps, escalation, and documentation habits.
 slug: /helpdesk-basics/common-helpdesk-tickets
+
+tags:
+  - helpdesk
 ---
 
 # Common Helpdesk Tickets

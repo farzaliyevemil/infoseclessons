@@ -16,6 +16,10 @@ keywords:
   - smart devices
   - RTOS
 difficulty: intermediate
+
+tags:
+  - security-basics
+  - intermediate
 ---
 
 # Embedded Systems, IoT, and ICS Security

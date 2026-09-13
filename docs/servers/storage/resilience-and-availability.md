@@ -26,6 +26,10 @@ keywords:
   - active-passive
   - clustering
 difficulty: intermediate
+
+tags:
+  - servers
+  - intermediate
 ---
 
 # Resilience and High Availability

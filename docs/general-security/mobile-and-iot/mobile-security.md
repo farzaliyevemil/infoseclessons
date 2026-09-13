@@ -20,6 +20,10 @@ keywords:
   - RFID
   - containerization
 difficulty: intermediate
+
+tags:
+  - security-basics
+  - intermediate
 ---
 
 # Mobile Device Security

@@ -18,6 +18,10 @@ keywords:
   - IPSec
   - secure protocols
 difficulty: intermediate
+
+tags:
+  - networking
+  - intermediate
 ---
 
 # Secure Network Protocols

@@ -5,6 +5,10 @@ description: Learn what the five FSMO roles do, how to check them, and when to t
 sidebar_position: 1
 slug: /servers/fsmo
 difficulty: advanced
+
+tags:
+  - servers
+  - advanced
 ---
 
 # FSMO Roles in Active Directory

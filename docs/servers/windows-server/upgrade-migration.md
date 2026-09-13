@@ -13,6 +13,10 @@ keywords:
   - in-place upgrade
   - adba
 difficulty: intermediate
+
+tags:
+  - servers
+  - intermediate
 ---
 
 # Upgrade, Update, and Migration

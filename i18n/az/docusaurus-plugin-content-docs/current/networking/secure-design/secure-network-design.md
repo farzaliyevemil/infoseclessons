@@ -18,6 +18,10 @@ keywords:
   - WAF
   - proxy
 difficulty: advanced
+
+tags:
+  - networking
+  - advanced
 ---
 
 # Təhlükəsiz Şəbəkə Dizaynı

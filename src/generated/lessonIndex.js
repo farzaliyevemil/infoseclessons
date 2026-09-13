@@ -46,6 +46,8 @@ const lessons = [
       "legal evidence",
       "sleuthkit",
       "autopsy",
+      "blue-team",
+      "advanced",
       "blue-teaming",
       "digital-forensics",
       "rəqəmsal forensika",
@@ -88,6 +90,8 @@ const lessons = [
       "secure boot",
       "hardening",
       "patch management",
+      "blue-team",
+      "intermediate",
       "blue-teaming",
       "endpoint-security"
     ],
@@ -121,6 +125,8 @@ const lessons = [
       "endpoint protection",
       "ports and protocols",
       "hardening",
+      "blue-team",
+      "intermediate",
       "blue-teaming",
       "mitigation-techniques"
     ],
@@ -155,6 +161,8 @@ const lessons = [
       "soar",
       "playbook",
       "chain of custody",
+      "blue-team",
+      "advanced",
       "blue-teaming",
       "investigation-and-mitigation"
     ],
@@ -163,6 +171,38 @@ const lessons = [
     "sourcePaths": {
       "en": "blue-teaming\\investigation-and-mitigation.md",
       "az": "blue-teaming\\investigation-and-mitigation.md"
+    }
+  },
+  {
+    "slug": "/blue-teaming/ir-playbooks",
+    "category": "blue-teaming",
+    "title": {
+      "en": "Incident Response Playbooks",
+      "az": "Incident Response Playbook-ları"
+    },
+    "description": {
+      "en": "Ready-to-run incident response playbooks — ransomware, phishing and credential compromise — each with detection triggers, first-hour actions, containment, evidence, recovery and the metrics that tell you whether the playbook works.",
+      "az": "İcra-hazır incident response playbook-ları — ransomware, phishing və credential kompromisi — hər birində deteksiya trigger-ləri, ilk-saat hərəkətləri, containment, dəlil, recovery və playbook-un işləyib-işləmədiyini deyən metriklər."
+    },
+    "keywords": [
+      "incident response playbook",
+      "ransomware playbook",
+      "phishing response",
+      "credential compromise",
+      "containment",
+      "soc runbook",
+      "blue-team",
+      "intermediate",
+      "blue-teaming",
+      "ir-playbooks",
+      "phishing cavabı",
+      "credential kompromisi"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-09-14",
+    "sourcePaths": {
+      "en": "blue-teaming\\ir-playbooks.md",
+      "az": "blue-teaming\\ir-playbooks.md"
     }
   },
   {
@@ -186,6 +226,8 @@ const lessons = [
       "auditd",
       "ioc hunting",
       "timeline",
+      "blue-team",
+      "beginner",
       "blue-teaming",
       "log-analysis"
     ],
@@ -194,6 +236,41 @@ const lessons = [
     "sourcePaths": {
       "en": "blue-teaming\\log-analysis.md",
       "az": "blue-teaming\\log-analysis.md"
+    }
+  },
+  {
+    "slug": "/blue-teaming/malware-analysis-basics",
+    "category": "blue-teaming",
+    "title": {
+      "en": "Malware Analysis Basics",
+      "az": "Malware Analizi Əsasları"
+    },
+    "description": {
+      "en": "A defender's introduction to analyzing malicious software safely — static triage, dynamic detonation in an isolated lab, unpacking basics, behavioral indicators, and turning what you learn into detections — without becoming a reverse engineer.",
+      "az": "Zərərli proqramı təhlükəsiz analiz etməyin müdafiəçi üçün girişi — statik triaj, izolyasiya olunmuş lab-da dinamik detonasiya, unpacking əsasları, davranış indikatorları və öyrəndiklərinizi deteksiyalara çevirmək — reverse engineer olmamadan."
+    },
+    "keywords": [
+      "malware analysis",
+      "static analysis",
+      "dynamic analysis",
+      "sandbox",
+      "strings",
+      "yara",
+      "cuckoo",
+      "remnux",
+      "blue-team",
+      "intermediate",
+      "blue-teaming",
+      "malware-analysis-basics",
+      "malware analizi",
+      "statik analiz",
+      "dinamik analiz"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-09-14",
+    "sourcePaths": {
+      "en": "blue-teaming\\malware-analysis-basics.md",
+      "az": "blue-teaming\\malware-analysis-basics.md"
     }
   },
   {
@@ -217,6 +294,8 @@ const lessons = [
       "elastic",
       "mitre attack",
       "log sources",
+      "blue-team",
+      "intermediate",
       "blue-teaming",
       "siem-fundamentals",
       "korrelyasiya qaydaları",
@@ -248,6 +327,8 @@ const lessons = [
       "living off the land",
       "persistence",
       "detection engineering",
+      "blue-team",
+      "intermediate",
       "blue-teaming",
       "threat-hunting",
       "hipotez"
@@ -322,6 +403,7 @@ const lessons = [
       "network certification",
       "security certification",
       "certifications",
+      "beginner",
       "cisco-certifications",
       "şəbəkə sertifikatı",
       "təhlükəsizlik sertifikatı"
@@ -375,6 +457,7 @@ const lessons = [
       "certification",
       "security management",
       "certifications",
+      "intermediate",
       "isc2-certifications",
       "sertifikat",
       "təhlükəsizlik menecment"
@@ -409,6 +492,39 @@ const lessons = [
     }
   },
   {
+    "slug": "/certifications/practical-exam-certifications",
+    "category": "certifications",
+    "title": {
+      "en": "Practical Exam Certifications — OSCP, PNPT, CRTO and Friends",
+      "az": "Praktik İmtahan Sertifikatları — OSCP, PNPT, CRTO və Dostları"
+    },
+    "description": {
+      "en": "The hands-on certification tier — OSCP, PNPT, CRTO, eJPT and beyond — what each exam actually tests, how to prepare, pass strategies, and how practical certs compare to multiple-choice paths.",
+      "az": "Əl-imtahan təbəqəsi — OSCP, PNPT, CRTO, eJPT və qalanları — hər imtahanın faktiki nəyi test etdiyi, necə hazırlanmalı, keçid strategiyaları və praktik sertlərin multiple-choice yolları ilə müqayisəsi."
+    },
+    "keywords": [
+      "oscp",
+      "pnpt",
+      "crto",
+      "ejpt",
+      "practical certification",
+      "red team certification",
+      "hands-on exam",
+      "certifications",
+      "intermediate",
+      "practical-exam-certifications",
+      "praktik sertifikat",
+      "red team sertifikatı",
+      "hands-on imtahan"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-09-14",
+    "sourcePaths": {
+      "en": "certifications\\practical-exam-certifications.md",
+      "az": "certifications\\practical-exam-certifications.md"
+    }
+  },
+  {
     "slug": "/general-security/aaa-non-repudiation",
     "category": "general-security",
     "title": {
@@ -433,6 +549,8 @@ const lessons = [
       "crossover error rate",
       "radius",
       "tacacs",
+      "security-basics",
+      "intermediate",
       "general-security",
       "aaa-non-repudiation",
       "autentifikasiya",
@@ -448,6 +566,41 @@ const lessons = [
     "sourcePaths": {
       "en": "general-security\\aaa-non-repudiation.md",
       "az": "general-security\\aaa-non-repudiation.md"
+    }
+  },
+  {
+    "slug": "/general-security/ai-llm-security",
+    "category": "general-security",
+    "title": {
+      "en": "AI and LLM Security",
+      "az": "AI və LLM Təhlükəsizliyi"
+    },
+    "description": {
+      "en": "Securing AI systems in both directions — the OWASP LLM Top 10 risks (prompt injection, data leakage, excessive agency), how to build defenses into RAG and agent architectures, plus securing the model supply chain and using AI safely inside a SOC.",
+      "az": "AI sistemlərini hər iki istiqamətdə təhlükəsizləşdirmək — OWASP LLM Top 10 riskləri (prompt injection, data sızması, həddindən artıq agency), RAG və agent arxitekturalarına müdafiə qoşmaq, model təchizat-zəncirini təhlükəsizləşdirmək və SOC daxilində AI-dan təhlükəsiz istifadə."
+    },
+    "keywords": [
+      "llm security",
+      "prompt injection",
+      "owasp llm top 10",
+      "rag security",
+      "agent security",
+      "ai governance",
+      "model supply chain",
+      "security-basics",
+      "intermediate",
+      "general-security",
+      "ai-llm-security",
+      "llm təhlükəsizliyi",
+      "rag təhlükəsizliyi",
+      "agent təhlükəsizliyi",
+      "model təchizat zənciri"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-09-14",
+    "sourcePaths": {
+      "en": "general-security\\ai-llm-security.md",
+      "az": "general-security\\ai-llm-security.md"
     }
   },
   {
@@ -471,6 +624,8 @@ const lessons = [
       "dlp",
       "data encryption",
       "data minimization",
+      "security-basics",
+      "beginner",
       "general-security",
       "cia-triad"
     ],
@@ -500,8 +655,9 @@ const lessons = [
       "shared responsibility",
       "containers",
       "serverless",
-      "virtualization",
       "SDN",
+      "security-basics",
+      "intermediate",
       "general-security",
       "cloud",
       "cloud-computing-security",
@@ -538,6 +694,8 @@ const lessons = [
       "high availability",
       "resource policies",
       "container security",
+      "security-basics",
+      "advanced",
       "general-security",
       "cloud",
       "cloud-security-solutions"
@@ -576,6 +734,8 @@ const lessons = [
       "service mesh",
       "gvisor",
       "supply chain",
+      "security-basics",
+      "advanced",
       "general-security",
       "cloud",
       "container-and-kubernetes-security"
@@ -613,6 +773,8 @@ const lessons = [
       "zero-knowledge",
       "blockchain crypto",
       "cryptanalysis",
+      "security-basics",
+      "advanced",
       "general-security",
       "cryptography-advanced"
     ],
@@ -645,6 +807,8 @@ const lessons = [
       "hashing",
       "digital signatures",
       "diffie-hellman",
+      "security-basics",
+      "beginner",
       "general-security",
       "cryptography-basics"
     ],
@@ -653,6 +817,40 @@ const lessons = [
     "sourcePaths": {
       "en": "general-security\\cryptography\\cryptography-basics.md",
       "az": "general-security\\cryptography\\cryptography-basics.md"
+    }
+  },
+  {
+    "slug": "/general-security/devsecops-pipeline-security",
+    "category": "general-security",
+    "title": {
+      "en": "DevSecOps — Securing the CI/CD Pipeline",
+      "az": "DevSecOps — CI/CD Pipeline-nın Təhlükəsizləşdirilməsi"
+    },
+    "description": {
+      "en": "Building security into the delivery pipeline — shift-left vs shift-right, SAST/DAST/SCA/secrets-scanning compared, supply-chain security (SBOM, dependency pinning, signing), pipeline hardening, and gates that don't strangle delivery.",
+      "az": "Təhvil pipeline-ına təhlükəsizlik qoşmaq — shift-left vs shift-right, SAST/DAST/SCA/secrets-scanning müqayisəsi, təchizat-zənciri təhlükəsizliyi (SBOM, asılılıq pinning, imzalama), pipeline hardening və təhvili boğmayan darvazalar."
+    },
+    "keywords": [
+      "devsecops",
+      "ci cd security",
+      "sast",
+      "dast",
+      "sca",
+      "secrets scanning",
+      "sbom",
+      "supply chain",
+      "security-basics",
+      "intermediate",
+      "general-security",
+      "devsecops-pipeline-security",
+      "ci cd təhlükəsizliyi",
+      "təchizat zənciri"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-09-14",
+    "sourcePaths": {
+      "en": "general-security\\devsecops-pipeline-security.md",
+      "az": "general-security\\devsecops-pipeline-security.md"
     }
   },
   {
@@ -675,6 +873,8 @@ const lessons = [
       "FPGA",
       "smart devices",
       "RTOS",
+      "security-basics",
+      "intermediate",
       "general-security",
       "mobile-and-iot",
       "embedded-and-iot-security"
@@ -706,6 +906,8 @@ const lessons = [
       "honeypot",
       "site resiliency",
       "deception",
+      "security-basics",
+      "advanced",
       "general-security",
       "architecture",
       "enterprise-security-architecture"
@@ -764,6 +966,8 @@ const lessons = [
       "admin accounts",
       "identity proofing",
       "account lifecycle",
+      "security-basics",
+      "advanced",
       "general-security",
       "iam-account-management"
     ],
@@ -798,6 +1002,8 @@ const lessons = [
       "NFC",
       "RFID",
       "containerization",
+      "security-basics",
+      "intermediate",
       "general-security",
       "mobile-and-iot",
       "mobile-security"
@@ -831,6 +1037,8 @@ const lessons = [
       "3-2-1 rule",
       "file sharing",
       "open source",
+      "security-basics",
+      "intermediate",
       "general-security",
       "open-source-tools",
       "backup-and-storage",
@@ -868,6 +1076,8 @@ const lessons = [
       "dkim",
       "spf",
       "open source",
+      "security-basics",
+      "intermediate",
       "general-security",
       "open-source-tools",
       "email-security"
@@ -903,6 +1113,8 @@ const lessons = [
       "ids",
       "nac",
       "open source",
+      "security-basics",
+      "intermediate",
       "general-security",
       "open-source-tools",
       "firewall-ids-waf"
@@ -931,13 +1143,14 @@ const lessons = [
       "opengrc",
       "opencontrol",
       "gapps",
-      "grc",
       "risk register",
       "audit",
       "compliance",
       "iso 27001",
       "soc 2",
       "open source",
+      "security-basics",
+      "intermediate",
       "general-security",
       "open-source-tools",
       "grc-tools"
@@ -975,6 +1188,8 @@ const lessons = [
       "oidc",
       "saml",
       "open source",
+      "security-basics",
+      "intermediate",
       "general-security",
       "open-source-tools",
       "iam-and-mfa"
@@ -1012,6 +1227,8 @@ const lessons = [
       "phishing simulation",
       "mitre attack",
       "open source",
+      "security-basics",
+      "advanced",
       "general-security",
       "open-source-tools",
       "red-team-tools"
@@ -1049,6 +1266,8 @@ const lessons = [
       "pam",
       "password manager",
       "open source",
+      "security-basics",
+      "intermediate",
       "general-security",
       "open-source-tools",
       "secrets-and-pam"
@@ -1079,6 +1298,8 @@ const lessons = [
       "snipe-it",
       "netbox",
       "security stack",
+      "security-basics",
+      "beginner",
       "general-security",
       "open-source-tools",
       "overview"
@@ -1116,6 +1337,8 @@ const lessons = [
       "siem",
       "monitoring",
       "open source",
+      "security-basics",
+      "intermediate",
       "general-security",
       "open-source-tools",
       "siem-and-monitoring"
@@ -1151,6 +1374,8 @@ const lessons = [
       "stix",
       "taxii",
       "open source",
+      "security-basics",
+      "advanced",
       "general-security",
       "open-source-tools",
       "threat-intel-and-malware"
@@ -1190,6 +1415,8 @@ const lessons = [
       "sast",
       "dast",
       "open source",
+      "security-basics",
+      "intermediate",
       "general-security",
       "open-source-tools",
       "vulnerability-and-appsec"
@@ -1220,6 +1447,8 @@ const lessons = [
       "compliance audit",
       "risk rating",
       "remediation plan",
+      "security-basics",
+      "intermediate",
       "general-security",
       "assessment",
       "security-assessment"
@@ -1250,6 +1479,8 @@ const lessons = [
       "data destruction",
       "mantrap",
       "Faraday cage",
+      "security-basics",
+      "beginner",
       "general-security",
       "mobile-and-iot",
       "physical-security"
@@ -1288,6 +1519,8 @@ const lessons = [
       "acme",
       "lets encrypt",
       "tls",
+      "security-basics",
+      "advanced",
       "general-security",
       "cryptography"
     ],
@@ -1322,6 +1555,8 @@ const lessons = [
       "third-party libraries",
       "sast",
       "dast",
+      "security-basics",
+      "intermediate",
       "general-security",
       "secure-app-development",
       "təhlükəsiz sdlc",
@@ -1361,6 +1596,8 @@ const lessons = [
       "tcpdump",
       "kali linux",
       "osint tools",
+      "security-basics",
+      "intermediate",
       "general-security",
       "assessment",
       "security-tools"
@@ -1392,6 +1629,8 @@ const lessons = [
       "index",
       "transaction",
       "stored procedure",
+      "security-basics",
+      "beginner",
       "general-security",
       "sql-basics"
     ],
@@ -1400,6 +1639,39 @@ const lessons = [
     "sourcePaths": {
       "en": "general-security\\sql-basics.md",
       "az": "general-security\\sql-basics.md"
+    }
+  },
+  {
+    "slug": "/general-security/threat-modeling",
+    "category": "general-security",
+    "title": {
+      "en": "Threat Modeling with STRIDE",
+      "az": "STRIDE ilə Threat Modeling"
+    },
+    "description": {
+      "en": "Finding design flaws before code exists — the four-question frame, STRIDE per element, data-flow diagrams, attack trees, ranking with risk, and the practical workflows (privacy-focused PASTA, agile 4-question) real teams run.",
+      "az": "Kod mövcud olmazdan əvvəl dizayn xətalarını tapmaq — dörd-suallı çərçivə, element-başına STRIDE, data-flow diaqramları, hücum ağacları, risk ilə sıralama və real komandaların işlətdiyi praktik iş axınları (PASTA, agile 4-sual)."
+    },
+    "keywords": [
+      "threat modeling",
+      "stride",
+      "data flow diagram",
+      "attack tree",
+      "pasta",
+      "secure design",
+      "sdlt",
+      "security-basics",
+      "intermediate",
+      "general-security",
+      "threat-modeling",
+      "hücum ağacı",
+      "secure dizayn"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-09-14",
+    "sourcePaths": {
+      "en": "general-security\\threat-modeling.md",
+      "az": "general-security\\threat-modeling.md"
     }
   },
   {
@@ -1423,6 +1695,8 @@ const lessons = [
       "openvas",
       "qualys",
       "security assessment",
+      "security-basics",
+      "intermediate",
       "general-security",
       "assessment",
       "vulnerability-management"
@@ -1446,6 +1720,8 @@ const lessons = [
       "az": "RAID nədir, nə üçün istifadə olunur və hansı məqsədlərə xidmət edir? Sadə dildə tam izah."
     },
     "keywords": [
+      "security-basics",
+      "beginner",
       "general-security",
       "raid"
     ],
@@ -1454,6 +1730,41 @@ const lessons = [
     "sourcePaths": {
       "en": "general-security\\raid.md",
       "az": "general-security\\raid.md"
+    }
+  },
+  {
+    "slug": "/general-security/zero-trust-architecture",
+    "category": "general-security",
+    "title": {
+      "en": "Zero Trust Architecture",
+      "az": "Zero Trust Arxitekturası"
+    },
+    "description": {
+      "en": "What zero trust actually means beyond the marketing — never trust, always verify; identity as the perimeter; the NIST 800-207 pillars; a phased adoption roadmap; and the mistakes that turn ZT into an expensive VLAN.",
+      "az": "Marketinqdən kənar zero trust-ın real mənası — heç kimə güvənmə, həmişə yoxlama; perimetr kimi identiklik; NIST 800-207 pillərləri; mərhələli qəbul yolu və ZT-ni bahalı VLAN-a çevirən səhvlər."
+    },
+    "keywords": [
+      "zero trust",
+      "ztna",
+      "nist 800-207",
+      "microsegmentation",
+      "continuous verification",
+      "identity",
+      "least privilege",
+      "security-basics",
+      "intermediate",
+      "general-security",
+      "zero-trust-architecture",
+      "mikroseqmentasiya",
+      "davamlı verification",
+      "identiklik",
+      "ən az imtiyaz"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-09-14",
+    "sourcePaths": {
+      "en": "general-security\\zero-trust-architecture.md",
+      "az": "general-security\\zero-trust-architecture.md"
     }
   },
   {
@@ -1476,6 +1787,7 @@ const lessons = [
       "gdpr",
       "audit readiness",
       "grc",
+      "intermediate",
       "compliance-frameworks",
       "uyğunluq",
       "audit hazırlığı"
@@ -1531,6 +1843,7 @@ const lessons = [
       "risk register",
       "nist rmf",
       "grc",
+      "intermediate",
       "risk-and-privacy"
     ],
     "status": "reference",
@@ -1564,6 +1877,7 @@ const lessons = [
       "CCM",
       "benchmarks",
       "grc",
+      "intermediate",
       "security-controls"
     ],
     "status": "reference",
@@ -1606,6 +1920,7 @@ const lessons = [
       "change management",
       "asset management",
       "grc",
+      "intermediate",
       "security-governance",
       "təhlükəsizlik idarəetməsi",
       "məqbul istifadə siyasəti",
@@ -1642,6 +1957,7 @@ const lessons = [
     },
     "keywords": [
       "grc",
+      "beginner",
       "policies"
     ],
     "status": "starter",
@@ -1663,13 +1979,14 @@ const lessons = [
       "az": "Identikliyi qoruyan helpdesk prosedurları — heç nəyə toxunmazdan əvvəl telefonun o tayındakını yoxlamaq, şifrə reset-ləri, hesab kilitləmələri, MFA yenidən qeydiyyatı və məhz helpdesk-i hədəfləyən sosial mühəndislik hücumları."
     },
     "keywords": [
-      "helpdesk",
       "password reset",
       "account lockout",
       "mfa",
       "identity verification",
       "social engineering",
       "vishing",
+      "helpdesk",
+      "beginner",
       "helpdesk-basics",
       "account-and-password-procedures",
       "şifrə reset",
@@ -1696,6 +2013,7 @@ const lessons = [
       "az": "Ən çox rast gəlinən helpdesk sorğuları, triage addımları, eskalasiya və düzgün ticket qeydləri üçün praktik bələdçi."
     },
     "keywords": [
+      "helpdesk",
       "helpdesk-basics",
       "common-helpdesk-tickets"
     ],
@@ -1746,6 +2064,8 @@ const lessons = [
       "least privilege",
       "identity lifecycle",
       "compliance",
+      "helpdesk",
+      "beginner",
       "helpdesk-basics",
       "onboarding-offboarding",
       "giriş ləğvi",
@@ -1781,6 +2101,7 @@ const lessons = [
       "apipa",
       "dhcp options",
       "networking",
+      "beginner",
       "foundation"
     ],
     "status": "reference",
@@ -1808,6 +2129,7 @@ const lessons = [
       "recursive query",
       "reverse lookup",
       "networking",
+      "beginner",
       "foundation",
       "name resolution",
       "caching"
@@ -1841,6 +2163,7 @@ const lessons = [
       "broadcast domain",
       "arp spoofing",
       "networking",
+      "beginner",
       "foundation",
       "ethernet-and-arp",
       "mac unvani",
@@ -1878,6 +2201,7 @@ const lessons = [
       "apipa",
       "networking fundamentals",
       "networking",
+      "beginner",
       "foundation",
       "ip-addressing",
       "ip ünvanlama",
@@ -1917,6 +2241,7 @@ const lessons = [
       "vpn",
       "networking fundamentals",
       "networking",
+      "beginner",
       "foundation",
       "network-devices"
     ],
@@ -1956,6 +2281,7 @@ const lessons = [
       "anycast",
       "networking fundamentals",
       "networking",
+      "beginner",
       "foundation",
       "network-types-and-topology",
       "sebeke novleri",
@@ -2013,6 +2339,7 @@ const lessons = [
       "networking fundamentals",
       "port scanning",
       "networking",
+      "beginner",
       "foundation",
       "ports-and-protocols"
     ],
@@ -2046,6 +2373,7 @@ const lessons = [
       "WAF",
       "proxy",
       "networking",
+      "advanced",
       "secure-design",
       "secure-network-design"
     ],
@@ -2079,6 +2407,7 @@ const lessons = [
       "IPSec",
       "secure protocols",
       "networking",
+      "intermediate",
       "secure-design",
       "secure-protocols"
     ],
@@ -2110,6 +2439,7 @@ const lessons = [
       "subnet math",
       "networking fundamentals",
       "networking",
+      "beginner",
       "foundation"
     ],
     "status": "reference",
@@ -2141,6 +2471,7 @@ const lessons = [
       "http/3",
       "networking fundamentals",
       "networking",
+      "beginner",
       "foundation",
       "tcp-and-udp"
     ],
@@ -2171,6 +2502,7 @@ const lessons = [
       "encapsulation",
       "networking fundamentals",
       "networking",
+      "beginner",
       "foundation",
       "osi-model",
       "osi modeli",
@@ -2207,6 +2539,7 @@ const lessons = [
       "encapsulation",
       "networking fundamentals",
       "networking",
+      "beginner",
       "foundation",
       "tcp-ip-model",
       "tcp/ip modeli",
@@ -2248,6 +2581,7 @@ const lessons = [
       "dread relay attacks",
       "vpn over tor",
       "networking",
+      "advanced",
       "secure-design",
       "tor-and-anonymity"
     ],
@@ -2284,6 +2618,7 @@ const lessons = [
       "kill switch",
       "tunnel encryption",
       "networking",
+      "intermediate",
       "secure-design"
     ],
     "status": "reference",
@@ -2317,6 +2652,7 @@ const lessons = [
       "wireless",
       "Wi-Fi",
       "networking",
+      "intermediate",
       "secure-design",
       "wireless-security"
     ],
@@ -2339,7 +2675,6 @@ const lessons = [
       "az": "İT və təhlükəsizlik mühəndisinin hər gün istifadə etdiyi Linux komandaları — naviqasiya, fayl idarəetməsi, mətn yoxlaması, icazələr, proseslər və arxivlər — hər birinə təhlükəsizlik qeydləri ilə."
     },
     "keywords": [
-      "linux",
       "commands",
       "bash",
       "navigation",
@@ -2347,6 +2682,8 @@ const lessons = [
       "permissions",
       "processes",
       "tar",
+      "linux",
+      "beginner",
       "operating-systems",
       "basic-commands",
       "komandalar",
@@ -2373,7 +2710,6 @@ const lessons = [
       "az": "Arxitektura, bölüşdürmələr, fayl sistemi iyerarxiyası, shell, istifadəçilər və icazələr, paket menecerləri, xidmətlər, proseslər, şəbəkə və loglar — SOC/IT mühəndisi üçün baza Linux savadı."
     },
     "keywords": [
-      "linux",
       "fundamentals",
       "bash",
       "filesystem hierarchy",
@@ -2382,6 +2718,8 @@ const lessons = [
       "package manager",
       "processes",
       "syslog",
+      "linux",
+      "beginner",
       "operating-systems"
     ],
     "status": "reference",
@@ -2424,7 +2762,6 @@ const lessons = [
       "az": "Defolt Linux quraşdırmasını müdafiə olunana çevirmək — hücum səthini kiçiltmək, update-lər, SSH hardening, firewall-lar, auditd, kernel parametrləri və CIS təfəkkürü ilə xəritələnən verification checklist-i."
     },
     "keywords": [
-      "linux",
       "hardening",
       "ssh",
       "firewall",
@@ -2433,6 +2770,8 @@ const lessons = [
       "fail2ban",
       "cis benchmark",
       "sysctl",
+      "linux",
+      "intermediate",
       "operating-systems"
     ],
     "status": "reference",
@@ -2454,7 +2793,6 @@ const lessons = [
       "az": "Müasir Linux-da xidmətləri işlətmək və təhlükəsizləşdirmək — systemctl, unit faylları, journalctl, timer-lər, drop-in-lər və servis kompromitə olunanda zərbə radiusunu məhdudlaşdıran sandbox direktivləri."
     },
     "keywords": [
-      "linux",
       "systemd",
       "systemctl",
       "journalctl",
@@ -2462,6 +2800,8 @@ const lessons = [
       "units",
       "timers",
       "hardening",
+      "linux",
+      "beginner",
       "operating-systems",
       "systemd-services",
       "xidmətlər"
@@ -2485,7 +2825,6 @@ const lessons = [
       "az": "Linux-da identiklik və giriş əslində necə işləyir — /etc/passwd və shadow, sudo və sudoers, icazə bitlərinin modeli, SUID/SGID/sticky, umask və ACL-lər — hücumçuların axtardığı yanlış konfiqurasiyalarla birlikdə."
     },
     "keywords": [
-      "linux",
       "permissions",
       "users",
       "groups",
@@ -2494,6 +2833,8 @@ const lessons = [
       "suid",
       "umask",
       "acl",
+      "linux",
+      "beginner",
       "operating-systems",
       "users-groups-permissions",
       "icazələr",
@@ -2519,8 +2860,8 @@ const lessons = [
       "az": "Microsoft PowerToys alətlər dəsti ilə Windows istifadəçiləri üçün məhsuldarlığı necə artırmaq olar, öyrənin."
     },
     "keywords": [
-      "operating-systems",
       "windows",
+      "operating-systems",
       "powertoys"
     ],
     "status": "reference",
@@ -2553,8 +2894,6 @@ const lessons = [
       "bios",
       "uefi",
       "systemd",
-      "windows",
-      "linux",
       "selinux",
       "apparmor",
       "operating-systems-overview"
@@ -2578,8 +2917,8 @@ const lessons = [
       "az": "IT və InfoSec mütəxəssisləri üçün faydalı və praktik Windows Run əmrləri."
     },
     "keywords": [
-      "operating-systems",
       "windows",
+      "operating-systems",
       "run-commands"
     ],
     "status": "reference",
@@ -2601,8 +2940,8 @@ const lessons = [
       "az": "Sysprep nədir, niyə imaging və deployment üçün istifadə olunur, və Windows quraşdırmalarını necə ümumiləşdirmək olar."
     },
     "keywords": [
-      "operating-systems",
       "windows",
+      "operating-systems",
       "sysprep"
     ],
     "status": "reference",
@@ -2624,8 +2963,8 @@ const lessons = [
       "az": "AppLocker-in necə işlədiyini, audit mode istifadəsini və publisher, path, hash qaydalarının fərqini öyrənin."
     },
     "keywords": [
-      "operating-systems",
       "windows",
+      "operating-systems",
       "applocker"
     ],
     "status": "reference",
@@ -2647,8 +2986,8 @@ const lessons = [
       "az": "BitLocker-in necə işlədiyini, TPM + PIN-in niyə vacib olduğunu və device encryption ilə fərqini öyrənin."
     },
     "keywords": [
-      "operating-systems",
       "windows",
+      "operating-systems",
       "bitlocker"
     ],
     "status": "reference",
@@ -2670,8 +3009,8 @@ const lessons = [
       "az": "WSL-in Linux-u Windows-da necə işə salmağa imkan verdiyini və niyə kiber təhlükəsizlik və inkişaf üçün güclü bir alət olduğunu öyrənin."
     },
     "keywords": [
-      "operating-systems",
       "windows",
+      "operating-systems",
       "wsl"
     ],
     "status": "reference",
@@ -2693,7 +3032,6 @@ const lessons = [
       "az": "Arxitektura, proseslər və xidmətlər, qeydiyyat (registry), hadisələr jurnalı, istifadəçilər və SID-lər, UAC və token-lər, PowerShell və daxili qoruma vasitələri — SOC və IT mühəndisləri üçün Windows üzrə təməl bilik."
     },
     "keywords": [
-      "windows",
       "fundamentals",
       "ntfs",
       "registry",
@@ -2702,6 +3040,8 @@ const lessons = [
       "uac",
       "sids",
       "defender",
+      "windows",
+      "beginner",
       "operating-systems"
     ],
     "status": "reference",
@@ -2733,6 +3073,37 @@ const lessons = [
     }
   },
   {
+    "slug": "/operating-systems/windows/hardening",
+    "category": "operating-systems",
+    "title": {
+      "en": "Windows Hardening",
+      "az": "Windows Hardening"
+    },
+    "description": {
+      "en": "Hardening Windows servers and workstations — baseline tools (LAPS, AppLocker/WDAC, BitLocker), attack-surface reduction, local admin taming, credential protection, logging, and the verification loop mapped to benchmarks.",
+      "az": "Windows serverləri və iş stansiyalarını hardening etmək — baseline alətləri (LAPS, AppLocker/WDAC, BitLocker), hücum-səthi azaltma, local admin özünə güvənmə, credential qoruması, loglama və benchmark-lara xəritələnən verification dövrü."
+    },
+    "keywords": [
+      "hardening",
+      "laps",
+      "applocker",
+      "wdac",
+      "bitlocker",
+      "credential guard",
+      "asr rules",
+      "windows",
+      "intermediate",
+      "operating-systems",
+      "asr qaydaları"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-09-14",
+    "sourcePaths": {
+      "en": "operating-systems\\windows\\hardening.md",
+      "az": "operating-systems\\windows\\hardening.md"
+    }
+  },
+  {
     "slug": "/operating-systems/windows/services",
     "category": "operating-systems",
     "title": {
@@ -2744,8 +3115,8 @@ const lessons = [
       "az": "Windows xidmətlərini kor-koranə disable etmədən, daha təhlükəsiz və düzgün şəkildə necə review etmək lazım olduğunu öyrənin."
     },
     "keywords": [
-      "operating-systems",
       "windows",
+      "operating-systems",
       "services"
     ],
     "status": "reference",
@@ -2778,6 +3149,8 @@ const lessons = [
       "yara",
       "sigma",
       "stix",
+      "red-team",
+      "advanced",
       "red-teaming",
       "attack-indicators"
     ],
@@ -2809,6 +3182,8 @@ const lessons = [
       "imds",
       "scoutsuite",
       "pacu",
+      "red-team",
+      "advanced",
       "red-teaming",
       "cloud-pentest",
       "bulud pentest",
@@ -2833,6 +3208,8 @@ const lessons = [
       "az": "Authorized red team və adversary simulation işində istifadə olunan əsas initial access vektorlarına praktik baxış."
     },
     "keywords": [
+      "red-team",
+      "intermediate",
       "red-teaming",
       "initial-access"
     ],
@@ -2871,6 +3248,8 @@ const lessons = [
       "botnet",
       "cryptominer",
       "adware",
+      "red-team",
+      "intermediate",
       "red-teaming",
       "malware-types"
     ],
@@ -2906,6 +3285,8 @@ const lessons = [
       "bgp hijacking",
       "dns amplification",
       "ssl stripping",
+      "red-team",
+      "advanced",
       "red-teaming",
       "network-attacks"
     ],
@@ -2914,6 +3295,39 @@ const lessons = [
     "sourcePaths": {
       "en": "red-teaming\\network-attacks.md",
       "az": "red-teaming\\network-attacks.md"
+    }
+  },
+  {
+    "slug": "/red-teaming/osint-basics",
+    "category": "red-teaming",
+    "title": {
+      "en": "OSINT — Open-Source Intelligence Basics",
+      "az": "OSINT — Açıq-Mənbəli Kəşfiyyat Əsasları"
+    },
+    "description": {
+      "en": "Gathering intelligence from public sources legally — recon methodology for pentests and threat intel, people/company/domain techniques, tooling, verification discipline, and the ethics and OPSEC lines that keep it lawful.",
+      "az": "Açıq mənbələrdən qanuni şəkildə kəşfiyyat toplamaq — pentestlər və threat intel üçün recon metodologiyası, insan/şirkət/domain texnikaları, alətlər, verification intizamı və onu qanuni saxlayan etika və OPSEC xətləri."
+    },
+    "keywords": [
+      "osint",
+      "open source intelligence",
+      "reconnaissance",
+      "passive recon",
+      "threat intelligence",
+      "shadow osint",
+      "red-team",
+      "beginner",
+      "red-teaming",
+      "osint-basics",
+      "açıq mənbəli kəşfiyyat",
+      "kəşfiyyat",
+      "passiv recon"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-09-14",
+    "sourcePaths": {
+      "en": "red-teaming\\osint-basics.md",
+      "az": "red-teaming\\osint-basics.md"
     }
   },
   {
@@ -2936,6 +3350,8 @@ const lessons = [
       "broken access control",
       "ssrf",
       "insecure deserialization",
+      "red-team",
+      "intermediate",
       "red-teaming",
       "owasp-top-10"
     ],
@@ -2972,6 +3388,8 @@ const lessons = [
       "rules of engagement",
       "ptes",
       "osstmm",
+      "red-team",
+      "advanced",
       "red-teaming",
       "penetration-testing"
     ],
@@ -3023,6 +3441,8 @@ const lessons = [
       "tailgating",
       "mfa bombing",
       "bec",
+      "red-team",
+      "beginner",
       "red-teaming",
       "social-engineering"
     ],
@@ -3061,6 +3481,8 @@ const lessons = [
       "misp",
       "mandiant",
       "crowdstrike",
+      "red-team",
+      "advanced",
       "red-teaming",
       "threat-actors-and-intel",
       "təhlükə aktorları",
@@ -3100,6 +3522,8 @@ const lessons = [
       "unsupported systems",
       "shadow it",
       "msp compromise",
+      "red-team",
+      "intermediate",
       "red-teaming",
       "threat-vectors-and-attack-surfaces",
       "təhdid vektorları",
@@ -3138,6 +3562,8 @@ const lessons = [
       "rogue ap",
       "aircrack",
       "802.1x",
+      "red-team",
+      "intermediate",
       "red-teaming",
       "wireless-pentest"
     ],
@@ -3174,6 +3600,7 @@ const lessons = [
       "ntds.dit",
       "kerberos",
       "servers",
+      "intermediate",
       "active-directory",
       "active-directory-domain-services"
     ],
@@ -3205,6 +3632,7 @@ const lessons = [
       "quota",
       "file screening",
       "servers",
+      "beginner",
       "storage",
       "file-server-ntfs"
     ],
@@ -3228,6 +3656,7 @@ const lessons = [
     },
     "keywords": [
       "servers",
+      "advanced",
       "active-directory",
       "fsmo"
     ],
@@ -3261,6 +3690,7 @@ const lessons = [
       "wmi filter",
       "loopback processing",
       "servers",
+      "intermediate",
       "active-directory",
       "group-policy"
     ],
@@ -3292,6 +3722,7 @@ const lessons = [
       "host header",
       "binding",
       "servers",
+      "intermediate",
       "services"
     ],
     "status": "reference",
@@ -3319,6 +3750,7 @@ const lessons = [
       "evaluation center",
       "initial configuration",
       "servers",
+      "beginner",
       "windows-server",
       "windows-server-2025-installation",
       "quraşdırma",
@@ -3350,6 +3782,7 @@ const lessons = [
       "dmz",
       "privileged access",
       "servers",
+      "intermediate",
       "services",
       "jump-server"
     ],
@@ -3377,6 +3810,7 @@ const lessons = [
       "adba",
       "volume licensing",
       "servers",
+      "intermediate",
       "services",
       "aktivasiya"
     ],
@@ -3400,6 +3834,7 @@ const lessons = [
     },
     "keywords": [
       "servers",
+      "intermediate",
       "active-directory",
       "laps"
     ],
@@ -3431,6 +3866,7 @@ const lessons = [
       "connection broker",
       "rdp",
       "servers",
+      "intermediate",
       "services"
     ],
     "status": "reference",
@@ -3471,6 +3907,7 @@ const lessons = [
       "active-passive",
       "clustering",
       "servers",
+      "intermediate",
       "storage",
       "resilience-and-availability"
     ],
@@ -3524,6 +3961,7 @@ const lessons = [
       "vhd",
       "rack server",
       "servers",
+      "beginner",
       "storage-filesystems-servers"
     ],
     "status": "reference",
@@ -3551,6 +3989,7 @@ const lessons = [
       "in-place upgrade",
       "adba",
       "servers",
+      "intermediate",
       "windows-server",
       "upgrade-migration"
     ],
@@ -3580,6 +4019,7 @@ const lessons = [
       "resmon",
       "services",
       "servers",
+      "beginner",
       "windows-server",
       "windows-server-tools"
     ],
@@ -3615,6 +4055,7 @@ const lessons = [
       "immutable backup",
       "replication",
       "servers",
+      "intermediate",
       "storage"
     ],
     "status": "reference",
@@ -3637,6 +4078,7 @@ const lessons = [
     },
     "keywords": [
       "servers",
+      "beginner",
       "windows-server",
       "windows-server-planning"
     ],
@@ -3666,6 +4108,7 @@ const lessons = [
       "wsusutil",
       "auto-approval",
       "servers",
+      "intermediate",
       "services"
     ],
     "status": "reference",
@@ -3673,6 +4116,38 @@ const lessons = [
     "sourcePaths": {
       "en": "servers\\services\\wsus.md",
       "az": "servers\\services\\wsus.md"
+    }
+  },
+  {
+    "slug": "/virtualization/security-home-lab",
+    "category": "virtualization",
+    "title": {
+      "en": "Building a Security Home Lab",
+      "az": "Təhlükəsizlik Home Lab Qurmaq"
+    },
+    "description": {
+      "en": "A practical security homelab on modest hardware — Proxmox or Hyper-V host design, pfSense segmentation, attack and defense VMs, a mini-SIEM, internet-safe isolation, and exercises to run in it month by month.",
+      "az": "Mülayim avadanlıq üzərində praktik təhlükəsizlik homelab — Proxmox və ya Hyper-V host dizaynı, pfSense seqmentasiyası, hücum və müdafiə VM-ləri, mini-SIEM, internet-təhlükəsiz izolyasiya və aylıq icra ediləcək məşqlər."
+    },
+    "keywords": [
+      "home lab",
+      "homelab",
+      "proxmox",
+      "pfsense",
+      "siem lab",
+      "security lab",
+      "practice environment",
+      "virtualization",
+      "beginner",
+      "security-home-lab",
+      "təhlükəsizlik labı",
+      "məşq mühiti"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-09-14",
+    "sourcePaths": {
+      "en": "virtualization\\security-home-lab.md",
+      "az": "virtualization\\security-home-lab.md"
     }
   },
   {
@@ -3716,11 +4191,12 @@ const lessons = [
     "keywords": [
       "hyper-v",
       "microsoft",
-      "virtualization",
       "hypervisor",
       "vm",
       "checkpoint",
-      "virtual switch"
+      "virtual switch",
+      "virtualization",
+      "beginner"
     ],
     "status": "reference",
     "lastReviewed": "2026-09-13",

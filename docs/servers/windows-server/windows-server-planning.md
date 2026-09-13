@@ -5,6 +5,10 @@ description: Plan your Windows Server deployment by choosing the right edition, 
 sidebar_position: 3
 slug: /servers/windows-server-planning
 difficulty: foundation
+
+tags:
+  - servers
+  - beginner
 ---
 
 # Windows Server Planning Before Installation

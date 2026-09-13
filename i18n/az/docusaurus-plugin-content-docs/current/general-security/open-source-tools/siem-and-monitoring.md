@@ -22,6 +22,10 @@ keywords:
   - monitoring
   - open source
 difficulty: intermediate
+
+tags:
+  - security-basics
+  - intermediate
 ---
 
 # Açıq Mənbə SIEM, Loglama və Monitorinq

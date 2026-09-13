@@ -14,6 +14,10 @@ keywords:
   - wsusutil
   - auto-approval
 difficulty: intermediate
+
+tags:
+  - servers
+  - intermediate
 ---
 
 # WSUS (Windows Server Update Services)

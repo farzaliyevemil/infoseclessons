@@ -22,6 +22,10 @@ keywords:
   - mitre attack
   - open source
 difficulty: advanced
+
+tags:
+  - security-basics
+  - advanced
 ---
 
 # Open-Source Red Team and Adversary Emulation

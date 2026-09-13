@@ -18,6 +18,10 @@ keywords:
   - mitre attack
   - log sources
 difficulty: intermediate
+
+tags:
+  - blue-team
+  - intermediate
 ---
 
 # SIEM Fundamentals

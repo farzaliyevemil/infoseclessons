@@ -16,6 +16,10 @@ keywords:
   - mfa bombing
   - bec
 difficulty: foundation
+
+tags:
+  - red-team
+  - beginner
 ---
 
 # Sosial Mühəndislik

@@ -16,6 +16,10 @@ keywords:
   - site resiliency
   - deception
 difficulty: advanced
+
+tags:
+  - security-basics
+  - advanced
 ---
 
 # Enterprise Security Architecture

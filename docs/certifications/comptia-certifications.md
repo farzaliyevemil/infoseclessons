@@ -4,6 +4,9 @@ title: CompTIA Certifications (2026 Guide)
 description: A practical overview of major CompTIA certifications, career paths, renewals, and stackable progression as of March 23, 2026.
 slug: /certifications/comptia-certifications
 sidebar_position: 1
+
+tags:
+  - certifications
 ---
 
 # CompTIA Certifications

@@ -8,7 +8,6 @@ status: reference
 last_reviewed: 2026-09-13
 category_key: operating-systems
 keywords:
-  - linux
   - permissions
   - users
   - groups
@@ -18,6 +17,10 @@ keywords:
   - umask
   - acl
 difficulty: foundation
+
+tags:
+  - linux
+  - beginner
 ---
 
 # Linux Users, Groups and Permissions

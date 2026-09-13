@@ -20,6 +20,10 @@ keywords:
   - immutable backup
   - replication
 difficulty: intermediate
+
+tags:
+  - servers
+  - intermediate
 ---
 
 # Windows Server Backup

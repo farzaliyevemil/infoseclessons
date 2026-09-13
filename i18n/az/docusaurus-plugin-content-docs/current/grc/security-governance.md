@@ -28,6 +28,10 @@ keywords:
   - dəyişiklik idarəetməsi
   - aktiv idarəetməsi
 difficulty: intermediate
+
+tags:
+  - grc
+  - intermediate
 ---
 
 # Təhlükəsizlik İdarəetməsi, Siyasətlər və İnsanlar

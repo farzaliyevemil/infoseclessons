@@ -16,6 +16,10 @@ keywords:
   - certification
   - security management
 difficulty: intermediate
+
+tags:
+  - certifications
+  - intermediate
 ---
 
 # ISC2 Certifications (2026 Guide)

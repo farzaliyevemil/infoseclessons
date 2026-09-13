@@ -18,6 +18,10 @@ keywords:
   - fayl paylaşımı
   - açıq mənbə
 difficulty: intermediate
+
+tags:
+  - security-basics
+  - intermediate
 ---
 
 # Açıq Mənbə Backup və Fayl Paylaşımı

@@ -3,6 +3,9 @@ id: applocker
 title: AppLocker Nədir?
 description: AppLocker-in necə işlədiyini, audit mode istifadəsini və publisher, path, hash qaydalarının fərqini öyrənin.
 slug: /operating-systems/windows/applocker
+
+tags:
+  - windows
 ---
 
 # 🧱 AppLocker Nədir?

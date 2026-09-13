@@ -18,6 +18,10 @@ keywords:
   - digital signatures
   - diffie-hellman
 difficulty: foundation
+
+tags:
+  - security-basics
+  - beginner
 ---
 
 # Cryptography Basics

@@ -16,6 +16,10 @@ keywords:
   - persistence
   - detection engineering
 difficulty: intermediate
+
+tags:
+  - blue-team
+  - intermediate
 ---
 
 # Threat Hunting

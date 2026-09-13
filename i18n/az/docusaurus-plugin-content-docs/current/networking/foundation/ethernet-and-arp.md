@@ -17,6 +17,10 @@ keywords:
   - broadcast domeni
   - arp spoofinq
 difficulty: foundation
+
+tags:
+  - networking
+  - beginner
 ---
 
 # Ethernet ve ARP

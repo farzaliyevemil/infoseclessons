@@ -3,6 +3,9 @@ id: run-commands
 title: Windows-da Run Əmrləri
 description: IT və InfoSec mütəxəssisləri üçün faydalı və praktik Windows Run əmrləri.
 slug: /operating-systems/windows/run-commands
+
+tags:
+  - windows
 ---
 
 Bu səhifə administratorlar, Blue Team üzvləri və Windows sistemlərini idarə edən hər kəs üçün praktik Windows Run əmrlərinin kateqoriyalara bölünmüş siyahısını təqdim edir.

@@ -19,8 +19,6 @@ keywords:
   - bios
   - uefi
   - systemd
-  - windows
-  - linux
   - selinux
   - apparmor
 ---

@@ -12,7 +12,6 @@ keywords:
   - opengrc
   - opencontrol
   - gapps
-  - grc
   - risk register
   - audit
   - compliance
@@ -20,6 +19,10 @@ keywords:
   - soc 2
   - open source
 difficulty: intermediate
+
+tags:
+  - security-basics
+  - intermediate
 ---
 
 # Open-Source GRC Tools

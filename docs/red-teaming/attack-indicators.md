@@ -19,6 +19,10 @@ keywords:
   - sigma
   - stix
 difficulty: advanced
+
+tags:
+  - red-team
+  - advanced
 ---
 
 # Attack Indicators (IOC and IOA)

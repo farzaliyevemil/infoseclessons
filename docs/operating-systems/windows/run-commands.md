@@ -3,6 +3,8 @@ id: run-commands
 title: Run Commands in Windows
 description: Useful and practical Windows Run commands for IT and InfoSec professionals.
 slug: /operating-systems/windows/run-commands
+tags:
+  - windows
 ---
 
 This page provides a categorized list of practical Windows Run commands, useful for administrators, blue teamers, and anyone managing Windows systems.

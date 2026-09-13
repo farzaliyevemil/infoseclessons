@@ -24,6 +24,10 @@ keywords:
   - anycast
   - sebeke esaslari
 difficulty: foundation
+
+tags:
+  - networking
+  - beginner
 ---
 
 # Sebeke Novleri ve Topologiya

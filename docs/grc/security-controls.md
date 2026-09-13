@@ -19,6 +19,10 @@ keywords:
   - CCM
   - benchmarks
 difficulty: intermediate
+
+tags:
+  - grc
+  - intermediate
 ---
 
 # Security Controls and Frameworks

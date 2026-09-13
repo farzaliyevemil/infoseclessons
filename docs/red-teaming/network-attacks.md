@@ -21,6 +21,10 @@ keywords:
   - dns amplification
   - ssl stripping
 difficulty: advanced
+
+tags:
+  - red-team
+  - advanced
 ---
 
 # Network Attacks
