@@ -99,4 +99,4 @@ Plan renewal into your calendar at year two — lapsing means re-testing from sc
 - [CompTIA Certifications](/certifications/comptia-certifications) — the vendor-neutral fundamentals ladder.
 - [ISC2 Certifications](/certifications/isc2-certifications) — the governance/management tier (SSCP, CISSP, CCSP).
 - [Microsoft Certifications](/certifications/microsoft-certifications) and [AWS Certifications](/certifications/aws-certifications) — the platform tracks.
-- [Firewall, IDS and WAF](/general-security/firewall-ids-waf) — the technology half of the CCNP Security syllabus.
+- [Firewall, IDS and WAF](/general-security/open-source-tools/firewall-ids-waf) — the technology half of the CCNP Security syllabus.

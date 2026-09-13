@@ -99,4 +99,4 @@ Yenilənməni ikinci ildə təqvimə yazın — vaxtı keçənə yenidən sıfı
 - [CompTIA Certifications](/certifications/comptia-certifications) — vendor-neytral əsaslar nərdivanı.
 - [ISC2 Certifications](/certifications/isc2-certifications) — idarəetmə/menecment təbəqəsi (SSCP, CISSP, CCSP).
 - [Microsoft Certifications](/certifications/microsoft-certifications) və [AWS Certifications](/certifications/aws-certifications) — platforma yolları.
-- [Firewall, IDS and WAF](/general-security/firewall-ids-waf) — CCNP Security syllabus-unun texnologiya yarısı.
+- [Firewall, IDS and WAF](/general-security/open-source-tools/firewall-ids-waf) — CCNP Security syllabus-unun texnologiya yarısı.
