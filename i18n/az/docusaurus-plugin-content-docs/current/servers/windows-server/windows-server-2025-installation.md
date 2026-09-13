@@ -13,6 +13,10 @@ keywords:
   - evaluation center
   - ilkin konfiqurasiya
 difficulty: foundation
+
+tags:
+  - servers
+  - beginner
 ---
 
 # Windows Server 2025-i Sıfırdan Quraşdırmaq

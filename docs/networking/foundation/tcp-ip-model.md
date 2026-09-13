@@ -14,6 +14,10 @@ keywords:
   - encapsulation
   - networking fundamentals
 difficulty: foundation
+
+tags:
+  - networking
+  - beginner
 ---
 
 # The TCP/IP Model

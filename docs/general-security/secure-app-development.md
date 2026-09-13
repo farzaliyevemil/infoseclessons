@@ -20,6 +20,10 @@ keywords:
   - sast
   - dast
 difficulty: intermediate
+
+tags:
+  - security-basics
+  - intermediate
 ---
 
 # Secure Application Development

@@ -16,6 +16,10 @@ keywords:
   - networking fundamentals
   - port scanning
 difficulty: foundation
+
+tags:
+  - networking
+  - beginner
 ---
 
 # Ports and Protocols

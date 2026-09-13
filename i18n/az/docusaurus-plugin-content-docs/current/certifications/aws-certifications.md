@@ -4,6 +4,9 @@ title: AWS Sertifikatları (2026 Bələdçisi)
 description: 23 mart 2026 tarixinə cari AWS Certification səviyyələri, əsas rol əsaslı yollar və 2025-2026 yenilikləri üçün praktik baxış.
 slug: /certifications/aws-certifications
 sidebar_position: 2
+
+tags:
+  - certifications
 ---
 
 # AWS Sertifikatları

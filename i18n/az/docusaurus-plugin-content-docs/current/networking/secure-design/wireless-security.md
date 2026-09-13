@@ -19,6 +19,10 @@ keywords:
   - wireless
   - Wi-Fi
 difficulty: intermediate
+
+tags:
+  - networking
+  - intermediate
 ---
 
 # Simsiz Şəbəkə Təhlükəsizliyi

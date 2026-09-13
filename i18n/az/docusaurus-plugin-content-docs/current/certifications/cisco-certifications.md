@@ -16,6 +16,9 @@ keywords:
   - şəbəkə sertifikatı
   - təhlükəsizlik sertifikatı
 difficulty: foundation
+tags:
+  - certifications
+  - beginner
 ---
 
 # Cisco Sertifikatları (2026 Bələdçisi)

@@ -21,6 +21,10 @@ keywords:
   - kill switch
   - tunnel encryption
 difficulty: intermediate
+
+tags:
+  - networking
+  - intermediate
 ---
 
 # Virtual Private Networks (VPN)

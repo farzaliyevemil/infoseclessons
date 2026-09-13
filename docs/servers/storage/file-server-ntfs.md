@@ -16,6 +16,10 @@ keywords:
   - quota
   - file screening
 difficulty: foundation
+
+tags:
+  - servers
+  - beginner
 ---
 
 # File Server and NTFS Permissions

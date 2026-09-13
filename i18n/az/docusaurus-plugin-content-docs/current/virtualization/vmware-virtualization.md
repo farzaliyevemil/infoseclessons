@@ -13,6 +13,9 @@ keywords:
   - workstation
   - bridged
   - nat
+
+tags:
+  - virtualization
 ---
 
 # VMware Virtualizasiya Əsasları

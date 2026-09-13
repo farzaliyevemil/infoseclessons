@@ -17,6 +17,10 @@ keywords:
   - virtuallaşdırma
   - SDN
 difficulty: intermediate
+
+tags:
+  - security-basics
+  - intermediate
 ---
 
 # Bulud Hesablama Təhlükəsizliyi

@@ -17,6 +17,10 @@ keywords:
   - kali linux
   - osint tools
 difficulty: intermediate
+
+tags:
+  - security-basics
+  - intermediate
 ---
 
 # Security Tools — The Working Toolkit

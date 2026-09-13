@@ -16,6 +16,10 @@ keywords:
   - host header
   - binding
 difficulty: intermediate
+
+tags:
+  - servers
+  - intermediate
 ---
 
 # IIS (Internet Information Services)

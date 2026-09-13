@@ -16,6 +16,10 @@ keywords:
   - subnet math
   - networking fundamentals
 difficulty: foundation
+
+tags:
+  - networking
+  - beginner
 ---
 
 # Subnetlərə bölmə və CIDR

@@ -17,6 +17,10 @@ keywords:
   - http/3
   - networking fundamentals
 difficulty: foundation
+
+tags:
+  - networking
+  - beginner
 ---
 
 # TCP və UDP — Nəqliyyat Səviyyəsi

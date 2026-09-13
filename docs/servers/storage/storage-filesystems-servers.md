@@ -17,6 +17,10 @@ keywords:
   - vhd
   - rack server
 difficulty: foundation
+
+tags:
+  - servers
+  - beginner
 ---
 
 # Storage, File Systems, and Server Form Factors

@@ -20,6 +20,10 @@ keywords:
   - shadow it
   - msp compromise
 difficulty: intermediate
+
+tags:
+  - red-team
+  - intermediate
 ---
 
 # Threat Vectors and Attack Surfaces

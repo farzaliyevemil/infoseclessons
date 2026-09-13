@@ -4,6 +4,9 @@ title: What is BitLocker?
 description: >-
   Learn how BitLocker works, why TPM plus PIN matters, and how BitLocker differs from automatic device encryption.
 slug: /operating-systems/windows/bitlocker
+
+tags:
+  - windows
 ---
 
 # 🔐 What is BitLocker?

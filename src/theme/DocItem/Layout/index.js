@@ -12,6 +12,7 @@ import DocItemContent from '@theme/DocItem/Content';
 import DocBreadcrumbs from '@theme/DocBreadcrumbs';
 import ContentVisibility from '@theme/ContentVisibility';
 import DocState from '@site/src/components/DocState';
+import DocFeedback from '@site/src/components/DocFeedback';
 import styles from './styles.module.css';
 
 function useDocTOC() {
@@ -49,6 +50,7 @@ export default function DocItemLayout({children}) {
             {docTOC.mobile}
             <DocItemContent>{children}</DocItemContent>
             <DocItemFooter />
+            <DocFeedback />
           </article>
           <DocItemPaginator />
         </div>

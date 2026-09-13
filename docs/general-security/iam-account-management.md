@@ -22,6 +22,10 @@ keywords:
   - identity proofing
   - account lifecycle
 difficulty: advanced
+
+tags:
+  - security-basics
+  - advanced
 ---
 
 # Identity and Account Management

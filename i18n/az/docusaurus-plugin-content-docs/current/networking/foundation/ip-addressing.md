@@ -19,6 +19,10 @@ keywords:
   - apipa
   - şəbəkə əsasları
 difficulty: foundation
+
+tags:
+  - networking
+  - beginner
 ---
 
 # IP Ünvanlama — IPv4 və IPv6

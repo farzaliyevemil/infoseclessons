@@ -18,6 +18,10 @@ keywords:
   - hardening
   - patch management
 difficulty: intermediate
+
+tags:
+  - blue-team
+  - intermediate
 ---
 
 # Endpoint Təhlükəsizliyi

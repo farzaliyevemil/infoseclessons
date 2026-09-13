@@ -3,6 +3,9 @@ id: virtualization-basics
 title: Virtualization Basics
 description: A practical introduction to hypervisors, virtual machines, snapshots, storage, networking, and common use cases.
 slug: /virtualization/virtualization-basics
+
+tags:
+  - virtualization
 ---
 
 # Virtualization Basics

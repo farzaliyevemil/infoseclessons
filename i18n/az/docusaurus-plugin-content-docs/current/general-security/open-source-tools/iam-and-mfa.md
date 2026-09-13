@@ -22,6 +22,10 @@ keywords:
   - saml
   - open source
 difficulty: intermediate
+
+tags:
+  - security-basics
+  - intermediate
 ---
 
 # Açıq Mənbə IAM və MFA

@@ -17,6 +17,10 @@ keywords:
   - broadcast domain
   - arp spoofing
 difficulty: foundation
+
+tags:
+  - networking
+  - beginner
 ---
 
 # Ethernet and ARP

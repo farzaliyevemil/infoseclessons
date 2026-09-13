@@ -28,6 +28,10 @@ keywords:
   - change management
   - asset management
 difficulty: intermediate
+
+tags:
+  - grc
+  - intermediate
 ---
 
 # Security Governance, Policies and People

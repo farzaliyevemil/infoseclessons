@@ -17,6 +17,10 @@ keywords:
   - resource policies
   - container security
 difficulty: advanced
+
+tags:
+  - security-basics
+  - advanced
 ---
 
 # Cloud Security Controls and Solutions

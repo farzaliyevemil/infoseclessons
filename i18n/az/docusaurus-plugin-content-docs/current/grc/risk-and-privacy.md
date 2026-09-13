@@ -18,6 +18,10 @@ keywords:
   - risk register
   - nist rmf
 difficulty: intermediate
+
+tags:
+  - grc
+  - intermediate
 ---
 
 # Risk idarəetməsi və məxfilik

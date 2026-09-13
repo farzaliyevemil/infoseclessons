@@ -13,6 +13,10 @@ keywords:
   - ttl
   - records
 difficulty: foundation
+
+tags:
+  - networking
+  - beginner
 ---
 
 # DNS (Domain Name System)

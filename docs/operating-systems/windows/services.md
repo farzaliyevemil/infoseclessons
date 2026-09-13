@@ -5,6 +5,9 @@ description: >-
   A safer guide to reviewing Windows services without breaking enterprise
   systems or disabling required functionality.
 slug: /operating-systems/windows/services
+
+tags:
+  - windows
 ---
 
 # 🔒 Windows Services Hardening Guide

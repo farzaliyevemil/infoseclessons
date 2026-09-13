@@ -24,6 +24,10 @@ keywords:
   - mandiant
   - crowdstrike
 difficulty: advanced
+
+tags:
+  - red-team
+  - advanced
 ---
 
 # Təhlükə Aktorları və Təhdid Kəşfiyyatı

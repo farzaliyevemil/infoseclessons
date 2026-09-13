@@ -15,6 +15,10 @@ keywords:
   - mantrap
   - Faraday cage
 difficulty: foundation
+
+tags:
+  - security-basics
+  - beginner
 ---
 
 # Fiziki Təhlükəsizlik Nəzarətləri

@@ -8,7 +8,6 @@ status: reference
 last_reviewed: 2026-09-13
 category_key: operating-systems
 keywords:
-  - linux
   - commands
   - bash
   - navigation
@@ -17,6 +16,10 @@ keywords:
   - processes
   - tar
 difficulty: foundation
+
+tags:
+  - linux
+  - beginner
 ---
 
 # Linux Basic Commands

@@ -22,6 +22,10 @@ keywords:
   - ptes
   - osstmm
 difficulty: advanced
+
+tags:
+  - red-team
+  - advanced
 ---
 
 # Nüfuzetmə Testi (Penetration Testing)

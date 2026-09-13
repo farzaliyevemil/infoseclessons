@@ -16,6 +16,10 @@ keywords:
   - transaction
   - stored procedure
 difficulty: foundation
+
+tags:
+  - security-basics
+  - beginner
 ---
 
 # Təhlükəsizlik mühəndisləri üçün SQL əsasları

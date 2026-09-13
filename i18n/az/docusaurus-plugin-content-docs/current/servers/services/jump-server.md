@@ -14,6 +14,10 @@ keywords:
   - dmz
   - privileged access
 difficulty: intermediate
+
+tags:
+  - servers
+  - intermediate
 ---
 
 # Jump Server (Bastion Host)

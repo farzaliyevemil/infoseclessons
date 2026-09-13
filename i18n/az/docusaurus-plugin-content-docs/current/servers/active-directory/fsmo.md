@@ -5,6 +5,10 @@ description: Beş FSMO rolunun funksiyasını, necə yoxlanıldığını, transf
 sidebar_position: 1
 slug: /servers/fsmo
 difficulty: advanced
+
+tags:
+  - servers
+  - advanced
 ---
 
 # Active Directory-də FSMO Rolları

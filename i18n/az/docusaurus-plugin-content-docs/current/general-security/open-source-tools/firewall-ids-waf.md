@@ -20,6 +20,10 @@ keywords:
   - nac
   - open source
 difficulty: intermediate
+
+tags:
+  - security-basics
+  - intermediate
 ---
 
 # Açıq Mənbə Firewall, IDS/IPS, WAF və NAC

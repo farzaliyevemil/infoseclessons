@@ -22,6 +22,10 @@ keywords:
   - password manager
   - open source
 difficulty: intermediate
+
+tags:
+  - security-basics
+  - intermediate
 ---
 
 # Açıq Mənbə Secrets Management və Privileged Access

@@ -531,3 +531,20 @@
     align-items: flex-start;
   }
 }
+
+/* Lesson feedback widget (DocFeedback component) */
+.doc-feedback {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 2rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 8px;
+  font-size: 0.9rem;
+  color: var(--ifm-color-emphasis-700);
+}
+html[data-theme='dark'] .doc-feedback {
+  border-color: var(--ifm-color-emphasis-300);
+  color: var(--ifm-color-emphasis-600);
+}

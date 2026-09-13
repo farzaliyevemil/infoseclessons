@@ -18,6 +18,10 @@ keywords:
   - file sharing
   - open source
 difficulty: intermediate
+
+tags:
+  - security-basics
+  - intermediate
 ---
 
 # Open-Source Backup and File Sharing

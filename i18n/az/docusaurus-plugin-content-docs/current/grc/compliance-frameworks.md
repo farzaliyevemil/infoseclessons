@@ -15,8 +15,11 @@ keywords:
   - nist csf
   - gdpr
   - audit hazırlığı
-  - grc
 difficulty: intermediate
+
+tags:
+  - grc
+  - intermediate
 ---
 
 # Uyğunluq Framework-ləri — ISO 27001, SOC 2, PCI DSS və Dostları

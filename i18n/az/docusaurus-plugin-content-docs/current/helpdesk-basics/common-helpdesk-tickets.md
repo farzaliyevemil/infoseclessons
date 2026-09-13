@@ -3,6 +3,9 @@ id: common-helpdesk-tickets
 title: Yayğın Helpdesk Ticket-ləri
 description: Ən çox rast gəlinən helpdesk sorğuları, triage addımları, eskalasiya və düzgün ticket qeydləri üçün praktik bələdçi.
 slug: /helpdesk-basics/common-helpdesk-tickets
+
+tags:
+  - helpdesk
 ---
 
 # Yayğın Helpdesk Ticket-ləri

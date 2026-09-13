@@ -14,9 +14,12 @@ keywords:
   - shared responsibility
   - containers
   - serverless
-  - virtualization
   - SDN
 difficulty: intermediate
+
+tags:
+  - security-basics
+  - intermediate
 ---
 
 # Cloud Computing Security

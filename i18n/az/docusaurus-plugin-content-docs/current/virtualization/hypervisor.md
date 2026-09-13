@@ -13,6 +13,9 @@ keywords:
   - esxi
   - hyper-v
   - virtualizasiya
+
+tags:
+  - virtualization
 ---
 
 # Hypervisor və Virtualizasiya

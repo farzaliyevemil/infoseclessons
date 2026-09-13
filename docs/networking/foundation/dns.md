@@ -13,6 +13,10 @@ keywords:
   - recursive query
   - reverse lookup
 difficulty: foundation
+
+tags:
+  - networking
+  - beginner
 ---
 
 # DNS (Domain Name System)

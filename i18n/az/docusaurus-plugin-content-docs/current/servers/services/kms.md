@@ -12,6 +12,10 @@ keywords:
   - adba
   - volume licensing
 difficulty: intermediate
+
+tags:
+  - servers
+  - intermediate
 ---
 
 # KMS (Key Management Service)

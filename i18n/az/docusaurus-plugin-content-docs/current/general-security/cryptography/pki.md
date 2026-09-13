@@ -23,6 +23,10 @@ keywords:
   - lets encrypt
   - tls
 difficulty: advanced
+
+tags:
+  - security-basics
+  - advanced
 ---
 
 # Public Key Infrastructure (PKI)

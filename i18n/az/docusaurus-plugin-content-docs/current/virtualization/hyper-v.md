@@ -10,12 +10,15 @@ category_key: virtualization
 keywords:
   - hyper-v
   - microsoft
-  - virtualization
   - hypervisor
   - vm
   - checkpoint
   - virtual switch
 difficulty: foundation
+
+tags:
+  - virtualization
+  - beginner
 ---
 
 # Microsoft Hyper-V

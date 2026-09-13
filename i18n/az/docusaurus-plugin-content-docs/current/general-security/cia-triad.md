@@ -17,6 +17,10 @@ keywords:
   - data encryption
   - data minimization
 difficulty: foundation
+
+tags:
+  - security-basics
+  - beginner
 ---
 
 # CIA Triadası

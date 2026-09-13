@@ -16,6 +16,10 @@ keywords:
   - ssrf
   - insecure deserialization
 difficulty: intermediate
+
+tags:
+  - red-team
+  - intermediate
 ---
 
 # OWASP Top 10 (2021)

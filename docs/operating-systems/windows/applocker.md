@@ -3,6 +3,9 @@ id: applocker
 title: What is AppLocker?
 description: Learn how AppLocker works, when to use audit mode, and how publisher, path, and hash rules differ.
 slug: /operating-systems/windows/applocker
+
+tags:
+  - windows
 ---
 
 # 🧱 What is AppLocker?

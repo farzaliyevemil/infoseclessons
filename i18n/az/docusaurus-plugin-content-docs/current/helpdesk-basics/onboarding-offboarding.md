@@ -16,6 +16,10 @@ keywords:
   - identiklik lifecycle
   - uyğunluq
 difficulty: foundation
+
+tags:
+  - helpdesk
+  - beginner
 ---
 
 # İT Onboarding və Offboarding

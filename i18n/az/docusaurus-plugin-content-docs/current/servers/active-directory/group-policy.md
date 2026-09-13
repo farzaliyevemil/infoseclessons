@@ -18,6 +18,10 @@ keywords:
   - wmi filter
   - loopback processing
 difficulty: intermediate
+
+tags:
+  - servers
+  - intermediate
 ---
 
 # Group Policy (GPO)

@@ -15,6 +15,10 @@ keywords:
   - encapsulation
   - networking fundamentals
 difficulty: foundation
+
+tags:
+  - networking
+  - beginner
 ---
 
 # The OSI Model

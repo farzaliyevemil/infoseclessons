@@ -14,6 +14,10 @@ keywords:
   - inkapsulyasiya
   - sebekenin esaslari
 difficulty: foundation
+
+tags:
+  - networking
+  - beginner
 ---
 
 # TCP/IP Modeli

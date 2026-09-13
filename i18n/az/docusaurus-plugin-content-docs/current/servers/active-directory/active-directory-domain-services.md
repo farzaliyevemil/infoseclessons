@@ -21,6 +21,10 @@ keywords:
   - ntds.dit
   - kerberos
 difficulty: intermediate
+
+tags:
+  - servers
+  - intermediate
 ---
 
 # Active Directory Domain Services (AD DS)

@@ -8,7 +8,6 @@ status: reference
 last_reviewed: 2026-09-13
 category_key: helpdesk-basics
 keywords:
-  - helpdesk
   - password reset
   - account lockout
   - mfa
@@ -16,6 +15,10 @@ keywords:
   - social engineering
   - vishing
 difficulty: foundation
+
+tags:
+  - helpdesk
+  - beginner
 ---
 
 # Account and Password Procedures

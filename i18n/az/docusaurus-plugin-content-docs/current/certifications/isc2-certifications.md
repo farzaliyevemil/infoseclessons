@@ -16,6 +16,10 @@ keywords:
   - sertifikat
   - təhlükəsizlik menecment
 difficulty: intermediate
+
+tags:
+  - certifications
+  - intermediate
 ---
 
 # ISC2 Sertifikatları (2026 Bələdçisi)

@@ -12,6 +12,8 @@ keywords:
   - type 2
   - esxi
   - hyper-v
+
+tags:
   - virtualization
 ---
 

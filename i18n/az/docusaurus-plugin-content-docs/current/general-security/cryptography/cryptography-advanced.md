@@ -22,6 +22,10 @@ keywords:
   - blockchain crypto
   - cryptanalysis
 difficulty: advanced
+
+tags:
+  - security-basics
+  - advanced
 ---
 
 # Kriptoqrafiya — Qabaqcıl mövzular

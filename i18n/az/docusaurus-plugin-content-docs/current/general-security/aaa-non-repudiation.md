@@ -21,6 +21,10 @@ keywords:
   - radius
   - tacacs
 difficulty: intermediate
+
+tags:
+  - security-basics
+  - intermediate
 ---
 
 # AAA və Non-Repudiasiya

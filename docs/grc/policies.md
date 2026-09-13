@@ -4,6 +4,10 @@ title: Security Policies
 description: Introductory notes on security policy structure and governance. Full lesson coming soon.
 slug: /grc/policies
 difficulty: foundation
+
+tags:
+  - grc
+  - beginner
 ---
 
 # Security Policies

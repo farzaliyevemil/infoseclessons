@@ -16,6 +16,9 @@ keywords:
   - network certification
   - security certification
 difficulty: foundation
+tags:
+  - certifications
+  - beginner
 ---
 
 # Cisco Certifications (2026 Guide)

@@ -5,6 +5,8 @@ description: >-
   Learn what Sysprep is, why it's used for imaging and deployment, and how to
   generalize Windows installations.
 slug: /operating-systems/windows/sysprep
+tags:
+  - windows
 ---
 
 # 🧰 What is Sysprep?

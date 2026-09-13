@@ -8,7 +8,6 @@ status: reference
 last_reviewed: 2026-09-13
 category_key: operating-systems
 keywords:
-  - linux
   - hardening
   - ssh
   - firewall
@@ -18,6 +17,10 @@ keywords:
   - cis benchmark
   - sysctl
 difficulty: intermediate
+
+tags:
+  - linux
+  - intermediate
 ---
 
 # Linux Hardening

@@ -5,6 +5,10 @@ description: Windows Server quraşdırmazdan əvvəl edition, rol, deployment mo
 sidebar_position: 3
 slug: /servers/windows-server-planning
 difficulty: foundation
+
+tags:
+  - servers
+  - beginner
 ---
 
 # Windows Server Quraşdırmadan Əvvəl Planlaşdırma

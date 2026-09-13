@@ -16,6 +16,10 @@ keywords:
   - connection broker
   - rdp
 difficulty: intermediate
+
+tags:
+  - servers
+  - intermediate
 ---
 
 # Remote Desktop Services (RDS)

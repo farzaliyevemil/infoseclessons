@@ -5,6 +5,9 @@ description: >-
   Windows xidmətlərini kor-koranə disable etmədən, daha təhlükəsiz və düzgün
   şəkildə necə review etmək lazım olduğunu öyrənin.
 slug: /operating-systems/windows/services
+
+tags:
+  - windows
 ---
 
 

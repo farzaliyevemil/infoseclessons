@@ -13,6 +13,10 @@ keywords:
   - evaluation center
   - initial configuration
 difficulty: foundation
+
+tags:
+  - servers
+  - beginner
 ---
 
 # Install Windows Server 2025 from Scratch

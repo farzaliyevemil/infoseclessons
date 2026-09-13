@@ -19,6 +19,10 @@ keywords:
   - sigma
   - stix
 difficulty: advanced
+
+tags:
+  - red-team
+  - advanced
 ---
 
 # Hücum İndikatorları (IOC və IOA)

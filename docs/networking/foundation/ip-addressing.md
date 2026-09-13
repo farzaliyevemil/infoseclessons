@@ -19,6 +19,10 @@ keywords:
   - apipa
   - networking fundamentals
 difficulty: foundation
+
+tags:
+  - networking
+  - beginner
 ---
 
 # IP Addressing — IPv4 and IPv6
