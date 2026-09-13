@@ -103,5 +103,5 @@ Then attack your own estate: a password-spray simulation, a benign macro payload
 
 - [Linux Hardening](/operating-systems/linux/hardening) — the same discipline on the other half of the fleet.
 - [AppLocker](/operating-systems/windows/applocker) and [BitLocker](/operating-systems/windows/bitlocker) — deep dives on two of the pillars.
-- [Group Policy](/servers/active-directory/group-policy) — the delivery mechanism for all of it.
+- [Group Policy](/servers/group-policy) — the delivery mechanism for all of it.
 - [Endpoint Security](/blue-teaming/endpoint-security) — EDR and the response layer on top.

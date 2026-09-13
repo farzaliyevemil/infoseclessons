@@ -103,5 +103,5 @@ Sonra öz estate-inizi hücum edin: şifrə-sprey simulyasiyası, audit modunda 
 
 - [Linux Hardening](/operating-systems/linux/hardening) — fleet-in digər yarısında eyni intizam.
 - [AppLocker](/operating-systems/windows/applocker) və [BitLocker](/operating-systems/windows/bitlocker) — iki pillənin dərin dalışı.
-- [Group Policy](/servers/active-directory/group-policy) — bunun hamısının təhvil mexanizmi.
+- [Group Policy](/servers/group-policy) — bunun hamısının təhvil mexanizmi.
 - [Endpoint Security](/blue-teaming/endpoint-security) — üstündəki EDR və cavab qatı.
