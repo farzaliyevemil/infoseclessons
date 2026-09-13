@@ -169,22 +169,94 @@ const lessons = [
     "slug": "/blue-teaming/log-analysis",
     "category": "blue-teaming",
     "title": {
-      "en": "Log Analysis",
-      "az": "Loq Analizi"
+      "en": "Log Analysis for Blue Teams",
+      "az": "Blue Team üçün Loq Analizi"
     },
     "description": {
-      "en": "Introductory notes for blue team log analysis workflows. Full lesson coming soon.",
-      "az": "Blue team loq analizi iş axınları üçün giriş qeydləri. Tam dərs tezliklə əlavə olunacaq."
+      "en": "Practical log analysis for defenders — the log sources that actually matter on Windows and Linux, a repeatable triage workflow, timeline building, IOC hunting, and the queries and pitfalls that decide investigations.",
+      "az": "Müdafiəçilər üçün praktik loq analizi — Windows və Linux-də əslində vacib olan loq mənbələri, təkrarlanabilir triaj iş axını, taym-layn qurma, IOC axtarışı və araşdırmaları həll edən və ya batıran query və tələlər."
     },
     "keywords": [
+      "log analysis",
+      "blue team",
+      "windows event log",
+      "sysmon",
+      "syslog",
+      "journald",
+      "auditd",
+      "ioc hunting",
+      "timeline",
       "blue-teaming",
       "log-analysis"
     ],
-    "status": "starter",
-    "lastReviewed": null,
+    "status": "reference",
+    "lastReviewed": "2026-09-13",
     "sourcePaths": {
       "en": "blue-teaming\\log-analysis.md",
       "az": "blue-teaming\\log-analysis.md"
+    }
+  },
+  {
+    "slug": "/blue-teaming/siem-fundamentals",
+    "category": "blue-teaming",
+    "title": {
+      "en": "SIEM Fundamentals",
+      "az": "SIEM Əsasları"
+    },
+    "description": {
+      "en": "What a SIEM really does — collection, normalization, correlation, alerting, retention — how detection rules are built and tuned, which log sources earn their cost, and how a SOC workflow fits around it.",
+      "az": "SIEM əslində nə edir — toplama, normalizasiya, korrelyasiya, alertləmə, retention — detection qaydaları necə qurulur və tənzimlənir, hansı loq mənbələri maya dəyərini ödəyir və SOC iş axını onun ətrafında necə qurulur."
+    },
+    "keywords": [
+      "siem",
+      "soc",
+      "detection engineering",
+      "correlation rules",
+      "splunk",
+      "sentinel",
+      "elastic",
+      "mitre attack",
+      "log sources",
+      "blue-teaming",
+      "siem-fundamentals",
+      "korrelyasiya qaydaları",
+      "log mənbələri"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-09-13",
+    "sourcePaths": {
+      "en": "blue-teaming\\siem-fundamentals.md",
+      "az": "blue-teaming\\siem-fundamentals.md"
+    }
+  },
+  {
+    "slug": "/blue-teaming/threat-hunting",
+    "category": "blue-teaming",
+    "title": {
+      "en": "Threat Hunting",
+      "az": "Threat Hunting"
+    },
+    "description": {
+      "en": "Hypothesis-driven threat hunting for blue teams — the hunting loop, choosing and scoring hypotheses, practical hunts for persistence and living-off-the-land techniques, and turning findings into permanent detections.",
+      "az": "Blue team üçün hipotez-əsaslı threat hunting — hunting dövrü, hipotezlərin seçilməsi və ballandırılması, persistence və living-off-the-land texnikaları üçün praktik ovlar və tapıntıların daimi detection-lara çevrilməsi."
+    },
+    "keywords": [
+      "threat hunting",
+      "blue team",
+      "mitre attack",
+      "hypothesis",
+      "living off the land",
+      "persistence",
+      "detection engineering",
+      "blue-teaming",
+      "threat-hunting",
+      "hipotez"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-09-13",
+    "sourcePaths": {
+      "en": "blue-teaming\\threat-hunting.md",
+      "az": "blue-teaming\\threat-hunting.md"
     }
   },
   {
@@ -1487,6 +1559,39 @@ const lessons = [
     }
   },
   {
+    "slug": "/helpdesk-basics/account-and-password-procedures",
+    "category": "helpdesk-basics",
+    "title": {
+      "en": "Account and Password Procedures",
+      "az": "Hesab və Şifrə Prosedurları"
+    },
+    "description": {
+      "en": "The helpdesk procedures that protect identity — verifying who is on the phone before touching anything, password resets, account lockouts, MFA re-enrollment, and the social-engineering attacks that target the helpdesk specifically.",
+      "az": "Identikliyi qoruyan helpdesk prosedurları — heç nəyə toxunmazdan əvvəl telefonun o tayındakını yoxlamaq, şifrə reset-ləri, hesab kilitləmələri, MFA yenidən qeydiyyatı və məhz helpdesk-i hədəfləyən sosial mühəndislik hücumları."
+    },
+    "keywords": [
+      "helpdesk",
+      "password reset",
+      "account lockout",
+      "mfa",
+      "identity verification",
+      "social engineering",
+      "vishing",
+      "helpdesk-basics",
+      "account-and-password-procedures",
+      "şifrə reset",
+      "hesab kilitləmə",
+      "identiklik verification",
+      "sosial mühəndislik"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-09-13",
+    "sourcePaths": {
+      "en": "helpdesk-basics\\account-and-password-procedures.md",
+      "az": "helpdesk-basics\\account-and-password-procedures.md"
+    }
+  },
+  {
     "slug": "/helpdesk-basics/common-helpdesk-tickets",
     "category": "helpdesk-basics",
     "title": {
@@ -1527,6 +1632,39 @@ const lessons = [
     "sourcePaths": {
       "en": "helpdesk-basics-overview.md",
       "az": "helpdesk-basics-overview.md"
+    }
+  },
+  {
+    "slug": "/helpdesk-basics/onboarding-offboarding",
+    "category": "helpdesk-basics",
+    "title": {
+      "en": "IT Onboarding and Offboarding",
+      "az": "İT Onboarding və Offboarding"
+    },
+    "description": {
+      "en": "Joiner-mover-leaver done right — onboarding checklists that grant least privilege from day one, access moves, and offboarding that actually revokes access on the day someone leaves.",
+      "az": "Düzgün joiner-mover-leaver — birinci gündən ən az imtiyaz verən onboarding checklist-ləri, giriş keçidləri və kiminsə getdiyi günə girişi həqiqətən kəsən offboarding."
+    },
+    "keywords": [
+      "onboarding",
+      "offboarding",
+      "joiner mover leaver",
+      "access revocation",
+      "least privilege",
+      "identity lifecycle",
+      "compliance",
+      "helpdesk-basics",
+      "onboarding-offboarding",
+      "giriş ləğvi",
+      "ən az imtiyaz",
+      "identiklik lifecycle",
+      "uyğunluq"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-09-13",
+    "sourcePaths": {
+      "en": "helpdesk-basics\\onboarding-offboarding.md",
+      "az": "helpdesk-basics\\onboarding-offboarding.md"
     }
   },
   {
@@ -2100,20 +2238,31 @@ const lessons = [
     "slug": "/operating-systems/linux/basic-commands",
     "category": "operating-systems",
     "title": {
-      "en": "Linux Basic Commands",
-      "az": "Linux Əsas Komandaları"
+      "en": "Linux Basic Commands — Working Reference",
+      "az": "Linux Əsas Komandaları — İş Azərbaycanı"
     },
     "description": {
-      "en": "Starter reference for common Linux commands and navigation. Full lesson coming soon.",
-      "az": "Ən çox istifadə olunan Linux komandaları və naviqasiya üçün başlanğıc bələdçi. Tam dərs tezliklə əlavə olunacaq."
+      "en": "The Linux commands an IT or security engineer uses every day — navigation, file management, text inspection, permissions, processes, and archives — with security-relevant notes on each.",
+      "az": "İT və təhlükəsizlik mühəndisinin hər gün istifadə etdiyi Linux komandaları — naviqasiya, fayl idarəetməsi, mətn yoxlaması, icazələr, proseslər və arxivlər — hər birinə təhlükəsizlik qeydləri ilə."
     },
     "keywords": [
-      "operating-systems",
       "linux",
-      "basic-commands"
+      "commands",
+      "bash",
+      "navigation",
+      "grep",
+      "permissions",
+      "processes",
+      "tar",
+      "operating-systems",
+      "basic-commands",
+      "komandalar",
+      "naviqasiya",
+      "icazələr",
+      "proseslər"
     ],
-    "status": "starter",
-    "lastReviewed": null,
+    "status": "reference",
+    "lastReviewed": "2026-09-13",
     "sourcePaths": {
       "en": "operating-systems\\linux\\basic-commands.md",
       "az": "operating-systems\\linux\\basic-commands.md"
@@ -2168,6 +2317,101 @@ const lessons = [
     "sourcePaths": {
       "en": "linux-overview.md",
       "az": "linux-overview.md"
+    }
+  },
+  {
+    "slug": "/operating-systems/linux/hardening",
+    "category": "operating-systems",
+    "title": {
+      "en": "Linux Hardening",
+      "az": "Linux Hardening"
+    },
+    "description": {
+      "en": "Turning a default Linux install into a defensible one — attack surface reduction, updates, SSH hardening, firewalls, auditd, kernel settings, and a verification checklist mapped to CIS thinking.",
+      "az": "Defolt Linux quraşdırmasını müdafiə olunana çevirmək — hücum səthini kiçiltmək, update-lər, SSH hardening, firewall-lar, auditd, kernel parametrləri və CIS təfəkkürü ilə xəritələnən verification checklist-i."
+    },
+    "keywords": [
+      "linux",
+      "hardening",
+      "ssh",
+      "firewall",
+      "ufw",
+      "auditd",
+      "fail2ban",
+      "cis benchmark",
+      "sysctl",
+      "operating-systems"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-09-13",
+    "sourcePaths": {
+      "en": "operating-systems\\linux\\hardening.md",
+      "az": "operating-systems\\linux\\hardening.md"
+    }
+  },
+  {
+    "slug": "/operating-systems/linux/systemd-services",
+    "category": "operating-systems",
+    "title": {
+      "en": "Linux Services and systemd",
+      "az": "Linux Xidmətləri və systemd"
+    },
+    "description": {
+      "en": "Running and securing services on modern Linux — systemctl, unit files, journalctl, timers, drop-ins, and the sandboxing directives that limit blast radius when a service is compromised.",
+      "az": "Müasir Linux-da xidmətləri işlətmək və təhlükəsizləşdirmək — systemctl, unit faylları, journalctl, timer-lər, drop-in-lər və servis kompromitə olunanda zərbə radiusunu məhdudlaşdıran sandbox direktivləri."
+    },
+    "keywords": [
+      "linux",
+      "systemd",
+      "systemctl",
+      "journalctl",
+      "services",
+      "units",
+      "timers",
+      "hardening",
+      "operating-systems",
+      "systemd-services",
+      "xidmətlər"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-09-13",
+    "sourcePaths": {
+      "en": "operating-systems\\linux\\systemd-services.md",
+      "az": "operating-systems\\linux\\systemd-services.md"
+    }
+  },
+  {
+    "slug": "/operating-systems/linux/users-groups-permissions",
+    "category": "operating-systems",
+    "title": {
+      "en": "Linux Users, Groups and Permissions",
+      "az": "Linux İstifadəçilər, Qruplar və İcazələr"
+    },
+    "description": {
+      "en": "How Linux identity and access actually works — /etc/passwd and shadow, sudo and sudoers, the permission bit model, SUID/SGID/sticky, umask, and ACLs — with the misconfigurations attackers look for.",
+      "az": "Linux-da identiklik və giriş əslində necə işləyir — /etc/passwd və shadow, sudo və sudoers, icazə bitlərinin modeli, SUID/SGID/sticky, umask və ACL-lər — hücumçuların axtardığı yanlış konfiqurasiyalarla birlikdə."
+    },
+    "keywords": [
+      "linux",
+      "permissions",
+      "users",
+      "groups",
+      "sudo",
+      "chmod",
+      "suid",
+      "umask",
+      "acl",
+      "operating-systems",
+      "users-groups-permissions",
+      "icazələr",
+      "istifadəçilər",
+      "qruplar"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-09-13",
+    "sourcePaths": {
+      "en": "operating-systems\\linux\\users-groups-permissions.md",
+      "az": "operating-systems\\linux\\users-groups-permissions.md"
     }
   },
   {
@@ -3300,6 +3544,33 @@ const lessons = [
     "sourcePaths": {
       "en": "virtualization\\hypervisor.md",
       "az": "virtualization\\hypervisor.md"
+    }
+  },
+  {
+    "slug": "/virtualization/hyper-v",
+    "category": "virtualization",
+    "title": {
+      "en": "Microsoft Hyper-V",
+      "az": "Microsoft Hyper-V"
+    },
+    "description": {
+      "en": "Windows virtualization with Hyper-V — how it compares to VMware and Proxmox, Gen1 vs Gen2 VMs, virtual switches, checkpoints, host hardening, and the admin tasks that come up in real environments.",
+      "az": "Hyper-V ilə Windows virtualizasiyası — VMware və Proxmox ilə müqayisə, Gen1 vs Gen2 VM-lər, virtual switch-lər, checkpoint-lər, host hardening və real mühitlərdə qarşıya çıxan admin tapşırıqları."
+    },
+    "keywords": [
+      "hyper-v",
+      "microsoft",
+      "virtualization",
+      "hypervisor",
+      "vm",
+      "checkpoint",
+      "virtual switch"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-09-13",
+    "sourcePaths": {
+      "en": "virtualization\\hyper-v.md",
+      "az": "virtualization\\hyper-v.md"
     }
   },
   {
