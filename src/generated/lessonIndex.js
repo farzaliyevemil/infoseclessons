@@ -303,6 +303,37 @@ const lessons = [
     }
   },
   {
+    "slug": "/certifications/cisco-certifications",
+    "category": "certifications",
+    "title": {
+      "en": "Cisco Certifications (2026 Guide)",
+      "az": "Cisco Sertifikatları (2026 Bələdçisi)"
+    },
+    "description": {
+      "en": "The Cisco certification path for network and security careers — CCNA, CyberOps, CCNP Security and CCIE — what each exam covers, how recertification works, and which roles each one serves.",
+      "az": "Şəbəkə və təhlükəsizlik karyerası üçün Cisco sertifikat yolu — CCNA, CyberOps, CCNP Security və CCIE — hər imtahanın nəyi əhatə etdiyi, recertification-un necə işlədiyi və hər birinin hansı rollara xidmət etdiyi."
+    },
+    "keywords": [
+      "cisco",
+      "ccna",
+      "ccnp security",
+      "ccie",
+      "cyberops",
+      "network certification",
+      "security certification",
+      "certifications",
+      "cisco-certifications",
+      "şəbəkə sertifikatı",
+      "təhlükəsizlik sertifikatı"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-09-13",
+    "sourcePaths": {
+      "en": "certifications\\cisco-certifications.md",
+      "az": "certifications\\cisco-certifications.md"
+    }
+  },
+  {
     "slug": "/certifications/comptia-certifications",
     "category": "certifications",
     "title": {
@@ -322,6 +353,37 @@ const lessons = [
     "sourcePaths": {
       "en": "certifications\\comptia-certifications.md",
       "az": "certifications\\comptia-certifications.md"
+    }
+  },
+  {
+    "slug": "/certifications/isc2-certifications",
+    "category": "certifications",
+    "title": {
+      "en": "ISC2 Certifications (2026 Guide)",
+      "az": "ISC2 Sertifikatları (2026 Bələdçisi)"
+    },
+    "description": {
+      "en": "The ISC2 path from free entry certification to CISSP — CC, SSCP, CISSP and its concentrations, CCSP for cloud, CGRC for governance — experience requirements, the endorsement process, and which roles each unlocks.",
+      "az": "Pulsuz giriş sertifikatından CISSP-yə qədər ISC2 yolu — CC, SSCP, CISSP və konsentrasiyaları, bulud üçün CCSP, idarəetmə üçün CGRC — təcrübə tələbləri, endorsement prosesi və hər birinin açdığı rollar."
+    },
+    "keywords": [
+      "isc2",
+      "cissp",
+      "ccsp",
+      "sscp",
+      "cc",
+      "certification",
+      "security management",
+      "certifications",
+      "isc2-certifications",
+      "sertifikat",
+      "təhlükəsizlik menecment"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-09-13",
+    "sourcePaths": {
+      "en": "certifications\\isc2-certifications.md",
+      "az": "certifications\\isc2-certifications.md"
     }
   },
   {
@@ -1392,6 +1454,37 @@ const lessons = [
     "sourcePaths": {
       "en": "general-security\\raid.md",
       "az": "general-security\\raid.md"
+    }
+  },
+  {
+    "slug": "/grc/compliance-frameworks",
+    "category": "grc",
+    "title": {
+      "en": "Compliance Frameworks — ISO 27001, SOC 2, PCI DSS and Friends",
+      "az": "Uyğunluq Framework-ləri — ISO 27001, SOC 2, PCI DSS və Dostları"
+    },
+    "description": {
+      "en": "What ISO 27001, SOC 2, PCI DSS, NIST CSF and GDPR actually demand, how certification differs from attestation and law, which to choose for your context, and how to prepare without boiling the ocean.",
+      "az": "ISO 27001, SOC 2, PCI DSS, NIST CSF və GDPR əslində nə tələb edir, sertifikasiya attestasiya və qanundan necə fərqlənir, kontekstiniz üçün hansını seçməli və okeanı qaynatmadan necə hazırlanmalı."
+    },
+    "keywords": [
+      "compliance",
+      "iso 27001",
+      "soc 2",
+      "pci dss",
+      "nist csf",
+      "gdpr",
+      "audit readiness",
+      "grc",
+      "compliance-frameworks",
+      "uyğunluq",
+      "audit hazırlığı"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-09-13",
+    "sourcePaths": {
+      "en": "grc\\compliance-frameworks.md",
+      "az": "grc\\compliance-frameworks.md"
     }
   },
   {
@@ -2696,6 +2789,39 @@ const lessons = [
     }
   },
   {
+    "slug": "/red-teaming/cloud-pentest",
+    "category": "red-teaming",
+    "title": {
+      "en": "Cloud Penetration Testing",
+      "az": "Bulud Penetration Testing"
+    },
+    "description": {
+      "en": "Authorized cloud assessments on AWS, Azure and GCP — what providers permit, identity and metadata attack paths, privilege escalation patterns, storage and logging findings, and the tooling that automates each phase.",
+      "az": "AWS, Azure və GCP-də avtorizə olunmuş bulud qiymətləndirmələri — provayderlərin nəyə icazə verdiyi, identiklik və metadata hücum yolları, imtiyaz yüksəlişi pattern-ləri, saxlama və loglama tapıntıları, hər fazanı avtomatlaşdıran alətlər."
+    },
+    "keywords": [
+      "cloud pentest",
+      "aws",
+      "azure",
+      "gcp",
+      "iam privilege escalation",
+      "metadata ssrf",
+      "imds",
+      "scoutsuite",
+      "pacu",
+      "red-teaming",
+      "cloud-pentest",
+      "bulud pentest",
+      "iam imtiyaz yüksəlişi"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-09-13",
+    "sourcePaths": {
+      "en": "red-teaming\\cloud-pentest.md",
+      "az": "red-teaming\\cloud-pentest.md"
+    }
+  },
+  {
     "slug": "/red-teaming/initial-access",
     "category": "red-teaming",
     "title": {
@@ -2990,6 +3116,36 @@ const lessons = [
     "sourcePaths": {
       "en": "red-teaming\\threat-vectors-and-attack-surfaces.md",
       "az": "red-teaming\\threat-vectors-and-attack-surfaces.md"
+    }
+  },
+  {
+    "slug": "/red-teaming/wireless-pentest",
+    "category": "red-teaming",
+    "title": {
+      "en": "Wireless Penetration Testing",
+      "az": "Wireless Penetration Testing"
+    },
+    "description": {
+      "en": "Authorized wireless assessments end to end — reconnaissance, open and PSK network attacks, WPA2/WPA3 differences, enterprise (802.1X) attacks like evil twins, rogue AP hunting, and the reporting that makes findings fixable — with the legal groundwork that comes first.",
+      "az": "Avtorizə olunmuş wireless qiymətləndirmələri başdan-ayağa — kəşfiyyat, açıq və PSK şəbəkə hücumları, WPA2/WPA3 fərqləri, evil twin kimi enterprise (802.1X) hücumları, rogue AP ovu və tapıntıları düzəldiləbilən edən hesabat — əvvəldə gələn hüquqi təməllə."
+    },
+    "keywords": [
+      "wireless",
+      "wifi pentest",
+      "wpa2",
+      "wpa3",
+      "evil twin",
+      "rogue ap",
+      "aircrack",
+      "802.1x",
+      "red-teaming",
+      "wireless-pentest"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-09-13",
+    "sourcePaths": {
+      "en": "red-teaming\\wireless-pentest.md",
+      "az": "red-teaming\\wireless-pentest.md"
     }
   },
   {
