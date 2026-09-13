@@ -79,5 +79,5 @@ Proqramı sübut edən metrik dəsti: skanerləri aktiv olan repo-ların %, aç�
 
 - [Threat Modeling](/general-security/threat-modeling) — bu darvazaları qidalandıran dizayn-vaxtı təhlükəsizlik.
 - [Secure App Development](/general-security/secure-app-development) — skanerlərin yoxladığı kodu yazmaq.
-- [Vulnerability Management](/general-security/assessment/vulnerability-management) — pipeline-dan çıxan tapıntıların lifecycle-ı.
+- [Vulnerability Management](/general-security/vulnerability-management) — pipeline-dan çıxan tapıntıların lifecycle-ı.
 - [Container and Kubernetes Security](/general-security/cloud/container-and-kubernetes-security) — pipeline-ın ship etdiyi şeyi təhlükəsizləşdirmək.

@@ -77,4 +77,4 @@ Zero trust big-bang proqram kimi uğursuz, görünən qələbələr ardıcıllı
 - [IAM Account Management](/general-security/iam-account-management) — identiklik birinci pillədir; buradan başlayın.
 - [Threat Modeling](/general-security/threat-modeling) — sildiyiniz trust sərhədlərini model-ləşdirin.
 - [SIEM Fundamentals](/blue-teaming/siem-fundamentals) — qərarların asılı olduğu siqnal qatı.
-- [Cloud Security Solutions](/general-security/cloud/cloud-security-solutions) — eyni fəlsəfə bulud control plane-lərində.
+- [Cloud Security Solutions](/general-security/cloud-security-solutions) — eyni fəlsəfə bulud control plane-lərində.
