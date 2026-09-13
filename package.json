@@ -21,7 +21,7 @@
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "lint": "eslint src scripts --ext .js,.jsx"
+    "lint": "eslint src scripts"
   },
   "dependencies": {
     "@docusaurus/core": "^3.9.2",
@@ -36,10 +36,12 @@
   "devDependencies": {
     "@docusaurus/module-type-aliases": "^3.9.2",
     "@docusaurus/types": "^3.9.2",
+    "@eslint/js": "^9.39.5",
     "baseline-browser-mapping": "^2.10.10",
-    "eslint": "^8.57.0",
+    "eslint": "^9.39.5",
     "eslint-plugin-react": "^7.34.0",
     "eslint-plugin-security": "^4.0.1",
+    "globals": "^17.12.0",
     "gray-matter": "^4.0.3"
   },
   "browserslist": {
