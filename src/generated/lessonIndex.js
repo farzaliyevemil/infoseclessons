@@ -2209,6 +2209,38 @@ const lessons = [
     }
   },
   {
+    "slug": "/networking/http-methods-and-status-codes",
+    "category": "networking",
+    "title": {
+      "en": "HTTP Methods and Status Codes",
+      "az": "HTTP metodları və status kodları"
+    },
+    "description": {
+      "en": "A foundation guide to HTTP request methods, response status-code classes, common codes, and security testing meaning.",
+      "az": "HTTP sorğu metodlarını, cavab status kodlarını, əsas kodları və web təhlükəsizliyində mənalarını izah edən təməl dərs."
+    },
+    "keywords": [
+      "http",
+      "http methods",
+      "status codes",
+      "get",
+      "post",
+      "put",
+      "patch",
+      "web security",
+      "networking",
+      "beginner",
+      "foundation",
+      "http-methods-and-status-codes"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-09-20",
+    "sourcePaths": {
+      "en": "networking\\foundation\\http-methods-and-status-codes.md",
+      "az": "networking\\foundation\\http-methods-and-status-codes.md"
+    }
+  },
+  {
     "slug": "/networking/ip-addressing",
     "category": "networking",
     "title": {
@@ -3359,6 +3391,36 @@ const lessons = [
     "sourcePaths": {
       "en": "red-teaming\\osint-basics.md",
       "az": "red-teaming\\osint-basics.md"
+    }
+  },
+  {
+    "slug": "/red-teaming/osint-and-search-engines",
+    "category": "red-teaming",
+    "title": {
+      "en": "OSINT and Cybersecurity Search Engines",
+      "az": "OSINT və kibertəhlükəsizlik axtarış sistemləri"
+    },
+    "description": {
+      "en": "A practical, exam-oriented guide to passive OSINT sources and search engines used for authorised reconnaissance.",
+      "az": "Səlahiyyətli kəşfiyyat üçün passiv OSINT mənbələrini və kibertəhlükəsizlik axtarış sistemlərini izah edən praktik, imtahan yönümlü dərs."
+    },
+    "keywords": [
+      "osint",
+      "reconnaissance",
+      "shodan",
+      "censys",
+      "google dorks",
+      "cybersecurity search engines",
+      "red-team",
+      "beginner",
+      "red-teaming",
+      "osint-and-search-engines"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-09-20",
+    "sourcePaths": {
+      "en": "red-teaming\\osint-and-search-engines.md",
+      "az": "red-teaming\\osint-and-search-engines.md"
     }
   },
   {
