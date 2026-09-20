@@ -979,6 +979,37 @@ const lessons = [
     }
   },
   {
+    "slug": "/general-security/information-security-vs-cybersecurity",
+    "category": "general-security",
+    "title": {
+      "en": "Information Security and Cybersecurity",
+      "az": "İnformasiya təhlükəsizliyi və kibertəhlükəsizlik"
+    },
+    "description": {
+      "en": "An introduction to the scope, relationship, and practical differences between information security and cybersecurity.",
+      "az": "İnformasiya təhlükəsizliyi ilə kibertəhlükəsizliyin fərqini, əlaqəsini, əhatə dairəsini və praktik nümunələrini izah edən giriş məqaləsi."
+    },
+    "keywords": [
+      "information security",
+      "cybersecurity",
+      "infosec",
+      "CIA triad",
+      "security controls",
+      "security-basics",
+      "beginner",
+      "general-security",
+      "information-security-vs-cybersecurity",
+      "kibertəhlükəsizlik",
+      "informasiya təhlükəsizliyi"
+    ],
+    "status": "reference",
+    "lastReviewed": "2026-09-20",
+    "sourcePaths": {
+      "en": "general-security\\information-security-vs-cybersecurity.md",
+      "az": "general-security\\information-security-vs-cybersecurity.md"
+    }
+  },
+  {
     "slug": "/general-security/mobile-security",
     "category": "general-security",
     "title": {
