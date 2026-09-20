@@ -3225,6 +3225,44 @@ const lessons = [
     }
   },
   {
+    "slug": "/red-teaming/ceh-m01-introduction-to-ethical-hacking",
+    "category": "red-teaming",
+    "title": {
+      "en": "CEH M01 — Introduction to Ethical Hacking",
+      "az": "CEH M01 — Etik Hakerliyə Giriş"
+    },
+    "description": {
+      "en": "A concise, exam-focused introduction to ethical hacking, legal boundaries, threat terminology, testing types, methodology, and safe practice.",
+      "az": "Etik hakerlik, hüquqi sərhədlər, təhdid terminləri, test növləri, metodologiya və təhlükəsiz praktika haqqında qısa, imtahan yönümlü giriş."
+    },
+    "keywords": [
+      "CEH v13",
+      "ethical hacking",
+      "penetration testing",
+      "threat",
+      "vulnerability",
+      "exploit",
+      "risk",
+      "TTP",
+      "rules of engagement",
+      "information warfare",
+      "ceh",
+      "ethical-hacking",
+      "foundation",
+      "red-teaming",
+      "ceh-m01-introduction-to-ethical-hacking",
+      "etik hakerlik",
+      "təhdid",
+      "zəiflik"
+    ],
+    "status": "foundation",
+    "lastReviewed": "2026-09-20",
+    "sourcePaths": {
+      "en": "red-teaming\\ceh-m01-introduction-to-ethical-hacking.md",
+      "az": "red-teaming\\ceh-m01-introduction-to-ethical-hacking.md"
+    }
+  },
+  {
     "slug": "/red-teaming/cloud-pentest",
     "category": "red-teaming",
     "title": {
