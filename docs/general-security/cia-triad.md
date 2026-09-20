@@ -86,6 +86,6 @@ These questions examine different properties of the *same* document. A valid sig
 
 ## Related lessons and source
 
-Study each separate topic in its own lesson: [security control categories and types](../../grc/security-controls.md), [data states and minimisation](./data-protection-basics.md), [Data Loss Prevention](./data-loss-prevention.md), [risk management](../../grc/risk-and-privacy.md) and [cryptography](./cryptography/cryptography-basics.md).
+Study each separate topic in its own lesson: [security control categories and types](../grc/security-controls.md), [data states and minimisation](./data-protection-basics.md), [Data Loss Prevention](./data-loss-prevention.md), [risk management](../grc/risk-and-privacy.md) and [cryptography](./cryptography/cryptography-basics.md).
 
 The five-property framing follows EC-Council, *Certified Ethical Hacker v13, Module 01: Introduction to Ethical Hacking*, “Elements of Information Security,” module pp. 5–6. Definitions and examples here are original teaching text.

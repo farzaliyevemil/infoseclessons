@@ -69,4 +69,4 @@ The [CIA triad](./cia-triad.md) names the properties to protect. This lesson ask
 
 ## Related lessons
 
-For encryption and hashing, see [Cryptography Basics](./cryptography/cryptography-basics.md). For privacy obligations and retention decisions, see [Risk Management and Privacy](../../grc/risk-and-privacy.md). This is original explanatory material adapted from the site's former CIA article.
+For encryption and hashing, see [Cryptography Basics](./cryptography/cryptography-basics.md). For privacy obligations and retention decisions, see [Risk Management and Privacy](../grc/risk-and-privacy.md). This is original explanatory material adapted from the site's former CIA article.

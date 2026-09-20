@@ -70,4 +70,4 @@ The rule reduces accidental disclosure. It does **not** correct an overly broad 
 
 ## Related lessons
 
-Read [security control categories and types](../../grc/security-controls.md) for how DLP fits into a wider control programme and [data states and minimisation](./data-protection-basics.md) for reducing the amount of sensitive data exposed. This lesson is original explanatory material adapted from the site's former CIA article; it is not a separate CEH Module 01 topic.
+Read [security control categories and types](../grc/security-controls.md) for how DLP fits into a wider control programme and [data states and minimisation](./data-protection-basics.md) for reducing the amount of sensitive data exposed. This lesson is original explanatory material adapted from the site's former CIA article; it is not a separate CEH Module 01 topic.

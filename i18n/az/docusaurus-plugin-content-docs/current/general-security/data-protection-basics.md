@@ -69,4 +69,4 @@ tags:
 
 ## Əlaqəli dərslər
 
-Şifrələmə və hashing üçün [Cryptography Basics](./cryptography/cryptography-basics.md), məxfilik öhdəlikləri və saxlama qərarları üçün [Risk Management and Privacy](../../grc/risk-and-privacy.md) məqalələrinə baxın. Bu, saytın köhnə CIA məqaləsindən ayrılıb yenidən işlənmiş orijinal tədris mətnidir.
+Şifrələmə və hashing üçün [Cryptography Basics](./cryptography/cryptography-basics.md), məxfilik öhdəlikləri və saxlama qərarları üçün [Risk Management and Privacy](../grc/risk-and-privacy.md) məqalələrinə baxın. Bu, saytın köhnə CIA məqaləsindən ayrılıb yenidən işlənmiş orijinal tədris mətnidir.

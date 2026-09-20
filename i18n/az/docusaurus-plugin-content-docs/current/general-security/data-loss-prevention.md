@@ -70,4 +70,4 @@ Bu qayda təsadüfi sızmanı azaldır. Lakin əməkdaşın cədvəli əvvəldə
 
 ## Əlaqəli dərslər
 
-DLP-nin daha geniş nəzarət proqramındakı yerini [security control kateqoriyaları və növləri](../../grc/security-controls.md), həssas məlumatın miqdarının azaldılmasını isə [data vəziyyətləri və minimizasiya](./data-protection-basics.md) dərsində oxuyun. Bu məqalə saytın köhnə CIA yazısından ayrılıb yenidən işlənmiş orijinal tədris mətnidir; CEH Module 01-in ayrıca mövzusu deyil.
+DLP-nin daha geniş nəzarət proqramındakı yerini [security control kateqoriyaları və növləri](../grc/security-controls.md), həssas məlumatın miqdarının azaldılmasını isə [data vəziyyətləri və minimizasiya](./data-protection-basics.md) dərsində oxuyun. Bu məqalə saytın köhnə CIA yazısından ayrılıb yenidən işlənmiş orijinal tədris mətnidir; CEH Module 01-in ayrıca mövzusu deyil.
