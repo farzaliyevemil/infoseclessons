@@ -113,7 +113,15 @@ Actor kateqoriyaları, naming convention və ATT&CK qrupları üçün [Threat Ac
 - **Integrity** — məlumat və sistemlər icazəsiz dəyişdirilə bilməz.
 - **Availability** — səlahiyyətli istifadəçilər lazım olduqda sistemə çata bilər.
 
+CEH materiallarında CIA ilə yanaşı **authenticity** və **non-repudiation** da göstərilə bilər:
+
+- **Authenticity** — istifadəçi, mesaj, sənəd və ya məlumat mənbəyi həqiqidir.
+- **Non-repudiation** — etibarlı sübut göndərən və ya qəbul edənin əməli inkar etməsinə mane olur.
+
+Authentication, sertifikatlar, digital signature və etibarlı audit qeydləri bu xüsusiyyətləri dəstəkləyə bilər. Onlar CIA-nı tamamlayır, əvəz etmir.
+
 Control-lar, DAD, data states, encryption və DLP üçün əsas [CIA Triad](../general-security/cia-triad.md) məqaləsinə keçin. M01 üçün yadda saxlayın ki, bir hücum CIA-nın bir, iki və ya bütün sütunlarına təsir edə bilər.
+
 
 ## Scan, penetration test və red team
 
@@ -165,6 +173,18 @@ M01 üçün bu reference-lərin məqsədini tanımaq kifayətdir:
 | **CIS Controls** | Prioritetləşdirilmiş müdafiə tədbirləri |
 | **ISO/IEC 27001** | Information-security management system tələbləri |
 
+## Əlavə M01 control anlayışları
+
+Bu anlayışlar blueprint səviyyəsində imtahan qeydləridir. Burada terminləri əlaqələndirmək üçün qısa verilir; ayrıca müdafiə məqalələrini əvəz etmir.
+
+- **Defense in depth** bir control uğursuz olduqda bütün mühitin açılmaması üçün bir neçə müstəqil qoruma qatından istifadə edir. Məsələn, MFA, network segmentation, endpoint protection, logging və test edilmiş backup hücumun müxtəlif mərhələlərini əhatə edir.
+- **Risk management** asset, threat, vulnerability, likelihood və impact-i müəyyənləşdirir, sonra risk treatment seçir: azaltmaq, yayınmaq, ötürmək və ya qəbul etmək. Vulnerability kontekstdən asılı olmayaraq avtomatik ən yüksək prioritet deyil.
+- **Threat modeling** nəyin qorunmalı olduğunu, kimin hücum edə biləcəyini, hücumun necə baş verə biləcəyini və hansı control-ların yolları azaltdığını soruşur. Bu, çox vaxt dizayn mərhələsində aparılan proaktiv analizdir.
+- **Cyber threat intelligence (CTI)** actor, infrastruktur, indicator və TTP məlumatlarını müdafiə qərarlarına çevirir. Məqsəd yoxlanmamış feed toplamaq deyil, detection, prioritisation və response-u dəstəkləməkdir.
+- **Incident management** security incident-i müəyyənləşdirməyə, containment, eradication, recovery və lessons learned mərhələlərinə hazırlaşır. Ethical test zamanı gözlənilməz təsir yaranarsa stop condition və escalation path olmalıdır.
+
+Daha ətraflı izah üçün [Threat Modeling](../general-security/threat-modeling.md), [Threat Intelligence](./threat-actors-and-intel.md) və blue-team incident-response məqalələrinə baxın.
+
 ## Exam notes
 
 - İcazə və scope testi etik edir; alət özü bunu etmir.
@@ -181,6 +201,10 @@ M01 üçün bu reference-lərin məqsədini tanımaq kifayətdir:
 - Information warfare təsir və informasiya əməliyyatları ilə, cybercrime isə əsasən qanunsuz mənfəətlə bağlıdır.
 - AI/ML müdafiə və hücumda istifadə edilə bilər, lakin authorization, scope və əsasları əvəz etmir.
 - Compliance test tezliyinə və evidence-ə təsir edə bilər, lakin security ilə eyni deyil.
+
+### Qanunlar və standards
+
+Dəqiq qanun ölkədən, aktiv sahibindən və fəaliyyətdən asılıdır. İmtahan səviyyəsində universal qayda budur: icazəsiz giriş, interception, pozuntu, məlumat oğurluğu və malware yayılması cinayət ola bilər. Müqavilə və ya lab scope-u üçüncü tərəf provider sistemlərini ayrıca provider qaydaları icazə vermədən test etməyə səlahiyyət vermir. Computer-misuse laws, privacy və data-protection laws, breach-notification tələbləri, PCI DSS testing gözləntiləri və ISO/NIST guidance kimi reference-lərin məqsədini tanıyın; compliance etiketini hücum icazəsi hesab etməyin.
 
 ## Təhlükəsiz lab tapşırığı
 

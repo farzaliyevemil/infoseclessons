@@ -113,6 +113,13 @@ The **CIA triad** asks what a control protects:
 - **Integrity** — information and systems cannot be changed without authorisation.
 - **Availability** — authorised users can access them when needed.
 
+CEH materials may also list **authenticity** and **non-repudiation** alongside CIA:
+
+- **Authenticity** — a user, message, document, or data source is genuine.
+- **Non-repudiation** — reliable evidence prevents a sender or recipient from falsely denying an action.
+
+Authentication, certificates, digital signatures, and trustworthy audit records can support these properties. They complement CIA; they do not replace it.
+
 Use the canonical [CIA Triad](../general-security/cia-triad.md) lesson for controls, DAD, data states, encryption, and DLP. For M01, remember that an attack can affect one, two, or all three pillars.
 
 ## Scan, penetration test, and red team
@@ -165,6 +172,18 @@ For M01, recognise the purpose of these references rather than memorising every 
 | **CIS Controls** | Prioritised defensive safeguards |
 | **ISO/IEC 27001** | Information-security management system requirements |
 
+## Additional M01 control concepts
+
+These concepts are blueprint-level exam notes. They are included here to connect the terms; they are not replacements for the dedicated defensive lessons.
+
+- **Defense in depth** uses multiple independent layers so that one failed control does not expose the whole environment. For example, MFA, network segmentation, endpoint protection, logging, and tested backups address different stages of an attack.
+- **Risk management** identifies assets, threats, vulnerabilities, likelihood, and impact, then chooses treatment: reduce, avoid, transfer, or accept the risk. A vulnerability is not automatically the highest priority without context.
+- **Threat modeling** asks what must be protected, who may attack it, how an attack could happen, and which controls reduce the paths. It is proactive analysis, often performed during design.
+- **Cyber threat intelligence (CTI)** turns information about actors, infrastructure, indicators, and TTPs into decisions for defenders. It should support detection, prioritisation, and response rather than become a collection of unverified feeds.
+- **Incident management** prepares the organisation to identify, contain, eradicate, recover from, and learn from security incidents. An ethical test must have a stop condition and an escalation path if it causes unexpected impact.
+
+The [Threat Modeling](../general-security/threat-modeling.md), [Threat Intelligence](./threat-actors-and-intel.md), and blue-team incident-response lessons provide the deeper treatment.
+
 ## Exam notes
 
 - Permission and scope make a test ethical; a tool does not.
@@ -181,6 +200,10 @@ For M01, recognise the purpose of these references rather than memorising every 
 - Information warfare concerns influence and information operations; cybercrime is primarily criminal activity for unlawful gain.
 - AI/ML can be used defensively or offensively, but it is not a replacement for authorisation, scope, or security fundamentals.
 - Compliance requirements can influence testing frequency and evidence, but compliance is not the same as security.
+
+### Laws and standards
+
+The exact law depends on the country, asset owner, and activity. The exam-level rule is universal: unauthorised access, interception, disruption, data theft, and malware distribution can be criminal offences. A contract or lab scope does not authorise testing a third-party provider's systems unless that provider's rules also permit it. Recognise the purpose of common references such as computer-misuse laws, privacy and data-protection laws, breach-notification duties, PCI DSS testing expectations, and ISO/NIST guidance; do not treat a compliance label as permission to attack.
 
 ## Safe lab exercise
 
