@@ -1035,6 +1035,34 @@ const lessons = [
     }
   },
   {
+    "slug": "/certifications/ethical-hacking",
+    "category": "certifications",
+    "title": {
+      "en": "Ethical Hacking — CEH v13",
+      "az": "Ethical Hacking — CEH v13"
+    },
+    "description": {
+      "en": "A 20-module, exam-focused CEH v13 roadmap with links to the site's canonical security lessons.",
+      "az": "Saytdakı əsas təhlükəsizlik dərslərinə keçidlərlə 20 modullu, imtahan yönümlü CEH v13 roadmap-i."
+    },
+    "keywords": [
+      "CEH v13",
+      "ethical hacking",
+      "certification roadmap",
+      "ceh",
+      "ethical-hacking",
+      "roadmap",
+      "certifications",
+      "index"
+    ],
+    "status": "roadmap",
+    "lastReviewed": "2026-09-20",
+    "sourcePaths": {
+      "en": "certifications\\ethical-hacking\\index.md",
+      "az": "certifications\\ethical-hacking\\index.md"
+    }
+  },
+  {
     "slug": "/certifications/isc2-certifications",
     "category": "certifications",
     "title": {
