@@ -1231,31 +1231,27 @@ const lessons = [
     "slug": "/general-security/cia-triad",
     "category": "general-security",
     "title": {
-      "en": "CIA Triad — Confidentiality, Integrity, Availability",
-      "az": "CIA Triadası — Məxfilik, Bütövlük, Əlçatanlıq"
+      "en": "CIA Triad, Authenticity and Non-repudiation",
+      "az": "CIA Triadası, Authenticity və Non-repudiation"
     },
     "description": {
-      "en": "CIA triad, authenticity and non-repudiation explained with examples, exam focus, DAD, controls and data protection.",
-      "az": "CIA triadası, həqiqilik və sonradan inkar edilməmə nümunələr və imtahan qeydləri ilə; DAD, nəzarətlər və data qorunması."
+      "en": "Learn the five core information-security properties through clear definitions, one shared example and a short CEH exam quiz.",
+      "az": "İnformasiya təhlükəsizliyinin beş əsas xüsusiyyətini aydın təriflər, ortaq nümunə və qısa CEH imtahan testi ilə öyrənin."
     },
     "keywords": [
       "cia triad",
-      "dad triad",
       "confidentiality",
       "integrity",
       "availability",
       "authenticity",
       "non-repudiation",
-      "security controls",
-      "dlp",
-      "data encryption",
-      "data minimization",
       "security-basics",
       "beginner",
+      "ceh",
       "general-security",
       "cia-triad"
     ],
-    "status": "reference",
+    "status": "foundation",
     "lastReviewed": "2026-09-20",
     "sourcePaths": {
       "en": "general-security\\cia-triad.md",
@@ -1472,6 +1468,63 @@ const lessons = [
     "sourcePaths": {
       "en": "general-security\\attack-frameworks.md",
       "az": "general-security\\attack-frameworks.md"
+    }
+  },
+  {
+    "slug": "/general-security/data-loss-prevention",
+    "category": "general-security",
+    "title": {
+      "en": "Data Loss Prevention (DLP)",
+      "az": "Data Loss Prevention (DLP)"
+    },
+    "description": {
+      "en": "Learn how DLP finds sensitive data, monitors risky transfers and applies log, alert, block or quarantine actions.",
+      "az": "DLP-nin həssas məlumatı necə tapdığını, riskli ötürmələri izlədiyini və log, xəbərdarlıq, bloklama və karantin tədbirlərini öyrənin."
+    },
+    "keywords": [
+      "DLP",
+      "data loss prevention",
+      "endpoint DLP",
+      "network DLP",
+      "data-security",
+      "security-controls",
+      "general-security",
+      "data-loss-prevention"
+    ],
+    "status": "foundation",
+    "lastReviewed": "2026-09-20",
+    "sourcePaths": {
+      "en": "general-security\\data-loss-prevention.md",
+      "az": "general-security\\data-loss-prevention.md"
+    }
+  },
+  {
+    "slug": "/general-security/data-protection-basics",
+    "category": "general-security",
+    "title": {
+      "en": "Data States, Minimisation and De-identification",
+      "az": "Data Vəziyyətləri, Minimizasiya və Kimlikdən Ayrılma"
+    },
+    "description": {
+      "en": "Understand data at rest, in transit and in use, and reduce exposure with minimisation, masking and tokenisation.",
+      "az": "Data at rest, in transit və in use anlayışlarını, minimizasiya, masking və tokenisation ilə məlumatın təsirinin azaldılmasını öyrənin."
+    },
+    "keywords": [
+      "data at rest",
+      "data in transit",
+      "data in use",
+      "data minimisation",
+      "tokenisation",
+      "data-security",
+      "privacy",
+      "general-security",
+      "data-protection-basics"
+    ],
+    "status": "foundation",
+    "lastReviewed": "2026-09-20",
+    "sourcePaths": {
+      "en": "general-security\\data-protection-basics.md",
+      "az": "general-security\\data-protection-basics.md"
     }
   },
   {
