@@ -1,13 +1,14 @@
 ---
 id: cia-triad
-title: CIA Triad, Authenticity and Non-repudiation
-description: Learn the five core information-security properties through clear definitions, one shared example and a short CEH exam quiz.
+title: CIA and DAD Triads, Authenticity and Non-repudiation
+description: Learn the CIA and DAD triads, authenticity and non-repudiation through clear definitions, examples and a short CEH exam quiz.
 slug: /general-security/cia-triad
 sidebar_position: 3
 status: foundation
 last_reviewed: 2026-09-20
 keywords:
   - cia triad
+  - dad triad
   - confidentiality
   - integrity
   - availability
@@ -20,7 +21,7 @@ tags:
   - ceh
 ---
 
-# CIA Triad, Authenticity and Non-repudiation
+# CIA and DAD Triads, Authenticity and Non-repudiation
 
 Information security protects information and the systems that store, process and transmit it. **CIA** names three basic objectives: **Confidentiality, Integrity and Availability**. CEH v13 Module 01 discusses two additional properties, **Authenticity** and **Non-repudiation**. These five properties help you describe precisely *what* an incident harmed.
 
@@ -45,6 +46,18 @@ Integrity is lost when information is altered or corrupted without proper author
 Availability is lost when a service or its data cannot be used when needed. A DDoS attack, broken disk or power failure can each cause an outage. Backups support recovery, while redundancy and monitoring help keep a service usable. Having a backup is not enough unless restoration has been tested.
 
 **One event can affect more than one pillar.** Ransomware can alter or encrypt data and make it unavailable. If the attacker also copies the data, confidentiality is affected too. CIA classifies the result, not the attacker's motive.
+
+## DAD triad: what happens when CIA fails?
+
+**DAD** names three unwanted outcomes: **Disclosure, Alteration and Denial**. It is a memory aid for the opposite side of CIA, not another set of security goals.
+
+| CIA property to protect | DAD outcome | Simple example |
+|---|---|---|
+| **Confidentiality** | **Disclosure** — information reaches an unauthorised person. | Someone reads a private grade report. |
+| **Integrity** | **Alteration** — information is changed or corrupted without proper authorisation. | A grade changes from 60 to 90. |
+| **Availability** | **Denial** — an authorised user cannot use the information or service. | The grades portal is unreachable. |
+
+**Remember the direction:** CIA describes what defenders want to preserve; DAD describes the harmful result. An accident can also cause disclosure, alteration or denial. “Denial” here means loss of access; it is different from **non-repudiation**, which concerns evidence that an action occurred.
 
 ## Two additional properties in CEH
 
@@ -72,6 +85,7 @@ These questions examine different properties of the *same* document. A valid sig
 
 - **CIA = Confidentiality + Integrity + Availability.** Authenticity and non-repudiation are additional properties in the CEH source, not extra letters in CIA.
 - Unauthorised **reading** → confidentiality; unauthorised **change** → integrity; **outage** → availability.
+- **DAD = Disclosure + Alteration + Denial:** the corresponding harmful outcomes for C, I and A.
 - **Authenticity** asks whether the source is genuine; **authentication** is the process of checking it.
 - **Non-repudiation** concerns evidence of an action. It does not automatically prove that a message was read or received.
 
@@ -81,8 +95,9 @@ These questions examine different properties of the *same* document. A valid sig
 2. An import script accidentally changes a payment amount. Which property is affected?
 3. A signed document arrives, but its sender cannot prove delivery. Does the signature by itself prove receipt?
 4. What is the difference between authenticity and authentication?
+5. Which DAD term describes a service outage?
 
-**Answers:** 1. Confidentiality. 2. Integrity. 3. No. 4. Authenticity is a property; authentication is the checking process.
+**Answers:** 1. Confidentiality. 2. Integrity. 3. No. 4. Authenticity is a property; authentication is the checking process. 5. Denial.
 
 ## Related lessons and source
 

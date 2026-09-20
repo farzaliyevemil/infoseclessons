@@ -1,13 +1,14 @@
 ---
 id: cia-triad
-title: CIA Triadası, Authenticity və Non-repudiation
-description: İnformasiya təhlükəsizliyinin beş əsas xüsusiyyətini aydın təriflər, ortaq nümunə və qısa CEH imtahan testi ilə öyrənin.
+title: CIA və DAD Triadaları, Authenticity və Non-repudiation
+description: CIA və DAD triadalarını, həqiqiliyi və sonradan inkar edilməməni aydın təriflər, nümunələr və qısa CEH testi ilə öyrənin.
 slug: /general-security/cia-triad
 sidebar_position: 3
 status: foundation
 last_reviewed: 2026-09-20
 keywords:
   - cia triad
+  - dad triad
   - confidentiality
   - integrity
   - availability
@@ -20,7 +21,7 @@ tags:
   - ceh
 ---
 
-# CIA Triadası, Authenticity və Non-repudiation
+# CIA və DAD Triadaları, Authenticity və Non-repudiation
 
 İnformasiya təhlükəsizliyi məlumatı və onu saxlayan, emal edən, ötürən sistemləri qoruyur. **CIA** üç əsas məqsədin ingilis adlarının baş hərfləridir: **Confidentiality** (məxfilik), **Integrity** (bütövlük), **Availability** (əlçatanlıq). CEH v13 Module 01 bunlara **Authenticity** (həqiqilik) və **Non-repudiation** (sonradan inkar edilməmə) xüsusiyyətlərini də əlavə edir. Bu beş anlayış hadisənin *nəyə* zərər verdiyini dəqiq deməyə kömək edir.
 
@@ -45,6 +46,18 @@ Bütövlük məlumat lazımi icazə olmadan dəyişəndə və ya korlananda pozu
 Əlçatanlıq xidmət və ya məlumat lazım olan vaxt istifadə edilə bilməyəndə pozulur. DDoS hücumu, disk nasazlığı və elektrik kəsilməsi buna səbəb ola bilər. Backup bərpaya, ehtiyat sistem və monitorinq isə xidmətin davamlı işləməsinə kömək edir. Backup-un olması kifayət deyil; ondan bərpa prosesi də yoxlanmalıdır.
 
 **Bir hadisə bir neçə sütuna təsir edə bilər.** Ransomware məlumatı dəyişdirə və ya şifrələyərək əlçatmaz edə bilər. Hücumçu məlumatı kopyalayarsa, məxfilik də pozulur. CIA hücumçunun motivini deyil, nəticəni təsnif edir.
+
+## DAD triadası: CIA pozulanda nə baş verir?
+
+**DAD** üç arzuolunmaz nəticənin ingilis adlarının baş hərfləridir: **Disclosure** (açıqlanma), **Alteration** (dəyişmə) və **Denial** (əlçatanlığın itməsi). Bu, CIA-nın əks tərəfini yadda saxlamaq üçün sxemdir; yeni təhlükəsizlik məqsədləri siyahısı deyil.
+
+| Qorunan CIA xüsusiyyəti | DAD nəticəsi | Sadə nümunə |
+|---|---|---|
+| **Confidentiality** | **Disclosure** — məlumat icazəsiz şəxsə çatır. | Kimsə gizli qiymət hesabatını oxuyur. |
+| **Integrity** | **Alteration** — məlumat icazəsiz dəyişir və ya korlanır. | Qiymət 60-dan 90-a dəyişir. |
+| **Availability** | **Denial** — səlahiyyətli şəxs xidmətdən istifadə edə bilmir. | Qiymət portalı açılmır. |
+
+**İstiqaməti yadda saxla:** CIA müdafiəçinin qorumaq istədiyini, DAD isə zərərli nəticəni göstərir. Təsadüfi xəta da disclosure, alteration və ya denial yarada bilər. Buradakı **Denial** girişin itirilməsidir; əmələ dair sübutla bağlı olan **Non-repudiation** ilə qarışdırılmamalıdır.
 
 ## CEH-də əlavə iki xüsusiyyət
 
@@ -72,6 +85,7 @@ Bu suallar *eyni* sənədin müxtəlif xüsusiyyətlərinə baxır. Etibarlı im
 
 - **CIA = Confidentiality + Integrity + Availability.** Authenticity və Non-repudiation CEH mənbəyində əlavə xüsusiyyətlərdir; CIA akroniminin hərfləri deyil.
 - İcazəsiz **oxuma** → Confidentiality; icazəsiz **dəyişmə** → Integrity; xidmətin **işləməməsi** → Availability.
+- **DAD = Disclosure + Alteration + Denial:** C, I və A-nın uyğun pozulma nəticələri.
 - **Authenticity** mənbənin həqiqiliyini soruşur; **Authentication** onun yoxlanması prosesidir.
 - **Non-repudiation** əmələ dair sübutdur. Mesajın oxunduğunu və ya qəbul edildiyini avtomatik sübut etmir.
 
@@ -81,8 +95,9 @@ Bu suallar *eyni* sənədin müxtəlif xüsusiyyətlərinə baxır. Etibarlı im
 2. İdxal skripti ödəniş məbləğini təsadüfən dəyişir. Hansı sütun pozulub?
 3. İmzalı sənəd göndərilib, amma çatdırılma sübutu yoxdur. İmza təkbaşına qəbulu sübut edirmi?
 4. Authenticity ilə Authentication arasındakı fərq nədir?
+5. Xidmətin işləməməsi DAD-də hansı terminlə adlanır?
 
-**Cavablar:** 1. Confidentiality. 2. Integrity. 3. Xeyr. 4. Authenticity xüsusiyyətdir; Authentication yoxlama prosesidir.
+**Cavablar:** 1. Confidentiality. 2. Integrity. 3. Xeyr. 4. Authenticity xüsusiyyətdir; Authentication yoxlama prosesidir. 5. Denial.
 
 ## Ayrı dərslər və mənbə
 

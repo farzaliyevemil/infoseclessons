@@ -1231,15 +1231,16 @@ const lessons = [
     "slug": "/general-security/cia-triad",
     "category": "general-security",
     "title": {
-      "en": "CIA Triad, Authenticity and Non-repudiation",
-      "az": "CIA Triadası, Authenticity və Non-repudiation"
+      "en": "CIA and DAD Triads, Authenticity and Non-repudiation",
+      "az": "CIA və DAD Triadaları, Authenticity və Non-repudiation"
     },
     "description": {
-      "en": "Learn the five core information-security properties through clear definitions, one shared example and a short CEH exam quiz.",
-      "az": "İnformasiya təhlükəsizliyinin beş əsas xüsusiyyətini aydın təriflər, ortaq nümunə və qısa CEH imtahan testi ilə öyrənin."
+      "en": "Learn the CIA and DAD triads, authenticity and non-repudiation through clear definitions, examples and a short CEH exam quiz.",
+      "az": "CIA və DAD triadalarını, həqiqiliyi və sonradan inkar edilməməni aydın təriflər, nümunələr və qısa CEH testi ilə öyrənin."
     },
     "keywords": [
       "cia triad",
+      "dad triad",
       "confidentiality",
       "integrity",
       "availability",
