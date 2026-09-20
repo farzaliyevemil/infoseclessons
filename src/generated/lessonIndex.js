@@ -363,6 +363,603 @@ const lessons = [
     }
   },
   {
+    "slug": "/certifications/ethical-hacking/m01-introduction-to-ethical-hacking",
+    "category": "certifications",
+    "title": {
+      "en": "CEH M01 — Introduction to Ethical Hacking",
+      "az": "CEH M01 — Etik Hakerliyə Giriş"
+    },
+    "description": {
+      "en": "A concise, exam-focused introduction to ethical hacking, legal boundaries, threat terminology, testing types, methodology, and safe practice.",
+      "az": "Etik hakerlik, hüquqi sərhədlər, təhdid terminləri, test növləri, metodologiya və təhlükəsiz praktika haqqında qısa, imtahan yönümlü giriş."
+    },
+    "keywords": [
+      "CEH v13",
+      "ethical hacking",
+      "penetration testing",
+      "threat",
+      "vulnerability",
+      "exploit",
+      "risk",
+      "TTP",
+      "rules of engagement",
+      "information warfare",
+      "ceh",
+      "ethical-hacking",
+      "foundation",
+      "certifications",
+      "m01-introduction-to-ethical-hacking",
+      "etik hakerlik",
+      "təhdid",
+      "zəiflik"
+    ],
+    "status": "foundation",
+    "lastReviewed": "2026-09-20",
+    "sourcePaths": {
+      "en": "certifications\\ethical-hacking\\m01-introduction-to-ethical-hacking.md",
+      "az": "certifications\\ethical-hacking\\m01-introduction-to-ethical-hacking.md"
+    }
+  },
+  {
+    "slug": "/certifications/ethical-hacking/m02-footprinting-and-reconnaissance",
+    "category": "certifications",
+    "title": {
+      "en": "CEH M02 â€” Footprinting and Reconnaissance",
+      "az": "CEH M02 â€” Footprinting vÉ™ Reconnaissance"
+    },
+    "description": {
+      "en": "CEH v13 roadmap for footprinting and reconnaissance, linked to the site's OSINT and networking lessons.",
+      "az": "Footprinting vÉ™ reconnaissance Ã¼Ã§Ã¼n CEH v13 roadmap-i vÉ™ mÃ¶vcud OSINT/networking dÉ™rslÉ™rinÉ™ keÃ§idlÉ™r."
+    },
+    "keywords": [
+      "CEH v13",
+      "footprinting",
+      "reconnaissance",
+      "OSINT",
+      "ceh",
+      "ethical-hacking",
+      "roadmap",
+      "certifications",
+      "m02-footprinting-and-reconnaissance"
+    ],
+    "status": "roadmap",
+    "lastReviewed": "2026-09-20",
+    "sourcePaths": {
+      "en": "certifications\\ethical-hacking\\m02-footprinting-and-reconnaissance.md",
+      "az": "certifications\\ethical-hacking\\m02-footprinting-and-reconnaissance.md"
+    }
+  },
+  {
+    "slug": "/certifications/ethical-hacking/m03-scanning-networks",
+    "category": "certifications",
+    "title": {
+      "en": "CEH M03 â€” Scanning Networks",
+      "az": "CEH M03 â€” ÅžÉ™bÉ™kÉ™lÉ™rin Scanning-i"
+    },
+    "description": {
+      "en": "CEH v13 roadmap for authorised network scanning and scan interpretation.",
+      "az": "Ä°cazÉ™li network scanning vÉ™ nÉ™ticÉ™lÉ™rin ÅŸÉ™rhi Ã¼Ã§Ã¼n CEH v13 roadmap-i."
+    },
+    "keywords": [
+      "CEH v13",
+      "network scanning",
+      "host discovery",
+      "ports",
+      "ceh",
+      "ethical-hacking",
+      "roadmap",
+      "certifications",
+      "m03-scanning-networks"
+    ],
+    "status": "roadmap",
+    "lastReviewed": "2026-09-20",
+    "sourcePaths": {
+      "en": "certifications\\ethical-hacking\\m03-scanning-networks.md",
+      "az": "certifications\\ethical-hacking\\m03-scanning-networks.md"
+    }
+  },
+  {
+    "slug": "/certifications/ethical-hacking/m04-enumeration",
+    "category": "certifications",
+    "title": {
+      "en": "CEH M04 â€” Enumeration",
+      "az": "CEH M04 â€” Enumeration"
+    },
+    "description": {
+      "en": "CEH v13 roadmap for authorised service and directory enumeration.",
+      "az": "Ä°cazÉ™li service vÉ™ directory enumeration Ã¼Ã§Ã¼n CEH v13 roadmap-i."
+    },
+    "keywords": [
+      "CEH v13",
+      "enumeration",
+      "SMB",
+      "LDAP",
+      "DNS",
+      "SNMP",
+      "ceh",
+      "ethical-hacking",
+      "roadmap",
+      "certifications",
+      "m04-enumeration"
+    ],
+    "status": "roadmap",
+    "lastReviewed": "2026-09-20",
+    "sourcePaths": {
+      "en": "certifications\\ethical-hacking\\m04-enumeration.md",
+      "az": "certifications\\ethical-hacking\\m04-enumeration.md"
+    }
+  },
+  {
+    "slug": "/certifications/ethical-hacking/m05-vulnerability-analysis",
+    "category": "certifications",
+    "title": {
+      "en": "CEH M05 â€” Vulnerability Analysis",
+      "az": "CEH M05 â€” Vulnerability Analysis"
+    },
+    "description": {
+      "en": "CEH v13 roadmap for vulnerability discovery, validation, prioritisation, and reporting.",
+      "az": "ZÉ™ifliklÉ™rin tapÄ±lmasÄ±, yoxlanmasÄ±, prioritetlÉ™ÅŸdirilmÉ™si vÉ™ hesabatÄ± Ã¼Ã§Ã¼n CEH v13 roadmap-i."
+    },
+    "keywords": [
+      "CEH v13",
+      "vulnerability analysis",
+      "CVE",
+      "risk",
+      "ceh",
+      "ethical-hacking",
+      "roadmap",
+      "certifications",
+      "m05-vulnerability-analysis"
+    ],
+    "status": "roadmap",
+    "lastReviewed": "2026-09-20",
+    "sourcePaths": {
+      "en": "certifications\\ethical-hacking\\m05-vulnerability-analysis.md",
+      "az": "certifications\\ethical-hacking\\m05-vulnerability-analysis.md"
+    }
+  },
+  {
+    "slug": "/certifications/ethical-hacking/m06-system-hacking",
+    "category": "certifications",
+    "title": {
+      "en": "CEH M06 â€” System Hacking",
+      "az": "CEH M06 â€” System Hacking"
+    },
+    "description": {
+      "en": "CEH v13 roadmap for authorised system compromise concepts, access, privilege, credentials, and recovery.",
+      "az": "Authorised system access, privilege, credential vÉ™ recovery anlayÄ±ÅŸlarÄ± Ã¼Ã§Ã¼n CEH v13 roadmap-i."
+    },
+    "keywords": [
+      "CEH v13",
+      "system hacking",
+      "privilege escalation",
+      "credentials",
+      "ceh",
+      "ethical-hacking",
+      "roadmap",
+      "certifications",
+      "m06-system-hacking"
+    ],
+    "status": "roadmap",
+    "lastReviewed": "2026-09-20",
+    "sourcePaths": {
+      "en": "certifications\\ethical-hacking\\m06-system-hacking.md",
+      "az": "certifications\\ethical-hacking\\m06-system-hacking.md"
+    }
+  },
+  {
+    "slug": "/certifications/ethical-hacking/m07-malware-threats",
+    "category": "certifications",
+    "title": {
+      "en": "CEH M07 â€” Malware Threats",
+      "az": "CEH M07 â€” Malware Threats"
+    },
+    "description": {
+      "en": "CEH v13 roadmap for malware categories, delivery, indicators, and defensive analysis.",
+      "az": "Malware kateqoriyalarÄ±, delivery, indicator vÉ™ mÃ¼dafiÉ™ analizi Ã¼Ã§Ã¼n CEH v13 roadmap-i."
+    },
+    "keywords": [
+      "CEH v13",
+      "malware",
+      "ransomware",
+      "trojan",
+      "worm",
+      "ceh",
+      "ethical-hacking",
+      "roadmap",
+      "certifications",
+      "m07-malware-threats"
+    ],
+    "status": "roadmap",
+    "lastReviewed": "2026-09-20",
+    "sourcePaths": {
+      "en": "certifications\\ethical-hacking\\m07-malware-threats.md",
+      "az": "certifications\\ethical-hacking\\m07-malware-threats.md"
+    }
+  },
+  {
+    "slug": "/certifications/ethical-hacking/m08-sniffing",
+    "category": "certifications",
+    "title": {
+      "en": "CEH M08 â€” Sniffing",
+      "az": "CEH M08 â€” Sniffing"
+    },
+    "description": {
+      "en": "CEH v13 roadmap for authorised traffic capture, protocol visibility, and sniffing defenses.",
+      "az": "Authorised traffic capture, protocol gÃ¶rÃ¼nÃ¼rlÃ¼ÄŸÃ¼ vÉ™ sniffing mÃ¼dafiÉ™si Ã¼Ã§Ã¼n CEH v13 roadmap-i."
+    },
+    "keywords": [
+      "CEH v13",
+      "sniffing",
+      "packet capture",
+      "traffic analysis",
+      "ceh",
+      "ethical-hacking",
+      "roadmap",
+      "certifications",
+      "m08-sniffing"
+    ],
+    "status": "roadmap",
+    "lastReviewed": "2026-09-20",
+    "sourcePaths": {
+      "en": "certifications\\ethical-hacking\\m08-sniffing.md",
+      "az": "certifications\\ethical-hacking\\m08-sniffing.md"
+    }
+  },
+  {
+    "slug": "/certifications/ethical-hacking/m09-social-engineering",
+    "category": "certifications",
+    "title": {
+      "en": "CEH M09 â€” Social Engineering",
+      "az": "CEH M09 â€” Social Engineering"
+    },
+    "description": {
+      "en": "CEH v13 roadmap for social-engineering techniques, human risk, and authorised awareness testing.",
+      "az": "Social-engineering Ã¼sullarÄ±, human risk vÉ™ authorised awareness testing Ã¼Ã§Ã¼n CEH v13 roadmap-i."
+    },
+    "keywords": [
+      "CEH v13",
+      "social engineering",
+      "phishing",
+      "vishing",
+      "ceh",
+      "ethical-hacking",
+      "roadmap",
+      "certifications",
+      "m09-social-engineering"
+    ],
+    "status": "roadmap",
+    "lastReviewed": "2026-09-20",
+    "sourcePaths": {
+      "en": "certifications\\ethical-hacking\\m09-social-engineering.md",
+      "az": "certifications\\ethical-hacking\\m09-social-engineering.md"
+    }
+  },
+  {
+    "slug": "/certifications/ethical-hacking/m10-denial-of-service",
+    "category": "certifications",
+    "title": {
+      "en": "CEH M10 â€” Denial of Service",
+      "az": "CEH M10 â€” Denial of Service"
+    },
+    "description": {
+      "en": "CEH v13 roadmap for denial-of-service concepts, availability impact, and safe resilience testing.",
+      "az": "DoS anlayÄ±ÅŸlarÄ±, availability tÉ™siri vÉ™ tÉ™hlÃ¼kÉ™siz resilience testing Ã¼Ã§Ã¼n CEH v13 roadmap-i."
+    },
+    "keywords": [
+      "CEH v13",
+      "denial of service",
+      "DDoS",
+      "availability",
+      "ceh",
+      "ethical-hacking",
+      "roadmap",
+      "certifications",
+      "m10-denial-of-service"
+    ],
+    "status": "roadmap",
+    "lastReviewed": "2026-09-20",
+    "sourcePaths": {
+      "en": "certifications\\ethical-hacking\\m10-denial-of-service.md",
+      "az": "certifications\\ethical-hacking\\m10-denial-of-service.md"
+    }
+  },
+  {
+    "slug": "/certifications/ethical-hacking/m11-session-hijacking",
+    "category": "certifications",
+    "title": {
+      "en": "CEH M11 â€” Session Hijacking",
+      "az": "CEH M11 â€” Session Hijacking"
+    },
+    "description": {
+      "en": "CEH v13 roadmap for session security, tokens, transport protection, and defensive validation.",
+      "az": "Session security, token, transport protection vÉ™ defensive validation Ã¼Ã§Ã¼n CEH v13 roadmap-i."
+    },
+    "keywords": [
+      "CEH v13",
+      "session hijacking",
+      "cookies",
+      "authentication",
+      "ceh",
+      "ethical-hacking",
+      "roadmap",
+      "certifications",
+      "m11-session-hijacking"
+    ],
+    "status": "roadmap",
+    "lastReviewed": "2026-09-20",
+    "sourcePaths": {
+      "en": "certifications\\ethical-hacking\\m11-session-hijacking.md",
+      "az": "certifications\\ethical-hacking\\m11-session-hijacking.md"
+    }
+  },
+  {
+    "slug": "/certifications/ethical-hacking/m12-ids-firewalls-honeypots",
+    "category": "certifications",
+    "title": {
+      "en": "CEH M12 â€” Evading IDS, Firewalls, and Honeypots",
+      "az": "CEH M12 â€” IDS, Firewall vÉ™ Honeypot-lardan yayÄ±nma"
+    },
+    "description": {
+      "en": "CEH v13 roadmap for defensive monitoring controls and authorised testing of detection boundaries.",
+      "az": "Detection controls vÉ™ authorised coverage testing Ã¼Ã§Ã¼n CEH v13 roadmap-i."
+    },
+    "keywords": [
+      "CEH v13",
+      "IDS",
+      "firewall",
+      "honeypot",
+      "evasion",
+      "ceh",
+      "ethical-hacking",
+      "roadmap",
+      "certifications",
+      "m12-ids-firewalls-honeypots"
+    ],
+    "status": "roadmap",
+    "lastReviewed": "2026-09-20",
+    "sourcePaths": {
+      "en": "certifications\\ethical-hacking\\m12-ids-firewalls-honeypots.md",
+      "az": "certifications\\ethical-hacking\\m12-ids-firewalls-honeypots.md"
+    }
+  },
+  {
+    "slug": "/certifications/ethical-hacking/m13-web-servers",
+    "category": "certifications",
+    "title": {
+      "en": "CEH M13 â€” Hacking Web Servers",
+      "az": "CEH M13 â€” Web Server-lÉ™r"
+    },
+    "description": {
+      "en": "CEH v13 roadmap for web-server attack surface, configuration weaknesses, and hardening.",
+      "az": "Web-server attack surface, konfiqurasiya zÉ™ifliklÉ™ri vÉ™ hardening Ã¼Ã§Ã¼n CEH v13 roadmap-i."
+    },
+    "keywords": [
+      "CEH v13",
+      "web servers",
+      "IIS",
+      "hardening",
+      "ceh",
+      "ethical-hacking",
+      "roadmap",
+      "certifications",
+      "m13-web-servers"
+    ],
+    "status": "roadmap",
+    "lastReviewed": "2026-09-20",
+    "sourcePaths": {
+      "en": "certifications\\ethical-hacking\\m13-web-servers.md",
+      "az": "certifications\\ethical-hacking\\m13-web-servers.md"
+    }
+  },
+  {
+    "slug": "/certifications/ethical-hacking/m14-web-applications",
+    "category": "certifications",
+    "title": {
+      "en": "CEH M14 â€” Hacking Web Applications",
+      "az": "CEH M14 â€” Web Applications"
+    },
+    "description": {
+      "en": "CEH v13 roadmap for web-application attack surfaces, testing concepts, and secure development.",
+      "az": "Web-application attack surface, testing anlayÄ±ÅŸlarÄ± vÉ™ secure development Ã¼Ã§Ã¼n CEH v13 roadmap-i."
+    },
+    "keywords": [
+      "CEH v13",
+      "web applications",
+      "OWASP",
+      "APIs",
+      "ceh",
+      "ethical-hacking",
+      "roadmap",
+      "certifications",
+      "m14-web-applications"
+    ],
+    "status": "roadmap",
+    "lastReviewed": "2026-09-20",
+    "sourcePaths": {
+      "en": "certifications\\ethical-hacking\\m14-web-applications.md",
+      "az": "certifications\\ethical-hacking\\m14-web-applications.md"
+    }
+  },
+  {
+    "slug": "/certifications/ethical-hacking/m15-sql-injection",
+    "category": "certifications",
+    "title": {
+      "en": "CEH M15 â€” SQL Injection",
+      "az": "CEH M15 â€” SQL Injection"
+    },
+    "description": {
+      "en": "CEH v13 roadmap for SQL injection concepts, prevention, detection, and safe validation.",
+      "az": "SQL injection anlayÄ±ÅŸÄ±, qarÅŸÄ±sÄ±nÄ±n alÄ±nmasÄ±, detection vÉ™ tÉ™hlÃ¼kÉ™siz validation Ã¼Ã§Ã¼n CEH v13 roadmap-i."
+    },
+    "keywords": [
+      "CEH v13",
+      "SQL injection",
+      "SQLi",
+      "database security",
+      "ceh",
+      "ethical-hacking",
+      "roadmap",
+      "certifications",
+      "m15-sql-injection"
+    ],
+    "status": "roadmap",
+    "lastReviewed": "2026-09-20",
+    "sourcePaths": {
+      "en": "certifications\\ethical-hacking\\m15-sql-injection.md",
+      "az": "certifications\\ethical-hacking\\m15-sql-injection.md"
+    }
+  },
+  {
+    "slug": "/certifications/ethical-hacking/m16-wireless-networks",
+    "category": "certifications",
+    "title": {
+      "en": "CEH M16 â€” Hacking Wireless Networks",
+      "az": "CEH M16 â€” Wireless Networks"
+    },
+    "description": {
+      "en": "CEH v13 roadmap for wireless security, authentication, encryption, and authorised assessment.",
+      "az": "Wireless security, authentication, encryption vÉ™ authorised assessment Ã¼Ã§Ã¼n CEH v13 roadmap-i."
+    },
+    "keywords": [
+      "CEH v13",
+      "wireless",
+      "Wi-Fi",
+      "WPA",
+      "wireless security",
+      "ceh",
+      "ethical-hacking",
+      "roadmap",
+      "certifications",
+      "m16-wireless-networks"
+    ],
+    "status": "roadmap",
+    "lastReviewed": "2026-09-20",
+    "sourcePaths": {
+      "en": "certifications\\ethical-hacking\\m16-wireless-networks.md",
+      "az": "certifications\\ethical-hacking\\m16-wireless-networks.md"
+    }
+  },
+  {
+    "slug": "/certifications/ethical-hacking/m17-mobile-platforms",
+    "category": "certifications",
+    "title": {
+      "en": "CEH M17 â€” Hacking Mobile Platforms",
+      "az": "CEH M17 â€” Mobile Platforms"
+    },
+    "description": {
+      "en": "CEH v13 roadmap for mobile-platform attack surfaces, application security, and device protection.",
+      "az": "Mobile platform attack surface, application security vÉ™ device protection Ã¼Ã§Ã¼n CEH v13 roadmap-i."
+    },
+    "keywords": [
+      "CEH v13",
+      "mobile security",
+      "Android",
+      "iOS",
+      "ceh",
+      "ethical-hacking",
+      "roadmap",
+      "certifications",
+      "m17-mobile-platforms"
+    ],
+    "status": "roadmap",
+    "lastReviewed": "2026-09-20",
+    "sourcePaths": {
+      "en": "certifications\\ethical-hacking\\m17-mobile-platforms.md",
+      "az": "certifications\\ethical-hacking\\m17-mobile-platforms.md"
+    }
+  },
+  {
+    "slug": "/certifications/ethical-hacking/m18-iot-and-ot",
+    "category": "certifications",
+    "title": {
+      "en": "CEH M18 â€” IoT and OT Hacking",
+      "az": "CEH M18 â€” IoT vÉ™ OT Hacking"
+    },
+    "description": {
+      "en": "CEH v13 roadmap for IoT and operational-technology risks, segmentation, and safety-aware testing.",
+      "az": "IoT vÉ™ OT risklÉ™ri, segmentation vÉ™ safety-aware testing Ã¼Ã§Ã¼n CEH v13 roadmap-i."
+    },
+    "keywords": [
+      "CEH v13",
+      "IoT",
+      "OT",
+      "ICS",
+      "embedded security",
+      "ceh",
+      "ethical-hacking",
+      "roadmap",
+      "certifications",
+      "m18-iot-and-ot"
+    ],
+    "status": "roadmap",
+    "lastReviewed": "2026-09-20",
+    "sourcePaths": {
+      "en": "certifications\\ethical-hacking\\m18-iot-and-ot.md",
+      "az": "certifications\\ethical-hacking\\m18-iot-and-ot.md"
+    }
+  },
+  {
+    "slug": "/certifications/ethical-hacking/m19-cloud-computing",
+    "category": "certifications",
+    "title": {
+      "en": "CEH M19 â€” Cloud Computing",
+      "az": "CEH M19 â€” Cloud Computing"
+    },
+    "description": {
+      "en": "CEH v13 roadmap for cloud attack surfaces, shared responsibility, identity, storage, and configuration review.",
+      "az": "Cloud attack surface, shared responsibility, identity, storage vÉ™ configuration review Ã¼Ã§Ã¼n CEH v13 roadmap-i."
+    },
+    "keywords": [
+      "CEH v13",
+      "cloud security",
+      "AWS",
+      "Azure",
+      "GCP",
+      "ceh",
+      "ethical-hacking",
+      "roadmap",
+      "certifications",
+      "m19-cloud-computing"
+    ],
+    "status": "roadmap",
+    "lastReviewed": "2026-09-20",
+    "sourcePaths": {
+      "en": "certifications\\ethical-hacking\\m19-cloud-computing.md",
+      "az": "certifications\\ethical-hacking\\m19-cloud-computing.md"
+    }
+  },
+  {
+    "slug": "/certifications/ethical-hacking/m20-cryptography",
+    "category": "certifications",
+    "title": {
+      "en": "CEH M20 â€” Cryptography",
+      "az": "CEH M20 â€” Cryptography"
+    },
+    "description": {
+      "en": "CEH v13 roadmap for encryption, hashing, signatures, PKI, key management, and cryptographic weaknesses.",
+      "az": "Encryption, hashing, signature, PKI, key management vÉ™ cryptographic weakness Ã¼Ã§Ã¼n CEH v13 roadmap-i."
+    },
+    "keywords": [
+      "CEH v13",
+      "cryptography",
+      "encryption",
+      "hashing",
+      "PKI",
+      "ceh",
+      "ethical-hacking",
+      "roadmap",
+      "certifications",
+      "m20-cryptography"
+    ],
+    "status": "roadmap",
+    "lastReviewed": "2026-09-20",
+    "sourcePaths": {
+      "en": "certifications\\ethical-hacking\\m20-cryptography.md",
+      "az": "certifications\\ethical-hacking\\m20-cryptography.md"
+    }
+  },
+  {
     "slug": "/certifications",
     "category": "certifications",
     "title": {
@@ -3222,44 +3819,6 @@ const lessons = [
     "sourcePaths": {
       "en": "red-teaming\\attack-indicators.md",
       "az": "red-teaming\\attack-indicators.md"
-    }
-  },
-  {
-    "slug": "/red-teaming/ceh-m01-introduction-to-ethical-hacking",
-    "category": "red-teaming",
-    "title": {
-      "en": "CEH M01 — Introduction to Ethical Hacking",
-      "az": "CEH M01 — Etik Hakerliyə Giriş"
-    },
-    "description": {
-      "en": "A concise, exam-focused introduction to ethical hacking, legal boundaries, threat terminology, testing types, methodology, and safe practice.",
-      "az": "Etik hakerlik, hüquqi sərhədlər, təhdid terminləri, test növləri, metodologiya və təhlükəsiz praktika haqqında qısa, imtahan yönümlü giriş."
-    },
-    "keywords": [
-      "CEH v13",
-      "ethical hacking",
-      "penetration testing",
-      "threat",
-      "vulnerability",
-      "exploit",
-      "risk",
-      "TTP",
-      "rules of engagement",
-      "information warfare",
-      "ceh",
-      "ethical-hacking",
-      "foundation",
-      "red-teaming",
-      "ceh-m01-introduction-to-ethical-hacking",
-      "etik hakerlik",
-      "təhdid",
-      "zəiflik"
-    ],
-    "status": "foundation",
-    "lastReviewed": "2026-09-20",
-    "sourcePaths": {
-      "en": "red-teaming\\ceh-m01-introduction-to-ethical-hacking.md",
-      "az": "red-teaming\\ceh-m01-introduction-to-ethical-hacking.md"
     }
   },
   {

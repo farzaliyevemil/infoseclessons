@@ -14,6 +14,11 @@ last_reviewed: 2026-03-23
 Use this section to compare vendor paths before spending time and money on exams.
 
 <div className="landing-grid">
+  <a className="landing-card" href="/infoseclessons/certifications/ethical-hacking/m01-introduction-to-ethical-hacking">
+    <span className="landing-card__eyebrow">Ethical Hacking</span>
+    <strong>CEH v13</strong>
+    <p>Follow the 20-module ethical-hacking roadmap, starting with authorised testing and security foundations.</p>
+  </a>
   <a className="landing-card" href="/infoseclessons/certifications/comptia-certifications">
     <span className="landing-card__eyebrow">Vendor Path</span>
     <strong>CompTIA</strong>

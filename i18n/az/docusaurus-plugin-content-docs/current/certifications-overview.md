@@ -14,6 +14,11 @@ last_reviewed: 2026-03-23
 Bu bölmədən imtahanlara vaxt və pul xərcləməzdən əvvəl vendor yollarını müqayisə etmək üçün istifadə edin.
 
 <div className="landing-grid">
+  <a className="landing-card" href="/infoseclessons/az/certifications/ethical-hacking/m01-introduction-to-ethical-hacking">
+    <span className="landing-card__eyebrow">Ethical Hacking</span>
+    <strong>CEH v13</strong>
+    <p>İcazəli test və security foundations-dan başlayaraq 20 modullu ethical-hacking roadmap-i izləyin.</p>
+  </a>
   <a className="landing-card" href="/infoseclessons/az/certifications/comptia-certifications">
     <span className="landing-card__eyebrow">Vendor Yolu</span>
     <strong>CompTIA</strong>
