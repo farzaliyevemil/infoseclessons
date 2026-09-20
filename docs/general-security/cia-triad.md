@@ -1,17 +1,19 @@
 ---
 id: cia-triad
 title: CIA Triad — Confidentiality, Integrity, Availability
-description: Foundational infosec model explained with DAD, security control categories and types, data states, encryption, DLP, and hands-on examples.
+description: CIA triad, authenticity and non-repudiation explained with examples, exam focus, DAD, controls and data protection.
 slug: /general-security/cia-triad
 sidebar_position: 3
 status: reference
-last_reviewed: 2026-04-23
+last_reviewed: 2026-09-20
 keywords:
   - cia triad
   - dad triad
   - confidentiality
   - integrity
   - availability
+  - authenticity
+  - non-repudiation
   - security controls
   - dlp
   - data encryption
@@ -42,9 +44,22 @@ Two things worth underlining right away.
 1. **A violation does not require an attacker.** Confidentiality can be lost to a misconfigured S3 bucket. Integrity can be lost to a bad USB cable flipping bits. Availability can be lost to a power cut. CIA classifies the *outcome*, not the motive.
 2. **The three can be in tension.** Locking a file behind strong encryption protects confidentiality; losing the key destroys availability. Asking everyone to MFA through a hardware token raises confidentiality and integrity; it lowers availability for the user who left the token at home. Security is this three-way trade-off being negotiated explicitly.
 
-### A quick note on non-repudiation
+## Authenticity and non-repudiation in CEH
 
-Some frameworks extend the triad to a quartet: CIA + **non-repudiation**. Non-repudiation means a user cannot plausibly claim later that they did not perform an action. It is built from three pieces working together: strong **authentication** (the user was reliably identified), **integrity** of the log record (it was not edited after the fact), and a **cryptographic binding** (a digital signature using a private key only the user controlled). When an auditor asks "how do you know it was Elnur who approved this transfer?", non-repudiation is the answer, and it leans on all three CIA pillars to work. You will see it called out separately in PKI, digital-signature and audit-logging contexts; for everything else, CIA is enough.
+CEH v13 Module 01 presents **five information-security elements**: confidentiality, integrity, availability, **authenticity**, and **non-repudiation**. The first three form the CIA triad; the last two answer different questions. They should not be memorised as extra letters in “CIA”.
+
+| Property | Question it answers | Example |
+|---|---|---|
+| **Authenticity** | Is this person, message or document genuinely from the claimed source? | A student checks that an electronic transcript was issued by the university. |
+| **Non-repudiation** | Is there reliable evidence linking an actor to an action they might later deny? | A university officer signs the transcript with an individual digital-signing key and the signature is retained. |
+
+**Authenticity is a property; authentication is a verification process.** A login challenge authenticates a user, while a valid certificate and properly verified signature can help establish the authenticity of a document. A password alone does not make every later action genuine.
+
+**Non-repudiation requires trustworthy evidence.** A digital signature can bind a signer to the signed data and reveal later changes. The assurance depends on reliable identity proofing, control of the signing key and trustworthy records. A shared key or editable log weakens the claim. A sender's signature also does **not** by itself prove that a recipient received or read the message; delivery or receipt needs separate evidence. The [AAA and Non-Repudiation](./aaa-non-repudiation.md) lesson covers the supporting controls in depth.
+
+**Exam focus:** unauthorised *reading* points to confidentiality; unauthorised *alteration* to integrity; an unavailable service to availability; a forged *source* to authenticity; and denial of a provable *action* to non-repudiation. One incident can affect several properties at once.
+
+**Source for the five-element CEH framing:** EC-Council, *Certified Ethical Hacker v13, Module 01: Introduction to Ethical Hacking*, “Elements of Information Security,” module pp. 5–6. The examples and explanations here are original teaching material.
 
 ## DAD triad — the attacker's mirror
 

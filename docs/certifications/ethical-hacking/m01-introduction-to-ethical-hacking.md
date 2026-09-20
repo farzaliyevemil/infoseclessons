@@ -16,7 +16,6 @@ keywords:
   - risk
   - TTP
   - rules of engagement
-  - information warfare
 difficulty: foundation
 
 tags:
@@ -86,6 +85,24 @@ These terms describe different parts of the same security problem:
 
 An exploit is not the same as a vulnerability: the vulnerability is the weakness; the exploit is how it is used. A threat is not automatically a risk until likelihood and impact are considered.
 
+### Motive, objective, method and weakness
+
+CEH summarises an attack as **motive (goal) + method (TTP) + vulnerability**. This is a study aid, not a mathematical risk formula. The **motive** explains why the actor acts (for example, profit); the **objective** is the concrete result sought (steal a customer file); the **method** is the behaviour used (a phishing procedure); and the **vulnerability** is the weakness that allows it (for example, no MFA on the targeted account). A method may also abuse stolen credentials or human trust rather than a software bug. For the wider vocabulary, see [Threat Vectors and Attack Surfaces](../../red-teaming/threat-vectors-and-attack-surfaces.md).
+
+### CEH classification of attacks
+
+Module 01 groups attacks into five broad classes. The classes can overlap: an insider could perform an active attack.
+
+| Class | Distinguishing feature | Example |
+|---|---|---|
+| **Passive** | Observes or intercepts without changing the target data | Eavesdropping on unencrypted traffic |
+| **Active** | Changes data, interacts with or disrupts a system | Modifying a record or causing a service outage |
+| **Close-in** | Requires physical proximity to the target | Shoulder surfing near a workstation |
+| **Insider** | Misuses legitimate organisational access | Employee copies a restricted file |
+| **Distribution** | Tampers with hardware or software before installation | Altered software package in a supply chain |
+
+**Exam focus:** passive versus active describes *what happens to the target*; close-in describes *proximity*; insider describes *the actor's access*; distribution describes *where tampering occurs*.
+
 ## Threat-actor taxonomy
 
 Labels are useful shortcuts, not proof of attribution:
@@ -148,13 +165,27 @@ flowchart LR
 
 The phases can loop. A new finding can require more reconnaissance, and a stop condition can end testing before exploitation. In CEH questions, match the activity to its phase rather than assuming every engagement is strictly linear.
 
+### CEH ethical hacking framework: five phases
+
+The source module also teaches a five-phase attacker-like model. Keep it separate from the authorised engagement workflow above:
+
+| Phase | Main question |
+|---|---|
+| **1. Reconnaissance** | What can be learned about the target? |
+| **2. Vulnerability scanning** | Which systems and weaknesses may be exposed? |
+| **3. Gaining access** | Can a weakness be validated within the agreed scope? |
+| **4. Maintaining access** | Could an adversary retain a foothold? An ethical test validates this only if permitted. |
+| **5. Clearing tracks** | How might an adversary hide evidence? Ethical testers preserve evidence and report honestly. |
+
+For the [Cyber Kill Chain, MITRE ATT&CK and Diamond Model](../../general-security/attack-frameworks.md), see the separate lesson. Those models answer different questions and should not be treated as interchangeable phase lists.
+
 ### Frameworks and standards
 
 - **PTES** — a seven-phase penetration-testing execution model; useful for engagement flow.
 - **NIST SP 800-115** — technical security testing guidance with planning, discovery, attack, and reporting concepts.
 - **OWASP WSTG** — application-testing guidance; use it with the [OWASP Top 10](../../red-teaming/owasp-top-10.md).
 - **MITRE ATT&CK** — a knowledge base of adversary tactics and techniques, not a complete testing methodology.
-- **Cyber Kill Chain** — a high-level model of attack progression; it is not identical to PTES.
+- **Cyber Kill Chain** — a seven-stage model of attack progression; it is not identical to PTES.
 - **OSSTMM** — a measurement-oriented security-testing methodology.
 
 The detailed [Penetration Testing](../../red-teaming/penetration-testing.md) and [Threat Actors and Threat Intelligence](../../red-teaming/threat-actors-and-intel.md) lessons explain these frameworks further.
@@ -197,7 +228,6 @@ The [Threat Modeling](../../general-security/threat-modeling.md), [Threat Intell
 - PTES describes engagement execution; ATT&CK describes adversary behaviour.
 - CIA classifies security objectives, not attacker motivation.
 - Written authorisation, Rules of Engagement, and stop conditions are essential.
-- Information warfare concerns influence and information operations; cybercrime is primarily criminal activity for unlawful gain.
 - AI/ML can be used defensively or offensively, but it is not a replacement for authorisation, scope, or security fundamentals.
 - Compliance requirements can influence testing frequency and evidence, but compliance is not the same as security.
 

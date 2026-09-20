@@ -383,7 +383,6 @@ const lessons = [
       "risk",
       "TTP",
       "rules of engagement",
-      "information warfare",
       "ceh",
       "ethical-hacking",
       "foundation",
@@ -1236,8 +1235,8 @@ const lessons = [
       "az": "CIA Triadası — Məxfilik, Bütövlük, Əlçatanlıq"
     },
     "description": {
-      "en": "Foundational infosec model explained with DAD, security control categories and types, data states, encryption, DLP, and hands-on examples.",
-      "az": "İnfosek üçün təməl model — DAD, təhlükəsizlik nəzarəti kateqoriyaları və tipləri, data vəziyyətləri, şifrələmə, DLP və praktik misallar."
+      "en": "CIA triad, authenticity and non-repudiation explained with examples, exam focus, DAD, controls and data protection.",
+      "az": "CIA triadası, həqiqilik və sonradan inkar edilməmə nümunələr və imtahan qeydləri ilə; DAD, nəzarətlər və data qorunması."
     },
     "keywords": [
       "cia triad",
@@ -1245,6 +1244,8 @@ const lessons = [
       "confidentiality",
       "integrity",
       "availability",
+      "authenticity",
+      "non-repudiation",
       "security controls",
       "dlp",
       "data encryption",
@@ -1255,7 +1256,7 @@ const lessons = [
       "cia-triad"
     ],
     "status": "reference",
-    "lastReviewed": "2026-04-23",
+    "lastReviewed": "2026-09-20",
     "sourcePaths": {
       "en": "general-security\\cia-triad.md",
       "az": "general-security\\cia-triad.md"
@@ -1442,6 +1443,35 @@ const lessons = [
     "sourcePaths": {
       "en": "general-security\\cryptography\\cryptography-basics.md",
       "az": "general-security\\cryptography\\cryptography-basics.md"
+    }
+  },
+  {
+    "slug": "/general-security/attack-frameworks",
+    "category": "general-security",
+    "title": {
+      "en": "Cyber Kill Chain, MITRE ATT&CK and Diamond Model",
+      "az": "Cyber Kill Chain, MITRE ATT&CK və Diamond Model"
+    },
+    "description": {
+      "en": "Compare three intrusion-analysis models, their components, use cases and CEH exam distinctions.",
+      "az": "Üç hücum təhlili modelinin hissələri, istifadə sahələri və CEH imtahanı üçün əsas fərqlər."
+    },
+    "keywords": [
+      "cyber kill chain",
+      "MITRE ATT&CK",
+      "TTP",
+      "diamond model",
+      "CEH v13",
+      "security-basics",
+      "ceh",
+      "general-security",
+      "attack-frameworks"
+    ],
+    "status": "foundation",
+    "lastReviewed": "2026-09-20",
+    "sourcePaths": {
+      "en": "general-security\\attack-frameworks.md",
+      "az": "general-security\\attack-frameworks.md"
     }
   },
   {
@@ -3847,6 +3877,44 @@ const lessons = [
     "sourcePaths": {
       "en": "red-teaming\\attack-indicators.md",
       "az": "red-teaming\\attack-indicators.md"
+    }
+  },
+  {
+    "slug": "/red-teaming/ceh-m01-introduction-to-ethical-hacking",
+    "category": "red-teaming",
+    "title": {
+      "en": "CEH M01 — Introduction to Ethical Hacking",
+      "az": "CEH M01 — Etik Hakerliyə Giriş"
+    },
+    "description": {
+      "en": "A concise, exam-focused introduction to ethical hacking, legal boundaries, threat terminology, testing types, methodology, and safe practice.",
+      "az": "Etik hakerlik, hüquqi sərhədlər, təhdid terminləri, test növləri, metodologiya və təhlükəsiz praktika haqqında qısa, imtahan yönümlü giriş."
+    },
+    "keywords": [
+      "CEH v13",
+      "ethical hacking",
+      "penetration testing",
+      "threat",
+      "vulnerability",
+      "exploit",
+      "risk",
+      "TTP",
+      "rules of engagement",
+      "information warfare",
+      "ceh",
+      "ethical-hacking",
+      "foundation",
+      "red-teaming",
+      "ceh-m01-introduction-to-ethical-hacking",
+      "etik hakerlik",
+      "təhdid",
+      "zəiflik"
+    ],
+    "status": "foundation",
+    "lastReviewed": "2026-09-20",
+    "sourcePaths": {
+      "en": "red-teaming\\ceh-m01-introduction-to-ethical-hacking.md",
+      "az": "red-teaming\\ceh-m01-introduction-to-ethical-hacking.md"
     }
   },
   {

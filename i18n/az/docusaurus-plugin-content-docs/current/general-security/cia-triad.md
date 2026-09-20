@@ -1,17 +1,19 @@
 ---
 id: cia-triad
 title: CIA Triadası — Məxfilik, Bütövlük, Əlçatanlıq
-description: İnfosek üçün təməl model — DAD, təhlükəsizlik nəzarəti kateqoriyaları və tipləri, data vəziyyətləri, şifrələmə, DLP və praktik misallar.
+description: CIA triadası, həqiqilik və sonradan inkar edilməmə nümunələr və imtahan qeydləri ilə; DAD, nəzarətlər və data qorunması.
 slug: /general-security/cia-triad
 sidebar_position: 3
 status: reference
-last_reviewed: 2026-04-23
+last_reviewed: 2026-09-20
 keywords:
   - cia triad
   - dad triad
   - confidentiality
   - integrity
   - availability
+  - authenticity
+  - non-repudiation
   - security controls
   - dlp
   - data encryption
@@ -42,9 +44,22 @@ Dərhal vurğulanmalı iki şey var.
 1. **Pozuntu üçün hücumçu tələb olunmur.** Məxfilik səhv konfiqurasiya edilmiş S3 bucket-dən də itə bilər. Bütövlük bit-lərini çevirən pis bir USB kabeldən də itə bilər. Əlçatanlıq elektrik kəsintisindən də itə bilər. CIA motivi deyil, *nəticəni* təsnifləyir.
 2. **Üçü bir-biri ilə ziddiyyət təşkil edə bilər.** Faylı güclü şifrələmə ilə qorumaq məxfiliyi qoruyur; açarı itirmək əlçatanlığı məhv edir. Hər kəsdən hardware token vasitəsilə MFA tələb etmək məxfilik və bütövlüyü yüksəldir; tokeni evdə qoyan istifadəçi üçün əlçatanlığı aşağı salır. Təhlükəsizlik — məhz bu üç tərəfli kompromisin açıq şəkildə danışılmasıdır.
 
-### Non-repudiation haqqında qısa qeyd
+## CEH-də həqiqilik və sonradan inkar edilməmə
 
-Bəzi çərçivələr triadanı dördlüyə genişləndirir: CIA + **non-repudiation** (inkar-edilməzlik). Non-repudiation — istifadəçinin sonradan fəaliyyəti yerinə yetirmədiyini inandırıcı şəkildə iddia edə bilməməsi deməkdir. Üç hissədən ibarətdir və birlikdə işləyir: güclü **autentifikasiya** (istifadəçi etibarlı şəkildə müəyyən edildi), log qeydinin **bütövlüyü** (sonradan redaktə edilmədi) və **kriptoqrafik bağlantı** (yalnız istifadəçinin nəzarət etdiyi private key ilə rəqəmsal imza). Auditor "bu köçürməni Elnurun təsdiqlədiyini necə bilirsiniz?" soruşduqda, cavab non-repudiation-dır və o, işləmək üçün hər üç CIA sütununa söykənir. Bunu PKI, rəqəmsal-imza və audit-loglama kontekstlərində ayrıca qeyd edildiyini görəcəksiniz; qalan hər şey üçün CIA kifayətdir.
+CEH v13 Module 01 informasiya təhlükəsizliyinin **beş elementini** göstərir: **Confidentiality** (məxfilik), **Integrity** (bütövlük), **Availability** (əlçatanlıq), **Authenticity** (həqiqilik) və **Non-repudiation** (sonradan inkar edilməmə). İlk üçü CIA triadasıdır. Son iki anlayış başqa suallara cavab verir; onları “CIA” akroniminin əlavə hərfləri kimi əzbərləməyin.
+
+| English term | Azərbaycan dilində əsas sual | Nümunə |
+|---|---|---|
+| **Authenticity** | Şəxs, mesaj və ya sənəd həqiqətən iddia edilən mənbədəndir? | Tələbə elektron transkriptin universitet tərəfindən verildiyini yoxlayır. |
+| **Non-repudiation** | Sonradan inkar edilə biləcək əməli konkret iştirakçıya bağlayan etibarlı sübut varmı? | Universitet əməkdaşı transkripti öz rəqəmsal imza açarı ilə imzalayır və imza saxlanılır. |
+
+**Authenticity bir xüsusiyyətdir; Authentication isə yoxlama prosesidir.** Giriş zamanı parol və əlavə kod istifadəçinin kimliyini yoxlamağa kömək edir. Sertifikat və düzgün yoxlanılmış rəqəmsal imza sənədin mənbəyinin həqiqiliyini göstərməyə kömək edə bilər. Təkcə parolla giriş sonrakı hər əməliyyatın həqiqiliyini sübut etmir.
+
+**Non-repudiation etibarlı sübut tələb edir.** Rəqəmsal imza imzalayanı imzalanmış məlumata bağlaya və sonrakı dəyişikliyi göstərə bilər. Bu güvən kimliyin düzgün yoxlanmasından, imza açarına yalnız həmin şəxsin nəzarət etməsindən və qeydlərin qorunmasından asılıdır. Paylaşılan açar və redaktə oluna bilən log sübutu zəiflədir. Göndərənin imzası qarşı tərəfin mesajı aldığını və ya oxuduğunu **öz-özünə sübut etmir**; bunun üçün ayrıca çatdırılma və ya qəbul sübutu lazımdır. Dəstəkləyici nəzarətlər [AAA və Non-repudiation](./aaa-non-repudiation.md) məqaləsində ətraflı verilir.
+
+**Exam Focus / Yadda saxla:** icazəsiz *oxuma* → Confidentiality; icazəsiz *dəyişmə* → Integrity; xidmətin *işləməməsi* → Availability; saxta *mənbə* → Authenticity; sübuta yetirilən *əməli inkar etmə* → Non-repudiation. Bir hadisə eyni vaxtda bir neçə xüsusiyyəti poza bilər.
+
+**Mənbə:** EC-Council, *Certified Ethical Hacker v13, Module 01: Introduction to Ethical Hacking*, “Elements of Information Security”, modulun 5–6-cı səhifələri. Buradakı nümunə və izahlar ayrıca tədris mətnidir.
 
 ## DAD triadası — hücumçunun güzgüsü
 

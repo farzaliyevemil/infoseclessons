@@ -16,7 +16,6 @@ keywords:
   - risk
   - TTP
   - rules of engagement
-  - information warfare
 difficulty: foundation
 
 tags:
@@ -86,6 +85,24 @@ Bu terminlər eyni təhlükəsizlik probleminin müxtəlif hissələrini izah ed
 
 Exploit vulnerability ilə eyni deyil: vulnerability zəiflikdir, exploit isə həmin zəiflikdən istifadə üsuludur. Threat yalnız likelihood və impact nəzərə alındıqda riskə çevrilir.
 
+### Motiv, məqsəd, üsul və zəiflik
+
+CEH hücumu **motive (goal) + method (TTP) + vulnerability** kimi ümumiləşdirir. Bu, yadda saxlamaq üçün sxemdir, riyazi risk düsturu deyil. **Motive** hücumçunun niyə hərəkət etdiyini (məsələn, pul qazanmaq), **objective** konkret əldə etmək istədiyi nəticəni (müştəri faylını oğurlamaq), **method** istifadə etdiyi davranışı (phishing üsulu), **vulnerability** isə buna imkan verən zəifliyi (məsələn, hədəf hesabında MFA-nın olmaması) göstərir. Üsul proqram qüsurundan başqa, oğurlanmış giriş məlumatına və ya insan etibarına da söykənə bilər. Ətraflı terminlər üçün [Threat Vectors and Attack Surfaces](../../red-teaming/threat-vectors-and-attack-surfaces.md) məqaləsinə baxın.
+
+### CEH üzrə hücum təsnifatı
+
+Module 01 hücumları beş geniş qrupa ayırır. Qruplar üst-üstə düşə bilər: insider eyni zamanda active attack edə bilər.
+
+| English term | Fərqləndirici xüsusiyyət | Nümunə |
+|---|---|---|
+| **Passive** | Hədəf məlumatı dəyişmədən izləyir və ya ələ keçirir | Şifrələnməmiş trafiki dinləmək |
+| **Active** | Məlumatı dəyişir, sistemlə qarşılıqlı əlaqəyə girir və ya xidməti pozur | Qeydi dəyişmək və ya xidməti dayandırmaq |
+| **Close-in** | Hədəfə fiziki yaxınlıq tələb edir | İş yerində ekrana çiyin üzərindən baxmaq |
+| **Insider** | Təşkilatdakı qanuni girişdən sui-istifadə edir | Əməkdaşın məhdud faylı kopyalaması |
+| **Distribution** | Qurulmazdan əvvəl avadanlıq və ya proqramı dəyişir | Təchizat zəncirində dəyişdirilmiş proqram paketi |
+
+**Exam Focus:** passive və active hədəfdə *nə baş verdiyini*, close-in *fiziki yaxınlığı*, insider *aktorun girişini*, distribution isə *dəyişikliyin harada edildiyini* bildirir.
+
 ## Threat-actor taksonomiyası
 
 Bu adlar faydalı qısa təsnifatdır, lakin attribution sübutu deyil:
@@ -149,13 +166,27 @@ flowchart LR
 
 Fazalar praktikada dövr edə bilər. Yeni finding əlavə reconnaissance tələb edə bilər, stop condition isə exploitation-dan əvvəl testi bitirə bilər. CEH suallarında fəaliyyəti düzgün faza ilə əlaqələndirin; hər engagement-in düz xətt üzrə getdiyini düşünməyin.
 
+### CEH ethical hacking framework: beş faza
+
+Mənbə modul hücumçuya bənzər beş fazalı model də öyrədir. Bunu yuxarıdakı icazəli engagement iş axınından ayırın:
+
+| Faza | Əsas sual |
+|---|---|
+| **1. Reconnaissance** | Hədəf haqqında nə öyrənmək olar? |
+| **2. Vulnerability scanning** | Hansı sistem və zəifliklər görünür? |
+| **3. Gaining access** | Razılaşdırılmış scope daxilində zəifliyi yoxlamaq mümkündürmü? |
+| **4. Maintaining access** | Hücumçu sistemdə qala bilərmi? Etik test bunu yalnız icazə veriləndə yoxlayır. |
+| **5. Clearing tracks** | Hücumçu izini necə gizlədə bilər? Etik tester sübutu qoruyur və dürüst hesabat verir. |
+
+[Cyber Kill Chain, MITRE ATT&CK və Diamond Model](../../general-security/attack-frameworks.md) ayrıca dərsdə müqayisə olunur. Bu modellər fərqli suallara cavab verir; onları eyni faza siyahısı kimi əzbərləməyin.
+
 ### Framework və standards
 
 - **PTES** — penetration test-in yeddi fazalı icra modeli.
 - **NIST SP 800-115** — planning, discovery, attack və reporting anlayışları ilə texniki testing guidance.
 - **OWASP WSTG** — application testing guidance; [OWASP Top 10](../../red-teaming/owasp-top-10.md) ilə birlikdə istifadə olunur.
 - **MITRE ATT&CK** — adversary tactic və technique knowledge base-dir, tam testing methodology deyil.
-- **Cyber Kill Chain** — attack progression üçün yüksək səviyyəli modeldir; PTES ilə eyni deyil.
+- **Cyber Kill Chain** — hücumun yeddi mərhələli modelidir; PTES ilə eyni deyil.
 - **OSSTMM** — security testing üçün ölçmə yönümlü methodology.
 
 Ətraflı izah üçün [Penetration Testing](../../red-teaming/penetration-testing.md) və [Threat Actors and Threat Intelligence](../../red-teaming/threat-actors-and-intel.md) məqalələrinə keçin.
@@ -198,7 +229,6 @@ Daha ətraflı izah üçün [Threat Modeling](../../general-security/threat-mode
 - PTES engagement icrasını, ATT&CK isə adversary davranışını təsvir edir.
 - CIA təhlükəsizlik məqsədlərini təsnif edir, actor motivasiyasını yox.
 - Written authorization, Rules of Engagement və stop condition vacibdir.
-- Information warfare təsir və informasiya əməliyyatları ilə, cybercrime isə əsasən qanunsuz mənfəətlə bağlıdır.
 - AI/ML müdafiə və hücumda istifadə edilə bilər, lakin authorization, scope və əsasları əvəz etmir.
 - Compliance test tezliyinə və evidence-ə təsir edə bilər, lakin security ilə eyni deyil.
 
