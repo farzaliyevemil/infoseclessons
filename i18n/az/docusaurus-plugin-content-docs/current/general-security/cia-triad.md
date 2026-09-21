@@ -98,9 +98,3 @@ Bu suallar *eyni* sənədin müxtəlif xüsusiyyətlərinə baxır. Etibarlı im
 5. Xidmətin işləməməsi DAD-də hansı terminlə adlanır?
 
 **Cavablar:** 1. Confidentiality. 2. Integrity. 3. Xeyr. 4. Authenticity xüsusiyyətdir; Authentication yoxlama prosesidir. 5. Denial.
-
-## Ayrı dərslər və mənbə
-
-Hər əlavə mövzu öz məqaləsindədir: [security control kateqoriyaları və növləri](../grc/security-controls.md), [data vəziyyətləri və minimizasiya](./data-protection-basics.md), [Data Loss Prevention](./data-loss-prevention.md), [risk management](../grc/risk-and-privacy.md) və [cryptography](./cryptography/cryptography-basics.md).
-
-Beş xüsusiyyətli quruluşun mənbəyi: EC-Council, *Certified Ethical Hacker v13, Module 01: Introduction to Ethical Hacking*, “Elements of Information Security”, modulun 5–6-cı səhifələri. Tərif və nümunələr ayrıca tədris mətnidir.

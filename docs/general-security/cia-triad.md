@@ -98,9 +98,3 @@ These questions examine different properties of the *same* document. A valid sig
 5. Which DAD term describes a service outage?
 
 **Answers:** 1. Confidentiality. 2. Integrity. 3. No. 4. Authenticity is a property; authentication is the checking process. 5. Denial.
-
-## Related lessons and source
-
-Study each separate topic in its own lesson: [security control categories and types](../grc/security-controls.md), [data states and minimisation](./data-protection-basics.md), [Data Loss Prevention](./data-loss-prevention.md), [risk management](../grc/risk-and-privacy.md) and [cryptography](./cryptography/cryptography-basics.md).
-
-The five-property framing follows EC-Council, *Certified Ethical Hacker v13, Module 01: Introduction to Ethical Hacking*, “Elements of Information Security,” module pp. 5–6. Definitions and examples here are original teaching text.
